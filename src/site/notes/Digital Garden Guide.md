@@ -10,7 +10,6 @@
 
 
 元技能
-[[Digital Garden Guide#obisidian基础\|#obisidian基础]]
 
 markdown 基础语法
 
