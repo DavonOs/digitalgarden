@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":false,"permalink":"/01-project/obsidian/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/01-project/obsidian/","dgPassFrontmatter":true}
 ---
 
 # Chapter1 obsidian简介
