@@ -152,26 +152,26 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 
 链接到文章：输入两个中括号即可生成链接。 
 
-[[01 Project/行测的思维\|行测的思维]]
+[[01 Project/人民公仆/行测的思维\|行测的思维]]
 
 链接到文章内某个标题：在链接内的文章名尾部输入“#”即可选择标题。
 
-[[01 Project/行测的思维#判断推理篇\|行测的思维#判断推理篇]]
+[[01 Project/人民公仆/行测的思维#判断推理篇\|行测的思维#判断推理篇]]
 
 链接到文章内的段落，指向具体的块：选中链接的文本块后输入”^“会自动生成随机的链接代码，可以自定义修改：在链接内的文章内容块尾部输入“^”即可选择文本块。
 
-[[01 Project/行测的思维#^ff7a6c\|行测的思维#^ff7a6c]]
+[[01 Project/人民公仆/行测的思维#^ff7a6c\|行测的思维#^ff7a6c]]
 
 为链接的内容起一个别名：在链接内的文章名尾部输入“|”即可自定义链接别名
 
-[[01 Project/行测的思维#^56a40f\|自定义链接内容]]
+[[01 Project/人民公仆/行测的思维#^56a40f\|自定义链接内容]]
 
  “ #” “^” “|” 可以组合使用
 
 将链接到的内容直接显示在当前文章中：在链接的开头，方括号前方加上“ ! ”
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/01-project//" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/01-project///" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
