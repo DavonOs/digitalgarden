@@ -93,38 +93,19 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 
 快捷键：暂不涉及
 
-6、核心插件（重要）（是自带的插件，功能很多，但是需要自己手动开启）：
+核心插件（重要）（是自带的插件，功能很多，但是需要自己手动开启）
+	建议打开的插件：
+	标签列表：显示打标签的笔记的信息
+	日记（后面详细讲）
+	模板（后面详细讲）
+	星标：标记重点笔记
+	大纲：目录功能
+	幻灯片：精简PPT的功能 
+	录音：录制音频保存到附件
+	工作区：打开多个窗口，保存设置好的工作区布局
+# Markdown
 
-建议打开的插件：
-
-标签列表：显示打标签的笔记的信息
-
-日记（后面详细讲）
-
-模板（后面详细讲）
-
-星标：标记重点笔记
-
-大纲：目录功能
-
-幻灯片：精简PPT的功能 
-
-录音：录制音频保存到附件
-
-工作区：打开多个窗口，保存设置好的工作区布局
-
-
-慢速迁移，精细整理
-
-标签
-链接
-metainfo
-索引
-
-
-# Chapter 2 Markdown
-
-## 常用语法：
+## 常用语法
 
 加粗：**左右各两个星号**
 
@@ -143,8 +124,6 @@ metainfo
 待办事项任务列表：- [ ] ，空框："-"+空格+[]+空格，快捷键：Ctrl+L
 勾选事项任务列表：- [x] ，空框："-"+空格+[x]+空格，
 
-
-
 ## 高级用法
 
 输出公式
@@ -155,12 +134,11 @@ metainfo
 
 ## 使用建议
 
-标题"#"后面空一格，单个的符号后面都最好空一格
+单个的符号后面都最好空一格
 
 不同段落之间空一行
 
-
-# Chapter 3：双链
+# 双链
 
 入链（反向链接）
 
@@ -168,42 +146,35 @@ metainfo
 
 双链的意义就在于，将所有的知识编织、串联起来，形成一个网络，每个信息都不是独立的，从一个信息点就可以链接到很多很多的信息点。
 
-
-
 ## 如何运用双链
 
 ### 创建链接
 
 链接到文章：输入两个中括号即可生成链接。 
 
-[[01 Project/人民公仆手册\|人民公仆手册]]
+[[01 Project/人民公仆/行测的思维\|行测的思维]]
 
 链接到文章内某个标题：在链接内的文章名尾部输入“#”即可选择标题。
 
-[[01 Project/人民公仆手册#判断推理篇\|人民公仆手册#判断推理篇]]
+[[01 Project/人民公仆/行测的思维#判断推理篇\|行测的思维#判断推理篇]]
 
 链接到文章内的段落，指向具体的块：选中链接的文本块后输入”^“会自动生成随机的链接代码，可以自定义修改：在链接内的文章内容块尾部输入“^”即可选择文本块。
 
-[[01 Project/人民公仆手册#^ff7a6c\|人民公仆手册#^ff7a6c]]
-
+[[01 Project/人民公仆/行测的思维#^ff7a6c\|行测的思维#^ff7a6c]]
 
 为链接的内容起一个别名：在链接内的文章名尾部输入“|”即可自定义链接别名
 
-[[01 Project/人民公仆手册#^56a40f\|自建块]]
+[[01 Project/人民公仆/行测的思维#^56a40f\|自定义链接内容]]
 
-
- “ # ” “ ^ ” “ | ” 可以组合使用
+ “ #” “^” “|” 可以组合使用
 
 将链接到的内容直接显示在当前文章中：在链接的开头，方括号前方加上“ ! ”
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/01-project//" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/01-project///" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
-
-
-# 行测的思维
 
 # 判断推理篇
 
@@ -243,7 +214,7 @@ metainfo
 链接 ->关联思维
 片段 -> 整合思维
 
-# Chapter 4 模板
+# 模板
 
 ### 应用场景
 
@@ -290,7 +261,7 @@ metainfo
 
 Ctrl+Alt+←/→方向键代表前进后退
 
-# Chapter 5 插件
+# 插件
 
 社区插件搜索下载&复制到plugins文件夹
 
