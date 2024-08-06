@@ -220,6 +220,10 @@ svgo --pretty sin.svg
 
 不同段落之间空一行
 
+Latex
+$$for\quad变量\quad in\quad序列:$$
+
+<mark style="background: transparent; color: yellow">黄色字体</mark>
 # 双链
 
 入链（反向链接）
