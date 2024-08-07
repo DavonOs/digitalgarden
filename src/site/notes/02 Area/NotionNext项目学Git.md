@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"archive/git","permalink":"/archive/git/","tags":["Git"]}
+{"dg-publish":true,"dg-permalink":"git","permalink":"/git/","tags":["Git"]}
 ---
 
 
