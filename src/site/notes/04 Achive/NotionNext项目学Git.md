@@ -2,7 +2,6 @@
 {"dg-publish":true,"dg-permalink":"archive/git","permalink":"/archive/git/","tags":["Git"]}
 ---
 
-# NotionNext项目学Git
 
 <aside>
 💡 Git是一个**分布式**的版本控制软件
