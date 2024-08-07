@@ -127,6 +127,166 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 链接：英文中括号[]+小括号（），大括号内放链接名，小括号内放网址链接
 
 
+绘制流程图
+
+```mermaid
+	graph LR;
+		A("开始") --> B["一级"]
+	    A --> C("二级")
+	    A --> D("三级")
+```
+
+```mermaid
+sequenceDiagram
+    咖啡豆->>+普洱: 你好 普洱, 你好吗?
+    咖啡豆->>+普洱: 普洱, 你能听到我吗?
+    普洱-->>-咖啡豆: 好的 咖啡豆, 我可以听见你!
+    普洱-->>-咖啡豆: 我感觉好极了!
+```
+```mermaid
+classDiagram
+    Animal <|-- Duck
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+      +String beakColor
+      +swim()
+      +quack()
+    }
+    class Fish{
+      -int sizeInFeet
+      -canEat()
+    }
+    class Zebra{
+      +bool is_wild
+      +run()
+    }
+```
+
+```mermaid
+erDiagram
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : has
+    CUSTOMER ||--o{ ORDER : places
+    CUSTOMER ||--o{ INVOICE : "liable for"
+    DELIVERY-ADDRESS ||--o{ ORDER : receives
+    INVOICE ||--|{ ORDER : covers
+    ORDER ||--|{ ORDER-ITEM : includes
+    PRODUCT-CATEGORY ||--|{ PRODUCT : contains
+    PRODUCT ||--o{ ORDER-ITEM : "ordered in"
+```
+
+
+```mermaid
+mindmap
+  root((咖啡豆的导图))
+    第一层A1
+      第二层A11
+      ::icon(fa fa-book)
+      第二层A12
+        我是一麻袋的咖啡豆子正文内容
+    第一层B1
+      第二层B11<br/>换了一行
+      第二层B12
+        一个节点B121
+            节点的下一级a
+            节点的下一级b
+            节点的下一级c
+    第一层C1
+      一个节点C11
+      一个节点C12
+```
+
+```mermaid
+pie title 咖啡豆社区组成
+    "咖啡豆微信群" : 60
+    "咖啡豆文档站" : 20
+    "公众号" : 10
+    "B站视频" : 10
+```
+
+There is a footnote here [^1]
+[^1]: Here are some extra information in a footnote
+```mermaid
+gantt
+    title 咖啡豆的甘特图
+    dateFormat  YYYY-MM-DD
+    section 主线任务
+    咖啡豆的文档站           :a1, 2023-10-10, 30d
+    咖啡豆的公众号           :after a1  , 20d
+    section 支线任务
+    咖啡豆的示例库    :2023-10-12  , 12d
+    咖啡豆的插件      : 24d
+```
+```mermaid
+quadrantChart
+    title 一个研究咖啡豆子的SWOT图表📊
+    
+    x-axis "有帮助🔥" --> "有害的☠️"
+    y-axis "外部来源/环境属性" --> "内部来源/组织属性"
+    
+    quadrant-1 "【Weaknesses/劣势☠️】"
+    quadrant-2 "【Strengths/优势🔥】"
+    quadrant-3 "【Opportunities/机会🔥】"
+    quadrant-4 "【Threats/威胁☠️】"
+    
+    "咖啡豆文档站": [0.3, 0.7]
+    "咖啡豆公众号": [0.2, 0.8]
+    "咖啡豆微信群": [0.35, 0.9]
+    "咖啡豆微信群": [0.25, 0.6]
+    
+    "网站要花钱": [0.3, 0.23]
+    "写作要花时间": [0.30, 0.34]
+    
+    "电脑罢工崩溃": [0.7, 0.79]
+    
+    "心情不好不想写了": [0.78, 0.34]
+```
+```mermaid
+timeline
+    title 咖啡豆社群发展史
+    2023-02-03 : 咖啡豆文档站上线
+    2023-03-03 : 咖啡豆社群组建
+    2023-03-04 : 蹦跶的咖啡豆公众号发布
+    2023-09-03 : www.obsidian.vip上线
+```
+
+```mermaid
+timeline
+        title 咖啡豆的第二种时间轴-带详细分类的
+        section 咖啡豆文档站
+          第一时间点 : 写着好玩没啥事，闲得慌
+          第二时间点 : 认真写文，持续更新
+        section 咖啡豆公众号
+          第一 阶段 : 源于突然的想法开始写作.
+                  : 为了部分不能及时. 追新的同学们更新. 很有意思的内容
+          第二 阶段 : 内容和网站有所区分.
+                  : 会包括不能长期更新内容. 文字中间的换行. 主要看看怎换行了.
+```
+```mermaid
+gitGraph
+       commit
+       commit
+       branch develop
+       commit
+       commit
+       commit
+       checkout main
+       commit
+       commit
+```
+```mermaid
+stateDiagram-v2
+    [*] --> 我是咖啡豆
+    我是咖啡豆 --> [*]
+    我是咖啡豆 --> 打成咖啡粉
+    打成咖啡粉 --> 我是咖啡豆
+    打成咖啡粉 --> 泡成咖啡
+    泡成咖啡 --> [*]
+```
 
 
 
@@ -146,7 +306,7 @@ Callout 标注
 可以是多行的内容
 ```
 
->[!info]- 这是一个可折叠的info
+>[!info]+ 这是一个可折叠的info
 > 包裹的内容
 > 可以是折叠的多行的内容
 
