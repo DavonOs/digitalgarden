@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/dev-tech/","tags":["gardenEntry"]}
+{"dg-publish":true,"dg-home":true,"permalink":"/dev-tech/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
 # Obsidian数字花园教程

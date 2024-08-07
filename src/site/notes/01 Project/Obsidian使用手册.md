@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"obsidian","permalink":"/obsidian/","tags":["obsidian"]}
+{"dg-publish":true,"dg-permalink":"obsidian","tags":["obsidian"],"permalink":"/obsidian/","dgPassFrontmatter":true}
 ---
 
 # obsidian简介
@@ -118,9 +118,8 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 * 无序列表：-
 + 无序列表：+
 
-待办事项任务列表：- [ ] ，空框："-"+空格+[]+空格，快捷键：Ctrl+L
-勾选事项任务列表：- [x] ，空框："-"+空格+[x]+空格，
-
+- [ ] 待办任务列表：- [ ] ，空框："-"+空格+[]+空格，快捷键：Ctrl+L
+- [x] 勾选任务列表：- [x] ，空框："-"+空格+[x]+空格，
 
 > 引用：英文大于符号+空格
 
@@ -140,7 +139,6 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 
 There is a footnote here [^1]
 [^1]: Here are some extra information in a footnote
-
 
 <mark style="background: transparent; color: yellow">黄色字体</mark>
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"hugo_mini","permalink":"/hugo_mini/"}
+{"dg-publish":true,"dg-permalink":"hugo_mini","permalink":"/hugo_mini/","dgPassFrontmatter":true}
 ---
 
 
