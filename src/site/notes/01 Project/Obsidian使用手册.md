@@ -136,73 +136,8 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 	    A --> D("三级")
 ```
 
-```mermaid
-sequenceDiagram
-    咖啡豆->>+普洱: 你好 普洱, 你好吗?
-    咖啡豆->>+普洱: 普洱, 你能听到我吗?
-    普洱-->>-咖啡豆: 好的 咖啡豆, 我可以听见你!
-    普洱-->>-咖啡豆: 我感觉好极了!
-```
-```mermaid
-classDiagram
-    Animal <|-- Duck
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int age
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    class Duck{
-      +String beakColor
-      +swim()
-      +quack()
-    }
-    class Fish{
-      -int sizeInFeet
-      -canEat()
-    }
-    class Zebra{
-      +bool is_wild
-      +run()
-    }
-```
-
-```mermaid
-erDiagram
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : has
-    CUSTOMER ||--o{ ORDER : places
-    CUSTOMER ||--o{ INVOICE : "liable for"
-    DELIVERY-ADDRESS ||--o{ ORDER : receives
-    INVOICE ||--|{ ORDER : covers
-    ORDER ||--|{ ORDER-ITEM : includes
-    PRODUCT-CATEGORY ||--|{ PRODUCT : contains
-    PRODUCT ||--o{ ORDER-ITEM : "ordered in"
-```
-
 There is a footnote here [^1]
 [^1]: Here are some extra information in a footnote
-
-```mermaid
-gantt
-    title 咖啡豆的甘特图
-    dateFormat  YYYY-MM-DD
-    section 主线任务
-    咖啡豆的文档站           :a1, 2023-10-10, 30d
-    咖啡豆的公众号           :after a1  , 20d
-    section 支线任务
-    咖啡豆的示例库    :2023-10-12  , 12d
-    咖啡豆的插件      : 24d
-```
-
-```mermaid
-stateDiagram-v2
-    [*] --> 我是咖啡豆
-    我是咖啡豆 --> [*]
-    我是咖啡豆 --> 打成咖啡粉
-    打成咖啡粉 --> 我是咖啡豆
-    打成咖啡粉 --> 泡成咖啡
-    泡成咖啡 --> [*]
-```
 
 
 <mark style="background: transparent; color: yellow">黄色字体</mark>
