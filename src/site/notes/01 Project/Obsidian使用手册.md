@@ -104,6 +104,8 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 	工作区：打开多个窗口，保存设置好的工作区布局
 # Markdown
 
+[markdown语法 | obsidian](https://coffeetea.top/zh/markdown/)
+
 ## 常用语法
 
 **加粗：左右各两个星号**
