@@ -4,27 +4,18 @@
 
 ![garden](https://wp.technologyreview.com/wp-content/uploads/2020/08/digital-garden_web.jpg)
 
-Hello 👋，我是 oldwinter ❄️，一个云计算工程师，写过几万行代码，带过十几人团队。
+Hello 👋，我是 Davon，欢迎来到我的数字花园🌱。
 
-这里是一座「全开放式，每日更新」的，由原子化的[卡片笔记](https://notes.oldwinter.top/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0)编织而成。目前主要在浇灌这几个领域 ⭕：
-
-- 🧰[[obsdian 数字花园计划\|obsdian 数字花园计划]]
-- [🏋 如何保持健康](https://notes.oldwinter.top/%E5%A6%82%E4%BD%95%E4%BF%9D%E6%8C%81%E5%81%A5%E5%BA%B7)
-- 🧀 [[01 Project/index\|Project]]
-- [🤖 如何用好AIGC工具](https://notes.oldwinter.top/%E5%A6%82%E4%BD%95%E7%94%A8%E5%A5%BDaigc%E5%B7%A5%E5%85%B7)
-- [🗜 效率工具使用](https://notes.oldwinter.top/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8)
-- [👓 如何高效学习](https://notes.oldwinter.top/%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E5%AD%A6%E4%B9%A0)
+这是一座知识的花园，有熟悉的曲径通幽，也有隐秘幽静的角落。每条途径都是新想法和新观点的起点。花园是自然的，但不是偶然发生的。他们需要看守来播种植物、修剪杂草并塑造蜿蜒穿过它们的路径。
 
 既然你诚心诚意地，闯入了我的花园，那我就大发慈悲地，给你一张地图：[[DevTech#🍀 花园导览\|🍀 花园导览]]。
 
-
-欢迎来到我的数字花园。
 
 ⭐ **这是什么**：我遇到的书籍、文章和视频的亮点库。有时，原始的想法或充其量是温和处理过的想法。
 
 🚫 **这不是什么**：一个博客。超级处理过的想法。要下载的内容的存储库。
 
-⏳ **我仍在努力的事情：**
+ 🧠**我仍在努力的事情：**
 
 - 标记和连接所有事物
 - 清理（Kindle 导出看起来有点可怜）
@@ -47,6 +38,17 @@ Hello 👋，我是 oldwinter ❄️，一个云计算工程师，写过几万�
 
 ---
 ## 🍀 花园导览
+
+🎯项目聚焦
+
+这里是一座「全开放式，每日更新」的，由原子化的[卡片笔记](https://notes.oldwinter.top/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0)编织而成。目前主要在浇灌这几个领域 ⭕：
+
+- 🧰[[Obsidian 数字花园计划\|Obsidian 数字花园计划]]
+- 🥦[[notionblog/饶丰书房/图书专著 9883b141f8084799a832d8b6139042f8/中国居民膳食指南（2022）\|中国居民膳食指南（2022）]]
+- 📂 [[01 Project/index\|Project]]
+- [🤖 如何用好AIGC工具](https://notes.oldwinter.top/%E5%A6%82%E4%BD%95%E7%94%A8%E5%A5%BDaigc%E5%B7%A5%E5%85%B7)
+- [🗜 效率工具使用]
+- 📚[[notionblog/饶丰书房/饶丰书房\|饶丰书房]]
 
 开个玩笑，客官莫怪 😂。虽然有导览，但这绝不是传统的博客，这是我[思考的过程容器](https://notes.oldwinter.top/%E6%80%9D%E8%80%83%E7%9A%84%E8%BF%87%E7%A8%8B%E5%AE%B9%E5%99%A8)，所以可能有很多看起来令人费解的半成品内容，也会颠覆你传统的长文阅读习惯。当您漫步花园时，这里有 2 个不成熟的小建议 💁：
 
@@ -80,9 +82,7 @@ Hello 👋，我是 oldwinter ❄️，一个云计算工程师，写过几万�
 - 2023-05-06 — [🔡SMART](https://notes.oldwinter.top/smart)
 
 
- 
 
-新的将根据需要引入。
 
 [A Brief History & Ethos of the Digital Garden (maggieappleton.com)](https://maggieappleton.com/garden-history)
 
@@ -92,6 +92,4 @@ Hello 👋，我是 oldwinter ❄️，一个云计算工程师，写过几万�
 
 [Digital Gardens (tomcritchlow.com)](https://tomcritchlow.com/blogchains/digital-gardens/)
 
-这是一座知识的花园，有熟悉的曲径通幽，也有隐秘幽静的角落。每条途径都是新想法和新观点的起点。花园是自然的，但不是偶然发生的。他们需要看守来播种植物、修剪杂草并塑造蜿蜒穿过它们的路径。
 
-[[Obsidian 数字花园计划\|Obsidian 数字花园计划]]
