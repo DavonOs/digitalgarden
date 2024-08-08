@@ -50,7 +50,7 @@
 
 [[01 Project/Python自学之路/变量和简单数据类型\|变量和简单数据类型]]
 
-[[01 Project/Python自学之路/列表的使用\|列表的使用]]
+[[01 Project/Python自学之路/🏷️列表的使用\|🏷️列表的使用]]
 
 [变量和简单数据类型](https://www.notion.so/4432a6b369fb46d7b3a912a5b9b468f9?pvs=21)
 
@@ -58,4 +58,4 @@
 
 [字典](https://www.notion.so/29b0c07e4153436db41bd86d33a11b5e?pvs=21)
 
-[[01 Project/Python自学之路/列表的使用\|< Prev]] | [[01 Project/Python自学之路/变量和简单数据类型\|Next >]]
+[[01 Project/Python自学之路/🏷️列表的使用\|< Prev]] | [[01 Project/Python自学之路/变量和简单数据类型\|Next >]]
