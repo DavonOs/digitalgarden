@@ -1,5 +1,5 @@
 ---
-{"title":"”Obsidian数字花园计划“","dg-publish":true,"dg-permalink":"obsidiangarden","tags":["obsidian"],"permalink":"/obsidiangarden/","dgPassFrontmatter":true}
+{"title":"Obsidian数字花园计划","dg-publish":true,"dg-permalink":"obsidiangarden","tags":["obsidian","digitalgarden"],"permalink":"/obsidiangarden/","dgPassFrontmatter":true}
 ---
 
 
