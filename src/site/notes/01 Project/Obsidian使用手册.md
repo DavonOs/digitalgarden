@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"obsidian","tags":["obsidian"],"dg-note-icon":"1","permalink":"/obsidian/","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-permalink":"obsidian","tags":["obsidian"],"dg-note-icon":"1","permalink":"/obsidian/","dgPassFrontmatter":true,"noteIcon":"1"}
 ---
 
 # obsidian简介
