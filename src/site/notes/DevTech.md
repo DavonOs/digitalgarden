@@ -1,14 +1,16 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/dev-tech/","tags":["gardenEntry"],"dgPassFrontmatter":true}
+{"title":"My Custom Title","dg-publish":true,"dg-home":true,"dg-show-file-tree":true,"permalink":"/dev-tech/","tags":["gardenEntry"],"dgShowFileTree":true,"dgPassFrontmatter":true}
 ---
 
-hello 👋，我是 oldwinter ❄️，一个云计算工程师，写过几万行代码，带过十几人团队。
+![garden](https://wp.technologyreview.com/wp-content/uploads/2020/08/digital-garden_web.jpg)
+
+Hello 👋，我是 oldwinter ❄️，一个云计算工程师，写过几万行代码，带过十几人团队。
 
 这里是一座「全开放式，每日更新」的，由原子化的[卡片笔记](https://notes.oldwinter.top/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0)编织而成。目前主要在浇灌这几个领域 ⭕：
 
 - 🧰[[obsdian 数字花园计划\|obsdian 数字花园计划]]
 - [🏋 如何保持健康](https://notes.oldwinter.top/%E5%A6%82%E4%BD%95%E4%BF%9D%E6%8C%81%E5%81%A5%E5%BA%B7)
-- [🧀 Project](01%20Project/index.md)
+- 🧀 [[01 Project/index\|Project]]
 - [🤖 如何用好AIGC工具](https://notes.oldwinter.top/%E5%A6%82%E4%BD%95%E7%94%A8%E5%A5%BDaigc%E5%B7%A5%E5%85%B7)
 - [🗜 效率工具使用](https://notes.oldwinter.top/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8)
 - [👓 如何高效学习](https://notes.oldwinter.top/%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E5%AD%A6%E4%B9%A0)

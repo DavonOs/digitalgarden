@@ -145,7 +145,7 @@ There is a footnote here [^1]
 Callout 标注
 
 ```md
-[!info] 自定义标题
+> [!info] 自定义标题
 包裹的内容
 可以是多行的内容
 ```
@@ -188,10 +188,13 @@ Callout 标注
 
 ## 高级用法
 
+MathJax / LaTex
+
+[MathJax 参考手册](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
+
 Latex输出公式
 $$for\quad变量\quad in\quad序列:$$
-
-
+$\frac{1}{0} = \infty$
 
 绘制表格（可鼠标右键插入）
 
@@ -300,7 +303,7 @@ svgo --pretty sin.svg
 
 单个的符号后面都最好空一格
 
-不同段落之间空一行
+=不同段落之间空一行=
 
 
 # 双链
@@ -376,8 +379,10 @@ svgo --pretty sin.svg
 链接 ->关联思维
 片段 -> 整合思维
 
+内联标签
 
-
+笔记有一个内联标签，而 frontmatter 中没有标签 
+#python 
 
 
 汉字注音
