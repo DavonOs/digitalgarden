@@ -6,6 +6,6 @@
 
 [[01 Project/Python/index\|Python]]
 
-[[Obsidian 基础玩法\|Obsidian 基础玩法]]
+[[01 Project/Obsidian/Obsidian 基础玩法\|Obsidian 基础玩法]]
 
 [[01 Project/沟通与表达\|沟通与表达]]
