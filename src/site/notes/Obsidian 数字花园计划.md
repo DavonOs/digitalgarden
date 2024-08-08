@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/obsidian/","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-permalink":"obsidiangarden","tags":["obsidian"],"permalink":"/obsidiangarden/","dgPassFrontmatter":true}
 ---
 
 

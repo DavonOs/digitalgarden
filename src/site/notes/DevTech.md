@@ -39,7 +39,13 @@ Hello 👋，我是 Davon，欢迎来到我的数字花园🌱。
 ---
 ## 🍀 花园导览
 
-is a digital garden, not a blog
+> A garden is a collection of evolving ideas that aren't strictly organised by their publication date. They're inherently exploratory – notes are linked through contextual associations. They aren't refined or complete - notes are published as half-finished thoughts that will grow and evolve over time. It's a different way of thinking about our online behaviour around information - one that accumulates personal knowledge over time in an explorable space.
+
+🌱 _Seedlings_ for very rough and early ideas
+
+🌿 _Budding_ for work I've cleaned up and clarified
+
+🌳 _Evergreen_ for work that is reasonably complete (though I still tend these over time).
 
 🎯项目聚焦
 
@@ -48,7 +54,7 @@ is a digital garden, not a blog
  🧠
 
 - 🧰
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/obsidian/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/obsidiangarden/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
