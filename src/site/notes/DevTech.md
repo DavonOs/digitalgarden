@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/dev-tech/","tags":["gardenEntry"],"dgPassFrontmatter":true}
+{"title":"my custom title","dg-publish":true,"dg-home":true,"permalink":"/dev-tech/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
 ![garden](https://wp.technologyreview.com/wp-content/uploads/2020/08/digital-garden_web.jpg)

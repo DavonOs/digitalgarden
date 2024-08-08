@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["obsidian"],"permalink":"/01-project/obsidian/","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-permalink":"obsidian","tags":["obsidian"],"permalink":"/obsidian/","dgPassFrontmatter":true}
 ---
 
 # obsidian简介
