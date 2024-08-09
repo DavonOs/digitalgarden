@@ -128,18 +128,21 @@ task-done：“”——已完成的任务
 
 DateView
 
-| File                                                    | 创建日期                       |
-| ------------------------------------------------------- | -------------------------- |
-| [[Figma Design/index\|index]]                        | 9:08 AM - August 09, 2024  |
-| [[01 Project/Obsidian/Obsidian 进阶用法\|Obsidian 进阶用法]] | 5:25 PM - August 08, 2024  |
-| [[饶丰书房/导航检索\|导航检索]]                                  | 5:15 PM - August 08, 2024  |
-| [[Digital Garden 配置文档\|Digital Garden 配置文档]]         | 1:41 PM - August 08, 2024  |
-| [[01 Project/index\|index]]                          | 10:28 AM - August 08, 2024 |
-| [[01 Project/Obsidian/index\|index]]                 | 7:54 AM - August 08, 2024  |
-| [[Excalidraw/Drawing\|Drawing]]                      | 10:39 PM - August 07, 2024 |
-| [[02 Area/NotionNext项目学Git\|NotionNext项目学Git]]       | 10:16 PM - August 07, 2024 |
-| [[01 Project/Python/列表的使用\|列表的使用]]                   | 9:25 PM - August 06, 2024  |
-| [[01 Project/Python/变量和简单数据类型\|变量和简单数据类型]]           | 9:22 PM - August 06, 2024  |
+| File                                                                                                                             | 创建日期                       |
+| -------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| [[Figma Design/Add descriptions to styles, components, and variables\|Add descriptions to styles, components, and variables]] | 11:20 AM - August 09, 2024 |
+| [[Figma Design/Create components to reuse in designs\|Create components to reuse in designs]]                                 | 10:58 AM - August 09, 2024 |
+| [[Figma Design/Guide to components in Figma\|Guide to components in Figma]]                                                   | 10:17 AM - August 09, 2024 |
+| [[Figma Design/index\|index]]                                                                                                 | 9:08 AM - August 09, 2024  |
+| [[01 Project/Obsidian/Obsidian 进阶用法\|Obsidian 进阶用法]]                                                                          | 5:25 PM - August 08, 2024  |
+| [[饶丰书房/导航检索\|导航检索]]                                                                                                           | 5:15 PM - August 08, 2024  |
+| [[Digital Garden 配置文档\|Digital Garden 配置文档]]                                                                                  | 1:41 PM - August 08, 2024  |
+| [[01 Project/index\|index]]                                                                                                   | 10:28 AM - August 08, 2024 |
+| [[01 Project/Obsidian/index\|index]]                                                                                          | 7:54 AM - August 08, 2024  |
+| [[Excalidraw/Drawing\|Drawing]]                                                                                               | 10:39 PM - August 07, 2024 |
+| [[02 Area/NotionNext项目学Git\|NotionNext项目学Git]]                                                                                | 10:16 PM - August 07, 2024 |
+| [[01 Project/Python/列表的使用\|列表的使用]]                                                                                            | 9:25 PM - August 06, 2024  |
+| [[01 Project/Python/变量和简单数据类型\|变量和简单数据类型]]                                                                                    | 9:22 PM - August 06, 2024  |
 
 { .block-language-dataview}
 
