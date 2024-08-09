@@ -85,7 +85,7 @@ Show backlinks for notes
 
 如果您在笔记中编写任何 HTML，它们将在花园中呈现。这意味着您可以在网站上创建自定义的“类似网站”组件。例如，在 [Digital Garden - Publish Obsidian Notes For Free#Sites people have created](https://dg-docs.ole.dev/#sites-people-have-created) 中呈现的网格是使用 divs 和图像标签以及一些自定义内联样式创建的。
 
-> [!warning] 
+> [!warning]+
 > HTML 的开始和结束标记之间不能有任何空换行符，否则将被打印而不是渲染出来
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;"> <div style="display: flex; flex-direction: column; justify-content: center;align-items:center;"> <img style="padding: 10px" src="https://res.cloudinary.com/dix4ngy25/image/upload/c_scale,r_8,w_300/v1668068263/dgdocs/CleanShot_2022-11-10_at_09.17.28_2x.png"/> <a href="https://notes.thatother.dev/">That Other Dev</a> </div> <div style="display: flex; flex-direction: column; justify-content: center;align-items: center"> <img style="padding: 10px" src="https://res.cloudinary.com/dix4ngy25/image/upload/c_scale,r_8,w_300/v1668068103/dgdocs/CleanShot_2022-11-10_at_09.14.47_2x.png"/> <a href="https://syleria.netlify.app/">Syleria</a> </div> </div>

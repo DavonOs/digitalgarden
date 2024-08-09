@@ -375,17 +375,19 @@ svgo --pretty sin.svg
 
 单个的符号后面都最好空一格
 
-=不同段落之间空一行=
-
+不同段落之间空一行
 
 
 
 内联标签
 
-笔记有一个内联标签，而 frontmatter 中没有标签 
-#python 
+笔记有一个内联标签 #python ，而 frontmatter 中没有标签 
+
 
 <mark style="background: transparent; color: yellow">黄色字体</mark>
+
+==文本高亮==
+
 
 汉字注音
 ```html

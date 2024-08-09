@@ -4,8 +4,7 @@
 
 我的项目
 
-[[01 Project/Python/index\|Python]]
+[[01 Project/Python/index\|Python自学之路]]
 
-[[01 Project/Obsidian/Obsidian 基础玩法\|Obsidian 基础玩法]]
+[[01 Project/Obsidian/index\|Obsidian数字花园计划]]
 
-[[01 Project/沟通与表达\|沟通与表达]]
