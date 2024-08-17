@@ -120,7 +120,7 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 
 链接到文章内某个标题：在链接内的文章名尾部输入“#”即可选择标题。
 
-[[01 Project/Hugo/Easy Hugo#你的第一页 Your first page\|Easy Hugo#你的第一页 Your first page]]
+[[Easy Hugo#你的第一页 Your first page\|Easy Hugo#你的第一页 Your first page]]
 
 链接到文章内的段落，指向具体的块：选中链接的文本块后输入”^“会自动生成随机的链接代码，可以自定义修改：在链接内的文章内容块尾部输入“^”即可选择文本块。
 

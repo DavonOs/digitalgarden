@@ -4,7 +4,9 @@
 
 我的项目
 
-[[01 Project/Python/index\|Python自学之路]]
+[[01 Project/Python/人人都能玩Python\|人人都能玩Python]]
 
-[[01 Project/Obsidian/index\|Obsidian数字花园计划]]
+[[01 Project/Obsidian/Obsidian 数字花园计划\|Obsidian数字花园]]
+
+[[01 Project/Hugo 博客开发\|Hugo 博客开发]]
 
