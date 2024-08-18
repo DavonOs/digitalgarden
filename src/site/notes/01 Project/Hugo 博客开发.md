@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"hugo_mini","permalink":"/hugo_mini/","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-permalink":"hugodev","permalink":"/hugodev/","dgPassFrontmatter":true}
 ---
 
 
@@ -16,9 +16,7 @@
 
 ### 欢迎
 
-课程介绍和解释我们要建造的东西。
 
----
 
 欢迎来到这个Hugo使用系列教程。
 
