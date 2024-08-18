@@ -8,3 +8,6 @@
 [[Digital Garden 配置文档\|Digital Garden 配置文档]]
 
 [Obsidian Help - Home ](https://help.obsidian.md/Home)
+
+
+[unable redener inline dataviewquery](https://github.com/oleeskild/digitalgarden/issues/141)
