@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-home":true,"permalink":"/dev-tech/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
-<p><span> 我已使用 <em>Obsidian</em> 618 天，共创建 242 篇笔记、8 个标签</span></p>
+<p><span> 我已使用 <em>Obsidian</em> 620 天，共创建 542 篇笔记、9 个标签</span></p>
 
 ![garden](https://wp.technologyreview.com/wp-content/uploads/2020/08/digital-garden_web.jpg)
 
@@ -47,11 +47,11 @@ Hello 👋，我是 Davon，欢迎来到我的数字花园🌱。
 
 目前主要在浇灌这几个领域 ⭕：
  
-- 🌱 [[01 Project/Obsidian/Obsidian 数字花园计划\|Obsidian 数字花园计划]]
-- 🤝 [[01 Project/沟通与表达\|沟通与表达]]
-- 📚 [[Book/饶丰书房\|饶丰书房]]
-- 🎨 [[01 Project/前端开发与网站建设\|前端开发与网站建设]]
-- 🧩 思维碎片
+- [[01 Project/Obsidian/🌱Obsidian 数字花园计划\|🌱Obsidian 数字花园计划]]
+- [[01 Project/🗣️沟通与表达\|🗣️沟通与表达]]
+-  [[Book/📚饶丰书房\|📚饶丰书房]]
+- [[01 Project/前端开发与网站建设\|前端开发与网站建设]]
+-  思维碎片
 
 开个玩笑，客官莫怪 😂。虽然有导览，但这绝不是传统的博客，这是我思考的过程容器，所以可能有很多看起来令人费解的半成品内容，也会颠覆你传统的长文阅读习惯。当您漫步花园时，这里有 2 个不成熟的小建议 💁：
 
