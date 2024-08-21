@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-home":true,"permalink":"/dev-tech/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
-<p><span> 我已使用 <em>Obsidian</em> 620 天，共创建 542 篇笔记、9 个标签</span></p>
+<p><span> 我已使用 <em>Obsidian</em> 621 天，共创建 543 篇笔记、10 个标签</span></p>
 
 ![garden](https://wp.technologyreview.com/wp-content/uploads/2020/08/digital-garden_web.jpg)
 
