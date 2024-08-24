@@ -113,7 +113,7 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 
 内联标签
 
-笔记有一个内联标签 #python ，而 frontmatter 中没有标签 
+笔记有一个内联标签 #learn  ，而 frontmatter 中没有标签 
 
 # 双链
 
@@ -137,7 +137,7 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 
 链接到文章内的段落，指向具体的块：选中链接的文本块后输入”^“会自动生成随机的链接代码，可以自定义修改；在链接内的文章内容块尾部输入“^”即可选择文本块。
 
-[[03 Resource/Program/Python/列表的使用#^3f2edd\|列表的使用#^3f2edd]]
+[[01 Project/Python/列表的使用#^3f2edd\|列表的使用#^3f2edd]]
 
 为链接的内容起一个别名：在链接内的文章名尾部输入“|”即可自定义链接别名
 
@@ -546,7 +546,6 @@ DateView
 | [[03 Resource/Book/图书专著/学习之道.md\|学习之道]]       | 11:55 AM - August 22, 2024 |
 | [[01 Project/🎯 Project.md\|🎯 Project]]      | 10:20 PM - August 21, 2024 |
 | [[🧭 花园导览.md\|🧭 花园导览]]                       | 10:13 PM - August 21, 2024 |
-| [[02 Area/🖼️ 视觉笔记术.md\|🖼️ 视觉笔记术]]           | 8:13 PM - August 20, 2024  |
 
 { .block-language-dataview}
 

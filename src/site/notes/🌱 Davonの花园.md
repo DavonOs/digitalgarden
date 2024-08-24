@@ -34,23 +34,24 @@ Hello 👋，我是 Davon，欢迎来到我的数字花园🌱。
 - 让这个网站看起来像我想要的样子
 
 **🆕 最近创建：**
+- [[01 Project/🎯 Project\|🎯 Project]]: August 21, 2024
 - [[🧭 花园导览\|🧭 花园导览]]: August 21, 2024
 - [[👩‍🌾 数字花园计划\|👩‍🌾 数字花园计划]]: August 08, 2024
 - [[🔧 Digital Garden 配置指南\|🔧 Digital Garden 配置指南]]: August 08, 2024
 - [[03 Resource/Program/NotionNext项目学Git\|NotionNext项目学Git]]: August 07, 2024
-- [[03 Resource/Program/Python/列表的使用\|列表的使用]]: August 06, 2024
-- [[03 Resource/Program/Python/变量和简单数据类型\|变量和简单数据类型]]: August 06, 2024
+- [[01 Project/Python/列表的使用\|列表的使用]]: August 06, 2024
+- [[01 Project/Python/变量和简单数据类型\|变量和简单数据类型]]: August 06, 2024
 
 { .block-language-dataview}
 
 **⏰ 最近更新：**
-- [[🧭 花园导览\|🧭 花园导览]]: August 23, 2024
-- [[🌱 Davonの花园\|🌱 Davonの花园]]: August 23, 2024
-- [[👩‍🌾 数字花园计划\|👩‍🌾 数字花园计划]]: August 23, 2024
-- [[03 Resource/Program/Python/人人都能玩Python\|人人都能玩Python]]: August 23, 2024
-- [[🔧 Digital Garden 配置指南\|🔧 Digital Garden 配置指南]]: August 22, 2024
-- [[01 Project/Obsidian/Obsidian 基础玩法\|Obsidian 基础玩法]]: August 22, 2024
-- [[03 Resource/Book/📚 饶丰书房\|📚 饶丰书房]]: August 22, 2024
+- [[01 Project/🎯 Project\|🎯 Project]]: August 24, 2024
+- [[01 Project/Python/人人都能玩Python\|人人都能玩Python]]: August 24, 2024
+- [[👩‍🌾 数字花园计划\|👩‍🌾 数字花园计划]]: August 24, 2024
+- [[🧭 花园导览\|🧭 花园导览]]: August 24, 2024
+- [[🔧 Digital Garden 配置指南\|🔧 Digital Garden 配置指南]]: August 24, 2024
+- [[01 Project/Obsidian/Obsidian 基础玩法\|Obsidian 基础玩法]]: August 23, 2024
+- [[01 Project/Python/列表的使用\|列表的使用]]: August 23, 2024
 
 { .block-language-dataview}
 
