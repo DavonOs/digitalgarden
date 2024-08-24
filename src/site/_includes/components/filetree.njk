@@ -1,18 +1,25 @@
 {% macro menuItem(fileOrFolderName, fileOrFolder, step, currentPath) %}
+    <!-- 判断文件或文件夹是否为笔记或文件夹 -->
     {%if fileOrFolder.isNote or fileOrFolder.isFolder%}
         <div x-show="isOpen" style="display:none" class="{{'filelist' if step>0}}">
+            <!-- 如果是笔记且未隐藏，则渲染笔记链接 -->
             {%if fileOrFolder.isNote and not fileOrFolder.hide %}
                 <div @click.stop class="notelink {{ 'active-note' if fileOrFolder.permalink === permalink}}">
+                <!-- 根据设置决定是否显示笔记图标 -->
                     {%- if not meta.noteIconsSettings.filetree -%}<i icon-name="sticky-note" aria-hidden="true"></i>{%- endif -%}
+                    <!-- 渲染笔记链接 -->
                     <a data-note-icon="{{fileOrFolder.noteIcon}}" style="text-decoration: none;" class="filename" href="{{fileOrFolder.permalink}}">{{fileOrFolder.name}} </a>
                 </div>
+            <!-- 如果是文件夹，则递归调用 menuItem 渲染文件夹内容 -->
             {% elif fileOrFolder.isFolder%}
                 <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('{{currentPath}}')}" @click.stop="isOpen=!isOpen">
+                    <!-- 渲染文件夹名称和图标 -->
                     <div class="foldername-wrapper align-icon">
                     <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
                     <i x-show="!isOpen"  icon-name="chevron-right"></i>
                     <span class="foldername">{{fileOrFolderName}}</span>
                     </div>
+                    <!-- 遍历文件夹中的每个文件或子文件夹 -->
                     {% for fileOrFolderName, child in fileOrFolder %}
                         {{menuItem(fileOrFolderName, child, step+1, (currentPath+"/"+fileOrFolderName))}}
                     {% endfor %}
@@ -21,33 +28,39 @@
         </div>
         {%endif%}
     {% endmacro %}
-    
+    <!-- 初始化文件树侧边栏的显示状态 -->
     <div x-init="isDesktop = (window.innerWidth>=1400) ? true: false;" 
             x-on:resize.window="isDesktop = (window.innerWidth>=1400) ? true : false;" 
             x-data="{isDesktop: true, showFilesMobile: false}">
-
+        <!-- 在小屏幕上显示的文件树导航栏 -->
         <div x-show.important="!isDesktop" style="display: none;">
             {%include "components/filetreeNavbar.njk"%}
         </div>
-        
+        <!-- 遮罩层，用于在小屏幕上关闭文件列表 -->
         <div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none;" class="fullpage-overlay"></div>
-
+      <!-- 文件树侧边栏 -->
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
+        <!-- 在标题之前可能包含的组件 -->
         {% for imp in dynamics.filetree.beforeTitle %}
             {% include imp %}
         {% endfor %}
+        <!-- 网站名称 -->
          <a href="/" style="text-decoration: none;">
                <h1 style="text-align:center;">{{meta.siteName}}</h1>
          </a>
+        <!-- 在标题之后可能包含的组件 -->
          {% for imp in dynamics.filetree.afterTitle %}
             {% include imp %}
         {% endfor %}
+        <!-- 如果启用了搜索功能，则显示搜索按钮 -->
         {% if settings.dgEnableSearch === true%}
             <div style="display: flex; justify-content: center;">
                 {% include "components/searchButton.njk" %}
             </div>
         {%endif%}
+        <!-- 文件夹列表 -->
          <div class="folder" x-data="{isOpen: true}">
+               <!-- 遍历文件树并渲染每个文件或文件夹 -->
                {%- for fileOrFolderName, fileOrFolder in filetree -%}
                   {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
                {%- endfor -%}
