@@ -1,40 +1,57 @@
 ---
 permalink: "notes/{{ page.fileSlug | slugify }}/"
 ---
+<!-- 用于确定页面 URL 的参数，这里使用 notes/{{ page.fileSlug | slugify }} 来生成页面的 URL。page.fileSlug 是从页面数据中获取的文件名片段，| slugify 是一个过滤器，用于将字符串转换为 URL 友好的格式。 -->
 <!DOCTYPE html>
 <html lang="{{ meta.mainLanguage }}">
   <head>
+    <!-- <title> 元素显示页面标题，如果 title 变量存在，则使用 title 的值，否则使用 page.fileSlug。-->
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
+    <!-- 包含一个页面头部组件。-->
     {%include "components/pageheader.njk"%}
+    <!-- 包含通用头部组件。 -->
     {% for imp in dynamics.common.head %}
       {% include imp %}
     {% endfor %}
+    <!-- 包含笔记特定头部组件。 -->
     {% for imp in dynamics.notes.head %}
       {% include imp %}
     {% endfor %}
+    
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
+    <!-- theme-{{meta.baseTheme}} 设置页面的主题。-->
+    <!-- 包含一个显示笔记增长历史的组件。-->
     {%include "components/notegrowthhistory.njk"%}
-    
+    <!-- 判断是否显示文件树，如果 settings.dgShowFileTree 为 false，则包含导航栏组件，否则包含文件树组件 -->
     {% if settings.dgShowFileTree !== true %}
       {%include "components/navbar.njk"%}
     {%else%}
       {%include "components/filetree.njk"%}
     {% endif %}
-
+    <!-- 如果 settings.dgEnableSearch 为 true，则包含搜索组件 -->
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
     {% endif %}
-
+    
     <main class="content cm-s-obsidian {{contentClasses}}">
+      <!-- header 区域包含了页面的头部信息，如标题、标签、创建和更新时间等。-->
       <header>
+        <!-- 如果设置了显示内联标题，则渲染标题 -->
         {% if settings.dgShowInlineTitle === true %}
-          <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
+          <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">
+            <!-- 标题内容，如果存在则显示标题，否则显示文件别名 -->
+            {% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}
+          </h1>
         {% endif %}
+        <!-- 标题下方显示的元信息区域 -->
         <div class="header-meta">
+          <!-- 如果设置了显示标签，并且存在标签，则渲染标签 -->
           {% if settings.dgShowTags === true and tags %}
             <div class="header-tags">
+              <!-- 遍历标签并渲染每个标签 -->
               {% for tag in tags %}
+                <!-- 排除一些特殊标签，如 'gardenEntry' 和 'note' -->
                 {% if tag != 'gardenEntry' and tag !='note' %}
                   <a class="tag" onclick="toggleTagSearch(this)">
                     #{{tag}}
@@ -43,30 +60,40 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
               {% endfor %}
             </div>
           {% endif %}
+          <!-- 如果设置了显示时间戳，则渲染创建和/或更新时间 -->
           {%- if meta.timestampSettings.showCreated or meta.timestampSettings.showUpdated -%}
           <div class="timestamps">
             {%- if meta.timestampSettings.showCreated and created -%}
+            <!-- 创建时间 -->
             <div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="{{created}}"></span></div>
             {%- endif -%}
             {%- if meta.timestampSettings.showUpdated and updated -%}
+            <!-- 更新时间 -->
             <div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="{{updated}}"></span></div>
             {%- endif -%}
           </div>
           {%- endif -%}
         </div>
+
+      <!-- 包含其他可能的通用头部组件 -->
       {% for imp in dynamics.common.header %}
         {% include imp %}
       {% endfor %}
+      <!-- 包含特定于笔记的头部组件 -->
       {% for imp in dynamics.notes.header %}
         {% include imp %}
       {% endfor %}
       </header>
+      
+      <!-- 循环包含了页面内容前的组件。-->
       {% for imp in dynamics.common.beforeContent %}
         {% include imp %}
       {% endfor %}
       {% for imp in dynamics.notes.beforeContent %}
         {% include imp %}
       {% endfor %}
+      
+      <!-- 处理页面内容，包括隐藏特定的 Dataview 字段、添加标签、创建链接，并确保内容安全。 -->
       {{ content | hideDataview | taggify | link | safe}}
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
@@ -79,18 +106,24 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
       {%include "components/sidebar.njk"%}
     {% endif %}
-
+    <!-- 循环包含了页面内容后的组件 -->
+    <!-- 检查settings.dgLinkPreview设置是否为true。如果为true，则会包含components/linkPreview.njk组件，通常用于显示链接预览 -->
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}
     {% endif %}
+    <!-- 显示参考文献或相关链接 -->
     {% include "components/references.njk" %}
+    <!-- 显示创建或更新时间戳 -->
     {% include "components/timestamps.njk" %}
+    <!-- 循环，它遍历dynamics.common.footer中的所有组件，并包含它们。通常，这些组件是页面底部的通用部分，如版权信息、社交媒体链接等。-->
     {% for imp in dynamics.common.footer %}
       {% include imp %}
     {% endfor %}
+    <!-- 针对的是dynamics.notes.footer中的组件。这可能意味着，如果这个模板用于笔记或文章页面，它会包含页面特定的底部组件，这些组件可能包含作者信息、标签、阅读时间估计等 -->
     {% for imp in dynamics.notes.footer %}
       {% include imp %}
     {% endfor %}
+    <!-- 包含了 Lucide 图标组件 -->
     {%include "components/lucideIcons.njk"%}
   </body>
 </html>
