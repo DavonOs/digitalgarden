@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"hugodev","permalink":"/hugodev/"}
+{"dg-publish":true,"dg-permalink":"hugodev","permalink":"/hugodev/","dgPassFrontmatter":true}
 ---
 
 

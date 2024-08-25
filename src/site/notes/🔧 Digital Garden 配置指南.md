@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"gardensetting","permalink":"/gardensetting/","tags":["digitalgarden"]}
+{"dg-publish":true,"dg-permalink":"gardensetting","tags":["digitalgarden"],"permalink":"/gardensetting/","dgPassFrontmatter":true}
 ---
 
 

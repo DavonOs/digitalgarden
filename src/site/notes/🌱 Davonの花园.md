@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/davon/","tags":["digitalgarden","gardenEntry"]}
+{"dg-publish":true,"dg-home":true,"tags":["digitalgarden","gardenEntry"],"permalink":"/davon/","dgPassFrontmatter":true}
 ---
 
 ![garden](https://wp.technologyreview.com/wp-content/uploads/2020/08/digital-garden_web.jpg)

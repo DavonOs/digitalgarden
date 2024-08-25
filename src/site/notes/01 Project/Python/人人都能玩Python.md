@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"python","permalink":"/python/","tags":["learn/program/python"]}
+{"dg-publish":true,"dg-permalink":"python","tags":["learn/program/python"],"permalink":"/python/","dgPassFrontmatter":true}
 ---
 
 你是否也曾在python自学的道路上曾经走的非常痛苦，长期挣扎在一个无法解决实际问题的低水平状态循环。看看你是否也和我一样犯过同样的错误：
