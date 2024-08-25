@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"tags":["digitalgarden","gardenEntry"],"permalink":"/davon/","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-home":true,"tags":["digitalgarden","gardenEntry","gardenEntry"],"permalink":"/davon/","dgPassFrontmatter":true}
 ---
 
 ![garden](https://wp.technologyreview.com/wp-content/uploads/2020/08/digital-garden_web.jpg)
@@ -67,20 +67,20 @@ Hello 👋，我是 Davon，欢迎来到我的数字花园🌱。
 - 尽量通过底部反向链接找回来时的路。
 
 **🆕 最近创建：**
+- [[03 Resource/template/publish\|publish]]: August 25, 2024
+- [[book/集体行动的逻辑\|集体行动的逻辑]]: August 25, 2024
 - [[01 Project/🎯 Project\|🎯 Project]]: August 21, 2024
 - [[02 Area/🖼️ 视觉笔记术\|🖼️ 视觉笔记术]]: August 20, 2024
 - [[🔧 Digital Garden 配置指南\|🔧 Digital Garden 配置指南]]: August 08, 2024
-- [[02 Area/Program/NotionNext项目学Git\|NotionNext项目学Git]]: August 07, 2024
-- [[01 Project/Python/列表的使用\|列表的使用]]: August 06, 2024
 
 { .block-language-dataview}
 
 **⏰ 最近更新：**
 - [[02 Area/🖼️ 视觉笔记术\|🖼️ 视觉笔记术]]: August 25, 2024
+- [[02 Area/🧩 学习碎片\|🧩 学习碎片]]: August 25, 2024
+- [[03 Resource/template/publish\|publish]]: August 25, 2024
 - [[🌱 Davonの花园\|🌱 Davonの花园]]: August 25, 2024
 - [[🔧 Digital Garden 配置指南\|🔧 Digital Garden 配置指南]]: August 25, 2024
-- [[01 Project/Python/人人都能玩Python\|人人都能玩Python]]: August 24, 2024
-- [[01 Project/🎯 Project\|🎯 Project]]: August 24, 2024
 
 { .block-language-dataview}
 
