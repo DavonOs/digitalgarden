@@ -541,11 +541,10 @@ DateView
 ```
 | File                                          | 创建日期                       |
 | --------------------------------------------- | -------------------------- |
+| [[04 Achive/PSword.md\|PSword]]               | 8:17 PM - August 24, 2024  |
 | [[03 Resource/🗃️ Resource.md\|🗃️ Resource]] | 8:41 AM - August 23, 2024  |
 | [[02 Area/📌 Area.md\|📌 Area]]               | 8:37 AM - August 23, 2024  |
 | [[03 Resource/Book/图书专著/学习之道.md\|学习之道]]       | 11:55 AM - August 22, 2024 |
-| [[01 Project/🎯 Project.md\|🎯 Project]]      | 10:20 PM - August 21, 2024 |
-| [[🧭 花园导览.md\|🧭 花园导览]]                       | 10:13 PM - August 21, 2024 |
 
 { .block-language-dataview}
 
