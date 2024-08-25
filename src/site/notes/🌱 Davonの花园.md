@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"tags":["digitalgarden","gardenEntry","gardenEntry","gardenEntry"],"permalink":"/davon/","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-home":true,"tags":["digitalgarden","gardenEntry"],"permalink":"/davon/","dgPassFrontmatter":true}
 ---
 
 ![garden](https://wp.technologyreview.com/wp-content/uploads/2020/08/digital-garden_web.jpg)
@@ -15,7 +15,7 @@ Hello 👋，我是 Davon，欢迎来到我的数字花园🌱。
 
 这座数字花园使用 [Obsidian](https://obsidian.md/) 写作发布，以第二大脑的 [[03 Resource/Book/图书专著/Building a Second Brain#PARA组织系统\|PARA系统]] 进行内容组织管理，这里是[开源地址](https://github.com/DavonOs/digitalgarden)。
 
-[[🧭 花园导览\|🧭 花园导览]]
+## 🧭 花园导览
 
 闪念的捕捉记录，宁愿多做，不要不做。
 做到库中80%的内容，都是自己手打输出的。
@@ -84,7 +84,7 @@ Hello 👋，我是 Davon，欢迎来到我的数字花园🌱。
 
 { .block-language-dataview}
 
-延申阅读
+## 延申阅读
 
 [数字花园的简史和精神](https://maggieappleton.com/garden-history)
 [你和你的思想花园](https://nesslabs.com/mind-garden)
