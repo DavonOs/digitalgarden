@@ -539,14 +539,14 @@ task-done：“”——已完成的任务
 
 DateView
 ```
-| File                                          | 创建日期                       |
-| --------------------------------------------- | -------------------------- |
-| [[03 Resource/Book/图书专著/集体行动的逻辑.md\|集体行动的逻辑]] | 7:53 PM - August 25, 2024  |
-| [[03 Resource/template/publish.md\|publish]]  | 7:44 PM - August 25, 2024  |
-| [[04 Achive/PSword.md\|PSword]]               | 8:17 PM - August 24, 2024  |
-| [[03 Resource/🗃️ Resource.md\|🗃️ Resource]] | 8:41 AM - August 23, 2024  |
-| [[02 Area/📌 Area.md\|📌 Area]]               | 8:37 AM - August 23, 2024  |
-| [[03 Resource/Book/图书专著/学习之道.md\|学习之道]]       | 11:55 AM - August 22, 2024 |
+| File                                          | 创建日期                      |
+| --------------------------------------------- | ------------------------- |
+| [[03 Resource/03 Resource.md\|03 Resource]]   | 2:24 PM - August 26, 2024 |
+| [[03 Resource/Book/图书专著/集体行动的逻辑.md\|集体行动的逻辑]] | 7:53 PM - August 25, 2024 |
+| [[03 Resource/template/publish.md\|publish]]  | 7:44 PM - August 25, 2024 |
+| [[04 Achive/PSword.md\|PSword]]               | 8:17 PM - August 24, 2024 |
+| [[03 Resource/🗃️ Resource.md\|🗃️ Resource]] | 8:41 AM - August 23, 2024 |
+| [[02 Area/📌 Area.md\|📌 Area]]               | 8:37 AM - August 23, 2024 |
 
 { .block-language-dataview}
 
