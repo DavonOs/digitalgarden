@@ -1,0 +1,222 @@
+---
+{"dg-publish":true,"dg-permalink":"gardensetting","tags":["digitalgarden"],"sticker":"emoji//1f527","permalink":"/gardensetting/","dgPassFrontmatter":true}
+---
+
+
+[DigitalGarden 官方配置文档](https://dg-docs.ole.dev/)
+
+## 与其他解决方案的比较
+
+### 优点
+
+通过插件与黑曜石集成。忽略初始设置，您永远不必接触 [[01 Project/Program/NotionNext项目学Git\|Git]]。（除非你愿意。发布新笔记就像使用 [publish single note 命令](https://dg-docs.ole.dev/getting-started/02-commands/#publish-single-note)一样简单。）
+
+这使得只发布_一些_笔记变得更加容易，而不是将整个库发布到您的数字花园。
+
+与黑曜石紧密集成的其他好处是，我们可以利用来自 Obsidian 社区的令人难以置信的插件和主题。到目前为止，此插件支持黑曜石特定功能，如 [Dataview](https://dg-docs.ole.dev/advanced/dataview-queries)、[Excalidraw](https://dg-docs.ole.dev/features/#excalidraw) 和 [Obisidian 主题](https://dg-docs.ole.dev/getting-started/04-appearance-settings/#themes)。
+
+由于有各种自定义选项，您还可以将其用作简单的笔记共享解决方案，创建指向您的笔记的链接，以便轻松与朋友和同事分享。如果您不需要它们，则无需启用所有花里胡哨的功能，例如反向链接、搜索和图表。
+
+[KosmosisDire/obsidian-webpage-export: Export html from single files, canvas pages, or whole vaults. Direct access to the exported HTML files allows you to publish your digital garden anywhere. Focuses on flexibility, features, and style parity. (github.com)](https://github.com/KosmosisDire/obsidian-webpage-export)
+
+## 缺点与问题
+
+未支持dataview的 calendar 渲染
+
+未支持Excalidraw的双链等其他功能
+
+当然，这种与 Obsidian 紧密耦合的缺点是，这个花园不像其他一些花园那样容易与其他书写工具整合，而不是像 Obsidian 那样容易。
+
+但是，如果您决定切换到另一个工具，您的所有文件仍然可以以纯文本形式使用，因此切换应该不会太难。
+
+
+## 初始配置
+
+初始设置需要几分钟，但完成后，您将拥有一个数字花园，您可以在其中控制它的每个部分，并可以根据需要对其进行自定义。这就是数字花园如此令人愉快的原因。
+
+下载并安装 Obsidian 中的社区插件 [Digital Garden](obsidian://show-plugin?id=digitalgarden)。
+接下来，您将需要一个 GitHub 帐户。如果您没有此文件，请在此处创建一个。
+您还需要一个 Vercel 帐户。您可以在此处使用您的 GitHub 帐户注册
+打开此存储库，然后单击蓝色的 “Deploy to Vercel” 按钮。
+
+这应该会打开 Vercel 并在您的 GitHub accont 中创建此存储库的副本。给它起一个合适的名字，比如 'my-digital-garden'。按照 Vercel 中的步骤将您的网站发布到 Internet。
+
+接下来，您需要为您的 GitHub 帐户创建访问令牌。这充当一种密码，以便插件可以代表您向 GitHub 存储库添加新注释。登录到 GitHub 后转到此页面。应该已经应用了正确的设置。（如果您不想每隔几个月生成一次，请选择 “No expiration” 选项。单击“Generate token（生成令牌）”按钮，然后复制您在下一页上显示的令牌。
+更安全的选择
+GitHub 最近推出了一项新的 beta 功能，您可以在其中定位令牌有权访问的存储库。这是目前使用插件最安全的方式。有关如何生成此令牌的详细信息，请参阅 精细访问令牌。
+
+打开 Obsidian 和“Digital Garden”的设置，填写您的 GitHub 用户名、存储库名称以及您在第 3 步中创建的注释，最后粘贴您的令牌。
+CleanShot 2023-10-12 在 17.06.27@2x.png
+
+现在，让我们发布您的第一篇笔记吧！在 Obsidian 中创建新注释。现在向注释添加两个新属性。
+
+帮助！如何向便笺添加属性
+名为dg-publish
+一个名为
+Toggle both checkboxes （切换两个复选框） 的复选框，以便它们处于该状态。
+它应如下所示：dg-homechecked
+CleanShot 2023-10-12 在 16.59.10@2x.png
+这执行两项操作：
+
+`dg-home` 设置告诉插件这应该是您的主页或进入您的数字花园的入口。（它只需要添加到一个注释中，而不是您将发布的每个注释中）。
+
+`dg-publish` 设置告诉插件应该将此注释发布到您的数字花园。没有此设置的注释将不会发布。（换句话说：您发布的每个注释都需要此属性。
+
+在 Windows/Linux 上按 <kbd>CTRL</kbd>+<kbd>P</kbd>（在 Mac 上按 CMD+P）打开命令面板，然后找到“Digital Garden：发布单个笔记”命令。按 Enter。
+转到您应该在 Vercel 上找到的站点 URL。如果尚未显示任何内容，请等待片刻，然后刷新。您的注释现在应该显示出来。
+
+![Note Settings|500](https://dg-docs.ole.dev/img/user/img/CleanShot%202022-11-09%20at%2021.38.15@2x.png)
+
+Show home link（显示主页链接）：默认开启。如果启用此功能，则导航栏将显示在每个笔记的顶部。站点名称将显示为标题，并且可以单击。单击它将带用户返回到主页笔记。默认情况下，站点名称为“Digital Garden”。这可以通过 04 外观设置#站点名称设置进行更改。
+
+Show local graph for notes（显示笔记的本地图形）：默认关闭。打开后，本地图形（如黑曜石中的图形）将显示在右侧。它将显示指向当前注释的传出和传入链接。它是交互式的，可以四处移动。单击其中一个节点将带您到相应的注释。
+在桌面上，它显示在右侧。在移动设备上，它显示在底部。
+
+Show a table of content（显示注释的目录）：默认关闭。启用后，笔记中所有标题的列表将显示在右侧。单击其中一个标题将滚动到注释中的相应标题。
+在桌面上，它显示在右侧。在移动设备上，它是隐藏的。
+
+Show backlinks for notes（显示笔记的反向链接）：默认关闭。启用后，您发布的笔记将显示一个链接到它的笔记列表。它只会显示已发布的注释。在桌面和更大的屏幕上，它将被放置在右侧。在移动设备和较小的屏幕上，它被放在页面的底部。
+
+Show inline title（显示内联标题）
+默认情况下处于关闭状态。启用后，文件名将显示在页面顶部。类似于 Obsidian v1.0 中引入的“显示内联标题”设置。
+
+show filetree sidebar（显示文件树侧边栏）
+默认情况下处于关闭状态。打开后，右侧将显示一个侧边栏，所有已发布的笔记都显示在 Obsidian 中放置的文件夹层次结构中。在较小的屏幕上，它会消失，但可以通过单击左上角的“汉堡包”菜单来查看。
+
+链接预览
+默认情况下处于关闭状态。启用后，当您将鼠标悬停在它们上面时，所有链接都会显示笔记内容的预览。
+
+Enable search（启用搜索）
+默认情况下处于关闭状态。启用后，用户可以选择轻松搜索所有已发布的笔记。可以通过单击右上角显示的搜索框来查看搜索框，如果启用了此功能，则还可以单击文件树侧边栏顶部的搜索框。也可以在 Windows/Linux 上按 CTRL+K 或在 MacOS 上按 CMD+K 来触发。
+将弹出一个对话框。可以使用键盘的向上和向下箭头键来导航结果。按回车键将带您进入笔记。按 ESC 键将关闭搜索框。
+
+启用搜索后，您还可以构建显示搜索和结果的 URL。这是通过在 URL 中指定“q”查询参数来完成的。
+例如，对于此网站：https://dg-docs.ole.dev/?q=Commands
+
+显示标签
+默认情况下处于关闭状态。启用后，备忘录封面中的所有标签都会显示在页面顶部的备忘录标题下方。
+如果启用了搜索功能，单击标签将弹出搜索框并显示带有该标签的所有注释。
+
+让所有前页通过
+默认情况下处于关闭状态。大多数用户都希望关闭此功能。这是一个主要针对高级用户的设置，他们修改了他们的模板，并希望完全控制传递给模板的 frontmatter 内容。默认情况下，插件无法识别的所有 frontmatter 属性在发布之前都会被剥离。这是为了防止如果静态站点生成器无法识别 frontmatter 中的数据，则 Netlify 中的构建会失败。（有关详细信息，请参见 11ty Front Matter Data）。如果您的站点突然停止工作，并且此功能已启用，那么尝试再次禁用它是值得的。
+
+添加自定义组件
+
+内容定制
+
+自定义图像宽度：`![imagetext|200](https://image.url)`
+
+![image text|200](https://imgur.la/images/2024/08/08/image.png)
+
+嵌入的文档不需要`dg-publish`属性
+
+嵌入标题：`![[Some Other Note|Heading]]`
+
+指定标题级别：`![[Some Other Note|###Heading]]`
+
+标题等于嵌入文档的标题：`![[Obsidian使用手册|{{title}}]]`
+
+`![[Obsidian使用手册|This is a{{title}}]]`
+
+
+如果您在笔记中编写任何 HTML，它们将在花园中呈现。这意味着您可以在网站上创建自定义的“类似网站”组件。例如，在 [Digital Garden - Publish Obsidian Notes For Free#Sites people have created](https://dg-docs.ole.dev/#sites-people-have-created) 中呈现的网格是使用 divs 和图像标签以及一些自定义内联样式创建的。
+
+> [!warning]+
+> HTML 的开始和结束标记之间不能有任何空换行符，否则将被打印而不是渲染出来
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;"> <div style="display: flex; flex-direction: column; justify-content: center;align-items:center;"> <img style="padding: 10px" src="https://res.cloudinary.com/dix4ngy25/image/upload/c_scale,r_8,w_300/v1668068263/dgdocs/CleanShot_2022-11-10_at_09.17.28_2x.png"/> <a href="https://notes.thatother.dev/">That Other Dev</a> </div> <div style="display: flex; flex-direction: column; justify-content: center;align-items: center"> <img style="padding: 10px" src="https://res.cloudinary.com/dix4ngy25/image/upload/c_scale,r_8,w_300/v1668068103/dgdocs/CleanShot_2022-11-10_at_09.14.47_2x.png"/> <a href="https://syleria.netlify.app/">Syleria</a> </div> </div>
+
+## Dataview queries
+
+插件支持发布 dataview 查询结果。只需发布包含查询的页面即可。该插件将按发布时的原样呈现结果。如果结果发生变化，您将需要重新发布该注释。
+
+它支持所有查询类型：dataview、dataviewjs、内联 dataview 和内联 dataviewjs。
+
+由于插件“冻结”结果并发布它，您实际上甚至会将 dataview 查询中的链接视为反向链接。
+
+您需要安装 dataview 插件的 0.5.39 或更高版本才能正常工作。
+
+## 代码详解
+
+文件目录结构如下：
+
+```shell
+│  .eleventy.js # Eleventy 的配置文件，用于自定义 Eleventy 的行为，如设置模板引擎选项、添加自定义函数等。
+│  .eleventyignore # 类似于 `.gitignore`，这个文件用于指定 Eleventy 在构建过程中应该忽略的文件和目录。
+│  .env # 环境变量文件，通常用于存储敏感信息，如API密钥等。
+│  .gitignore # Git 忽略文件，列出所有不应该被 Git 跟踪的文件和目录。
+│  netlify.toml # Netlify 配置文件，用于配置在 Netlify 上部署网站时的设置。
+│  package-lock.json # npm 的锁定文件，确保安装的依赖版本保持一致。
+│  package.json # npm 包的配置文件，定义了项目的依赖、脚本和元数据。
+│  plugin-info.json # 使用的插件的信息。
+│  README.md
+│  vercel.json # Vercel 配置文件，用于配置在 Vercel 上部署网站时的设置。
+├─.github # 可能包含 GitHub 的工作流文件和其他与 GitHub 相关的配置文件。
+└─src # 源代码目录，包含了项目的主要文件和目录
+    ├─helpers # 辅助函数目录，包含了项目中可能会复用的JavaScript函数。
+    │      constants.js # 常量定义文件。
+    │      filetreeUtils.js # 文件树相关的工具函数。
+    │      linkUtils.js # 链接相关的工具函数。
+    │      userSetup.js # 用户设置相关的函数。
+    │      userUtils.js # 用户相关的工具函数。
+    │      utils.js # 通用的工具函数。
+    │
+    └─site
+        │  404.njk # 404页面的Nunjucks模板。
+        │  favicon.svg # 网站的favicon图标。
+        │  feed.njk # 用于生成RSS或Atom订阅的Nunjucks模板。
+        │  get-theme.js # 可能用于获取或设置网站主题的JavaScript文件。
+        │  graph.njk # 用于生成图形的Nunjucks模板。
+        │  search-index.njk # 搜索索引的Nunjucks模板。
+        │  sitemap.njk # 站点地图的Nunjucks模板。
+        │
+        ├─img # 图片资源目录。
+        │
+        ├─notes # 笔记目录，可能包含笔记相关的数据文件。
+        │  │  notes.11tydata.js # 可能用于Eleventy的数据文件，为笔记提供元数据。
+        │  │  notes.json # 笔记的JSON数据文件。
+        │
+        ├─styles # 样式目录，包含了项目的CSS样式文件。
+        │      custom-style.scss # 自定义的SCSS样式文件。
+        │      digital-garden-base.scss # 数字花园基础样式文件。
+        │      obsidian-base.scss # Obsidian基础样式文件。
+        │      style.scss # 主样式文件。
+        │
+        ├─_data # 数据目录，包含了供Eleventy使用的JSON或JavaScript数据文件。
+        │      dynamics.js # 动态数据文件。
+        │      eleventyComputed.js # Eleventy计算属性文件。
+        │      meta.js # 元数据文件。
+        │
+        └─_includes # 存放可以在多个模板中重复使用的部分模板，通过 `{% include 'header.njk' %}` 这样的语法在其他模板中引入。
+            ├─components # 组件目录，包含了可复用的Nunjucks组件。
+            │      calloutScript.njk # 标注脚本的Nunjucks组件。
+            │      filetree.njk # 文件树组件。
+            │      filetreeNavbar.njk # 文件树导航栏组件。
+            │      graphScript.njk # 图形脚本组件。
+            │      linkPreview.njk # 链接预览组件。
+            │      lucideIcons.njk # Lucide图标组件。
+            │      navbar.njk # 导航栏组件。
+            │      notegrowthhistory.njk # 笔记增长历史组件。
+            │      pageheader.njk # 页面头部组件。
+            │      references.njk # 参考文献组件。
+            │      searchButton.njk # 搜索按钮组件。
+            │      searchContainer.njk # 搜索容器组件。
+            │      searchScript.njk # 搜索脚本组件。
+            │      sidebar.njk # 侧边栏组件。
+            │      timestamps.njk # 时间戳组件。
+            │
+            └─layouts # 布局目录，包含了页面的基础布局模板
+                    index.njk # 主页面的Nunjucks布局模板。
+                    note.njk # 笔记页面的Nunjucks布局模板。
+```
+
+不同核心文件和目录的作用：
+
+- `_includes` 目录：
+- `_data` 目录：用于存储项目所需的数据，这些数据可以在模板中通过特定的方式获取和使用。
+- `src/css` 目录：存放 CSS 样式文件，用于定义网站的样式。
+- `src/js` 目录：包含 JavaScript 文件，用于实现网站的交互逻辑等功能。
+- `src/pages` 目录：包含各个页面的模板文件，如首页、关于页等。
+- `.eleventy.js`：Eleventy 的配置文件，用于自定义项目的配置，例如设置过滤器、短代码等。
+- `package.json`：记录项目的依赖项（如 Eleventy 本身）以及一些脚本命令，例如启动开发服务器、构建项目等。
+
