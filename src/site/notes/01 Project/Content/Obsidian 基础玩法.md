@@ -552,11 +552,20 @@ Quick Explore
 
 ## DateView
 
-```dataview
-Table file.ctime as "创建日期"
-Where date(today) - file.ctime <= dur(3 day)
-Sort file.ctime desc
-```
+| File                                                                          | 创建日期                       |
+| ----------------------------------------------------------------------------- | -------------------------- |
+| [[02 Area/视觉笔记术\|视觉笔记术]]                                                   | 9:56 PM - August 30, 2024  |
+| [[04 Archive/归档\|归档]]                                                      | 8:45 PM - August 30, 2024  |
+| [[01 Project/前端开发与网站建设/SVG\|SVG]]                                          | 10:25 PM - August 29, 2024 |
+| [[01 Project/前端开发与网站建设/JS\|JS]]                                            | 10:25 PM - August 29, 2024 |
+| [[01 Project/前端开发与网站建设/CSS\|CSS]]                                          | 10:25 PM - August 29, 2024 |
+| [[01 Project/前端开发与网站建设/HTML\|HTML]]                                        | 10:24 PM - August 29, 2024 |
+| [[01 Project/Program/Hugo/hugo-beginner-tutorial\|hugo-beginner-tutorial]] | 4:26 PM - August 29, 2024  |
+| [[01 Project/Content/内容创作指南\|内容创作指南]]                                      | 11:21 AM - August 29, 2024 |
+| [[01 Project/人民公仆/关于公务员暨事业编备考的办法\|关于公务员暨事业编备考的办法]]                         | 8:33 AM - August 29, 2024  |
+| [[01 Project/项目\|项目]]                                                      | 8:12 AM - August 29, 2024  |
+
+{ .block-language-dataview}
 
 把满足今天的日期减去创建文件的日期小于等于三天的文件，按照倒序排列，以表格的形式展示满足条件的文件的创建日期。
 [PKMer_Obsidian 插件：Dataview](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E7%A4%BE%E5%8C%BA%E6%8F%92%E4%BB%B6/dataview/dataview/)

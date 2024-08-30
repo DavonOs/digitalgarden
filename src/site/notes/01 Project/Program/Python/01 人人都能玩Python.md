@@ -61,9 +61,5 @@
 [[01 Project/Program/Python/列表的使用\|< Prev]] | [[01 Project/Program/Python/变量和简单数据类型\|Next >]]
 
 ## 文章列表
-```dataview
-list
 
-from "01 Project/Python"
-sort file.ctime desc
-```
+{ .block-language-dataview}
