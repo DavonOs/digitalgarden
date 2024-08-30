@@ -421,9 +421,9 @@ svgo --pretty sin.svg
 
 我们<u title="游戏狂">咖啡豆</u>喜欢的obsidian
 
+图片链接
 
-
-
+[<img style="float:left" src="https://user-images.githubusercontent.com/14358394/115450238-f39e8100-a21b-11eb-89d0-fa4b82cdbce8.png" width="200">](https://buymeacoffee.com/)
 
 # obsidian白板
 信息的可视化、逻辑化，更直观的解决信息筛选过滤，理清问题背后的逻辑关系。
@@ -554,11 +554,14 @@ Quick Explore
 
 | File                                                                          | 创建日期                       |
 | ----------------------------------------------------------------------------- | -------------------------- |
+| [[01 Project/前端开发与网站建设/SVG\|SVG]]                                          | 10:25 PM - August 29, 2024 |
+| [[01 Project/前端开发与网站建设/JS\|JS]]                                            | 10:25 PM - August 29, 2024 |
+| [[01 Project/前端开发与网站建设/CSS\|CSS]]                                          | 10:25 PM - August 29, 2024 |
+| [[01 Project/前端开发与网站建设/HTML\|HTML]]                                        | 10:24 PM - August 29, 2024 |
 | [[01 Project/Program/Hugo/hugo-beginner-tutorial\|hugo-beginner-tutorial]] | 4:26 PM - August 29, 2024  |
 | [[01 Project/Content/内容创作指南\|内容创作指南]]                                      | 11:21 AM - August 29, 2024 |
 | [[01 Project/人民公仆/关于公务员暨事业编备考的办法\|关于公务员暨事业编备考的办法]]                         | 8:33 AM - August 29, 2024  |
 | [[01 Project/项目\|项目]]                                                      | 8:12 AM - August 29, 2024  |
-| [[03 Resource/03 Resource\|03 Resource]]                                   | 2:24 PM - August 26, 2024  |
 
 { .block-language-dataview}
 
@@ -568,6 +571,10 @@ Quick Explore
 [unable redener inline dataviewquery](https://github.com/oleeskild/digitalgarden/issues/141)
 
 [Dataview 示例文件库](https://s-blu.github.io/obsidian_dataview_example_vault/)
+
+[DataviewJS 小白手册](https://forum-zh.obsidian.md/t/topic/27370)
+
+[Dataviewjs的奇技淫巧](https://forum-zh.obsidian.md/t/topic/5954)
 # HTML + CSS + SVG
 
 ## CSS
@@ -587,224 +594,4 @@ Quick Explore
 >> [!summary]+ Charity
 >> your notes or lists here. using markdown formatting
 
-
-## SVG
-
-按钮设置
-
-你可以用 SVG，或者只创建一个 html 按钮。
-#### SVG 图标与按钮
-
-
-```
-[<img style="float:left" src="https://user-images.githubusercontent.com/14358394/115450238-f39e8100-a21b-11eb-89d0-fa4b82cdbce8.png" width="200">](https://ko-fi.com/oleeskild)
-```
-
-<svg xmlns="http://www.w3.org/2000/svg" width="131.08" height="128" viewBox="0 0 256 250"><rect width="256" height="249.6" fill="#00005B" rx="42.5"></rect><path fill="#99F" d="M102.843 149.333H63.172L55.1 174.454a2.02 2.02 0 0 1-1.901 1.547L32.947 176q-1.72 0-1.202-1.89l34.347-98.509l.343-1.035l.114-.354l.23-.74c.114-.382.228-.787.343-1.226c.45-2.291.68-4.62.687-6.955a1.063 1.063 0 0 1 1.202-1.202h27.306q1.2 0 1.374.859l38.983 109.335q.515 1.718-1.03 1.717h-22.326a1.59 1.59 0 0 1-1.717-1.202zm-33.488-21.181h27.134l-.387-1.277l-.621-2.022l-.909-2.896l-1.745-5.467l-1.662-5.254l-3.092-9.789a336 336 0 0 1-2.46-8.138l-.878-3.096l-.948-3.393l-.866-3.147h-.172a139 139 0 0 1-3.136 12.23l-1.16 3.723l-2.79 9l-1.414 4.585q-.383 1.242-.765 2.456l-.76 2.398l-.756 2.342l-.752 2.284l-.748 2.227q-.559 1.65-1.113 3.234m130.518 11.404h-33.831a24.1 24.1 0 0 0 3.263 9.461a17.67 17.67 0 0 0 7.813 6.44a32.6 32.6 0 0 0 13.653 2.676a62 62 0 0 0 11.077-1.216a40.8 40.8 0 0 0 9.523-2.482q.859-.685.86.858v16.315c.028.445-.061.889-.259 1.288c-.196.312-.46.576-.772.773a43.7 43.7 0 0 1-10.64 3.17a75.5 75.5 0 0 1-15.113 1.287q-11.814 0-19.917-3.545l-.52-.233a36.4 36.4 0 0 1-13.394-10.132a39.7 39.7 0 0 1-7.385-13.996A55.1 55.1 0 0 1 142 134.678a54.1 54.1 0 0 1 2.662-16.916a44.2 44.2 0 0 1 7.985-14.597a38.4 38.4 0 0 1 12.88-10.133c5.037-2.46 10.991-3.343 17.86-3.343a38.8 38.8 0 0 1 16.573 3.263a29.2 29.2 0 0 1 11.248 8.495a39 39 0 0 1 6.354 12.107a43.2 43.2 0 0 1 2.061 13.052q0 3.78-.257 6.87l-.153 1.764l-.16 1.674l-.095.848l-.022.179a1.556 1.556 0 0 1-1.545 1.374l-.471.01l-.587.03l-.457.033l-1.068.091l-.938.093q-.383.04-.795.075l-.851.067l-.909.06l-.965.05l-1.022.043l-.533.018l-1.107.03c-1.095.027-2.217-.041-3.368-.125l-1.746-.128a40 40 0 0 0-2.7-.106m-33.831-15.645h23.386l1.992-.013l1.354-.019l.877-.02l.984-.034a6 6 0 0 0 2.49-.825v-1.03a13.7 13.7 0 0 0-.686-3.95a14.03 14.03 0 0 0-13.91-9.79a14.92 14.92 0 0 0-14.169 8.072a24.8 24.8 0 0 0-2.318 7.61"></path></svg>
-
-[<img style="float:left" src="https://user-images.githubusercontent.com/14358394/115450238-f39e8100-a21b-11eb-89d0-fa4b82cdbce8.png" width="200">](https://ko-fi.com/oleeskild)
-
-### HTML 按钮
-
-<a href="https://github.com/oleeskild/obsidian-digital-garden/issues/55" target="_blank"><button>Submit your site</button></a>
-
-添加按钮样式
-<a href="https://github.com/oleeskild/obsidian-digital-garden/issues/55" target="_blank"><button style=" font-size: 28px; padding: 10px; height: fit-content; margin-top: 50px; background: var(--text-accent); font-weight: 600; color: var(--text-on-accent); "> Submit your digital garden site </button></a>
-
-
-
-
-可缩放矢量图（Scalable Vector Graphics），是用类似html代码绘制出来的，可用`<svg></svg>`标签来实现。
-
-定义画布的宽度：width=“”；定义画布的高度：height=””，值都是数字。
-
-svg预定义形状元素
-
-矩形（rectangle）
-
-<rect/>
-
-注意：任何一个html单标签，都可以在第二个尖角号前写一个斜杠，也就是用闭合标签表示单标签。
-
-width：定义矩形的宽度
-
-height：定义矩形的高度
-
-fill：定义矩形的填充颜色
-
-stroke：描边，定义矩形边框的颜色
-
-stroke-width：笔画宽度，定义矩形的边框宽度
-
-x：定义矩形的左边位置
-
-y：定义矩形的顶部位置
-
-opacity：整个元素的不透明度，合法值的范围是0~1
-
-fill-opacity：定义填充颜色的不透明度，合法值的范围是0~1
-
-stroke-opacity：定义描边颜色的不透明度，合法值的范围是0~1，值越小，透明度越高。
-
-rx：定义圆角x轴方向的半径长度
-
-ry：定义圆角y轴方向的半径长度，两值相等就是一个圆形的角，两值不等就是椭圆形的角。
-
-圆形（circle）
-
-<circle/>
-
-圆心，默认为（0,0）
-
-cx：定义圆心的x坐标
-
-cy：定义圆心的y坐标
-
-r：定义圆的半径
-
-通过stroke、stroke-width、fill设置边框颜色、边框宽度、背景色填充等
-
-椭圆形（ellipse）
-
-<ellipse/>
-
-cx：定义椭圆中心的x坐标
-
-cy：定义椭圆中心的y坐标
-
-rx：定义水平半径
-
-ry：定义垂直半径
-
-堆叠椭圆，位置和大小由cx，cy，rx，ry决定，而不是html书写顺序。
-
-线条（line）
-
-<line />
-
-x1：定义x轴上直线的起点坐标
-
-x2：定义x轴上直线的末端坐标
-
-y1：定义y轴上直线的起点坐标
-
-y2：定义y轴上直线的末端坐标
-
-svg图形绘制的坐标起点都是在画布的左上角。
-
-多边形（polygon）
-
-`<polygon />`
-
-用于创建一个至少包含三个边的图形，由直线组成，所有的线封闭连接。
-
-points：多个点的意思，定义了每个角的x，y坐标，它的值至少要三对坐标，每一对x和y用逗号隔开，坐标之间用空格隔开。
-
-多线条（polyline）
-
-`<polyline />`
-
-可以创建任何只由直线组成的形状，一般是把几个点连接起来，不要求封闭。
-
-points：定义绘制折线所需要的点，也就是两个以上的x和y轴坐标对。
-
-文本（text）
-
-`<text></text>`
-
-x、y：定义文本的位置坐标
-
-font-size：定义文本的大小
-
-text-anchor：定义文本对齐方式，start-左对齐，middle，以文本中间对齐，end以文本末尾对齐。
-
-svg为什么不用p标签显示文本，text是svg的绘制对象，可以使用一些专有特性控制文本。
-
-旋转文本
-
-transform=”rotate()”
-
-第一个参数是旋转角度，第二个是旋转的中心点坐标，默认为（0,0），两个参数间用空格分开。
-
-可以包裹多个`<tspan></tspan>`子元素，每个可以包含不同的格式和位置。
-
-给文本添加链接
-
-用<a></a>将<text></text>包裹起来，给a标签添加xlink:href=””属性值就是链接地址，也可以定义target属性。
-
-svg是应用xml语法定义元素的，还要在svg标签上定义一个命名空间的属性xmlns:xlink，属性值一般写为w3c的网址
-
-绘制路径（path）
-
-`<path />`
-
-应用路径可以绘制任意形状的图形
-
-d：绘制路径的命令，draw的缩写。
-
-M命令（moveto）：定义绘制图形的起点坐标。
-
-L命令（lineto）：绘制直线
-
-命令的字母大小写表示的意义不同，大写表示绝对定位（相对屏幕坐标原点的位置），小写表示相对定位（相对于上一个绘制点的位置）。
-
-绘制贝塞尔曲线
-
-q命令（quadratic Bezier curve）：绘制二次贝塞尔曲线，需要定义控制点和终点的坐标。
-
-注释掉辅助点和线，只显示第四条path路径
-
-描边属性
-
-所有描边属性都可以应用于任何类型的线条、文本、元素的轮廓
-
-stroke：笔画属性
-
-stroke-width：笔画宽度
-
-stroke-linecap：笔画笔帽，butt（默认）、round、square
-
-stroke-dasharray：虚线笔画，值为数字序列，以此定义虚线线条与空隙的大小，至少要定义两个值。
-
-模糊与阴影
-
-给svg添加特殊效果需要通过filter（过滤器）元素来实现
-
-`<filter></filter>`
-
-filter元素都是在defs（definitions）元素中定义的，图形通过必要的id属性指向要使用的过滤器
-
-feGaussianBlur：高斯模糊，需要定义在filter里，通过stdDeviation属性定义模糊的数量。<feGaussianBlur stdDeviation=””/>
-
-阴影
-
-feOffset滤镜和feBlend滤镜来实现，原理是将svg图形在xy平面上做一定的偏移，需要定义在filter标签内，基本语法为：`<feOffset />`，定义dx、dy属性，表示阴影在x轴、y轴上的偏移量。定义in属性，表示阴影图像的来源，黑色阴影值为SourceAlpha，用原始图像作为阴影，值可设置为SourceGraphic。
-
-最后，还需要在偏移的图像上混合原始图像，应用feBlend标签。
-
-线性渐变和径向渐变
-
-渐变是一种颜色向另一种颜色的平滑过渡。
-
-线性渐变应用linearGradient元素来定义，必须嵌套在defs标签中可以实现水平渐变、垂直渐变或角度渐变
-
-`<linearGradient></linearGradient>`它有两组坐标属性：x1，y1，x2，y2，用于定义线性渐变的开始位置和结束位置，当y1=y2而x1≠x2时，就会产生水平渐变；当x1=x2，y1≠y2时，就会产生垂直渐变；当x1≠x2，y1≠y2时，就会产生角度渐变。
-
-线性渐变的颜色范围可以由两种或多种颜色组成，每种颜色都用一个stop标签指定，一般需要定义offset属性（用于定义渐变颜色开始和结束位置，值是一个描述相对位置的百分比）stop-color属性用于定义渐变的颜色
-
-如何将水平线性渐变调整为垂直线性渐变？
-
-径向渐变用radialGradient元素来定义，也必须嵌套在defs标签中，双标签：`<radialGradient></radialGradient>`
-
-id属性：定义渐变的唯一名称
-
-cx、cy、r属性：定义了最外面的圆
-
-fx、fy属性：定义最里面的圆
-
-和线性渐变一样，也需要stop标签指定offset属性和stop-color属性
-
-如何调整高光位置？
-
-[https://www.bilibili.com/video/BV1BD4y147Ks](https://www.bilibili.com/video/BV1BD4y147Ks)
 

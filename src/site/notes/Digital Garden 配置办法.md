@@ -17,7 +17,9 @@
 
 由于有各种自定义选项，您还可以将其用作简单的笔记共享解决方案，创建指向您的笔记的链接，以便轻松与朋友和同事分享。如果您不需要它们，则无需启用所有花里胡哨的功能，例如反向链接、搜索和图表。
 
-[KosmosisDire/obsidian-webpage-export: Export html from single files, canvas pages, or whole vaults. Direct access to the exported HTML files allows you to publish your digital garden anywhere. Focuses on flexibility, features, and style parity. (github.com)](https://github.com/KosmosisDire/obsidian-webpage-export)
+[Obsidian Publish](https://obsidian.md/publish)
+
+[obsidian-webpage-expor](https://github.com/KosmosisDire/obsidian-webpage-export)
 
 ## 缺点与问题
 

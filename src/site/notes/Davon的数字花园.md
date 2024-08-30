@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"tags":["digitalgarden","gardenEntry"],"sticker":"emoji//1f3e1","permalink":"/davon/","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-home":true,"tags":["digitalgarden","gardenEntry"],"sticker":"emoji//1f3e1","permalink":"/Davon的数字花园/","dgPassFrontmatter":true}
 ---
 
 
@@ -11,55 +11,25 @@ Hello 👋，我是 Davon，欢迎来到我的数字花园🌱。
 >- 是探索性的，作为半成品发布，并不精致或完整，每条路径都是新想法的起点。
 >- 是思考过程的容器，不按日期时间组织，而是通过上下文关联链接在一起。
 
-这座数字花园使用 [Obsidian](https://obsidian.md/) 写作发布，以 [[03 Resource/Book/图书专著/Building a Second Brain#PARA组织系统\|PARA组织系统]] 进行内容管理，目前的主要开放区域 ⭕：
+这座数字花园使用 [Obsidian](https://obsidian.md/) 写作，按照 [[03 Resource/Book/图书专著/Building a Second Brain#PARA组织系统\|PARA组织系统]] 进行管理，目前开放区域 ⭕：
 - [[01 Project/项目\|项目]]
 - [[02 Area/领域\|领域]]
 - [[03 Resource/资源\|资源]]
 
 这是项目的[开源地址](https://github.com/DavonOs/digitalgarden)，可参考[[Digital Garden 配置办法\|Digital Garden 配置办法]]自行配置。
 
-如发现令人不适或是涉及隐私的内容，请告知我，🦀🦀: dth1995911@gmail.com。
+若发现令人不适或涉及隐私的内容，请联系我，🦀🦀: dth1995911@gmail.com。
 
 ---
 **🆕 最近创建：**
-- [[01 Project/项目\|项目]]: August 29, 2024
-- [[03 Resource/Book/图书专著/集体行动的逻辑\|集体行动的逻辑]]: August 25, 2024
-- [[02 Area/领域\|领域]]: August 23, 2024
-- [[02 Area/视觉笔记术\|视觉笔记术]]: August 20, 2024
-
-{ .block-language-dataview}
+<div><ul class="dataview list-view-ul"><li><span>2024-08-29 — <a data-tooltip-position="top" aria-label="01 Project/Content/内容创作指南.md" data-href="01 Project/Content/内容创作指南.md" href="01 Project/Content/内容创作指南.md" class="internal-link" target="_blank" rel="noopener">内容创作指南</a></span></li><li><span>2024-08-29 — <a data-tooltip-position="top" aria-label="01 Project/Program/Hugo/hugo-beginner-tutorial.md" data-href="01 Project/Program/Hugo/hugo-beginner-tutorial.md" href="01 Project/Program/Hugo/hugo-beginner-tutorial.md" class="internal-link" target="_blank" rel="noopener">hugo-beginner-tutorial</a></span></li><li><span>2024-08-29 — <a data-tooltip-position="top" aria-label="01 Project/人民公仆/关于公务员暨事业编备考的办法.md" data-href="01 Project/人民公仆/关于公务员暨事业编备考的办法.md" href="01 Project/人民公仆/关于公务员暨事业编备考的办法.md" class="internal-link" target="_blank" rel="noopener">关于公务员暨事业编备考的办法</a></span></li><li><span>2024-08-29 — <a data-tooltip-position="top" aria-label="01 Project/前端开发与网站建设/CSS.md" data-href="01 Project/前端开发与网站建设/CSS.md" href="01 Project/前端开发与网站建设/CSS.md" class="internal-link" target="_blank" rel="noopener">CSS</a></span></li><li><span>2024-08-29 — <a data-tooltip-position="top" aria-label="01 Project/前端开发与网站建设/HTML.md" data-href="01 Project/前端开发与网站建设/HTML.md" href="01 Project/前端开发与网站建设/HTML.md" class="internal-link" target="_blank" rel="noopener">HTML</a></span></li></ul></div>
 **⏰ 最近更新：**
-- [[01 Project/Content/Obsidian 基础玩法\|Obsidian 基础玩法]]: August 29, 2024
-- [[01 Project/Program/NotionNext项目学Git\|NotionNext项目学Git]]: August 29, 2024
-- [[01 Project/Program/Python/01 人人都能玩Python\|01 人人都能玩Python]]: August 29, 2024
-- [[01 Project/Program/Python/列表的使用\|列表的使用]]: August 29, 2024
+<div><ul class="dataview list-view-ul"><li><span>2024-08-30 — <a data-tooltip-position="top" aria-label="01 Project/Content/Markdown语法示例.md" data-href="01 Project/Content/Markdown语法示例.md" href="01 Project/Content/Markdown语法示例.md" class="internal-link" target="_blank" rel="noopener">Markdown语法示例</a></span></li><li><span>2024-08-30 — <a data-tooltip-position="top" aria-label="01 Project/Content/如何成长为一名合格的键盘侠.md" data-href="01 Project/Content/如何成长为一名合格的键盘侠.md" href="01 Project/Content/如何成长为一名合格的键盘侠.md" class="internal-link" target="_blank" rel="noopener">如何成长为一名合格的键盘侠</a></span></li><li><span>2024-08-30 — <a data-tooltip-position="top" aria-label="01 Project/项目.md" data-href="01 Project/项目.md" href="01 Project/项目.md" class="internal-link" target="_blank" rel="noopener">项目</a></span></li><li><span>2024-08-30 — <a data-tooltip-position="top" aria-label="02 Area/领域.md" data-href="02 Area/领域.md" href="02 Area/领域.md" class="internal-link" target="_blank" rel="noopener">领域</a></span></li><li><span>2024-08-30 — <a data-tooltip-position="top" aria-label="03 Resource/notionblog/关于公务员暨事业编备考的办法/判断推理/平面推理.md" data-href="03 Resource/notionblog/关于公务员暨事业编备考的办法/判断推理/平面推理.md" href="03 Resource/notionblog/关于公务员暨事业编备考的办法/判断推理/平面推理.md" class="internal-link" target="_blank" rel="noopener">平面推理</a></span></li></ul></div>
+**🌱 相关阅读：**
 
-{ .block-language-dataview}
-```contributionGraph
-title: Contributions
-graphType: default
-dateRangeValue: 180
-dateRangeType: LATEST_DAYS
-startOfWeek: 1
-showCellRuleIndicators: true
-titleStyle:
-  textAlign: left
-  fontSize: 15px
-  fontWeight: normal
-dataSource:
-  type: PAGE
-  value: ""
-  dateField: {}
-fillTheScreen: false
-enableMainContainerShadow: false
-cellStyleRules: []
-
-```
-
-## 延伸阅读
-[数字花园的简史和精神](https://maggieappleton.com/garden-history)
-[你和你的思想花园](https://nesslabs.com/mind-garden)
-[我的博客是一个数字花园，而不是一个博客](https://joelhooks.com/digital-garden)
-[数字花园-建立维基并关注知识 ](https://tomcritchlow.com/blogchains/digital-gardens/)
-[如何建立数字花园？](https://flowus.cn/widgetstore/share/142a8152-e175-49a4-8208-8d628aafd8c7)
+- [数字花园的简史和精神](https://maggieappleton.com/garden-history)
+- [你和你的思想花园](https://nesslabs.com/mind-garden)
+- [我的博客是一个数字花园，而不是一个博客](https://joelhooks.com/digital-garden)
+- [数字花园-建立维基并关注知识 ](https://tomcritchlow.com/blogchains/digital-gardens/)
+- [如何建立数字花园？](https://flowus.cn/widgetstore/share/142a8152-e175-49a4-8208-8d628aafd8c7)
 
