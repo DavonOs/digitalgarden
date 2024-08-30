@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"gardensetting","tags":["digitalgarden"],"sticker":"emoji//1f527","permalink":"/gardensetting/","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-permalink":"dgarden","tags":["digitalgarden"],"sticker":"emoji//1f527","permalink":"/dgarden/","dgPassFrontmatter":true}
 ---
 
 
