@@ -21,10 +21,28 @@ Hello 👋，我是 Davon，欢迎来到我的数字花园🌱。
 
 ---
 **🆕 最近创建**：
-<div><ul class="dataview list-view-ul"><li><span>2024-08-30 — <a data-tooltip-position="top" aria-label="04 Archive/归档.md" data-href="04 Archive/归档.md" href="04 Archive/归档.md" class="internal-link" target="_blank" rel="noopener">归档</a></span></li><li><span>2024-08-29 — <a data-tooltip-position="top" aria-label="01 Project/Content/内容创作指南.md" data-href="01 Project/Content/内容创作指南.md" href="01 Project/Content/内容创作指南.md" class="internal-link" target="_blank" rel="noopener">内容创作指南</a></span></li><li><span>2024-08-29 — <a data-tooltip-position="top" aria-label="01 Project/Program/Hugo/hugo-beginner-tutorial.md" data-href="01 Project/Program/Hugo/hugo-beginner-tutorial.md" href="01 Project/Program/Hugo/hugo-beginner-tutorial.md" class="internal-link" target="_blank" rel="noopener">hugo-beginner-tutorial</a></span></li><li><span>2024-08-29 — <a data-tooltip-position="top" aria-label="01 Project/人民公仆/关于公务员暨事业编备考的办法.md" data-href="01 Project/人民公仆/关于公务员暨事业编备考的办法.md" href="01 Project/人民公仆/关于公务员暨事业编备考的办法.md" class="internal-link" target="_blank" rel="noopener">关于公务员暨事业编备考的办法</a></span></li><li><span>2024-08-29 — <a data-tooltip-position="top" aria-label="01 Project/前端开发与网站建设/CSS.md" data-href="01 Project/前端开发与网站建设/CSS.md" href="01 Project/前端开发与网站建设/CSS.md" class="internal-link" target="_blank" rel="noopener">CSS</a></span></li></ul></div>
+```dataviewjs
+const now = moment();
+dv.list(
+	dv.pages()
+		.filter(p=>moment(Number(p.file.cday)).isBetween(now.clone().subtract(7, 'days'), now, null, '[]'))
+		.sort(p=>p.file.cday,'desc')
+		.map(p=>moment(Number(p.file.cday)).format('yyyy-MM-DD')+' — '+p.file.link)
+		.limit(5)
+)
+```
 
 **⏰ 最近更新**：
-<div><ul class="dataview list-view-ul"><li><span>2024-08-30 — <a data-tooltip-position="top" aria-label="01 Project/Content/Markdown语法示例.md" data-href="01 Project/Content/Markdown语法示例.md" href="01 Project/Content/Markdown语法示例.md" class="internal-link" target="_blank" rel="noopener">Markdown语法示例</a></span></li><li><span>2024-08-30 — <a data-tooltip-position="top" aria-label="01 Project/Content/如何成长为一名合格的键盘侠.md" data-href="01 Project/Content/如何成长为一名合格的键盘侠.md" href="01 Project/Content/如何成长为一名合格的键盘侠.md" class="internal-link" target="_blank" rel="noopener">如何成长为一名合格的键盘侠</a></span></li><li><span>2024-08-30 — <a data-tooltip-position="top" aria-label="01 Project/前端开发与网站建设/JS.md" data-href="01 Project/前端开发与网站建设/JS.md" href="01 Project/前端开发与网站建设/JS.md" class="internal-link" target="_blank" rel="noopener">JS</a></span></li><li><span>2024-08-30 — <a data-tooltip-position="top" aria-label="01 Project/项目.md" data-href="01 Project/项目.md" href="01 Project/项目.md" class="internal-link" target="_blank" rel="noopener">项目</a></span></li><li><span>2024-08-30 — <a data-tooltip-position="top" aria-label="02 Area/学习碎片.md" data-href="02 Area/学习碎片.md" href="02 Area/学习碎片.md" class="internal-link" target="_blank" rel="noopener">学习碎片</a></span></li></ul></div>
+```dataviewjs
+const now = moment();
+dv.list(
+	dv.pages()
+		.filter(p=>moment(Number(p.file.mday)).isBetween(now.clone().subtract(7, 'days'), now, null, '[]'))
+		.sort(p=>p.file.mday,'desc')
+		.map(p=>moment(Number(p.file.mday)).format('yyyy-MM-DD')+' — '+p.file.link)
+		.limit(5)
+)
+```
 
 
 
