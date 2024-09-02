@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"git","tags":["learn/program/git"],"permalink":"/git/","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-permalink":"git","permalink":"/git/","tags":["learn/program/git"]}
 ---
 
 >[!tip]- Git是一个分布式的版本控制软件

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"hugodev","permalink":"/hugodev/","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-permalink":"hugodev","permalink":"/hugodev/"}
 ---
 
 
@@ -1456,38 +1456,14 @@ Netlify会部署它并给它一个随机的域名。
 如果你不想要你的URL中的`.netlify.app`部分，你可以付费购买一个真正的域名并按照这些文档进行设置。
 
 
-
-
-
-[Build the Fastest Blog Website with Markdown Content | Hugo Static Site Generation Tutorial (youtube.com)](https://www.youtube.com/watch?v=6BRZ-yHjYwo)
-
-如何使用Hugo —— 一个简单的静态网站生成器，从头开始建立自己博客的基础教程。
-
-[Source Code](https://github.com/safak/markdown-blog)
-
-[Hugo + PaperMod搭建技术博客 | Kunyang's Blog (kyxie.github.io)](https://kyxie.github.io/zh/blog/tech/papermod/#%e5%88%9b%e5%bb%ba%e6%96%87%e7%ab%a0)
-
-[折腾 Hugo & PaperMod 主题 - Dvel's Blog](https://dvel.me/posts/hugo-papermod-config/)
-
-
-[Hugo框架中文文档 标签分类](https://www.andbible.com/post/hugo-content-management-taxonomies/#configuring-taxonomies)
-
-
-
-[自定义hugo主题](https://juejin.cn/post/7151253414427492382)
-
-[Hugo博客搭建流程](https://www.wuhao.ink/zh-cn/blog/)
-
 [Hugo开发主题](https://shuzang.github.io/2020/hugo-develop-themes-1-content-management/)
 
 [从零构建Hugo主题 ](https://tomo.dev/posts/create-hugo-theme-from-scratch/part-one/)
-
-[博客迁移——Hugo使用整体概览](https://www.rectcircle.cn/posts/blog-migration/)
 
 [Hello-Hugo博客迁移踩坑](https://immmmm.com/hello-hugo/)
 
 [Hugo系列-通过配置文件来定制个人站点](https://lewky.cn/posts/hugo-2.html/)
 
-[WebStack-Hugo - WebStack-Hugo | 一个静态响应式网址导航主题 - 《技术私房菜》 - 极客文档 (geekdaxue.co)](https://geekdaxue.co/read/shenweiyan@cookbook/webstack-hugo)
+[WebStack-Hugo | 一个静态响应式网址导航主题 ](https://geekdaxue.co/read/shenweiyan@cookbook/webstack-hugo)
 
 

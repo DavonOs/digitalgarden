@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"content/obsidian/basic","tags":["obsidian"],"permalink":"/content/obsidian/basic/","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-permalink":"content/obsidian/basic","permalink":"/content/obsidian/basic/","tags":["obsidian"]}
 ---
 
 
@@ -471,18 +471,17 @@ Quick Explore
 
 ## DateView
 
-| File                                                                          | 创建日期                       |
-| ----------------------------------------------------------------------------- | -------------------------- |
-| [[02 Area/视觉笔记术\|视觉笔记术]]                                                   | 9:56 PM - August 30, 2024  |
-| [[04 Archive/归档\|归档]]                                                      | 8:45 PM - August 30, 2024  |
-| [[01 Project/前端开发与网站建设/SVG\|SVG]]                                          | 10:25 PM - August 29, 2024 |
-| [[01 Project/前端开发与网站建设/JS\|JS]]                                            | 10:25 PM - August 29, 2024 |
-| [[01 Project/前端开发与网站建设/CSS\|CSS]]                                          | 10:25 PM - August 29, 2024 |
-| [[01 Project/前端开发与网站建设/HTML\|HTML]]                                        | 10:24 PM - August 29, 2024 |
-| [[01 Project/Program/Hugo/hugo-beginner-tutorial\|hugo-beginner-tutorial]] | 4:26 PM - August 29, 2024  |
-| [[01 Project/Content/内容创作指南\|内容创作指南]]                                      | 11:21 AM - August 29, 2024 |
-| [[01 Project/人民公仆/关于公务员暨事业编备考的办法\|关于公务员暨事业编备考的办法]]                         | 8:33 AM - August 29, 2024  |
-| [[01 Project/项目\|项目]]                                                      | 8:12 AM - August 29, 2024  |
+| File                                                                              | 创建日期                          |
+| --------------------------------------------------------------------------------- | ----------------------------- |
+| [[blog/content/posts/_index\|_index]]                                          | 12:53 PM - September 02, 2024 |
+| [[blog/content/series\|series]]                                                | 11:57 AM - September 02, 2024 |
+| [[blog/content/search\|search]]                                                | 9:13 PM - September 01, 2024  |
+| [[blog/content/archives\|archives]]                                            | 9:11 PM - September 01, 2024  |
+| [[blog/themes/PaperMod/README\|README]]                                        | 8:39 PM - September 01, 2024  |
+| [[blog/archetypes/default\|default]]                                           | 8:39 PM - September 01, 2024  |
+| [[01 Project/Program/Hugo/以PaperMod主题为例，简要部署Hugo站点\|以PaperMod主题为例，简要部署Hugo站点]] | 4:23 PM - September 01, 2024  |
+| [[02 Area/视觉笔记术\|视觉笔记术]]                                                       | 9:56 PM - August 30, 2024     |
+| [[04 Archive/归档\|归档]]                                                          | 8:45 PM - August 30, 2024     |
 
 { .block-language-dataview}
 

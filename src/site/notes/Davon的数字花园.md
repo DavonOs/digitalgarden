@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"tags":["digitalgarden","gardenEntry"],"sticker":"emoji//1f3e1","permalink":"/Davon的数字花园/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/Davon的数字花园/","tags":["digitalgarden","gardenEntry"]}
 ---
 
 
@@ -21,30 +21,33 @@ Hello 👋，我是 Davon，欢迎来到我的数字花园🌱。
 
 ---
 **🆕 最近创建**：
-<div><ul class="dataview list-view-ul"><li><span>2024-08-30 — <a data-tooltip-position="top" aria-label="02 Area/视觉笔记术.md" data-href="02 Area/视觉笔记术.md" href="02 Area/视觉笔记术.md" class="internal-link" target="_blank" rel="noopener">视觉笔记术</a></span></li><li><span>2024-08-30 — <a data-tooltip-position="top" aria-label="04 Archive/归档.md" data-href="04 Archive/归档.md" href="04 Archive/归档.md" class="internal-link" target="_blank" rel="noopener">归档</a></span></li><li><span>2024-08-29 — <a data-tooltip-position="top" aria-label="01 Project/Content/内容创作指南.md" data-href="01 Project/Content/内容创作指南.md" href="01 Project/Content/内容创作指南.md" class="internal-link" target="_blank" rel="noopener">内容创作指南</a></span></li><li><span>2024-08-29 — <a data-tooltip-position="top" aria-label="01 Project/Program/Hugo/hugo-beginner-tutorial.md" data-href="01 Project/Program/Hugo/hugo-beginner-tutorial.md" href="01 Project/Program/Hugo/hugo-beginner-tutorial.md" class="internal-link" target="_blank" rel="noopener">hugo-beginner-tutorial</a></span></li><li><span>2024-08-29 — <a data-tooltip-position="top" aria-label="01 Project/前端开发与网站建设/CSS.md" data-href="01 Project/前端开发与网站建设/CSS.md" href="01 Project/前端开发与网站建设/CSS.md" class="internal-link" target="_blank" rel="noopener">CSS</a></span></li></ul></div>
+
+<div><ul class="dataview list-view-ul"><li><span>2024-09-02 — <a data-tooltip-position="top" aria-label="blog/content/posts/_index.md" data-href="blog/content/posts/_index.md" href="blog/content/posts/_index.md" class="internal-link" target="_blank" rel="noopener">_index</a></span></li><li><span>2024-09-02 — <a data-tooltip-position="top" aria-label="blog/content/series.md" data-href="blog/content/series.md" href="blog/content/series.md" class="internal-link" target="_blank" rel="noopener">series</a></span></li><li><span>2024-09-01 — <a data-tooltip-position="top" aria-label="01 Project/Program/Hugo/以PaperMod主题为例，简要部署Hugo站点.md" data-href="01 Project/Program/Hugo/以PaperMod主题为例，简要部署Hugo站点.md" href="01 Project/Program/Hugo/以PaperMod主题为例，简要部署Hugo站点.md" class="internal-link" target="_blank" rel="noopener">以PaperMod主题为例，简要部署Hugo站点</a></span></li><li><span>2024-09-01 — <a data-tooltip-position="top" aria-label="blog/archetypes/default.md" data-href="blog/archetypes/default.md" href="blog/archetypes/default.md" class="internal-link" target="_blank" rel="noopener">default</a></span></li><li><span>2024-09-01 — <a data-tooltip-position="top" aria-label="blog/content/archives.md" data-href="blog/content/archives.md" href="blog/content/archives.md" class="internal-link" target="_blank" rel="noopener">archives</a></span></li></ul></div>
+
 **⏰ 最近更新**：
-<div><ul class="dataview list-view-ul"><li><span>2024-08-31 — <a data-tooltip-position="top" aria-label="01 Project/Content/Markdown语法示例.md" data-href="01 Project/Content/Markdown语法示例.md" href="01 Project/Content/Markdown语法示例.md" class="internal-link" target="_blank" rel="noopener">Markdown语法示例</a></span></li><li><span>2024-08-31 — <a data-tooltip-position="top" aria-label="01 Project/Content/Obsidian 基础玩法.md" data-href="01 Project/Content/Obsidian 基础玩法.md" href="01 Project/Content/Obsidian 基础玩法.md" class="internal-link" target="_blank" rel="noopener">Obsidian 基础玩法</a></span></li><li><span>2024-08-31 — <a data-tooltip-position="top" aria-label="03 Resource/Book/图书专著/筚路维艰.md" data-href="03 Resource/Book/图书专著/筚路维艰.md" href="03 Resource/Book/图书专著/筚路维艰.md" class="internal-link" target="_blank" rel="noopener">筚路维艰</a></span></li><li><span>2024-08-31 — <a data-tooltip-position="top" aria-label="03 Resource/template/Book.md" data-href="03 Resource/template/Book.md" href="03 Resource/template/Book.md" class="internal-link" target="_blank" rel="noopener">Book</a></span></li><li><span>2024-08-31 — <a data-tooltip-position="top" aria-label="Davon的数字花园.md" data-href="Davon的数字花园.md" href="Davon的数字花园.md" class="internal-link" target="_blank" rel="noopener">Davon的数字花园</a></span></li></ul></div>
+
+<div><ul class="dataview list-view-ul"><li><span>2024-09-02 — <a data-tooltip-position="top" aria-label="01 Project/Content/Markdown语法示例.md" data-href="01 Project/Content/Markdown语法示例.md" href="01 Project/Content/Markdown语法示例.md" class="internal-link" target="_blank" rel="noopener">Markdown语法示例</a></span></li><li><span>2024-09-02 — <a data-tooltip-position="top" aria-label="01 Project/Content/内容创作指南.md" data-href="01 Project/Content/内容创作指南.md" href="01 Project/Content/内容创作指南.md" class="internal-link" target="_blank" rel="noopener">内容创作指南</a></span></li><li><span>2024-09-02 — <a data-tooltip-position="top" aria-label="03 Resource/notionblog/关于公务员暨事业编备考的办法/判断推理.md" data-href="03 Resource/notionblog/关于公务员暨事业编备考的办法/判断推理.md" href="03 Resource/notionblog/关于公务员暨事业编备考的办法/判断推理.md" class="internal-link" target="_blank" rel="noopener">判断推理</a></span></li><li><span>2024-09-02 — <a data-tooltip-position="top" aria-label="03 Resource/notionblog/关于公务员暨事业编备考的办法/判断推理/平面推理.md" data-href="03 Resource/notionblog/关于公务员暨事业编备考的办法/判断推理/平面推理.md" href="03 Resource/notionblog/关于公务员暨事业编备考的办法/判断推理/平面推理.md" class="internal-link" target="_blank" rel="noopener">平面推理</a></span></li><li><span>2024-09-02 — <a data-tooltip-position="top" aria-label="04 Archive/PSword.md" data-href="04 Archive/PSword.md" href="04 Archive/PSword.md" class="internal-link" target="_blank" rel="noopener">PSword</a></span></li></ul></div>
+
+倒计时
+今天还剩 5.33 小时，也就是 320 分钟，或者是 19200 秒；
+本周还剩 6.22 天，也就是 149.33 小时，或者是 8960.01 分钟，一共是 537600 秒；
+9 月还剩 30.22 天，也就是 725.33 小时，或者是 43520.01 分钟，这一共是 2611200 秒；
+
+百分比时间
+- 今日剩余：22.22%；
+- 本周剩余：88.89%；
+- 本月剩余：94.44%；
+- 今年剩余：33.21%；
+正计时
+- 今天已经过了 18.67 小时，也就是 1120 分钟，或者是 67200 秒；
+- 这周已经过了 18.67 小时，也就是 1120 分钟，或者是 67200 秒；
+- 这个月已经过了 42.67 小时，也就是 2560 分钟，或者是 153600 秒；
+- 今年已经过了 5802.67 小时，也就是 348160 分钟，或者是 20889600 秒；
+百分比时间
+- 今日已经过了：77.78%；
+- 本周已经过去：11.11%；
+- 本月已经过了：5.56%；
+- 今年已经过了：66.24%；
 
 
-### 倒计时
-- 今天还剩 11.87 小时，也就是 712 分钟，或者是 42721 秒；
-- 这周还剩 1.49 天，也就是 35.87 小时，或者是 2152.01 分钟，这一共是 129121 秒；
-- 8 月还剩 0.49 天，也就是 11.87 小时，或者是 712.01 分钟，这一共是 42721 秒；
 
-*百分比时间*
-- 今日剩余：49.45%；
-- 本周剩余：21.35%；
-- 本月剩余：1.5%；
-- 今年剩余：33.01%；
-
-### 正计时
-- 今天已经过了 12.13 小时，也就是 728 分钟，或者是 43679 秒；
-- 这周已经过了 132.13 小时，也就是 7928 分钟，或者是 475679 秒；
-- 这个月已经过了 780.13 小时，也就是 46808 分钟，或者是 2808479 秒；
-- 今年已经过了 5820.13 小时，也就是 349208 分钟，或者是 20952479 秒；
-
-*百分比时间*
-- 今日已经过了：50.55%；
-- 本周已经过去：78.65%；
-- 本月已经过了：98.5%；
-- 今年已经过了：66.44%；
