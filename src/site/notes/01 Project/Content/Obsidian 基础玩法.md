@@ -471,17 +471,11 @@ Quick Explore
 
 ## DateView
 
-| File                                                                              | 创建日期                          |
-| --------------------------------------------------------------------------------- | ----------------------------- |
-| [[blog/content/posts/_index\|_index]]                                          | 12:53 PM - September 02, 2024 |
-| [[blog/content/series\|series]]                                                | 11:57 AM - September 02, 2024 |
-| [[blog/content/search\|search]]                                                | 9:13 PM - September 01, 2024  |
-| [[blog/content/archives\|archives]]                                            | 9:11 PM - September 01, 2024  |
-| [[blog/themes/PaperMod/README\|README]]                                        | 8:39 PM - September 01, 2024  |
-| [[blog/archetypes/default\|default]]                                           | 8:39 PM - September 01, 2024  |
-| [[01 Project/Program/Hugo/以PaperMod主题为例，简要部署Hugo站点\|以PaperMod主题为例，简要部署Hugo站点]] | 4:23 PM - September 01, 2024  |
-| [[02 Area/视觉笔记术\|视觉笔记术]]                                                       | 9:56 PM - August 30, 2024     |
-| [[04 Archive/归档\|归档]]                                                          | 8:45 PM - August 30, 2024     |
+| File                                                                              | 创建日期                         |
+| --------------------------------------------------------------------------------- | ---------------------------- |
+| [[01 Project/Program/Hugo/以PaperMod主题为例，简要部署Hugo站点\|以PaperMod主题为例，简要部署Hugo站点]] | 4:23 PM - September 01, 2024 |
+| [[02 Area/视觉笔记术\|视觉笔记术]]                                                       | 9:56 PM - August 30, 2024    |
+| [[04 Archive/归档\|归档]]                                                          | 8:45 PM - August 30, 2024    |
 
 { .block-language-dataview}
 
