@@ -1,13 +1,21 @@
 ---
-{"dg-publish":true,"dg-permalink":"book/35761116","permalink":"/book/35761116/","title":"Building a Second Brain","tags":[{"{ tags }":null}],"created":"2024-5-24","updated":"2024-9-02"}
+{"dg-publish":true,"dg-permalink":"book/35761116","permalink":"/book/35761116/"}
 ---
 
 
-| File                                                                          | 作者          | 出版时间      | 创建时期        | 最后更新              | 评分 | 封面                                                                        |
-| ----------------------------------------------------------------------------- | ----------- | --------- | ----------- | ----------------- | -- | ------------------------------------------------------------------------- |
-| [[03 Resource/Book/图书专著/Building a Second Brain\|Building a Second Brain]] | Tiago Forte | 2022-6-14 | 2024-May-24 | 2024-September-02 | 8  | ![\|50](https://images-na.ssl-images-amazon.com/images/I/41kM1C62A0L.jpg) |
+| 封面                                                                     | 书名                      | 作者                           | 出版日  | 评分     |
+| ---------------------------------------------------------------------- | ----------------------- | ---------------------------- | ---- | ------ |
+| ![\|50](https://img3.doubanio.com/view/subject/l/public/s34114492.jpg) | Building a Second Brain | <ul><li>TiagoForte</li></ul> | 2022 | 8 ⭐⭐⭐⭐ |
 
 { .block-language-dataview}
+
+ 
+
+
+
+
+
+tags: books/B哲学宗教/B80思维科学
 
 
 
