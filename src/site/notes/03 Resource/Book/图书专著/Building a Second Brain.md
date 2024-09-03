@@ -1,22 +1,16 @@
 ---
-{"dg-publish":true,"dg-permalink":"book/35761116","permalink":"/book/35761116/"}
+{"dg-publish":true,"dg-permalink":"book/35761116","permalink":"/book/35761116/","tags":["books/B哲学宗教/B80思维科学"]}
 ---
 
 
-| 封面                                                                     | 书名                      | 作者                           | 出版日  | 评分     |
-| ---------------------------------------------------------------------- | ----------------------- | ---------------------------- | ---- | ------ |
-| ![\|50](https://img3.doubanio.com/view/subject/l/public/s34114492.jpg) | Building a Second Brain | <ul><li>TiagoForte</li></ul> | 2022 | 8 ⭐⭐⭐⭐ |
+| 封面                                                                     | 书名                      | 作者         | 状态 | 评分     |
+| ---------------------------------------------------------------------- | ----------------------- | ---------- | -- | ------ |
+| ![\|50](https://img3.doubanio.com/view/subject/l/public/s34114492.jpg) | Building a Second Brain | TiagoForte | \- | 8 ⭐⭐⭐⭐ |
 
 { .block-language-dataview}
 
  
-
-
-
-
-
-tags: books/B哲学宗教/B80思维科学
-
+Tiago Forte is one of the world’s foremost experts on productivity and has taught thousands of people around the world how timeless principles and the latest technology can revolutionize their productivity, creativity, and personal effectiveness. He has worked with organizations such as Genentech, Toyota Motor Corporation, and the Inter-American Development Bank, and appeared in a variety of publications, such as The New York Times, The Atlantic, and Harvard Business Review. Find out more at Fortelabs.co.
 
 
 
