@@ -4,7 +4,7 @@
 
 
 [Obsidian Help - Home ](https://help.obsidian.md/Home)
-<p><span>已使用 <em>Obsidian</em> 635 天，共创建 241 篇文档、13 个标签、3 个待办。 <br><br></span></p>
+<p><span>已使用 <em>Obsidian</em> 635 天，共创建 241 篇文档、14 个标签、3 个待办。 <br><br></span></p>
 ## 写在前面
 
 obsidian是什么？
@@ -161,7 +161,7 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 要将链接到的内容直接嵌入显示在当前文章中：在链接的开头，方括号前方加上“ ! ”
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/03-resource//" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/resource/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -486,6 +486,7 @@ Quick Explore
 
 | File                                                                        | 创建日期                          |
 | --------------------------------------------------------------------------- | ----------------------------- |
+| [[03 Resource/template/publisher\|publisher]]                            | 9:01 PM - September 04, 2024  |
 | [[01 Project/Program/Git\|Git]]                                          | 5:40 PM - September 04, 2024  |
 | [[03 Resource/网页收藏\|网页收藏]]                                               | 10:17 PM - September 03, 2024 |
 | [[03 Resource/善化学宫\|善化学宫]]                                               | 10:03 PM - September 03, 2024 |
@@ -494,6 +495,13 @@ Quick Explore
 { .block-language-dataview}
 
 把满足今天的日期减去创建文件的日期小于等于三天的文件，按照倒序排列，以表格的形式展示满足条件的文件的创建日期。
+
+今天已经过了 21.95 小时，占比 91.45%；还剩 2.05 小时，剩余：8.55%；
+本周已经过了 69.95 小时，占比 41.64%；还剩 4.09 天，也就是 98.05 小时，剩余 58.36%；
+9 月已经过了 93.95 小时，占比 12.23%；还剩 26.09 天，也就是 626.05 小时，剩余 81.52%；
+今年已经过了243.91 天，占比 66.83%；还剩 117.09 天，也就是 2810.05 小时，剩余：32.08%；
+
+
 [PKMer_Obsidian 插件：Dataview](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E7%A4%BE%E5%8C%BA%E6%8F%92%E4%BB%B6/dataview/dataview/)
 
 [unable redener inline dataviewquery](https://github.com/oleeskild/digitalgarden/issues/141)

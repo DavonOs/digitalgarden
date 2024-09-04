@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01 Project/Content/Markdown语法示例/"}
+{"dg-publish":true,"dg-permalink":"Markdown","permalink":"/Markdown/"}
 ---
 
 >微信公众号排版工具。问题或建议，请公众号留言。**[程序员翻身](#jump_8)**
