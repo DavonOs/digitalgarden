@@ -4,7 +4,7 @@
 
 
 [Obsidian Help - Home ](https://help.obsidian.md/Home)
-
+<p><span>已使用 <em>Obsidian</em> 635 天，共创建 241 篇文档、13 个标签、3 个待办。 <br><br></span></p>
 ## 写在前面
 
 obsidian是什么？
@@ -166,13 +166,27 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 
 
 
-[[03 Resource/Book/饶丰书房\|饶丰书房]]
+📚 [[03 Resource/Book/饶丰书房\|饶丰书房]] 以电子图书资源及笔记为主
 
+🏫 [[03 Resource/善化学宫\|善化学宫]] 以视频课程资源及笔记为主
+
+🌐 [[03 Resource/网页收藏\|网页收藏]] 以网页导航链接为主辅以 omnivore 同步
 
 </div></div>
 
 
+图床方案迭代
 
+https://imgur.com 无法正常访问，使用 [Imgur图床](https://imgur.la/upload/?lang=zh-CN) + [WebP Cloud Services](https://webp.se/)
+Imgur忘记账户密码。重新注册路过图床，发现上传次数受限制。
+
+2024-09-02 [CloudFlare+Telegraph-image 方案](https://imesong.com/posts/%E4%BD%BF%E7%94%A8-cloudflare-%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A%E6%95%99%E7%A8%8B/)已搭建成功，发现目前不支持webp。
+
+[ImgLink](https://Imglink.org)
+
+[Cloudflare R2 + WebP Cloud + PicGo](https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/) R2需要信用卡
+
+备选方案 [聚合图床](https://www.superbed.cn/)
 ### 查看链接
 
 查看链接内容
@@ -470,9 +484,12 @@ Quick Explore
 
 ## DateView
 
-| File                                                                              | 创建日期                         |
-| --------------------------------------------------------------------------------- | ---------------------------- |
-| [[01 Project/Program/Hugo/以PaperMod主题为例，简要部署Hugo站点\|以PaperMod主题为例，简要部署Hugo站点]] | 4:23 PM - September 01, 2024 |
+| File                                                                        | 创建日期                          |
+| --------------------------------------------------------------------------- | ----------------------------- |
+| [[01 Project/Program/Git\|Git]]                                          | 5:40 PM - September 04, 2024  |
+| [[03 Resource/网页收藏\|网页收藏]]                                               | 10:17 PM - September 03, 2024 |
+| [[03 Resource/善化学宫\|善化学宫]]                                               | 10:03 PM - September 03, 2024 |
+| [[01 Project/Program/Hugo/以PaperMod主题为例部署Hugo站点\|以PaperMod主题为例部署Hugo站点]] | 4:23 PM - September 01, 2024  |
 
 { .block-language-dataview}
 
@@ -482,6 +499,8 @@ Quick Explore
 [unable redener inline dataviewquery](https://github.com/oleeskild/digitalgarden/issues/141)
 
 [Dataview 示例文件库](https://s-blu.github.io/obsidian_dataview_example_vault/)
+
+[Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
 
 [DataviewJS 小白手册](https://forum-zh.obsidian.md/t/topic/27370)
 
