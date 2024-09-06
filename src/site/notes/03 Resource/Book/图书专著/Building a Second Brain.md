@@ -1,15 +1,15 @@
 ---
-{"dg-publish":true,"dg-permalink":"book/35761116","permalink":"/book/35761116/","metatags":{"description":"For the first time in history, we have instantaneous access to the world’s knowledge. There has never been a better time to learn, to contribute, and to improve ourselves. ","og:site_name":"DavonOs","og:title":"BuildingaSecondBrain","og:type":"book","og:url":"https://zuji.eu.org/book/35761116","og:image":"https://imglink.win/image/2024/09/03/xm1s1.webp","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"},"tags":["books/B哲学宗教/B80思维科学"]}
+{"dg-publish":true,"dg-permalink":"book/35761116","permalink":"/book/35761116/","metatags":{"description":"For the first time in history, we have instantaneous access to the world’s knowledge. There has never been a better time to learn, to contribute, and to improve ourselves. ","og:site_name":"DavonOs","og:title":"Building a Second Brain","og:type":"book","og:url":"https://zuji.eu.org/book/35761116","og:image":"https://imglink.win/image/2024/09/05/xKnio.webp","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"},"tags":["books/B哲学宗教/B80思维科学"]}
 ---
 
 
 | 封面                                                       | 书名                      | 作者         | 状态 | 评分     |
 | -------------------------------------------------------- | ----------------------- | ---------- | -- | ------ |
-| ![\|50](https://imglink.win/image/2024/09/03/xm1s1.webp) | Building a Second Brain | TiagoForte | \- | 8 ⭐⭐⭐⭐ |
+| ![\|50](https://imglink.win/image/2024/09/05/xKnio.webp) | Building a Second Brain | TiagoForte | \- | 8 ⭐⭐⭐⭐ |
 
 { .block-language-dataview}
 
- https://imglink.win/image/2024/09/03/xm1s1.webp
+
 Tiago Forte is one of the world’s foremost experts on productivity and has taught thousands of people around the world how timeless principles and the latest technology can revolutionize their productivity, creativity, and personal effectiveness. He has worked with organizations such as Genentech, Toyota Motor Corporation, and the Inter-American Development Bank, and appeared in a variety of publications, such as The New York Times, The Atlantic, and Harvard Business Review. Find out more at Fortelabs.co.
 
 
