@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"python","permalink":"/python/","metatags":{"description":"Python自学之路纪实","og:site_name":"DavonOs","og:title":"01 人人都能玩Python","og:type":"article","og:url":"https://zuji.eu.org/python","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","tags":["learn/program/python"]}}
+{"dg-publish":true,"dg-permalink":"python","permalink":"/python/","metatags":{"description":"Python自学之路纪实","og:site_name":"DavonOs","og:title":"01 人人都能玩Python","og:type":"article","og:url":"https://zuji.eu.org/python","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","tags":["learn/program/python"]},"created":"2022-02-17","updated":"2024-07-16"}
 ---
 
 你是否也曾在python自学的道路上曾经走的非常痛苦，长期挣扎在一个无法解决实际问题的低水平状态循环。
