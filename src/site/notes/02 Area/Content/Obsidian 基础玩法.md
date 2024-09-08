@@ -4,7 +4,7 @@
 
 
 [Obsidian Help - Home ](https://help.obsidian.md/Home)
-<p><span>已使用 <em>Obsidian</em> 637 天，共创建 241 篇文档、15 个标签、3 个待办。 <br><br></span></p>
+<p><span>已使用 <em>Obsidian</em> 639 天，共创建 241 篇文档、15 个标签、5 个待办。 <br><br></span></p>
 ## 写在前面
 
 obsidian是什么？
@@ -165,6 +165,20 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 
 
 
+
+**资源Reasource**：以后想参考的东西，将来可能有用的主题或兴趣
+
+基本上是对不属于项目或区域的任何事物的统称，可以包括你有兴趣收集相关信息的任何主题。例如：
+
+你对哪些主题感兴趣？建筑学；室内设计；英国文学；啤酒酿造。
+
+你在研究什么课题？ 习惯养成；做笔记；项目管理；营养。
+
+你希望能够参考哪些有用的信息？ 假期行程；生活目标；库存照片；产品评价。
+
+你有哪些爱好或爱好？ 咖啡；经典电影；嘻哈音乐；日本动漫。
+
+这些主题中的任何一个都可以成为其自己的资源文件夹。你也可以将它们视为“研究”或“参考资料”。它们是你正在跟踪的趋势、与你的工作或行业相关的想法、爱好和副业兴趣，以及你只是好奇的事情。这些文件夹就像你可能在学校保留的课堂笔记本：一个用于生物学，另一个用于历史，另一个用于数学。任何与当前项目或区域不相关或不可操作的注释或文件都可以放入资源中以供将来参考。
 
 📚 [[03 Resource/Book/饶丰书房\|饶丰书房]] 以电子图书资源及笔记为主
 
@@ -372,21 +386,17 @@ Quick Explore
 
 ## DateView
 
-| File                                             | 创建日期                          |
-| ------------------------------------------------ | ----------------------------- |
-| [[03 Resource/template/publisher\|publisher]] | 9:01 PM - September 04, 2024  |
-| [[01 Project/Program/Git\|Git]]               | 5:40 PM - September 04, 2024  |
-| [[03 Resource/网页收藏\|网页收藏]]                    | 10:17 PM - September 03, 2024 |
-| [[03 Resource/善化学宫\|善化学宫]]                    | 10:03 PM - September 03, 2024 |
+| File | 创建日期 |
+| ---- | ---- |
 
 { .block-language-dataview}
 
 把满足今天的日期减去创建文件的日期小于等于三天的文件，按照倒序排列，以表格的形式展示满足条件的文件的创建日期。
 
-今天已经过了 18.57 小时，占比 77.36%；还剩 5.43 小时，剩余：22.64%；
-本周已经过了 114.57 小时，占比 68.19%；还剩 2.23 天，也就是 53.43 小时，剩余 31.81%；
-9 月已经过了 138.57 小时，占比 18.04%；还剩 24.23 天，也就是 581.43 小时，剩余 75.71%；
-今年已经过了245.77 天，占比 67.34%；还剩 115.23 天，也就是 2765.43 小时，剩余：31.57%；
+今天已经过了 17.62 小时，占比 73.41%；还剩 6.38 小时，剩余：26.59%；
+本周已经过了 161.62 小时，占比 96.2%；还剩 0.27 天，也就是 6.38 小时，剩余 3.8%；
+9 月已经过了 185.62 小时，占比 24.17%；还剩 22.27 天，也就是 534.38 小时，剩余 69.58%；
+今年已经过了247.73 天，占比 67.87%；还剩 113.27 天，也就是 2718.38 小时，剩余：31.03%；
 
 ```
 <p><span><h2 data-heading="01 Project" dir="auto">01 Project</h2></span></p><p><span><a class="internal-link" data-href="#learn/program/git" href="#learn/program/git" target="_blank" rel="noopener"></a><a href="#learn/program/git" class="tag" target="_blank" rel="noopener">#learn/program/git</a> | <a class="internal-link" data-href="#learn/program/python" href="#learn/program/python" target="_blank" rel="noopener"></a><a href="#learn/program/python" class="tag" target="_blank" rel="noopener">#learn/program/python</a> | <a class="internal-link" data-href="#learn/program" href="#learn/program" target="_blank" rel="noopener"></a><a href="#learn/program" class="tag" target="_blank" rel="noopener">#learn/program</a> | <a class="internal-link" data-href="#learn" href="#learn" target="_blank" rel="noopener"></a><a href="#learn" class="tag" target="_blank" rel="noopener">#learn</a></span></p><p><span><h2 data-heading="02 Area" dir="auto">02 Area</h2></span></p><p><span><a class="internal-link" data-href="#excalidraw" href="#excalidraw" target="_blank" rel="noopener"></a><a href="#excalidraw" class="tag" target="_blank" rel="noopener">#excalidraw</a> | <a class="internal-link" data-href="#learn/program/python" href="#learn/program/python" target="_blank" rel="noopener"></a><a href="#learn/program/python" class="tag" target="_blank" rel="noopener">#learn/program/python</a> | <a class="internal-link" data-href="#learn/program" href="#learn/program" target="_blank" rel="noopener"></a><a href="#learn/program" class="tag" target="_blank" rel="noopener">#learn/program</a> | <a class="internal-link" data-href="#learn" href="#learn" target="_blank" rel="noopener"></a><a href="#learn" class="tag" target="_blank" rel="noopener">#learn</a> | <a class="internal-link" data-href="#obsidian" href="#obsidian" target="_blank" rel="noopener"></a><a href="#obsidian" class="tag" target="_blank" rel="noopener">#obsidian</a> | <a class="internal-link" data-href="#type" href="#type" target="_blank" rel="noopener"></a><a href="#type" class="tag" target="_blank" rel="noopener">#type</a></span></p><p><span><h2 data-heading="03 Resource" dir="auto">03 Resource</h2></span></p><p><span>[<a href="#Object" class="tag" target="_blank" rel="noopener">#Object</a>]](#Object]) | [#<a class="internal-link" data-href="#[object" href="#[object" target="_blank" rel="noopener">object</a> | <a class="internal-link" data-href="#books/A马列毛邓/A4毛著作" href="#books/A马列毛邓/A4毛著作" target="_blank" rel="noopener"></a><a href="#books/A马列毛邓/A4毛著作" class="tag" target="_blank" rel="noopener">#books/A马列毛邓/A4毛著作</a> | <a class="internal-link" data-href="#books/A马列毛邓" href="#books/A马列毛邓" target="_blank" rel="noopener"></a><a href="#books/A马列毛邓" class="tag" target="_blank" rel="noopener">#books/A马列毛邓</a> | <a class="internal-link" data-href="#books/B哲学宗教/B80思维科学" href="#books/B哲学宗教/B80思维科学" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教/B80思维科学" class="tag" target="_blank" rel="noopener">#books/B哲学宗教/B80思维科学</a> | <a class="internal-link" data-href="#books/B哲学宗教/B84心理学" href="#books/B哲学宗教/B84心理学" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教/B84心理学" class="tag" target="_blank" rel="noopener">#books/B哲学宗教/B84心理学</a> | <a class="internal-link" data-href="#books/B哲学宗教" href="#books/B哲学宗教" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教" class="tag" target="_blank" rel="noopener">#books/B哲学宗教</a> | <a class="internal-link" data-href="#books/G科教文体/G4教育" href="#books/G科教文体/G4教育" target="_blank" rel="noopener"></a><a href="#books/G科教文体/G4教育" class="tag" target="_blank" rel="noopener">#books/G科教文体/G4教育</a> | <a class="internal-link" data-href="#books/G科教文体" href="#books/G科教文体" target="_blank" rel="noopener"></a><a href="#books/G科教文体" class="tag" target="_blank" rel="noopener">#books/G科教文体</a> | <a class="internal-link" data-href="#books" href="#books" target="_blank" rel="noopener"></a><a href="#books" class="tag" target="_blank" rel="noopener">#books</a> | <a class="internal-link" data-href="#pomodoro" href="#pomodoro" target="_blank" rel="noopener"></a><a href="#pomodoro" class="tag" target="_blank" rel="noopener">#pomodoro</a></span></p><p><span><h2 data-heading="04 Archive" dir="auto">04 Archive</h2></span></p><p><span></span></p>

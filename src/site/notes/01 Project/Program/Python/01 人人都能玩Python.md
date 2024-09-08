@@ -2,9 +2,11 @@
 {"dg-publish":true,"dg-permalink":"python","permalink":"/python/","metatags":{"description":"Python自学之路纪实","og:site_name":"DavonOs","og:title":"01 人人都能玩Python","og:type":"article","og:url":"https://zuji.eu.org/python","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","tags":["learn/program/python"]}}
 ---
 
-你是否也曾在python自学的道路上曾经走的非常痛苦，长期挣扎在一个无法解决实际问题的低水平状态循环。看看你是否也和我一样犯过同样的错误：
+你是否也曾在python自学的道路上曾经走的非常痛苦，长期挣扎在一个无法解决实际问题的低水平状态循环。
 
-1. 收藏特多的教程和资源，给自己一种暗示——似乎我们正在取得进步、不断的收获新的知识
+看看你是否也和我一样犯过同样的错误：
+
+1. 收藏大量教程和资源，暗示自己——似乎正在取得进步、不断的收获新的知识
 2. 花费大量时间看视频，却无法坚持，总是重复观看相似内容，却仍旧什么也写不出来。
 3. 你陷入了思考，是否还值得继续，因为已经耗费了大量的沉默成本。你不得不进行取舍，一旦选择继续，又从第1步开始。即便选择放弃，过几个月后，因为某些事情、想法决定重新开始，又从第1步开始。
 
@@ -24,9 +26,9 @@
 
 1. 了解Excel功能栏里的基础按钮 以及 这些按钮的功能是什么
 
-比如：数据选项卡中有 分列按钮，它能够 将文本类型的字段进行分割；
+比如：数据选项卡中有 分列按钮，它能够 将文本类型的字段进行分割；排序按钮，它能够将字段进行排序；筛选按钮，能够按照一定规则让字段给我们返回需要的内容 
 
-排序按钮，它能够 将字段进行排序；筛选按钮，能够按照一定规则让字段给我们返回需要的内容 2. 打开Excel对这些功能按钮进行一个实操
+2. 打开Excel对这些功能按钮进行一个实操
 
 **那么回到Python也是同样：**
 
@@ -38,17 +40,9 @@
 
 教程目的：把Python当作Excel，将其应用于数据分析。
 
-参考书目：
-
-[Python编程：从入门到实践（第3版）](https://www.notion.so/Python-3-10489fdf77264fadb16542463c1f6349?pvs=21)
-
-[Python编程快速上手](https://www.notion.so/Python-bccdfb54e50f44c2aab8efdd9f193ef6?pvs=21)
-
-[Python极客项目编程](https://www.notion.so/Python-319807b5179e4d9f8f2ed5f2f51a8fc3?pvs=21)
-
-# Python基础语法
-
 - [ ] [[01 Project/Program/Python/变量和简单数据类型\|变量和简单数据类型]]
+- [ ] [[01 Project/Program/Python/列表的使用\|列表的使用]]
+- [ ] [[01 Project/Program/Python/分支与循环\|分支与循环]]
 
 [[01 Project/Program/Python/列表的使用\|列表的使用]]
 
@@ -58,8 +52,8 @@
 
 [字典](https://www.notion.so/29b0c07e4153436db41bd86d33a11b5e?pvs=21)
 
-[[01 Project/Program/Python/列表的使用\|< Prev]] | [[01 Project/Program/Python/变量和简单数据类型\|Next >]]
+参考书目：
 
-## 文章列表
-
-{ .block-language-dataview}
+[[03 Resource/Book/图书专著/Python编程：从入门到实践（第3版）\|Python编程：从入门到实践（第3版）]]
+[[03 Resource/Book/图书专著/Python编程快速上手\|Python编程快速上手]]
+[[03 Resource/Book/图书专著/Python极客项目编程\|Python极客项目编程]]
