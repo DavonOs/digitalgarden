@@ -2,8 +2,9 @@
 {"dg-publish":true,"permalink":"/Davon's 数字花园/","metatags":{"description":"这里是 🏡Davon的数字花园，是个人不断发展的想法的集合，作为半成品的思考，在可探索的空间中，随时间推移不断播种、修剪、塑造","og:site_name":"DavonOs","og:title":"Davon 的数字花园","og:type":"article","og:url":"https://zuji.eu.org","og:image":"https://wp.technologyreview.com/wp-content/uploads/2020/08/digital-garden_web.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["digitalgarden","gardenEntry"]}
 ---
 
+![dg](https://wp.technologyreview.com/wp-content/uploads/2020/08/digital-garden_web.jpg)
 
-Hello 👋，我是 Davon，欢迎来到我的数字花园🎉。
+Hello 👋，我是 [[Davon\|Davon]]，欢迎来到我的数字花园🎉。
 
 >[!tip]+ 这是什么
 >- 是思考过程的容器，不按日期时间组织，而是通过上下文关联链接在一起。
@@ -20,9 +21,7 @@ Hello 👋，我是 Davon，欢迎来到我的数字花园🎉。
 - 🗃️ [[04 Archive/归档\|归档]]
 
 **🆕 最近创建**：
-<div><ul class="dataview list-view-ul"><li><span>2024-09-03 — <a data-tooltip-position="top" aria-label="03 Resource/善化学宫.md" data-href="03 Resource/善化学宫.md" href="03 Resource/善化学宫.md" class="internal-link" target="_blank" rel="noopener">善化学宫</a></span></li></ul></div>
+<div><ul class="dataview list-view-ul"></ul></div>
 
 **⏰ 最近更新**：
-<div><ul class="dataview list-view-ul"><li><span>2024-09-08 — <a data-tooltip-position="top" aria-label="01 Project/Program/Python/01 人人都能玩Python.md" data-href="01 Project/Program/Python/01 人人都能玩Python.md" href="01 Project/Program/Python/01 人人都能玩Python.md" class="internal-link" target="_blank" rel="noopener">01 人人都能玩Python</a></span></li><li><span>2024-09-08 — <a data-tooltip-position="top" aria-label="01 Project/Program/Python/变量和简单数据类型.md" data-href="01 Project/Program/Python/变量和简单数据类型.md" href="01 Project/Program/Python/变量和简单数据类型.md" class="internal-link" target="_blank" rel="noopener">变量和简单数据类型</a></span></li><li><span>2024-09-08 — <a data-tooltip-position="top" aria-label="01 Project/人民公仆/行测的思维.md" data-href="01 Project/人民公仆/行测的思维.md" href="01 Project/人民公仆/行测的思维.md" class="internal-link" target="_blank" rel="noopener">行测的思维</a></span></li><li><span>2024-09-08 — <a data-tooltip-position="top" aria-label="02 Area/Content/Obsidian 基础玩法.md" data-href="02 Area/Content/Obsidian 基础玩法.md" href="02 Area/Content/Obsidian 基础玩法.md" class="internal-link" target="_blank" rel="noopener">Obsidian 基础玩法</a></span></li><li><span>2024-09-08 — <a data-tooltip-position="top" aria-label="03 Resource/Book/图书专著/Atomic Habits/Atomic Habits.md" data-href="03 Resource/Book/图书专著/Atomic Habits/Atomic Habits.md" href="03 Resource/Book/图书专著/Atomic Habits/Atomic Habits.md" class="internal-link" target="_blank" rel="noopener">Atomic Habits</a></span></li></ul></div>
-
-若发现令人不适或涉及隐私的内容，请联系我，🦀🦀: dth1995911@gmail.com。
+<div><ul class="dataview list-view-ul"><li><span>2024-09-13 — <a data-tooltip-position="top" aria-label="01 Project/Program/NotionNext项目学Git.md" data-href="01 Project/Program/NotionNext项目学Git.md" href="01 Project/Program/NotionNext项目学Git.md" class="internal-link" target="_blank" rel="noopener">NotionNext项目学Git</a></span></li><li><span>2024-09-13 — <a data-tooltip-position="top" aria-label="01 Project/项目.md" data-href="01 Project/项目.md" href="01 Project/项目.md" class="internal-link" target="_blank" rel="noopener">项目</a></span></li><li><span>2024-09-13 — <a data-tooltip-position="top" aria-label="03 Resource/Book/饶丰书房.md" data-href="03 Resource/Book/饶丰书房.md" href="03 Resource/Book/饶丰书房.md" class="internal-link" target="_blank" rel="noopener">饶丰书房</a></span></li><li><span>2024-09-13 — <a data-tooltip-position="top" aria-label="Davon's 数字花园.md" data-href="Davon's 数字花园.md" href="Davon's 数字花园.md" class="internal-link" target="_blank" rel="noopener">Davon's 数字花园</a></span></li><li><span>2024-09-13 — <a data-tooltip-position="top" aria-label="花园配置办法.md" data-href="花园配置办法.md" href="花园配置办法.md" class="internal-link" target="_blank" rel="noopener">花园配置办法</a></span></li></ul></div>
