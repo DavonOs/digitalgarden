@@ -4,7 +4,7 @@
 
 
 [Obsidian Help - Home ](https://help.obsidian.md/Home)
-<p><span>已使用 <em>Obsidian</em> 645 天，共创建 242 篇文档、16 个标签、5 个待办。 <br><br></span></p>
+<p><span>已使用 <em>Obsidian</em> 661 天，共创建 223 篇文档、16 个标签、4 个待办。 <br><br></span></p>
 ## 写在前面
 
 obsidian是什么？
@@ -31,6 +31,7 @@ Obsidian不是什么？
 - 运用双链建立知识网络
 - 最终形成自己的知识管理系统
 
+开箱即用的库
 - [GitHub - cumany/Blue-topaz-examples: Blue topaz themes example vault for Obsidian](https://github.com/cumany/Blue-topaz-examples)
     - 有非常多奇技淫巧，我个人建议可以将其作为大而全的词典，借鉴用法和代码，不推荐全盘照搬。
 - [GitHub - Rainbell129/Obsidian-Homepage: A dashboard for your obsidian vault.](https://github.com/Rainbell129/Obsidian-Homepage)
@@ -150,7 +151,7 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 
 链接到文章内的段落，指向具体的块：选中链接的文本块后输入”^“会自动生成随机的链接代码，可以自定义修改；在链接内的文章内容块尾部输入“^”即可选择文本块。
 
-[[01 Project/Program/Python/列表的使用#^3f2edd\|列表的使用#^3f2edd]]
+[[03 列表的使用#^3f2edd\|03 列表的使用#^3f2edd]]
 
 为链接的内容起一个别名：在链接内的文章名尾部输入“|”即可自定义链接别名
 
@@ -161,30 +162,34 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 要将链接到的内容直接嵌入显示在当前文章中：在链接的开头，方括号前方加上“ ! ”
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/resource/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/archive/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
 
-**资源Reasource**：以后想参考的东西，将来可能有用的主题或兴趣
 
-基本上是对不属于项目或区域的任何事物的统称，可以包括你有兴趣收集相关信息的任何主题。例如：
+[[02 Area/Content/Markdown语法示例\|Markdown语法示例]]
+[[02 Area/Content/如何成长为一名合格的键盘侠\|如何成长为一名合格的键盘侠]]
 
-你对哪些主题感兴趣？建筑学；室内设计；英国文学；啤酒酿造。
+**档案Archive**：我已经完成或搁置的事情，来自其他三个类别的非活动项目
 
-你在研究什么课题？ 习惯养成；做笔记；项目管理；营养。
+1. 已完成或取消的项目
+2. 你不再致力于维护的责任领域（例如关系结束或搬出公寓后）
+3. 不再相关的资源（你失去兴趣的爱好或你不再关心的主题）
 
-你希望能够参考哪些有用的信息？ 假期行程；生活目标；库存照片；产品评价。
+档案允许你将文件夹放在“冷藏库”中，这样它就不会弄乱你的工作空间，同时永远妥善保管它以备不时之需。
 
-你有哪些爱好或爱好？ 咖啡；经典电影；嘻哈音乐；日本动漫。
+只要它不分散你的日常注意力，永远保留数字内容不会受到任何惩罚。如果你将来需要访问该信息——例如，如果你从事与之前完成的项目类似的项目——你可以在几秒钟内调用它。
 
-这些主题中的任何一个都可以成为其自己的资源文件夹。你也可以将它们视为“研究”或“参考资料”。它们是你正在跟踪的趋势、与你的工作或行业相关的想法、爱好和副业兴趣，以及你只是好奇的事情。这些文件夹就像你可能在学校保留的课堂笔记本：一个用于生物学，另一个用于历史，另一个用于数学。任何与当前项目或区域不相关或不可操作的注释或文件都可以放入资源中以供将来参考。
+使用 PARA 不仅仅是创建一堆文件夹来放入东西。它是关于确定你的工作和生活的结构——你致力于什么，你想要改变什么，以及你想去哪里。
 
-📚 [[03 Resource/Book/饶丰书房\|饶丰书房]] 以电子图书资源及笔记为主
+首先是需要清晰的工作空间才能进行创作。
 
-🏫 [[03 Resource/善化学宫\|善化学宫]] 以视频课程资源及笔记为主
+归档步骤重要的原因：你不会丢失任何东西，而且都可以通过搜索找到，但你需要将其全部移出视线和脑海。
 
-🌐 [[03 Resource/网页收藏\|网页收藏]] 以网页导航链接为主辅以 omnivore 同步
+其次，创造新事物才是真正重要的。
+
+完成的创意项目是你第二大脑的血液流动。它们使整个系统保持滋养、新鲜，并为行动做好准备。无论你的笔记系统多么有条理、多么美观或令人印象深刻，都无关紧要。只有稳步完成实实在在的胜利，才能让你充满决心、动力和成就感。即使是最微小的突破也可以成为通往比你想象的更有创意、更有趣的未来的垫脚石。
 
 </div></div>
 
@@ -362,45 +367,28 @@ task-done：“”——已完成的任务
 插件类型：提供个性化功能；界面增强；展现增强；数据格式增强
 
 推荐插件
-
-`File Explorer Note Count`：文件数量
-
-`Recent File`：最近文件
-
-Pandoc：word转换
-
-Minimal Theme Setting：主题设置
-
-Mindmap：把内容转换成思维导图，但不能编辑
-
-Calendar：方便日记/周记新建和查找
-
-Tasks：Ctrl+P调用命令面板，搜索Tasks
-
-Obsidian memos：灵感记录，会在日记中过滤标签
-
+DataView
 Excalidraw：流程图设计
 
-Quick Explore
 
 
-## DateView
+## DataView
 
-| File                                                                                                                                | 创建日期                         |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| [[Omnivore/2024-09-13/cover-doks-1_hu14443107770676140131.webp (2100×900)\|cover-doks-1_hu14443107770676140131.webp (2100×900)]] | 8:17 PM - September 13, 2024 |
+| File                           | 创建日期                          |
+| ------------------------------ | ----------------------------- |
+| [[04 Archive/About\|About]] | 11:24 AM - September 30, 2024 |
 
 { .block-language-dataview}
 
 把满足今天的日期减去创建文件的日期小于等于三天的文件，按照倒序排列，以表格的形式展示满足条件的文件的创建日期。
 
-今天已经过了 22.01 小时，占比 91.71%；还剩 1.99 小时，剩余：8.29%；
-本周已经过了 142.01 小时，占比 84.53%；还剩 1.08 天，也就是 25.99 小时，剩余 15.47%；
-9 月已经过了 334.01 小时，占比 43.49%；还剩 16.08 天，也就是 385.99 小时，剩余 50.26%；
-今年已经过了253.92 天，占比 69.57%；还剩 107.08 天，也就是 2569.99 小时，剩余：29.34%；
+今天已经过了 15.63 小时，占比 65.14%；还剩 8.37 小时，剩余：34.86%；
+本周已经过了 15.63 小时，占比 9.31%；还剩 6.35 天，也就是 152.37 小时，剩余 90.69%；
+9 月已经过了 759.63 小时，占比 98.91%；还剩 0.35 天，也就是 8.37 小时，剩余 1.09%；
+今年已经过了271.65 天，占比 74.43%；还剩 91.35 天，也就是 2192.37 小时，剩余：25.03%；
 
 ```
-<p><span><h2 data-heading="01 Project" dir="auto">01 Project</h2></span></p><p><span><a class="internal-link" data-href="#learn/program/git" href="#learn/program/git" target="_blank" rel="noopener"></a><a href="#learn/program/git" class="tag" target="_blank" rel="noopener">#learn/program/git</a> | <a class="internal-link" data-href="#learn/program/python" href="#learn/program/python" target="_blank" rel="noopener"></a><a href="#learn/program/python" class="tag" target="_blank" rel="noopener">#learn/program/python</a> | <a class="internal-link" data-href="#learn/program" href="#learn/program" target="_blank" rel="noopener"></a><a href="#learn/program" class="tag" target="_blank" rel="noopener">#learn/program</a> | <a class="internal-link" data-href="#learn" href="#learn" target="_blank" rel="noopener"></a><a href="#learn" class="tag" target="_blank" rel="noopener">#learn</a></span></p><p><span><h2 data-heading="02 Area" dir="auto">02 Area</h2></span></p><p><span><a class="internal-link" data-href="#excalidraw" href="#excalidraw" target="_blank" rel="noopener"></a><a href="#excalidraw" class="tag" target="_blank" rel="noopener">#excalidraw</a> | <a class="internal-link" data-href="#learn/program/python" href="#learn/program/python" target="_blank" rel="noopener"></a><a href="#learn/program/python" class="tag" target="_blank" rel="noopener">#learn/program/python</a> | <a class="internal-link" data-href="#learn/program" href="#learn/program" target="_blank" rel="noopener"></a><a href="#learn/program" class="tag" target="_blank" rel="noopener">#learn/program</a> | <a class="internal-link" data-href="#learn" href="#learn" target="_blank" rel="noopener"></a><a href="#learn" class="tag" target="_blank" rel="noopener">#learn</a> | <a class="internal-link" data-href="#obsidian" href="#obsidian" target="_blank" rel="noopener"></a><a href="#obsidian" class="tag" target="_blank" rel="noopener">#obsidian</a> | <a class="internal-link" data-href="#type" href="#type" target="_blank" rel="noopener"></a><a href="#type" class="tag" target="_blank" rel="noopener">#type</a></span></p><p><span><h2 data-heading="03 Resource" dir="auto">03 Resource</h2></span></p><p><span>[<a href="#Object" class="tag" target="_blank" rel="noopener">#Object</a>]](#Object]) | [#<a class="internal-link" data-href="#[object" href="#[object" target="_blank" rel="noopener">object</a> | <a class="internal-link" data-href="#books/A马列毛邓/A4毛著作" href="#books/A马列毛邓/A4毛著作" target="_blank" rel="noopener"></a><a href="#books/A马列毛邓/A4毛著作" class="tag" target="_blank" rel="noopener">#books/A马列毛邓/A4毛著作</a> | <a class="internal-link" data-href="#books/A马列毛邓" href="#books/A马列毛邓" target="_blank" rel="noopener"></a><a href="#books/A马列毛邓" class="tag" target="_blank" rel="noopener">#books/A马列毛邓</a> | <a class="internal-link" data-href="#books/B哲学宗教/B80思维科学" href="#books/B哲学宗教/B80思维科学" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教/B80思维科学" class="tag" target="_blank" rel="noopener">#books/B哲学宗教/B80思维科学</a> | <a class="internal-link" data-href="#books/B哲学宗教/B84心理学" href="#books/B哲学宗教/B84心理学" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教/B84心理学" class="tag" target="_blank" rel="noopener">#books/B哲学宗教/B84心理学</a> | <a class="internal-link" data-href="#books/B哲学宗教" href="#books/B哲学宗教" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教" class="tag" target="_blank" rel="noopener">#books/B哲学宗教</a> | <a class="internal-link" data-href="#books/G科教文体/G4教育" href="#books/G科教文体/G4教育" target="_blank" rel="noopener"></a><a href="#books/G科教文体/G4教育" class="tag" target="_blank" rel="noopener">#books/G科教文体/G4教育</a> | <a class="internal-link" data-href="#books/G科教文体" href="#books/G科教文体" target="_blank" rel="noopener"></a><a href="#books/G科教文体" class="tag" target="_blank" rel="noopener">#books/G科教文体</a> | <a class="internal-link" data-href="#books" href="#books" target="_blank" rel="noopener"></a><a href="#books" class="tag" target="_blank" rel="noopener">#books</a> | <a class="internal-link" data-href="#pomodoro" href="#pomodoro" target="_blank" rel="noopener"></a><a href="#pomodoro" class="tag" target="_blank" rel="noopener">#pomodoro</a></span></p><p><span><h2 data-heading="04 Archive" dir="auto">04 Archive</h2></span></p><p><span></span></p><p><span><h2 data-heading="Omnivore" dir="auto">Omnivore</h2></span></p><p><span><a class="internal-link" data-href="#Omnivore" href="#Omnivore" target="_blank" rel="noopener"></a><a href="#Omnivore" class="tag" target="_blank" rel="noopener">#Omnivore</a></span></p>
+<p><span><h2 data-heading="01 Project" dir="auto">01 Project</h2></span></p><p><span><a class="internal-link" data-href="#learn/program/git" href="#learn/program/git" target="_blank" rel="noopener"></a><a href="#learn/program/git" class="tag" target="_blank" rel="noopener">#learn/program/git</a> | <a class="internal-link" data-href="#learn/program" href="#learn/program" target="_blank" rel="noopener"></a><a href="#learn/program" class="tag" target="_blank" rel="noopener">#learn/program</a> | <a class="internal-link" data-href="#learn" href="#learn" target="_blank" rel="noopener"></a><a href="#learn" class="tag" target="_blank" rel="noopener">#learn</a></span></p><p><span><h2 data-heading="02 Area" dir="auto">02 Area</h2></span></p><p><span><a class="internal-link" data-href="#excalidraw" href="#excalidraw" target="_blank" rel="noopener"></a><a href="#excalidraw" class="tag" target="_blank" rel="noopener">#excalidraw</a> | <a class="internal-link" data-href="#learn/program/python" href="#learn/program/python" target="_blank" rel="noopener"></a><a href="#learn/program/python" class="tag" target="_blank" rel="noopener">#learn/program/python</a> | <a class="internal-link" data-href="#learn/program" href="#learn/program" target="_blank" rel="noopener"></a><a href="#learn/program" class="tag" target="_blank" rel="noopener">#learn/program</a> | <a class="internal-link" data-href="#learn" href="#learn" target="_blank" rel="noopener"></a><a href="#learn" class="tag" target="_blank" rel="noopener">#learn</a> | <a class="internal-link" data-href="#obsidian" href="#obsidian" target="_blank" rel="noopener"></a><a href="#obsidian" class="tag" target="_blank" rel="noopener">#obsidian</a> | <a class="internal-link" data-href="#type" href="#type" target="_blank" rel="noopener"></a><a href="#type" class="tag" target="_blank" rel="noopener">#type</a></span></p><p><span><h2 data-heading="03 Resource" dir="auto">03 Resource</h2></span></p><p><span>[<a href="#Object" class="tag" target="_blank" rel="noopener">#Object</a>]](#Object]) | [#<a class="internal-link" data-href="#[object" href="#[object" target="_blank" rel="noopener">object</a> | <a class="internal-link" data-href="#books/A马列毛邓/A4毛著作" href="#books/A马列毛邓/A4毛著作" target="_blank" rel="noopener"></a><a href="#books/A马列毛邓/A4毛著作" class="tag" target="_blank" rel="noopener">#books/A马列毛邓/A4毛著作</a> | <a class="internal-link" data-href="#books/A马列毛邓" href="#books/A马列毛邓" target="_blank" rel="noopener"></a><a href="#books/A马列毛邓" class="tag" target="_blank" rel="noopener">#books/A马列毛邓</a> | <a class="internal-link" data-href="#books/B哲学宗教/B80思维科学" href="#books/B哲学宗教/B80思维科学" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教/B80思维科学" class="tag" target="_blank" rel="noopener">#books/B哲学宗教/B80思维科学</a> | <a class="internal-link" data-href="#books/B哲学宗教/B84心理学" href="#books/B哲学宗教/B84心理学" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教/B84心理学" class="tag" target="_blank" rel="noopener">#books/B哲学宗教/B84心理学</a> | <a class="internal-link" data-href="#books/B哲学宗教" href="#books/B哲学宗教" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教" class="tag" target="_blank" rel="noopener">#books/B哲学宗教</a> | <a class="internal-link" data-href="#books/G科教文体/G4教育" href="#books/G科教文体/G4教育" target="_blank" rel="noopener"></a><a href="#books/G科教文体/G4教育" class="tag" target="_blank" rel="noopener">#books/G科教文体/G4教育</a> | <a class="internal-link" data-href="#books/G科教文体" href="#books/G科教文体" target="_blank" rel="noopener"></a><a href="#books/G科教文体" class="tag" target="_blank" rel="noopener">#books/G科教文体</a> | <a class="internal-link" data-href="#books" href="#books" target="_blank" rel="noopener"></a><a href="#books" class="tag" target="_blank" rel="noopener">#books</a> | <a class="internal-link" data-href="#pomodoro" href="#pomodoro" target="_blank" rel="noopener"></a><a href="#pomodoro" class="tag" target="_blank" rel="noopener">#pomodoro</a></span></p><p><span><h2 data-heading="04 Archive" dir="auto">04 Archive</h2></span></p><p><span></span></p><p><span><h2 data-heading="Omnivore" dir="auto">Omnivore</h2></span></p><p><span><a class="internal-link" data-href="#Omnivore" href="#Omnivore" target="_blank" rel="noopener"></a><a href="#Omnivore" class="tag" target="_blank" rel="noopener">#Omnivore</a></span></p>
 ```
 
 
@@ -415,23 +403,12 @@ Quick Explore
 [DataviewJS 小白手册](https://forum-zh.obsidian.md/t/topic/27370)
 
 [Dataviewjs的奇技淫巧](https://forum-zh.obsidian.md/t/topic/5954)
-# HTML + CSS + SVG
 
-## CSS
 
-多栏布局
+
+CSS 多栏布局
 
 参考MCL CSS：[MCL Multi Column—通过 CSS 和Callout实现分栏样式](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E5%A4%96%E8%A7%82/css-%E7%89%87%E6%AE%B5/obsidian%E6%A0%B7%E5%BC%8F-mcl-multi-column/)
 
-> [!multi-column]
->
->> [!note]+ Work
->> your notes or lists here. using markdown formatting
->
->> [!warning]+ Personal
->> your notes or lists here. using markdown formatting
->
->> [!summary]+ Charity
->> your notes or lists here. using markdown formatting
 
 
