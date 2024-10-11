@@ -4,7 +4,7 @@
 
 
 [Obsidian Help - Home ](https://help.obsidian.md/Home)
-<p><span>已使用 <em>Obsidian</em> 661 天，共创建 222 篇文档、16 个标签、4 个待办。 <br><br></span></p>
+<p><span>已使用 <em>Obsidian</em> 672 天，共创建 223 篇文档、16 个标签、4 个待办。 <br><br></span></p>
 ## 写在前面
 
 obsidian是什么？
@@ -374,18 +374,18 @@ Excalidraw：流程图设计
 
 ## DataView
 
-| File                           | 创建日期                          |
-| ------------------------------ | ----------------------------- |
-| [[04 Archive/About\|About]] | 11:24 AM - September 30, 2024 |
+| File                                                                      | 创建日期                        |
+| ------------------------------------------------------------------------- | --------------------------- |
+| [[Omnivore/2024-10-11/SamuelQZQ Blog - 数字游牧人\|SamuelQZQ Blog - 数字游牧人]] | 11:19 AM - October 11, 2024 |
 
 { .block-language-dataview}
 
 把满足今天的日期减去创建文件的日期小于等于三天的文件，按照倒序排列，以表格的形式展示满足条件的文件的创建日期。
 
-今天已经过了 17.18 小时，占比 71.59%；还剩 6.82 小时，剩余：28.41%；
-本周已经过了 17.18 小时，占比 10.23%；还剩 6.28 天，也就是 150.82 小时，剩余 89.77%；
-9 月已经过了 761.18 小时，占比 99.11%；还剩 0.28 天，也就是 6.82 小时，剩余 0.89%；
-今年已经过了271.72 天，占比 74.44%；还剩 91.28 天，也就是 2190.82 小时，剩余：25.01%；
+今天已经过了 11.39 小时，占比 47.46%；还剩 12.61 小时，剩余：52.54%；
+本周已经过了 107.39 小时，占比 63.92%；还剩 2.53 天，也就是 60.61 小时，剩余 36.08%；
+10 月已经过了 251.39 小时，占比 31.74%；还剩 20.53 天，也就是 492.61 小时，剩余 62.2%；
+今年已经过了280.47 天，占比 76.84%；还剩 80.53 天，也就是 1932.61 小时，剩余：22.06%；
 
 ```
 <p><span><h2 data-heading="01 Project" dir="auto">01 Project</h2></span></p><p><span><a class="internal-link" data-href="#learn/program/git" href="#learn/program/git" target="_blank" rel="noopener"></a><a href="#learn/program/git" class="tag" target="_blank" rel="noopener">#learn/program/git</a> | <a class="internal-link" data-href="#learn/program" href="#learn/program" target="_blank" rel="noopener"></a><a href="#learn/program" class="tag" target="_blank" rel="noopener">#learn/program</a> | <a class="internal-link" data-href="#learn" href="#learn" target="_blank" rel="noopener"></a><a href="#learn" class="tag" target="_blank" rel="noopener">#learn</a></span></p><p><span><h2 data-heading="02 Area" dir="auto">02 Area</h2></span></p><p><span><a class="internal-link" data-href="#excalidraw" href="#excalidraw" target="_blank" rel="noopener"></a><a href="#excalidraw" class="tag" target="_blank" rel="noopener">#excalidraw</a> | <a class="internal-link" data-href="#learn/program/python" href="#learn/program/python" target="_blank" rel="noopener"></a><a href="#learn/program/python" class="tag" target="_blank" rel="noopener">#learn/program/python</a> | <a class="internal-link" data-href="#learn/program" href="#learn/program" target="_blank" rel="noopener"></a><a href="#learn/program" class="tag" target="_blank" rel="noopener">#learn/program</a> | <a class="internal-link" data-href="#learn" href="#learn" target="_blank" rel="noopener"></a><a href="#learn" class="tag" target="_blank" rel="noopener">#learn</a> | <a class="internal-link" data-href="#obsidian" href="#obsidian" target="_blank" rel="noopener"></a><a href="#obsidian" class="tag" target="_blank" rel="noopener">#obsidian</a> | <a class="internal-link" data-href="#type" href="#type" target="_blank" rel="noopener"></a><a href="#type" class="tag" target="_blank" rel="noopener">#type</a></span></p><p><span><h2 data-heading="03 Resource" dir="auto">03 Resource</h2></span></p><p><span>[<a href="#Object" class="tag" target="_blank" rel="noopener">#Object</a>]](#Object]) | [#<a class="internal-link" data-href="#[object" href="#[object" target="_blank" rel="noopener">object</a> | <a class="internal-link" data-href="#books/A马列毛邓/A4毛著作" href="#books/A马列毛邓/A4毛著作" target="_blank" rel="noopener"></a><a href="#books/A马列毛邓/A4毛著作" class="tag" target="_blank" rel="noopener">#books/A马列毛邓/A4毛著作</a> | <a class="internal-link" data-href="#books/A马列毛邓" href="#books/A马列毛邓" target="_blank" rel="noopener"></a><a href="#books/A马列毛邓" class="tag" target="_blank" rel="noopener">#books/A马列毛邓</a> | <a class="internal-link" data-href="#books/B哲学宗教/B80思维科学" href="#books/B哲学宗教/B80思维科学" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教/B80思维科学" class="tag" target="_blank" rel="noopener">#books/B哲学宗教/B80思维科学</a> | <a class="internal-link" data-href="#books/B哲学宗教/B84心理学" href="#books/B哲学宗教/B84心理学" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教/B84心理学" class="tag" target="_blank" rel="noopener">#books/B哲学宗教/B84心理学</a> | <a class="internal-link" data-href="#books/B哲学宗教" href="#books/B哲学宗教" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教" class="tag" target="_blank" rel="noopener">#books/B哲学宗教</a> | <a class="internal-link" data-href="#books/G科教文体/G4教育" href="#books/G科教文体/G4教育" target="_blank" rel="noopener"></a><a href="#books/G科教文体/G4教育" class="tag" target="_blank" rel="noopener">#books/G科教文体/G4教育</a> | <a class="internal-link" data-href="#books/G科教文体" href="#books/G科教文体" target="_blank" rel="noopener"></a><a href="#books/G科教文体" class="tag" target="_blank" rel="noopener">#books/G科教文体</a> | <a class="internal-link" data-href="#books" href="#books" target="_blank" rel="noopener"></a><a href="#books" class="tag" target="_blank" rel="noopener">#books</a> | <a class="internal-link" data-href="#pomodoro" href="#pomodoro" target="_blank" rel="noopener"></a><a href="#pomodoro" class="tag" target="_blank" rel="noopener">#pomodoro</a></span></p><p><span><h2 data-heading="04 Archive" dir="auto">04 Archive</h2></span></p><p><span></span></p><p><span><h2 data-heading="Omnivore" dir="auto">Omnivore</h2></span></p><p><span><a class="internal-link" data-href="#Omnivore" href="#Omnivore" target="_blank" rel="noopener"></a><a href="#Omnivore" class="tag" target="_blank" rel="noopener">#Omnivore</a></span></p>
