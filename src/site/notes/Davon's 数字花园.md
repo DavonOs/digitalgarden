@@ -24,4 +24,4 @@ Hello 👋，我是 [[04 Archive/About\|Davon]]，欢迎来到我的数字花园
 <div><ul class="dataview list-view-ul"></ul></div>
 
 **⏰ 最近更新**：
-<div><ul class="dataview list-view-ul"><li><span>2024-10-11 — <a data-tooltip-position="top" aria-label="04 Archive/About.md" data-href="04 Archive/About.md" href="04 Archive/About.md" class="internal-link" target="_blank" rel="noopener">About</a></span></li></ul></div>
+<div><ul class="dataview list-view-ul"><li><span>2024-10-12 — <a data-tooltip-position="top" aria-label="04 Archive/About.md" data-href="04 Archive/About.md" href="04 Archive/About.md" class="internal-link" target="_blank" rel="noopener">About</a></span></li></ul></div>
