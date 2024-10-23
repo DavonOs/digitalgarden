@@ -1,35 +1,11 @@
 ---
-{"dg-publish":true,"dg-permalink":"obsidianbasic","permalink":"/obsidianbasic/","metatags":{"description":"这里是 🏡Davon的数字花园，是个人不断发展的想法的集合，作为半成品的思考，在可探索的空间中，随时间推移不断播种、修剪、塑造","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidianbasic","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"]}
+{"dg-publish":true,"dg-permalink":"obsidianbasic","permalink":"/obsidianbasic/","metatags":{"description":"这里是 Obsidian 从0到1的新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidianbasic","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"]}
 ---
 
 
 [Obsidian Help - Home ](https://help.obsidian.md/Home)
-<p><span>已使用 <em>Obsidian</em> 676 天，共创建 223 篇文档、16 个标签、4 个待办。 <br><br></span></p>
+<p><span>已使用 <em>Obsidian</em> 684 天，共创建 224 篇文档、16 个标签、11 个待办。 <br><br></span></p>
 ## 写在前面
-
-obsidian是什么？
-- 码字工具
-- 深度管理知识内容片段的工具
-	- 内容为基础
-	- 链接为核心
-
-Obsidian不是什么？
-- 不是信息收集工具
-- 不是Word
-- 不是时间管理工具
-
-我要用obsidian做什么？
-- 写作
-- 建立深度知识库
-	- 关联知识点
-	- 发现新知识点
-- 建立索引
-- 写清单日记
-
-学obsidian真正重要的事
-- 运用markdown码字
-- 运用双链建立知识网络
-- 最终形成自己的知识管理系统
 
 开箱即用的库
 - [GitHub - cumany/Blue-topaz-examples: Blue topaz themes example vault for Obsidian](https://github.com/cumany/Blue-topaz-examples)
@@ -168,28 +144,18 @@ obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 
 
 
-[[02 Area/Content/Markdown语法示例\|Markdown语法示例]]
-[[02 Area/Content/如何成长为一名合格的键盘侠\|如何成长为一名合格的键盘侠]]
-
-**档案Archive**：我已经完成或搁置的事情，来自其他三个类别的非活动项目
+**归档**Archive：已完成或搁置的事情，来自其他三个类别的非活动项目
 
 1. 已完成或取消的项目
-2. 你不再致力于维护的责任领域（例如关系结束或搬出公寓后）
+2. 不再致力于维护的责任领域（例如关系结束或搬出公寓后）
 3. 不再相关的资源（你失去兴趣的爱好或你不再关心的主题）
 
-档案允许你将文件夹放在“冷藏库”中，这样它就不会弄乱你的工作空间，同时永远妥善保管它以备不时之需。
+归档允许你将文件夹放在“冷藏库”中，不分散你的日常注意力，保持清晰的创作空间，同时永远妥善保留数字内容，以备不时之需。
 
-只要它不分散你的日常注意力，永远保留数字内容不会受到任何惩罚。如果你将来需要访问该信息——例如，如果你从事与之前完成的项目类似的项目——你可以在几秒钟内调用它。
+无论你的笔记系统多么有条理、多么美观或令人印象深刻，都无关紧要。只有稳步完成实实在在的胜利，才能让你充满决心、动力和成就感。即使是最微小的突破也可以成为通往比你想象的更有创意、更有趣的未来的垫脚石。
 
-使用 PARA 不仅仅是创建一堆文件夹来放入东西。它是关于确定你的工作和生活的结构——你致力于什么，你想要改变什么，以及你想去哪里。
-
-首先是需要清晰的工作空间才能进行创作。
-
-归档步骤重要的原因：你不会丢失任何东西，而且都可以通过搜索找到，但你需要将其全部移出视线和脑海。
-
-其次，创造新事物才是真正重要的。
-
-完成的创意项目是你第二大脑的血液流动。它们使整个系统保持滋养、新鲜，并为行动做好准备。无论你的笔记系统多么有条理、多么美观或令人印象深刻，都无关紧要。只有稳步完成实实在在的胜利，才能让你充满决心、动力和成就感。即使是最微小的突破也可以成为通往比你想象的更有创意、更有趣的未来的垫脚石。
+[[02 Area/Content/Markdown 语法手册\|Markdown 语法手册]]
+[[02 Area/Content/如何成长为一名合格的键盘侠\|如何成长为一名合格的键盘侠]]
 
 </div></div>
 
@@ -381,10 +347,10 @@ Excalidraw：流程图设计
 
 把满足今天的日期减去创建文件的日期小于等于三天的文件，按照倒序排列，以表格的形式展示满足条件的文件的创建日期。
 
-今天已经过了 9.98 小时，占比 41.6%；还剩 14.02 小时，剩余：58.4%；
-本周已经过了 33.98 小时，占比 20.23%；还剩 5.58 天，也就是 134.02 小时，剩余 79.77%；
-10 月已经过了 345.98 小时，占比 43.68%；还剩 16.58 天，也就是 398.02 小时，剩余 50.25%；
-今年已经过了284.42 天，占比 77.92%；还剩 76.58 天，也就是 1838.02 小时，剩余：20.98%；
+今天已经过了 18.16 小时，占比 75.65%；还剩 5.84 小时，剩余：24.35%；
+本周已经过了 66.16 小时，占比 39.38%；还剩 4.24 天，也就是 101.84 小时，剩余 60.62%；
+10 月已经过了 546.16 小时，占比 68.96%；还剩 8.24 天，也就是 197.84 小时，剩余 24.98%；
+今年已经过了292.76 天，占比 80.21%；还剩 68.24 天，也就是 1637.84 小时，剩余：18.7%；
 
 ```
 <p><span><h2 data-heading="01 Project" dir="auto">01 Project</h2></span></p><p><span><a class="internal-link" data-href="#learn/program/git" href="#learn/program/git" target="_blank" rel="noopener"></a><a href="#learn/program/git" class="tag" target="_blank" rel="noopener">#learn/program/git</a> | <a class="internal-link" data-href="#learn/program" href="#learn/program" target="_blank" rel="noopener"></a><a href="#learn/program" class="tag" target="_blank" rel="noopener">#learn/program</a> | <a class="internal-link" data-href="#learn" href="#learn" target="_blank" rel="noopener"></a><a href="#learn" class="tag" target="_blank" rel="noopener">#learn</a></span></p><p><span><h2 data-heading="02 Area" dir="auto">02 Area</h2></span></p><p><span><a class="internal-link" data-href="#excalidraw" href="#excalidraw" target="_blank" rel="noopener"></a><a href="#excalidraw" class="tag" target="_blank" rel="noopener">#excalidraw</a> | <a class="internal-link" data-href="#learn/program/python" href="#learn/program/python" target="_blank" rel="noopener"></a><a href="#learn/program/python" class="tag" target="_blank" rel="noopener">#learn/program/python</a> | <a class="internal-link" data-href="#learn/program" href="#learn/program" target="_blank" rel="noopener"></a><a href="#learn/program" class="tag" target="_blank" rel="noopener">#learn/program</a> | <a class="internal-link" data-href="#learn" href="#learn" target="_blank" rel="noopener"></a><a href="#learn" class="tag" target="_blank" rel="noopener">#learn</a> | <a class="internal-link" data-href="#obsidian" href="#obsidian" target="_blank" rel="noopener"></a><a href="#obsidian" class="tag" target="_blank" rel="noopener">#obsidian</a> | <a class="internal-link" data-href="#type" href="#type" target="_blank" rel="noopener"></a><a href="#type" class="tag" target="_blank" rel="noopener">#type</a></span></p><p><span><h2 data-heading="03 Resource" dir="auto">03 Resource</h2></span></p><p><span>[<a href="#Object" class="tag" target="_blank" rel="noopener">#Object</a>]](#Object]) | [#<a class="internal-link" data-href="#[object" href="#[object" target="_blank" rel="noopener">object</a> | <a class="internal-link" data-href="#books/A马列毛邓/A4毛著作" href="#books/A马列毛邓/A4毛著作" target="_blank" rel="noopener"></a><a href="#books/A马列毛邓/A4毛著作" class="tag" target="_blank" rel="noopener">#books/A马列毛邓/A4毛著作</a> | <a class="internal-link" data-href="#books/A马列毛邓" href="#books/A马列毛邓" target="_blank" rel="noopener"></a><a href="#books/A马列毛邓" class="tag" target="_blank" rel="noopener">#books/A马列毛邓</a> | <a class="internal-link" data-href="#books/B哲学宗教/B80思维科学" href="#books/B哲学宗教/B80思维科学" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教/B80思维科学" class="tag" target="_blank" rel="noopener">#books/B哲学宗教/B80思维科学</a> | <a class="internal-link" data-href="#books/B哲学宗教/B84心理学" href="#books/B哲学宗教/B84心理学" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教/B84心理学" class="tag" target="_blank" rel="noopener">#books/B哲学宗教/B84心理学</a> | <a class="internal-link" data-href="#books/B哲学宗教" href="#books/B哲学宗教" target="_blank" rel="noopener"></a><a href="#books/B哲学宗教" class="tag" target="_blank" rel="noopener">#books/B哲学宗教</a> | <a class="internal-link" data-href="#books/G科教文体/G4教育" href="#books/G科教文体/G4教育" target="_blank" rel="noopener"></a><a href="#books/G科教文体/G4教育" class="tag" target="_blank" rel="noopener">#books/G科教文体/G4教育</a> | <a class="internal-link" data-href="#books/G科教文体" href="#books/G科教文体" target="_blank" rel="noopener"></a><a href="#books/G科教文体" class="tag" target="_blank" rel="noopener">#books/G科教文体</a> | <a class="internal-link" data-href="#books" href="#books" target="_blank" rel="noopener"></a><a href="#books" class="tag" target="_blank" rel="noopener">#books</a> | <a class="internal-link" data-href="#pomodoro" href="#pomodoro" target="_blank" rel="noopener"></a><a href="#pomodoro" class="tag" target="_blank" rel="noopener">#pomodoro</a></span></p><p><span><h2 data-heading="04 Archive" dir="auto">04 Archive</h2></span></p><p><span></span></p><p><span><h2 data-heading="Omnivore" dir="auto">Omnivore</h2></span></p><p><span><a class="internal-link" data-href="#Omnivore" href="#Omnivore" target="_blank" rel="noopener"></a><a href="#Omnivore" class="tag" target="_blank" rel="noopener">#Omnivore</a></span></p>
