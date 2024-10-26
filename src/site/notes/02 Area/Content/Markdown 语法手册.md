@@ -243,7 +243,6 @@ color 里的颜色支持 英文单词，[16进制](http://c.runoob.com/front-end
 下标的格式：`<sub>这里是下标内容</sub>`，H<sub>2</sub>O
 
 Latex 数学公式
-
 [MathJax 参考手册](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
 
 公式块的格式：`$公式$`
