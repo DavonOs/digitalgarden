@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"dg-permalink":"book/36365320","permalink":"/book/36365320/","metatags":{"description":"享誉全球的Python入门书，影响了超过250万读者。","og:site_name":"DavonOs","og:title":"Python编程（第3版）","og:type":"book","og:url":"https://zuji.eu.org/book/36365320","og:image":"https://weread-1258476243.file.myqcloud.com/weread/cover/90/YueWen_34336681/t6_YueWen_34336681.jpg","og:image:width":"50","og:image:alt":"bookcover"}}
+{"dg-publish":true,"dg-permalink":"book/36365320","permalink":"/book/36365320/","metatags":{"description":"享誉全球的Python入门书，影响了超过250万读者。","og:site_name":"DavonOs","og:title":"Python编程（第3版）","og:type":"book","og:url":"https://zuji.eu.org/book/36365320","og:image":"https://weread-1258476243.file.myqcloud.com/weread/cover/90/YueWen_34336681/t6_YueWen_34336681.jpg","og:image:width":"50","og:image:alt":"bookcover"},"tags":["books/T工业技术/TP自动化技术、计算机技术"]}
 ---
 
 
-| 封面                                                                                                          | 书名            | 作者                     | 评分       |
-| ----------------------------------------------------------------------------------------------------------- | ------------- | ---------------------- | -------- |
-| ![\|50](https://weread-1258476243.file.myqcloud.com/weread/cover/90/YueWen_34336681/t6_YueWen_34336681.jpg) | Python编程（第3版） | 美/埃里克•马瑟斯（EricMatthes） | 9.3 ⭐⭐⭐⭐ |
+| 封面                                                                                                          | 书名                                                         | 作者                     | 状态 | 评分       |
+| ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------- | -- | -------- |
+| ![\|50](https://weread-1258476243.file.myqcloud.com/weread/cover/90/YueWen_34336681/t6_YueWen_34336681.jpg) | [Python编程（第3版）](https://book.douban.com/subject/36365320/) | 美/埃里克•马瑟斯（EricMatthes） | \- | 9.3 ⭐⭐⭐⭐ |
 
 { .block-language-dataview}
 

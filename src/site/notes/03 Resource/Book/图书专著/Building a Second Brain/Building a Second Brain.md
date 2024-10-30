@@ -3,9 +3,9 @@
 ---
 
 
-| 封面                                                       | 书名                      | 作者         | 状态 | 评分     |
-| -------------------------------------------------------- | ----------------------- | ---------- | -- | ------ |
-| ![\|50](https://imglink.win/image/2024/09/05/xKnio.webp) | Building a Second Brain | TiagoForte | \- | 8 ⭐⭐⭐⭐ |
+| 封面                                                       | 书名                                                                   | 作者         | 状态 | 评分     |
+| -------------------------------------------------------- | -------------------------------------------------------------------- | ---------- | -- | ------ |
+| ![\|50](https://imglink.win/image/2024/09/05/xKnio.webp) | [Building a Second Brain](https://book.douban.com/subject/35761116/) | TiagoForte | 已读 | 8 ⭐⭐⭐⭐ |
 
 { .block-language-dataview}
 
@@ -13,7 +13,7 @@
 Tiago Forte is one of the world’s foremost experts on productivity and has taught thousands of people around the world how timeless principles and the latest technology can revolutionize their productivity, creativity, and personal effectiveness. He has worked with organizations such as Genentech, Toyota Motor Corporation, and the Inter-American Development Bank, and appeared in a variety of publications, such as The New York Times, The Atlantic, and Harvard Business Review. Find out more at Fortelabs.co.
 
 
-个人简评：一本知识管理类工具书。书中提出的CODE、PARA等方法，有助改变作为”信息囤积者“的我们在面对海量内容时焦虑和不知所措的状况。这本书从更深层次上讲，属于“自我提升”范畴的对立面。它是关于优化你自己之外不受你限制的系统。有了 Second Brain 的力量，你可以做任何你想做的事。一切都只是信息，你是将其流动和塑造成你想要的任何未来的大师。
+个人简评：一本知识管理类工具书。书中提出的CODE、PARA等方法，有助改变作为”信息囤积者“的我们在面对海量内容时焦虑和不知所措的状况。这本书从更深层次上讲，属于“自我提升”范畴的对立面。它是关于优化你自己之外不受你限制的系统。有了 [第二大脑](https://www.buildingasecondbrain.com/) 的力量，你可以做任何你想做的事。一切都只是信息，你是将其流动和塑造成你想要的任何未来的大师。
 
 第一部分：展示创造第二大脑的实践，介绍基本原则和工具。
 

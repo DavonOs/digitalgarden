@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"git","permalink":"/git/","metatags":{"description":"这里是 🏡Davon的数字花园，是个人不断发展的想法的集合，作为半成品的思考，在可探索的空间中，随时间推移不断播种、修剪、塑造","og:site_name":"DavonOs","og:title":"Git","og:type":"article","og:url":"https://zuji.eu.org/git","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["learn/program/git"]}
+{"dg-publish":true,"dg-permalink":"git","permalink":"/git/","metatags":{"description":"这里是 🏡Davon的数字花园，是个人不断发展的想法的集合，作为半成品的思考，在可探索的空间中，随时间推移不断播种、修剪、塑造","og:site_name":"DavonOs","og:title":"Git","og:type":"article","og:url":"https://zuji.eu.org/git","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["learn/git"]}
 ---
 
 >[!tip]- Git是一个分布式的版本控制软件

@@ -1,26 +1,15 @@
 ---
-{"dg-publish":true,"dg-permalink":"book/30355759","permalink":"/book/30355759/","metatags":{"description":"无论您的目标是什么，Atomic Habits 都提供了一个经过验证的改进框架 - 每天都在。詹姆斯·克利尔 （James Clear） 是世界领先的习惯养成专家之一，他揭示了实用的策略，这些策略将教您如何养成好习惯、打破坏习惯并掌握导致显着效果的微小行为。如果您在改变习惯方面遇到困难，那么问题不在于您。问题在于您的系统。坏习惯一次又一次地重复出现，不是因为你不想改变，而是因为你有错误的改变系统。","og:site_name":"DavonOs","og:title":"AtomicHabits","og:type":"book","og:url":"https://zuji.eu.org/book/30355759","og:image":"https://imglink.win/image/2024/09/05/xKAFC.webp","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"},"tags":["books/B哲学宗教/B84心理学"]}
+{"dg-publish":true,"dg-permalink":"book/30355759","permalink":"/book/30355759/","metatags":{"description":"无论您的目标是什么，Atomic Habits 都提供了一个经过验证的改进框架 - 每天都在。詹姆斯·克利尔揭示了实用的习惯养成策略，这些策略将教您如何养成好习惯、打破坏习惯并掌握导致显着效果的微小行为。如果您在改变习惯方面遇到困难，那么问题不在于您。问题在于您的系统。坏习惯一次又一次地重复出现，不是因为你不想改变，而是因为你有错误的改变系统。","og:site_name":"DavonOs","og:title":"AtomicHabits","og:type":"book","og:url":"https://zuji.eu.org/book/30355759","og:image":"https://imglink.win/image/2024/09/05/xKAFC.webp","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"},"tags":["books/B哲学宗教/B84心理学"]}
 ---
 
 
-| 封面                                                       | 书名           | 作者         | 状态 | 评分       |
-| -------------------------------------------------------- | ------------ | ---------- | -- | -------- |
-| ![\|50](https://imglink.win/image/2024/09/05/xKAFC.webp) | AtomicHabits | JamesClear | \- | 8.8 ⭐⭐⭐⭐ |
+| 封面                                                       | 书名                                                        | 作者         | 状态 | 评分       |
+| -------------------------------------------------------- | --------------------------------------------------------- | ---------- | -- | -------- |
+| ![\|50](https://imglink.win/image/2024/09/05/xKAFC.webp) | [AtomicHabits](https://book.douban.com/subject/30355759/) | JamesClear | 在读 | 8.8 ⭐⭐⭐⭐ |
 
 { .block-language-dataview}
 
-
-
-type: Post
-status: Published
-date: 2024/04/28
-slug: Atomic_habits
 summary: 不存在一个决定一切的关键时刻，而是有许多个，这是渐进的演化，是一连串微小的胜利与突破。
-tags: 热门文章
-category: 书札笔谈
-
-
-
 
 如果你曾经纳闷：「为什么我不照自己说的去做？为什么我不减重，或戒烟，或为退休存钱，或开创那份副业？为什么我明明说某件事很重要，却似乎从来不为这件事拨出时间？」这些问题的答案，都可以在本书中的某处觅得。
 
