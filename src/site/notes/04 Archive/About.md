@@ -10,9 +10,9 @@
 
 RPA：要把人从简单重复劳动中解放出来，以应对更复杂的任务，从而让自己专注于更高层次的战略并创造性地解决问题。
 
-AIGC与内容创作：AI 如此惊艳。虽然目前能力有范围，但依然远超我个人的能力范围，我希望理解和利用，并以此来优化自己内容创作的执行逻辑和路径。
+AIGC：AI 如此惊艳。虽然目前能力有范围，但依然远超我个人的能力范围，我希望理解和利用，并以此来优化自己内容创作的执行逻辑和路径。
 
-Data Analysis：万物皆数，实事求是，是信息时代认识世界乃至改造世界的基础。事实以数据为依据，从看似杂乱无章的数据中提取信息，是我个人追求长期发展的底层能力。
+Data Analysis：万物皆数，事实以数据为依据，从看似杂乱无章的数据中提取信息，实事求是，是我个人追求长期发展的底层能力，也是信息时代认识世界乃至改造世界的基础。
 
 我是什么样的人
 
@@ -141,18 +141,7 @@ VB、C、Altum Designer、Code Composer Studio、STM32、STEP7、Java、JQuery�
 
 在搭建和部署[Entertain](https://entertain.breadth.top/)子站点时，妄图直接建立一个自己的在线影音视频站点，找了一批影视资源的采集网站，但其实找到视频链接就可以了，完全没有必要把它们一一embed部署到自己的站点，毕竟会消耗Vercel带宽。在这个过程中开始接触到了对自动化的学习。
 
-图床方案迭代
 
-[imgur](https://imgur.com) 无法正常访问，使用 [Imgur图床](https://imgur.la/upload/?lang=zh-CN) + [WebP Cloud Services](https://webp.se/)
-Imgur忘记账户密码。重新注册路过图床，发现上传次数受限制。
-
-2024-09-02 [CloudFlare+Telegraph-image 方案](https://imesong.com/posts/%E4%BD%BF%E7%94%A8-cloudflare-%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A%E6%95%99%E7%A8%8B/)已搭建成功，发现目前不支持webp。
-
-[ImgLink](https://Imglink.org)
-
-[Cloudflare R2 + WebP Cloud + PicGo](https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/) R2需要信用卡
-
-备选方案 [聚合图床](https://www.superbed.cn/)
 
 待优化
 

@@ -5,7 +5,7 @@
 
 | 封面                                                                                           | 书名                                                                           | 作者       | 状态 | 评分     |
 | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | -------- | -- | ------ |
-| ![\|50](https://wfqqreader-1252317822.image.myqcloud.com/cover/685/34336685/t6_34336685.jpg) | [SQL必知必会（第5版）](https://weread.qq.com/web/bookDetail/f7632a30720befadf7636bb) | BenForta | \- | 9 ⭐⭐⭐⭐ |
+| ![\|50](https://wfqqreader-1252317822.image.myqcloud.com/cover/685/34336685/t6_34336685.jpg) | [SQL必知必会（第5版）](https://weread.qq.com/web/bookDetail/f7632a30720befadf7636bb) | BenForta | 在读 | 9 ⭐⭐⭐⭐ |
 
 { .block-language-dataview}
 

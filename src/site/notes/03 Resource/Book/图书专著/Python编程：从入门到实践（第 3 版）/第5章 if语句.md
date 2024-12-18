@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"book/36365320/05_if_statements","permalink":"/book/36365320/05_if_statements/","metatags":{"description":"Python编程：从入门到实践（第3版）第5章 if语句的学习笔记","og:site_name":"DavonOs","og:title":"第5章 IF语句","og:type":"article","og:url":"https://zuji.eu.org/book/36365320/05_if_statements","og:image":"https://weread-1258476243.file.myqcloud.com/weread/cover/90/YueWen_34336681/t6_YueWen_34336681.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["learn/python"]}
+{"dg-publish":true,"dg-permalink":"book/36365320/05_if_statements","permalink":"/book/36365320/05_if_statements/","metatags":{"description":"Python编程：从入门到实践（第3版）第5章 if语句的学习笔记","og:site_name":"DavonOs","og:title":"第5章 IF语句","og:type":"article","og:url":"https://zuji.eu.org/book/36365320/05_if_statements","og:image":"https://img.alicdn.com/i2/101450072/O1CN01vnmrBj1CP1LlhPSyR-101450072.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["learn/python"]}
 ---
 
 # 第5章 IF 语句
@@ -233,11 +233,11 @@ Marie, you can post a response if you wish.
 
 在跟踪程序状态或程序中重要的条件方面，布尔值提供了一种高效的方式。
 
-## 5.3 if 语句
+## 5.3 IF 语句
 
 理解条件测试之后，就可以开始编写 if 语句了。if 语句有很多种，选择使用哪一种取决于要测试的条件数。前面在讨论条件测试时，列举了多个if 语句示例，下面更深入地讨论这个主题。
 
-### 简单的 if 语句
+### 简单的 IF 语句
 最简单的 if 语句只有一个条件测试和一个操作：
 
 ```python
