@@ -9,10 +9,6 @@
 
 { .block-language-dataview}
 
-
-Tiago Forte is one of the world’s foremost experts on productivity and has taught thousands of people around the world how timeless principles and the latest technology can revolutionize their productivity, creativity, and personal effectiveness. He has worked with organizations such as Genentech, Toyota Motor Corporation, and the Inter-American Development Bank, and appeared in a variety of publications, such as The New York Times, The Atlantic, and Harvard Business Review. Find out more at Fortelabs.co.
-
-
 个人简评：一本知识管理类工具书。书中提出的CODE、PARA等方法，有助改变作为”信息囤积者“的我们在面对海量内容时焦虑和不知所措的状况。这本书从更深层次上讲，属于“自我提升”范畴的对立面。它是关于优化你自己之外不受你限制的系统。有了 [第二大脑](https://www.buildingasecondbrain.com/) 的力量，你可以做任何你想做的事。一切都只是信息，你是将其流动和塑造成你想要的任何未来的大师。
 
 第一部分：展示创造第二大脑的实践，介绍基本原则和工具。
@@ -43,7 +39,6 @@ Tiago Forte is one of the world’s foremost experts on productivity and has tau
 
 26%的典型知识工作者每天都在寻找和整合分布在各种系统中的信息。难以置信的是，只有56%的时间他们能够找到完成工作所需的信息。换言之，我们每周工作五天，但平均有超过一天的时间用于寻找工作所需的信息。有一半时间，甚至没有成功做到这一点。——国际数据公司的报告
 
-
 「平凡之书」
 
 艺术家和知识分子随身携带的记录他们有趣想法的一本书。在18世纪和19世纪初的工业革命时期，在信息过载的前一个时期得到普及，这本平凡之书不仅仅是日记或个人反思的日志，它是受过教育的阶层用来了解瞬息万变的世界及其在其中的位置的学习工具。
@@ -60,7 +55,6 @@ Tiago Forte is one of the world’s foremost experts on productivity and has tau
 
 让模糊的概念可以观察、重新排列、编辑和组合在一起的有形实体。
 
-
 - 揭示想法间的新联系：
 
 承担一项任务，最具创造性、创新性的方法会立即成为首要考虑因素的机会有多大？前进的最佳方式是我们首先提出的方法之一的几率有多大？
@@ -76,6 +70,7 @@ Tiago Forte is one of the world’s foremost experts on productivity and has tau
 让自己的想法大放异彩是最终目的。倡导特定观点不仅是魅力的问题，它需要辅助材料。未来最可能留下的工作是那些涉及促进或捍卫特定观点的工作。我们的职业和企业比以往任何时候都更依赖于我们提出特定观点并说服他人采纳它的能力。
 
 ## 构建第二大脑理想选择
+
 数字笔记应用的四个特征：
 
 多媒体：可以存储不同类型的内容，永远不需要想知道在哪里放东西。
