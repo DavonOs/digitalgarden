@@ -12,7 +12,7 @@
 
 [天火藏书](http://ebook.cdict.info/)：如果只是把横版繁体转换成横版简体，这个在线就能搞定，简单快捷。（竖排的电子书虽然也能转横排，但是标点符号有问题）
 
-[calibre](https://calibre-ebook.com/download)：如果你是竖排的电子书，请下载安装最新版
+[Calibre](https://calibre-ebook.com/download)：如果你是竖排的电子书，请下载安装最新版
 
 步骤
 
@@ -23,7 +23,7 @@
 5. 保存之后点「阅读」就可以看效果了。如果繁体转简体成功，但是排版还是竖版的话，需要继续编辑书，改动改一下代码。
 6. 检查css文件，如果找到 `vertical-rl` 改为 `horizontal-tb` 即可。改完保存退出编辑模式，使用阅读预览效果。
 
-[calibre 用户手册](https://manual.calibre-ebook.com/zh_CN/)
+[Calibre 用户手册](https://manual.calibre-ebook.com/zh_CN/)
 
-[Calibre基础美化](https://blog.amamiyayuuko.com/p/theme-for-calibre/)
+[Calibre 基础美化](https://blog.amamiyayuuko.com/p/theme-for-calibre/)
 

@@ -41,10 +41,8 @@
 SELECT语句的基本语法如下：
 
 ```sql
-
 SELECT <列名>，……
 	FROM <表名>；
-
 ```
 
 该SELECT 语句包含了SELECT 和FROM 两个子句（clause）。子句是 SQL 语句的组成要素，是以 SELECT 或者 FROM 等作为起始的短语。

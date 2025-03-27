@@ -4,22 +4,16 @@
 
 
 [Obsidian Help - Home ](https://help.obsidian.md/Home)
-<p><span>已使用 <em>Obsidian</em> 803 天，共创建 265 篇文档、185 个标签、11 个待办。 <br><br></span></p>
+
 ## 写在前面
 
-开箱即用的库
-- [cumany 非常多奇技淫巧，可以将其作为大而全的词典，借鉴用法和代码，不推荐全盘照搬](https://github.com/cumany/Blue-topaz-examples)
-
-- [Rainbell129 dataview运用的很娴熟，可以作为dataview的实践教材。](https://github.com/Rainbell129/Obsidian-Homepage)
-
-- [给Obsidian新手科研人的开箱即用库：BCS’s Vault for Researchers V1.1](https://forum-zh.obsidian.md/t/topic/8114)
-
-- [一个简单的Obsidian 库，关注文本和内容本身，值得学习](https://github.com/juestchaos/Obsidian-Plug-and-Play)
-
-- [科研向的库，拒绝花里胡哨](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher)
-- [主打目标管理+dailynote+知识管理+回顾系统。配有各种丰富的模板。](https://github.com/laozhou-in-germany/Chens_LMS_Public)
-
-[「回归 Obsidian 的纯与真，写给普通人的入门指南」](https://sspai.com/post/72697)
+开箱即用的库：
+- [cumany](https://github.com/cumany/Blue-topaz-examples)-非常多奇技淫巧，可以将其作为大而全的词典，借鉴用法和代码，不推荐全盘照搬
+- [Rainbell129](https://github.com/Rainbell129/Obsidian-Homepage)dataview运用的很娴熟，可以作为dataview的实践教材。
+- [BCS’s Vault for Researchers V1.1](https://forum-zh.obsidian.md/t/topic/8114)给Obsidian新手科研人的开箱即用库
+- [Obsidian-Plug-and-Play](https://github.com/juestchaos/Obsidian-Plug-and-Play)一个简单的Obsidian 库，关注文本和内容本身，值得学习
+- [template_for_researcher](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher)科研向的库，拒绝花里胡哨
+- [Chens_LMS_Public](https://github.com/laozhou-in-germany/Chens_LMS_Public)主打目标管理+dailynote+知识管理+回顾系统。配有各种丰富的模板。
 
 ## 文件结构
 
@@ -263,8 +257,9 @@ task-done：“”——已完成的任务
 ## DataView
 
 示例一 最近创建的文件
-| File | 创建日期 |
-| ---- | ---- |
+| File                                           | 创建日期                     |
+| ---------------------------------------------- | ------------------------ |
+| [[02 Area/工作/基于SWOT模型的自我分析\|基于SWOT模型的自我分析]] | 8:27 AM - March 24, 2025 |
 
 { .block-language-dataview}
 
@@ -272,11 +267,10 @@ task-done：“”——已完成的任务
 
 示例二 时间计算
 
-今天已经过了 18.92 小时，占比 78.85%；还剩 5.08 小时，剩余：21.15%；
-本周已经过了 66.92 小时，占比 39.84%；还剩 4.21 天，也就是 101.08 小时，剩余 60.16%；
-2 月已经过了 450.92 小时，占比 67.1%；还剩 9.21 天，也就是 221.08 小时，剩余 32.9%；
-今年已经过了48.79 天，占比 13.37%；还剩 312.21 天，也就是 7493.08 小时，剩余：85.54%；
-
+今天已经过了 10.46 小时，占比 43.57%；还剩 13.54 小时，剩余：56.43%；
+本周已经过了 82.46 小时，占比 49.08%；还剩 3.56 天，也就是 85.54 小时，剩余 50.92%；
+3 月已经过了 634.46 小时，占比 80.11%；还剩 4.56 天，也就是 109.54 小时，剩余 13.83%；
+今年已经过了86.44 天，占比 23.68%；还剩 274.56 天，也就是 6589.54 小时，剩余：75.22%；
 
 ```
 dataviewjs
@@ -303,7 +297,6 @@ dv.list(
 ```
 
 
-
 [PKMer_Obsidian 插件：Dataview](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E7%A4%BE%E5%8C%BA%E6%8F%92%E4%BB%B6/dataview/dataview/)
 
 [unable redener inline dataviewquery](https://github.com/oleeskild/digitalgarden/issues/141)
@@ -322,5 +315,5 @@ CSS 多栏布局
 
 参考MCL CSS：[MCL Multi Column—通过 CSS 和Callout实现分栏样式](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E5%A4%96%E8%A7%82/css-%E7%89%87%E6%AE%B5/obsidian%E6%A0%B7%E5%BC%8F-mcl-multi-column/)
 
-
+[「回归 Obsidian 的纯与真，写给普通人的入门指南」](https://sspai.com/post/72697)
 
