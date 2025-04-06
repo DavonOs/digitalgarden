@@ -5,7 +5,7 @@
 
 [Markdown语法参考 | obsidian](https://coffeetea.top/zh/markdown/)
 [Markdown语法](https://lgf4591.github.io/quartz-obsidian/markdown%E8%AF%AD%E6%B3%95)
-
+[MarkDown语法 超详细教程](https://forum-zh.obsidian.md/t/topic/435)
 [Cmd Markdown在线编辑器](https://www.zybuluo.com/mdeditor)
 [Arya - 在线 Markdown 编辑器](https://markdown.lovejade.cn/)
 [微信公众号markdown排版工具](https://markdown.com.cn/editor/)
@@ -336,4 +336,3 @@ pie
 >[!example]
 
 >[!quote]
-
