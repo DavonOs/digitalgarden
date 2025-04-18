@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"book/tool/calibre","permalink":"/book/tool/calibre/","metatags":{"description":"电子阅读器Calibre的使用攻略","og:site_name":"DavonOs","og:title":"Calibre处理方法","og:type":"article","og:url":"https://zuji.eu.org/book/tool/calibre","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"}}
+{"dg-publish":true,"dg-permalink":"book/tool/calibre","permalink":"/book/tool/calibre/","metatags":{"description":"电子书阅读器 Calibre 的使用攻略","og:site_name":"DavonOs","og:title":"Calibre 处理方法","og:type":"article","og:url":"https://zuji.eu.org/book/tool/calibre","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"}}
 ---
 
 ## 繁体竖排电子书转换
