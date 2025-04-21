@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"obsidianbasic","permalink":"/obsidianbasic/","metatags":{"description":"这里是 Obsidian 从0到1的新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidianbasic","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"]}
+{"dg-publish":true,"dg-permalink":"obsidianintro","permalink":"/obsidianintro/","metatags":{"description":"这里是 Obsidian 从0到1的简易新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidianintro","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"]}
 ---
 
 
@@ -247,64 +247,9 @@ task-done：“”——已完成的任务
 插件类型：提供个性化功能；界面增强；展现增强；数据格式增强
 
 推荐插件
-## DataView
-
-示例一 最近创建的文件
-| File                                                                                        | 创建日期                      |
-| ------------------------------------------------------------------------------------------- | ------------------------- |
-| [[02 Area/学习/Python 自学之路\|Python 自学之路]]                                                  | 9:02 PM - April 19, 2025  |
-| [[02 Area/Serv00 免费虚拟主机申请及使用教程\|Serv00 免费虚拟主机申请及使用教程]]                                   | 9:14 AM - April 19, 2025  |
-| [[02 Area/Serv00 部署 Alist 并借助 PicList 实现的图床方案\|Serv00 部署 Alist 并借助 PicList 实现的图床方案]]     | 8:48 AM - April 19, 2025  |
-| [[02 Area/工作/设计/Design app experiences with charts\|Design app experiences with charts]] | 10:29 AM - April 18, 2025 |
-
-{ .block-language-dataview}
-
-把满足今天的日期减去创建文件的日期小于等于三天的文件，按照倒序排列，以表格的形式展示满足条件的文件的创建日期。
-
-示例二 时间计算
-
-今天已经过了 8.91 小时，占比 37.14%；还剩 15.09 小时，剩余：62.86%；
-本周已经过了 152.91 小时，占比 91.02%；还剩 0.63 天，也就是 15.09 小时，剩余 8.98%；
-4 月已经过了 464.91 小时，占比 60.54%；还剩 10.63 天，也就是 255.09 小时，剩余 33.21%；
-今年已经过了109.37 天，占比 29.96%；还剩 251.63 天，也就是 6039.09 小时，剩余：68.94%；
-
-```
-dataviewjs
-// 最高文件夹级别tag列表
-for (let group of dv.pages("").filter(p => p.file.folder != "").groupBy(p => p.file.folder.split("/")[0])) {
-  dv.paragraph(`## ${group.key}`);
-  dv.paragraph(
-    dv.pages(`"${group.key}"`).file.tags.distinct().map(t => {return `[${t}](${t})`}).array().sort().join(" | "));
-}
-```
-
-```
-dataviewjs
-// 主页最近创建文件示例
-let now = moment();
-dv.list(
-	dv.pages()
-		.filter(p => p["dg-publish"] === true) // 添加这一行来检查 dg-publish 元数据
-		.sort(p => p.file.cday, 'desc') // 按文件创建日期降序排列
-		.filter(p => moment(Number(p.file.cday)).isBetween(now.clone().subtract(7, 'days'), now, null, '[]')) // 筛选为最近七天
-		.map(p => moment(Number(p.file.cday)).format('yyyy-MM-DD') + ' — ' + p.file.link) // 设置输出格式
-		.limit(5)
-)
-```
-
-
-[PKMer_Obsidian 插件：Dataview](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E7%A4%BE%E5%8C%BA%E6%8F%92%E4%BB%B6/dataview/dataview/)
-
-[unable redener inline dataviewquery](https://github.com/oleeskild/digitalgarden/issues/141)
-
-[Dataview 示例文件库](https://s-blu.github.io/obsidian_dataview_example_vault/)
-
-[Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
-
-[DataviewJS 小白手册](https://forum-zh.obsidian.md/t/topic/27370)
-
-[Dataviewjs的奇技淫巧](https://forum-zh.obsidian.md/t/topic/5954)
-
+[[02 Area/工作/Obsidian 插件：Dataview\|Dataview]]
+[[TObsidian 插件：Templater\|Templater]]
+[[Obsidian 插件：Task\|Task]]
 Excalidraw：流程图设计
 
 CSS 多栏布局

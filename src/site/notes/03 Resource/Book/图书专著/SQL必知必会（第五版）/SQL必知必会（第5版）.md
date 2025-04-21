@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"dg-permalink":"book/35167240","permalink":"/book/35167240/","metatags":{"description":"本书由浅入深地讲解了SQL的基本概念和语法，涉及数据的排序、过滤和分组，以及表、视图、联结、子查询、游标、存储过程和触发器等内容，实例丰富，便于查阅。本书没有过多阐述数据库基础理论，而是专门针对一线软件开发人员，直接从SQL SELECT开始，讲述实际工作环境中最常用和最必需的SQL知识，实用性极强。新版对书中的案例进行了全面的更新，并增加了章后挑战题，便于读者巩固所学知识。本书适合SQL初学者，也可供广大开发及管理人员参考。","og:site_name":"DavonOs","og:title":"SQL必知必会（第5版）","og:type":"book","og:url":"https://zuji.eu.org/book/35167240","og:image":"https://wfqqreader-1252317822.image.myqcloud.com/cover/685/34336685/t6_34336685.jpg","og:image:width":"50","og:image:alt":"bookcover"},"tags":["books/T工业技术/TP自动化技术、计算机技术"]}
+{"dg-publish":true,"dg-permalink":"book/35167240","permalink":"/book/35167240/","metatags":{"description":"SQL 是使用最为广泛的数据库语言，几乎所有重要的 DBMS 都支持 SQL。本书是麻省理工学院、伊利诺伊大学等众多大学的参考教材，由浅入深地讲解了 SQL 的基本概念和语法，涉及数据的排序、过滤和分组，以及表、视图、联结、子查询、游标、存储过程和触发器等内容，实例丰富，便于查阅。与其他同类图书不同，本书没有过多阐述数据库基础理论，而是专门针对一线软件开发人员，直接从 SQLSELECT 开始，讲述实际工作环境中最常用和最必需的 SQL 知识，实用性极强。新版对书中的案例进行了全面的更新，并增加了章后挑战题，便于读者巩固所学知识。","og:site_name":"DavonOs","og:title":"SQL必知必会（第5版）","og:type":"book","og:url":"https://zuji.eu.org/book/35167240","og:image":"https://wfqqreader-1252317822.image.myqcloud.com/cover/685/34336685/t6_34336685.jpg","og:image:width":"50","og:image:alt":"bookcover"},"tags":["books/T工业技术/TP自动化技术、计算机技术"]}
 ---
-
 
 | 封面                                                                                           | 书名                                                                           | 作者       | 状态 | 评分     |
 | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | -------- | -- | ------ |
@@ -149,15 +148,15 @@ SQL的优点
 
 要是准备在自己电脑上安装，其实可选的很多。我给两个建议：
 
-- MySQL （或派生的MariaDB）是很不错的，免费，每个主流操作系统都支持，安装简便，它也是最流行的DBMS之一。MySQL自带一个命令行工具，你可以输入SQL命令，但最好是使用MySQL Workbench，你也把它下载安装吧（通常是要单独安装的）。
+MySQL （或派生的MariaDB）是很不错的，免费，每个主流操作系统都支持，安装简便，它也是最流行的DBMS之一。MySQL自带一个命令行工具，你可以输入SQL命令，但最好是使用MySQL Workbench，你也把它下载安装吧（通常是要单独安装的）。
 
-- Windows 用户可以使用 Microsoft SQL Server Express。这是强大的 SQL Server的一个免费版本，它还包括一个用户友好的客户端叫 SQL Server Management Studio。
+Windows 用户可以使用 Microsoft SQL Server Express。这是强大的 SQL Server的一个免费版本，它还包括一个用户友好的客户端叫 SQL Server Management Studio。
 
 要是准备使用远程（或云端）DBMS的话，我的建议是：
 
-- 如果你是为工作需要而学习SQL，那么你们公司应该会有DBMS供你使用。这样的话，你应该可以得到登录名和连接工具，可以访问 DBMS并输入和测试你的SQL语句。
+如果你是为工作需要而学习SQL，那么你们公司应该会有DBMS供你使用。这样的话，你应该可以得到登录名和连接工具，可以访问 DBMS并输入和测试你的SQL语句。
 
-- 云端DBMS是指运行在虚拟服务器上的DBMS，用起来就像自己机器上安装了 DBMS，而实际上不需要安装。所有主流的云服务厂商（如谷歌、亚马逊、微软）都提供云端DBMS。可是，在本书写作之时，设置云端DBMS （包括配置远程访问）都不太简单，经常比自己安装个DBMS还要费事。有两个例外，Oracle的Live SQL和 IBM的云端DB2，它们提供的免费版本有Web界面，你只需要在浏览器里输入SQL语句就可以了。
+云端DBMS是指运行在虚拟服务器上的DBMS，用起来就像自己机器上安装了 DBMS，而实际上不需要安装。所有主流的云服务厂商（如谷歌、亚马逊、微软）都提供云端DBMS。可是，在本书写作之时，设置云端DBMS （包括配置远程访问）都不太简单，经常比自己安装个DBMS还要费事。有两个例外，Oracle的Live SQL和 IBM的云端DB2，它们提供的免费版本有Web界面，你只需要在浏览器里输入SQL语句就可以了。
 
 附录A解释了什么是样例表，并详述了如何获得（或创建）样例表，以便应用于本书的每个课程中。
 
@@ -264,19 +263,17 @@ FROM Products;
 
 与前一个例子一样，这条语句使用SELECT语句从表Products中选择数 据。在这个例子中，指定了3个列名，列名之间用逗号分隔。此语句的输出如下：
 
-**输出**▼
-
-|prod\_id|<p>prod\_name</p><p>	</p>|prod\_price|
-| :- | :- | :- |
-|BNBG01|Fish bean bag toy|3\.49|
-|BNBG02|Bird bean bag toy|3\.49|
-|BNBG03|Rabbit bean bag toy|3\.49|
-|BR01|8 inch teddy bear|5\.99|
-|BR02|12 inch teddy bear|8\.99|
-|BR03|18 inch teddy bear|11\.99|
-|RGAN01|Raggedy Ann|4\.99|
-|RYL01|King doll|9\.49|
-|RYL02|Queen dool|9\.49|
+| prod\_id | prod\_name          | prod\_price |
+| :------- | :------------------ | :---------- |
+| BNBG01   | Fish bean bag toy   | 3\.49       |
+| BNBG02   | Bird bean bag toy   | 3\.49       |
+| BNBG03   | Rabbit bean bag toy | 3\.49       |
+| BR01     | 8 inch teddy bear   | 5\.99       |
+| BR02     | 12 inch teddy bear  | 8\.99       |
+| BR03     | 18 inch teddy bear  | 11\.99      |
+| RGAN01   | Raggedy Ann         | 4\.99       |
+| RYL01    | King doll           | 9\.49       |
+| RYL02    | Queen dool          | 9\.49       |
 
 **说明：数据表示**
 
