@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"learn/program/git","permalink":"/learn/program/git/","metatags":{"description":"借用NotionNext项目实战操作Git，实现本地及远程版本控制管理","og:site_name":"DavonOs","og:title":"Git","og:type":"article","og:url":"https://zuji.eu.org/learn/program/git","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["git"]}
+{"dg-publish":true,"dg-permalink":"program/git","permalink":"/program/git/","metatags":{"description":"借用NotionNext项目实战操作Git，实现本地及远程版本控制管理","og:site_name":"DavonOs","og:title":"Git","og:type":"article","og:url":"https://zuji.eu.org/learn/program/git","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/git"]}
 ---
 
 Git简介与安装（略）
@@ -164,7 +164,7 @@ sequenceDiagram
     版本库-->>暂存区: git reset --soft 版本号
     暂存区-->>工作区: git reset HEAD/git checkout
     版本库-->>工作区: git reset --hard 版本号
-    版本库-->>工作区: git merge origin/分支 或 git rebase oringin/分支
+    版本库-->>工作区: git merge origin/分支或 git rebase oringin/分支
     远程仓库-->>工作区: git pull origin 分支
 ```
 
@@ -178,7 +178,7 @@ sequenceDiagram
 
 git branch查看还在dev分支
 
-详细说明一下git push orign命令 当您在本地 Git 仓库中添加、修改或删除文件后，需要将这些改动推送到远程存储库（通常是在 GitHub 或类似的服务上）。git push origin 命令就是用来将本地分支的提交推送到远程存储库的命令，具体说明如下：
+详细说明一下git push orign命令当您在本地 Git 仓库中添加、修改或删除文件后，需要将这些改动推送到远程存储库（通常是在 GitHub 或类似的服务上）。git push origin 命令就是用来将本地分支的提交推送到远程存储库的命令，具体说明如下：
 
 回家后继续
 
@@ -375,7 +375,7 @@ Git界面清屏：
 
 Windows 中，使用 cls 命令来清屏。在 macOS 或 Linux 系统中，使用 clear 命令来清屏。 
 
-在windows的gitbash如何清屏 在 Windows 的 Git Bash 中，可以使用以下方法来清屏：
+在windows的gitbash如何清屏在 Windows 的 Git Bash 中，可以使用以下方法来清屏：
 
 使用快捷键：按下 <kbd>Ctrl</kbd> + <kbd>L</kbd> 组合键即可清屏。
 

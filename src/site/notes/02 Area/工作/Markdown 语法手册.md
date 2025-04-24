@@ -5,7 +5,7 @@
 
 [Markdown语法参考 | obsidian](https://coffeetea.top/zh/markdown/)
 [Markdown语法](https://lgf4591.github.io/quartz-obsidian/markdown%E8%AF%AD%E6%B3%95)
-[MarkDown语法 超详细教程](https://forum-zh.obsidian.md/t/topic/435)
+[MarkDown语法超详细教程](https://forum-zh.obsidian.md/t/topic/435)
 [Cmd Markdown在线编辑器](https://www.zybuluo.com/mdeditor)
 [Arya - 在线 Markdown 编辑器](https://markdown.lovejade.cn/)
 [微信公众号markdown排版工具](https://markdown.com.cn/editor/)
@@ -65,7 +65,7 @@ MD的优势：
 注：如果想给字体换颜色或居中显示，需要使用内嵌HTML来实现。
 
 分割线：英文状态下三个`---`
-钉钉　东东　东东 
+钉钉东东东东 
 ## 列表&引用
 
 无序列表的使用，在符号`-`后加空格使用。如下：
@@ -258,7 +258,7 @@ diff 不能同时和其他语言的高亮同时显示，且需要调整代码主
 
 多彩文本的格式：`<font color=orange>这是一段橘色文本</font>`
 
-color 里的颜色支持 英文单词，[16进制](http://c.runoob.com/front-end/55 "可跳转至菜鸟教程了解")，[rgb](https://www.runoob.com/cssref/func-rgb-css.html "可跳转至菜鸟教程了解")，[rgba](https://www.runoob.com/cssref/func-rgba.html "可跳转至菜鸟教程了解")
+color 里的颜色支持英文单词，[16进制](http://c.runoob.com/front-end/55 "可跳转至菜鸟教程了解")，[rgb](https://www.runoob.com/cssref/func-rgb-css.html "可跳转至菜鸟教程了解")，[rgba](https://www.runoob.com/cssref/func-rgba.html "可跳转至菜鸟教程了解")
 
 上标的格式：`<sup>这里是上标内容</sup>`，X<sup>2</sup>
 
@@ -301,13 +301,13 @@ graph LR
 	%% 虚线
 	s[朱百六]-.->|子|n1[朱四九]-.->|子|n2[朱五四]-.->|子|f1_帝((朱八八))
 	
-	%% 分支点 朱八八
+	%% 分支点朱八八
 	f1_帝-->|长子|f2[朱标]
 	f1_帝-->|次子|n3[朱樉]
 	f1_帝-->|三子|n4[朱棢]
 	f1_帝-->|四子|n5_帝((朱棣))
 	
-	%% 分支点 朱标
+	%% 分支点朱标
 	f2-->|长子|e1[朱雄英]
 	f2-->|次子|e2_帝((朱允炆))
 	
