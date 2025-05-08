@@ -17,27 +17,6 @@ Hello 👋，我是 [[04 Archive/About\|Davon]]，欢迎来到我的数字花园
  - 🗃️ [[04 Archive/归档\|归档]]
 
 <p><span>已使用 <a data-tooltip-position="top" aria-label="https://obsidian.md/" rel="noopener nofollow" class="external-link" href="https://obsidian.md/" target="_blank">Obsidian</a> 881 天，共创建 321 篇文档、88 个标签、13 个待办。 <br></span></p>
-```contributionGraph
-title: 花园足迹
-graphType: default
-dateRangeValue: 12
-dateRangeType: LATEST_MONTH
-startOfWeek: 1
-showCellRuleIndicators: true
-titleStyle:
-  textAlign: left
-  fontSize: 15px
-  fontWeight: normal
-dataSource:
-  type: PAGE
-  value: ""
-  dateField: {}
-  filters: []
-fillTheScreen: false
-enableMainContainerShadow: false
-cellStyleRules: []
-
-```
 
 **🆕 最近创建**：
 <div><ul class="dataview list-view-ul"><li><span>2024-12-06 — <a data-tooltip-position="top" aria-label="02 Area/文体娱乐/如何训练一只业余篮球队.md" data-href="02 Area/文体娱乐/如何训练一只业余篮球队.md" href="02 Area/文体娱乐/如何训练一只业余篮球队.md" class="internal-link" target="_blank" rel="noopener nofollow">如何训练一只业余篮球队</a></span></li><li><span>2024-12-06 — <a data-tooltip-position="top" aria-label="03 Resource/Book/Calibre 日常处理方法.md" data-href="03 Resource/Book/Calibre 日常处理方法.md" href="03 Resource/Book/Calibre 日常处理方法.md" class="internal-link" target="_blank" rel="noopener nofollow">Calibre 日常处理方法</a></span></li><li><span>2024-12-06 — <a data-tooltip-position="top" aria-label="03 Resource/Book/论丛文集/如何知道书籍创意是否原创.md" data-href="03 Resource/Book/论丛文集/如何知道书籍创意是否原创.md" href="03 Resource/Book/论丛文集/如何知道书籍创意是否原创.md" class="internal-link" target="_blank" rel="noopener nofollow">如何知道书籍创意是否原创</a></span></li></ul></div>
