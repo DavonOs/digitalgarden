@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"program/git","permalink":"/program/git/","metatags":{"description":"借用NotionNext项目实战操作Git，实现本地及远程版本控制管理","og:site_name":"DavonOs","og:title":"Git","og:type":"article","og:url":"https://zuji.eu.org/learn/program/git","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/git"]}
+{"dg-publish":true,"dg-permalink":"program/git","permalink":"/program/git/","metatags":{"description":"借用digitalgarden项目实战操作Git，实现本地及远程版本控制管理","og:site_name":"DavonOs","og:title":"Git 快速上手","og:type":"article","og:url":"https://zuji.eu.org/learn/program/git","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/git"]}
 ---
 
 Git简介与安装（略）
@@ -12,29 +12,29 @@ Git简介与安装（略）
 
 ## 项目下载与初始化
 
-在 Github 上找到您要同步的项目，并复制项目的 URL，这里以 NotionNext 项目为例。
+在 Github 上找到您要同步的项目，并复制项目的 URL，这里以 digitalgarden 项目为例。
 
 打开命令行工具（如Terminal或Command Prompt）。
 
 使用`git clone`命令将项目克隆到本地。在命令行中输入以下命令：`git clone <项目URL>`，将项目的URL替换为您复制的项目URL即可
 
-例：`git clone <https://github.com/tangly1024/NotionNext.git`>
+例：`git clone https://github.com/oleeskild/digitalgarden.git`
 
-注意，如此下载只包含项目的主分支，而本地不存在其他项目分支。要将 GitHub 项目上的所有分支克隆到本地，可以为git clone命令添加--mirror 参数：`git clone --mirror <项目URL>`
+注意，如此下载只包含项目的主分支，而本地不存在其他项目分支。要将 GitHub 项目上的所有分支克隆到本地，可以为 git clone 命令添加--mirror 参数：`git clone --mirror <项目URL>`
 
-例：`git clont --mirror <https://github.com/tangly1024/NotionNext.git`>
+例：`git clont --mirror https://github.com/oleeskild/digitalgarden.git`
 
 输入命令后， Git 会在本地创建一个裸版本的存储库，保存项目的所有分支和标签信息。
 
-如何将git仓库克隆到指定文件夹中？
+如何将 Git 仓库克隆到指定文件夹中？
 
 除了手动进入文件夹目录外，可以通过命令：`git clone <repository_url> <destination_folder>`将仓库克隆到指定文件夹下。
 
 `<repository_url>`是要克隆的Git仓库的URL地址，`<destination_folder>`是指定的目标文件夹路径。
 
-示例：`git clone https://github.com/tangly1024/NotionNext.git myfolder`NotionNext项目会被克隆到当前目录下的myfolder文件夹中。
+示例：`git clone https://github.com/oleeskild/digitalgarden.git myfolder` digitalgarden项目会被克隆到当前目录下的 myfolder 文件夹中。
 
-你可以通过cd命令进入项目目录，查看所有文件和文件夹。
+你可以通过 cd 命令进入项目目录，查看所有文件和文件夹。
 
 ## 本地版本管理
 
@@ -42,11 +42,12 @@ Git 对项目文件进行版本控制需要以下步骤：
 
 ### 版本生成
 
-1. 进入要管理的文件夹，执行初始化命令，让Git帮我们管理当前文件夹：`git init` 查看管理当前目录下的文件状态：`git status` 🔔新增和修改过后的文件都是红色的。
-2. 管理指定文件，如index.html（红变绿）：`git add index.html` 管理当前目录下所有文件： `git add .`
-3. ❗初次使用要进行个人信息配置用户名、邮箱，告诉Git你是谁，再生成版本（仅需一次即可）： `git config --global user.email "you@example.com"` `git config --global user.name "Your Name"`
+1. 进入要管理的文件夹，执行初始化命令，让Git帮我们管理当前文件夹：`git init` 查看管理当前目录下的文件状态：`git status` 🔔新增和修改过后的文件都是<font color=#f00;>红色</font>的。
+2. 管理指定文件，如<font color= #0ff;>index .html</font>（红变绿）：`git add index.html` 管理当前目录下所有文件： `git add .`
+3. ❗初次使用要补充个人信息告诉Git你是谁，配置用户名、邮箱，再生成版本（仅需一次）： `git config --global user.email "you@example.com"` 
+   `git config --global user.name "Your Name"`
 4. 生成版本信息：`git commit -m '描述信息'`。
-5. 使用`gitlog`命令，可以查看提交的版本历史。
+5. 使用 `git log` 命令，可以查看提交的版本历史。
 
 ### 版本回滚与恢复
 
@@ -72,7 +73,7 @@ Git 对项目文件进行版本控制需要以下步骤：
 
 如果您只想删除项目文件，而保留Git的版本控制信息，可以直接删除项目文件夹。
 
-在项目所在的文件夹中（不是项目文件夹本身），输入以下命令删除整个NotionNext项目目录：`rm -rf NotionNext`会完全删除项目文件夹及其中所有文件和Git版本控制信息。请注意，一旦执行此操作，您将无法恢复删除的文件，请确保您真的想要删除项目。
+在项目所在的文件夹中（不是项目文件夹本身），输入以下命令删除整个digitalgarden项目目录：`rm -rf digitalgarden`会完全删除项目文件夹及其中所有文件和Git版本控制信息。请注意，一旦执行此操作，您将无法恢复删除的文件，请确保您真的想要删除项目。
 
 ### 分支管理
 
@@ -324,11 +325,11 @@ fork仓库，将别人的源代码拷贝到自己的远程仓库
 
 url中实现
 
-原来的地址：`https://github.com/tangly1024/notionnext.git`
+原来的地址：`https://github.com/oleeskild/digitalgarden.git`
 
-修改的地址：`https://用户名:密码@github.com/tangly1024/notionnext.git`
+修改的地址：`https://用户名:密码@github.com/oleeskild/digitalgarden.git`
 
-git remote add origin `https://用户名:密码@github.com/tangly1024/notionnext.git`
+git remote add origin `https://用户名:密码@github.com/oleeskild/digitalgarden.git`
 
 git push origin master
 
@@ -342,7 +343,7 @@ ssh-keygen
 
 在git本地中配置ssh地址
 
-`git remote add origin [git@github.com](mailto:git@github.com):tangly1024/notionnext.git`
+`git remote add origin [git@github.com](mailto:git@github.com):oleeskild/digitalgarden.git`
 
 以后使用
 
