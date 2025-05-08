@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"obsidianintro","permalink":"/obsidianintro/","metatags":{"description":"这里是 Obsidian 从0到1的简易新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidianintro","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"]}
+{"dg-publish":true,"dg-permalink":"obsidian-basic","permalink":"/obsidian-basic/","metatags":{"description":"这里是 Obsidian 从0到1的简易新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidian-basic","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"],"created":"2023-07-31T18:07:11.451+08:00","updated":"2025-05-08T11:12:28.782+08:00"}
 ---
 
 
@@ -250,7 +250,8 @@ task-done：“”——已完成的任务
 [[02 Area/内容创作/Obsidian 插件：Dataview\|Dataview]]
 [[TObsidian 插件：Templater\|Templater]]
 [[Obsidian 插件：Task\|Task]]
-Excalidraw：流程图设计
+[Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin/blob/master/docs/zh-cn/README.md)：流程图设计
+[Contribution Graph](https://github.com/vran-dev/obsidian-contribution-graph)
 
 CSS 多栏布局
 

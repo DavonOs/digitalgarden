@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"book/27055712","permalink":"/book/27055712/","metatags":{"description":"本书是畅销书《SQL基础教程》第2版，介绍了关系数据库以及用来操作关系数据库的SQL语言的使用方法。书中通过丰富的图示、大量示例程序和详实的操作步骤说明，让读者循序渐进地掌握SQL的基础知识和使用技巧，切实提高编程能力。每章结尾设置有练习题，帮助读者检验对各章内容的理解程度。另外，本书还将重要知识点总结为“法则”，方便读者随时查阅。适合数据库和SQL语言的初学者阅读，也可作为大中专院校的教材及企业新人培训用书。","og:site_name":"DavonOs","og:title":"SQL基础教程（第2版）","og:type":"book","og:url":"https://zuji.eu.org/book/27055712","og:image":"https://wfqqreader-1252317822.image.myqcloud.com/cover/871/26211871/t6_26211871.jpg","og:image:width":"50","og:image:alt":"bookcover"},"tags":["books/T工业技术/TP自动化技术、计算机技术"]}
+{"dg-publish":true,"dg-permalink":"books/27055712","permalink":"/books/27055712/","metatags":{"description":"本书是畅销书《SQL基础教程》第2版，介绍了关系数据库以及用来操作关系数据库的SQL语言的使用方法。书中通过丰富的图示、大量示例程序和详实的操作步骤说明，让读者循序渐进地掌握SQL的基础知识和使用技巧，切实提高编程能力。每章结尾设置有练习题，帮助读者检验对各章内容的理解程度。另外，本书还将重要知识点总结为“法则”，方便读者随时查阅。适合数据库和SQL语言的初学者阅读，也可作为大中专院校的教材及企业新人培训用书。","og:site_name":"DavonOs","og:title":"SQL基础教程（第2版）","og:type":"book","og:url":"https://zuji.eu.org/books/27055712","og:image":"https://wfqqreader-1252317822.image.myqcloud.com/cover/871/26211871/t6_26211871.jpg","og:image:width":"50","og:image:alt":"bookcover"},"tags":["books/T工业技术/TP自动化技术、计算机技术"],"created":"2024-05-24T10:11:06.205+08:00","updated":"2025-05-08T10:59:16.255+08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"markdown","permalink":"/markdown/","metatags":{"description":"这里是 🏡Davon的数字花园，是个人不断发展的想法的集合，作为半成品的思考，在可探索的空间中，随时间推移不断播种、修剪、塑造","og:site_name":"DavonOs","og:title":"Markdown","og:type":"article","og:url":"https://zuji.eu.org/markdown","og:image":"https://markdown.com.cn/hero.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"}}
+{"dg-publish":true,"dg-permalink":"markdown","permalink":"/markdown/","metatags":{"description":"这里是 🏡Davon的数字花园，是个人不断发展的想法的集合，作为半成品的思考，在可探索的空间中，随时间推移不断播种、修剪、塑造","og:site_name":"DavonOs","og:title":"Markdown","og:type":"article","og:url":"https://zuji.eu.org/markdown","og:image":"https://markdown.com.cn/hero.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"created":"2024-08-25T19:44:26.921+08:00","updated":"2025-04-24T08:31:28.652+08:00"}
 ---
 
 
