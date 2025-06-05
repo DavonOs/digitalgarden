@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/design-app-experiences-with-charts","permalink":"/design/design-app-experiences-with-charts/","title":"如何用图表构建出色的应用体验","metatags":{"description":"学习如何通过图表增强您的应用，以更清晰和吸引人的方式传达数据。我们将向您展示何时使用图表，如何使用它们以及它们如何在图表设计系统中协同工作。","og:site_name":"DavonOs","og:title":"如何使用图表构建出色的应用体验","og:type":"article","og:url":"https://zuji.eu.org/design/design-app-experiences-with-charts","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"created":"2025-04-18T10:29:55.328+08:00","updated":"2025-05-08T11:07:32.777+08:00"}
+{"dg-publish":true,"dg-permalink":"design/design-app-experiences-with-charts","permalink":"/design/design-app-experiences-with-charts/","title":"如何用图表构建出色的应用体验","metatags":{"description":"学习如何通过图表增强您的应用，以更清晰和吸引人的方式传达数据。我们将向您展示何时使用图表，如何使用它们以及它们如何在图表设计系统中协同工作。","og:site_name":"DavonOs","og:title":"如何使用图表构建出色的应用体验","og:type":"article","og:url":"https://zuji.eu.org/design/design-app-experiences-with-charts","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"created":"2025-04-18T10:29:55.328+08:00","updated":"2025-05-09T09:53:13.247+08:00"}
 ---
 
 
@@ -140,8 +140,7 @@ For our final chart, we would like to show sales in the two cities where the tru
 For this, we will need to do something a bit specialized. The context for this chart is sales by day of the week. In this case, we want to look at each day independently. Here are the average daily sales for each day of the week over the past 30 days.
 为了这个，我们需要做一些专门的事情。这个图表的上下文是按周的销售。在这种情况下，我们想独立查看每一天。以下是过去 30 天内每周每天的平均日销售额。
 
-As the food truck operates in both Cupertino and San Francisco, we need to split these bars to represent each location. Finally, let’s convert these bars into lines to focus on the daily changes. I’ve added this chart to the sales tab and included a description to summarize the data. In this case, the best sales day over the past 30 days was Sunday in San Francisco. The subsequent detail page is the last chart we will add to the app. It provides additional interactivity and details, including keys for the two lines.
-由于食物卡车在库比蒂诺和旧金山两地运营，我们需要将这些条形图分开来表示每个地点。最后，让我们将这些条形图转换为线条，以关注每日的变化。我已经将此图表添加到销售标签中，并包括了一个描述来总结数据。在这种情况下，过去 30 天内最佳销售日是旧金山的星期日。随后的详细页面是我们将在应用程序中添加的最后一个图表。它提供了额外的交互性和详细信息，包括两条线的键。
+由于食品车同时在库比蒂诺和旧金山两地运营，我们需要将这些柱状图分割以分别表示每个地点。最后，我们将这些柱状图转换为折线图，以突出每日变化。我已将此图表添加到销售标签页，并附上描述文字来总结数据。在这个案例中，过去30天内最佳销售日是旧金山的周日。随后的详情页是我们将在应用中添加的最后一个图表，它提供了额外的交互功能和细节，包括两条折线的图例说明。
 
 我们已经概述了计划添加到煎饼食品车应用程序中的图表集。使用图表来展示最近的销售、热门商品以及最佳日期和地点将显著提高该应用程序的实用性。
 
