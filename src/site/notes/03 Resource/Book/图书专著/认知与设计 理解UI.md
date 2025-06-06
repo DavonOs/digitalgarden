@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/35364487","permalink":"/books/35364487/","metatags":{"description":"User interface (UI) design rules and guidelines, developed by early HCI gurus and recognized throughout the field, were based on cognitive psychology (study of mental processes such as problem solving, memory, and language), and early practitioners were well informed of its tenets. But today practitioners with backgrounds in cognitive psychology are a minority, as user interface designers and developers enter the field from a wide array of disciplines. HCI practitioners today have enough experience in UI design that they have been exposed to UI design rules, but it is essential that they understand the psychological basis behind the rules in order to effectively apply them. In Designing with the Mind in Mind, best-selling author Jeff Johnson provides designers with just enough background in perceptual and cognitive psychology that UI design guidelines make intuitive sense rather than being just a list of rules to follow.Jeff Johnson is an Assistant Professor of Computer Science at the University of San Francisco. He is also a principal at Wiser Usability, a consultancy focused on elder usability. After earning B.A. and Ph.D. degrees from Yale and Stanford, he worked as a UI designer, implementer, manager, usability tester, and researcher at Cromemco, Xerox, US West, Hewlett-Packard, and Sun. H...(展开全部)Jeff Johnson is an Assistant Professor of Computer Science at the University of San Francisco. He is also a principal at Wiser Usability, a consultancy focused on elder usability. After earning B.A. and Ph.D. degrees from Yale and Stanford, he worked as a UI designer, implementer, manager, usability tester, and researcher at Cromemco, Xerox, US West, Hewlett-Packard, and Sun. He has taught at Stanford, Mills, and the University of Canterbury. He is a member of the ACM SIGCHI Academy and a recipient of SIGCHI's Lifetime Achievement in Practice Award. He has authored articles on a variety of topics in HCI, as well as the books GUI Bloopers (1st and 2nd eds.), Web Bloopers, Designing with the Mind in Mind (1st and 2nd eds.), Conceptual Models: Core to Good Design (with Austin Henderson), and Designing User Interfaces for an Aging Population (with Kate Finn).","og:site_name":"DavonOs","og:title":"DesigningwiththeMindinMind","og:type":"book","og:url":"https://zuji.eu.org/books/35364487","og:image":"https://i5.walmartimages.com/asr/e40fda23-efe4-469c-8f94-b1e7d8686d77.f371457f88a369e391c302eceb43f9fc.jpeg","og:image:width":"50","og:image:alt":"bookcover"},"tags":["books"],"created":"2025-05-08T22:21:59.019+08:00","updated":"2025-06-05T21:30:12.702+08:00"}
+{"dg-publish":true,"dg-permalink":"books/35364487","permalink":"/books/35364487/","metatags":{"description":"User interface (UI) design rules and guidelines, developed by early HCI gurus and recognized throughout the field, were based on cognitive psychology (study of mental processes such as problem solving, memory, and language), and early practitioners were well informed of its tenets. But today practitioners with backgrounds in cognitive psychology are a minority, as user interface designers and developers enter the field from a wide array of disciplines. HCI practitioners today have enough experience in UI design that they have been exposed to UI design rules, but it is essential that they understand the psychological basis behind the rules in order to effectively apply them. In Designing with the Mind in Mind, best-selling author Jeff Johnson provides designers with just enough background in perceptual and cognitive psychology that UI design guidelines make intuitive sense rather than being just a list of rules to follow.Jeff Johnson is an Assistant Professor of Computer Science at the University of San Francisco. He is also a principal at Wiser Usability, a consultancy focused on elder usability. After earning B.A. and Ph.D. degrees from Yale and Stanford, he worked as a UI designer, implementer, manager, usability tester, and researcher at Cromemco, Xerox, US West, Hewlett-Packard, and Sun. H...(展开全部)Jeff Johnson is an Assistant Professor of Computer Science at the University of San Francisco. He is also a principal at Wiser Usability, a consultancy focused on elder usability. After earning B.A. and Ph.D. degrees from Yale and Stanford, he worked as a UI designer, implementer, manager, usability tester, and researcher at Cromemco, Xerox, US West, Hewlett-Packard, and Sun. He has taught at Stanford, Mills, and the University of Canterbury. He is a member of the ACM SIGCHI Academy and a recipient of SIGCHI's Lifetime Achievement in Practice Award. He has authored articles on a variety of topics in HCI, as well as the books GUI Bloopers (1st and 2nd eds.), Web Bloopers, Designing with the Mind in Mind (1st and 2nd eds.), Conceptual Models: Core to Good Design (with Austin Henderson), and Designing User Interfaces for an Aging Population (with Kate Finn).","og:site_name":"DavonOs","og:title":"DesigningwiththeMindinMind","og:type":"book","og:url":"https://zuji.eu.org/books/35364487","og:image":"https://i5.walmartimages.com/asr/e40fda23-efe4-469c-8f94-b1e7d8686d77.f371457f88a369e391c302eceb43f9fc.jpeg","og:image:width":"50","og:image:alt":"bookcover"},"tags":["books"],"created":"2025-05-08T22:21:59.019+08:00","updated":"2025-06-06T15:57:57.981+08:00"}
 ---
 
 
@@ -18,9 +18,7 @@
 自从人们开始设计交互式计算机系统以来，有些人就试图通过发布用户界面设计指南（也称为设计规则）来推广良好的设计，包括这些早期的指南：
 
 • Cheriton（1976 年）为早期的交互式（分时）计算机系统提出了用户界面设计指南。
- 
 • Norman（1983a,b）基于人类认知（包括认知错误），提出了软件用户界面的设计规则。
-
 • Smith 和 Mosier（1986 年）撰写了最全面的一套用户界面设计指南。
 •Shneiderman（1987年）在他的书《用户界面设计》的第一版以及所有后续版本中，都包含了“界面设计的八项黄金法则”。
 •Brown (1988) 写了一本名为《Human–Computer Interface Design Guidelines》的设计指南书籍。
@@ -34,344 +32,251 @@
 •计算机公司已在其平台上发布桌面应用程序设计指南：Microsoft 公司 (2018)，Apple 公司 (2020a)。
 • 移动应用程序平台提供者也已发布指南，以帮助开发者创建更适用于移动设备的可用应用程序：Oracle 公司 (2017)，Google (2019)，Apple 公司 (2020b)。
 
-用户界面设计准则的价值有多大？这就取决于将它们应用在设计问题上的人了。  
+用户界面设计准则的价值有多大？这就取决于将它们应用在设计问题上的人了。
 
 ### 用户界面设计与评估需要理解和经验
 
-遵循用户界面设计准则不像遵循烹饪食谱那么按部就班。设计准则经常描述的是目标而不是操作。它们特意极其概括从而具有更广泛的适用性，但这也意味着，人们对它们准确的意义和在具体设计情境上的适用性经常会做出不同的诠释。  
+遵循用户界面设计准则不像遵循烹饪食谱那么按部就班。设计准则经常描述的是目标而不是操作。它们特意极其概括从而具有更广泛的适用性，但这也意味着，人们对它们准确的意义和在具体设计情境上的适用性经常会做出不同的诠释。
 
 更进一步地，。在这种情况下，适用的设计规则经常冲突：它们建议不同的设计。这要求设计师确定哪个竞争的设计规则更适用于给定的情况并应优先考虑。
 
-更复杂的是，往往会有多个规则似乎都适用于给定的设计情况。这时，这些设计准则经常会相互冲突，即指向不同的设计。这要求设计师确定哪个设计准则更适用于给定的环境，从而优先应用。  
+更复杂的是，往往会有多个规则似乎都适用于给定的设计情况。这时，这些设计准则经常会相互冲突，即指向不同的设计。这要求设计师确定哪个设计准则更适用于给定的环境，从而优先应用。
 
 即使没有冲突的设计准则，设计问题也常常有多个冲突的目标——例如：
 
-屏幕要明亮，且电池寿命长；  
-轻便且坚固；  
-功能多且容易学；  
-功能强大且系统简单；  
-分辨率高且加载快；  
-所见即所得（WYSIWYG），且盲人可用。  
+屏幕要明亮，且电池寿命长；
+轻便且坚固；
+功能多且容易学；
+功能强大且系统简单；
+分辨率高且加载快；
+所见即所得（WYSIWYG），且盲人可用。
 
 要满足这些计算机产品或服务的所有设计目标，通常需要权衡——大量的权衡。在相互冲突的设计准则间找到合适的平衡点需要进一步的权衡。
 
-Given all these complications, user-interface design rules and guidelines must be applied thoughtfully, not mindlessly, by people skilled in the art of user-interface design and/or evaluation. Userinterface design rules and guidelines are more like laws than like rote recipes. Just as a set of laws is best applied and interpreted by lawyers and judges well versed in the laws, a set of user-interface design guidelines is best applied and interpreted by people who understand the basis for the guidelines and have learned from experience in applying them.
-鉴于所有这些复杂性，用户界面设计规则和指南必须由精通用户界面设计和/或评估艺术的人员深思熟虑地、而不是盲目地应用。用户界面设计规则和指南更像是法律，而不是像死记硬背的食谱。就像一套法律是由精通法律的律师和法官最好地应用和解释一样，一套用户界面设计指南也是由理解指南基础并从应用它们中获得经验的人最好地应用和解释。
+面对这些复杂情况，技艺娴熟的 UI 设计者或评估者必须更深思熟虑，而不是盲目地应用用户界面设计规则和准则。用户界面设计规则和准则更像法律，而不是生搬硬套的食谱。就像一套法律必须由精通法律的律师和法官来使用和诠释一样，一套用户界面设计准则最好由理解其基本原则并有过应用经验的人来使用和诠释。
 
-Unfortunately, with a few exceptions (e.g., Norman, 1983a), userinterface design guidelines are provided as simple lists of design edicts with little or no rationale or background.
-不幸的是，除了少数例外（例如 Norman, 1983a），用户界面设计指南通常只是简单的设计命令列表，缺乏或几乎没有理由或背景。
+遗憾的是，用户界面设计准则通常都是以设计布告的简单列表形式提供的，几乎没有提供任何理论依据或背景。当然有少数例外，比如 Norman（1983 a）。
 
-Furthermore, although many early members of the user-interface design and usability profession had educations that included studying cognitive psychology, most newcomers to the field do not. That makes it difficult for them to apply user-interface design guidelines sensibly. Providing that rationale and background education is the focus of this book.
-此外，尽管用户界面设计和可用性专业的许多早期成员的教育包括学习认知心理学，但大多数该领域的新手并没有。这使得他们难以合理地应用用户界面设计指南。提供这些理由和背景教育是本书的重点。
-
+再者，虽然很多早期用户界面设计和可用性的从业人员拥有认知心理学的知识背景，但大部分新参与的人并没有。这让他们很难理性地应用用户界面设计准则。提供这样的理论依据和背景正是本书的着眼点。
 ### 用户界面设计准则的比较
 Comparing User-Interface Design Guidelines
 
+表 1.1 并排列出了两大最著名的用户界面设计准则，展示了它们包含的规则类型和相互间的比较（更多的准则可参考附录）。比如，二者的第一条规则都提倡设计的一致性，它们也都包含错误预防的规则。Nielsen-Molich 的规则“帮助用户识别、诊断错误，并从错误中恢复”接近于 Shneiderman-Plaisant 的规则“允许容易的操作反转”，而“用户的控制与自由”则对应“让用户觉得他们在掌控”。这种相似有其原因，而并不是因为后者受到了前者的影响。
 
-Table I.1 places the two best-known user-interface guideline lists side by side to show the types of rules they contain and how they compare (see the Appendix for additional guideline lists). For example, both lists start with a rule calling for consistency in design. Both lists include a rule about preventing errors. The Nielsen– Molich rule to “help users recognize, diagnose, and recover from errors” corresponds closely to the Shneiderman–Plaisant rule to “permit easy reversal of actions.” “User control and freedom” corresponds to “make users feel they are in control.” There is a reason for this similarity, and it is not simply that later authors were influenced by earlier ones.
-表 I.1 将两个最著名的用户界面指南列表并排放置，以显示它们包含的规则类型以及它们如何比较（参见附录以获取其他指南列表）。例如，两个列表都以一个要求设计一致性的规则开头。两个列表都包含一个关于防止错误的规则。尼尔森-莫利奇规则“帮助用户识别、诊断和从错误中恢复”与施耐德曼-普拉尚特规则“允许轻松撤销操作”非常接近。“用户控制和自由”对应于“让用户感觉他们处于控制之中”。有这样一个相似的原因，这并不仅仅是后来的作者受到了早期作者的影响。
-
-# Table I.1
-表 I.1
+表 1.1 两大最著名的用户界面设计准则 
 
 <table data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><tbody data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Shneiderman (1987); Shneiderman and Plaisant (2009)施耐德曼（1987 年）；施耐德曼和普拉尚特（2009 年）</td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Nielsen and Molich (1990)尼尔森和莫利奇（1990 年）</td></tr><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Strive for consistency力求一致性</td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Consistency and standards一致性和标准</td></tr><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Cater to universal usability服务于普遍可用性</td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Visibility of system status系统状态的可见性</td></tr><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Offer informative feedback提供信息反馈</td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Match between system and real world系统与现实世界的匹配</td></tr><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Design task flows to yield closure设计任务流程以获得完成感</td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">User control and freedom用户控制和自由</td></tr><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Prevent errors防止错误</td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Error prevention预防错误</td></tr><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Permit easy reversal of actions允许轻松撤销操作</td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Recognition rather than recall识别而非记忆</td></tr><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Make users feel they are in control让用户感觉他们掌控着局面</td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Flexibility and efficiency of use使用灵活高效</td></tr><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Minimize short-term memory load减少短期记忆负担</td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Aesthetic and minimalist design美观简洁的设计</td></tr><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"></td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Help users recognize, diagnose, and recover from errors帮助用户识别、诊断和恢复错误</td></tr><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"></td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Provide online documentation and help提供在线文档和帮助</td></tr></tbody></table>
+### 设计准则从何而来
+Where Do Design Guidelines Come From?
 
-# Where Do Design Guidelines Come From?
-设计指南来自哪里？
+对当前的讨论而言，这些设计准则的共性—它们的基础和起源，比每套设计准则的具体规则更重要。这些设计准则从何而来？它们的作者只是像时装设计师一样，试图将个人的设计品味强加在计算机和软件业上吗？
 
-For present purposes, the detailed design rules in each set of guidelines, such as those in Table I.1, are less important than what they have in common: their basis and origin. Where did these design rules come from? Were their authors—like clothing fashion designers—simply trying to impose their own personal design tastes on the computer and software industries?
-对于当前目的而言，每套指南中的详细设计规则，如表 I.1 中的那些规则，都不如它们所共有的基础和起源重要。这些设计规则是从哪里来的？它们的作者——就像服装时尚设计师一样——是否只是试图将自己的个人设计品味强加给计算机和软件行业？
+如果是这样，这些设计准则会因各自作者追求与众不同而变得非常不一样。实际上，忽略在措辞、强调点以及撰写时计算机技术状态的不同之后，所有这些用户界面设计准则是很相似的。这是为什么呢？
 
-If that were so, the different sets of design rules would be very different from each other as the various authors sought to differentiate themselves from others. In fact, all of these sets of userinterface design guidelines are quite similar if we ignore differences in wording, emphasis, and the state of computer technology when each set was written. Why?
-如果是这样的话，不同套的设计规则会因各种作者试图与他人区分开来而非常不同。事实上，如果我们忽略每套指南编写时的措辞、重点和计算机技术状态的不同，所有这些用户界面设计指南都非常相似。为什么？
+答案在于，所有设计准则都基于人类心理学：人们如何感知、学习、推理、记忆，以及把意图转换为行动。许多设计准则的作者至少有一些心理学背景，应用于计算机系统设计上。
 
-The answer is that all the design rules are based on human psychology: how people perceive, learn, reason, remember, and convert intentions into action. Many authors of design guidelines had at least some background in psychology that they applied to computer system design.
-答案是所有的设计规则都是基于人类心理学的：人们如何感知、学习、推理、记忆以及将意图转化为行动。许多设计指南的作者至少有一些心理学背景，并将这些知识应用于计算机系统设计。
+例如，DonNorman 远在开始从事人机交互方面的写作之前，就已经是认知心理学领域的一名教授、研究者和多产作家了。Norman 早期的人机设计准则就基于他本人和其他人在人类认知方面的研究。他特别关注的是人们经常犯的认知性错误，以及计算机系统如何减少或消除这些错误造成的影响。
 
-For example, Don Norman was a professor, researcher, and prolific author in the field of cognitive psychology long before he began writing about human–computer interaction. Norman’s early human–computer design guidelines were based on research—his own and others’—on human cognition. He was especially interested in cognitive errors that people often make and how computer systems can be designed to lessen or eliminate the impact of those errors.
-例如，唐纳德·诺曼在开始撰写关于人机交互的内容之前，就已经是认知心理学领域的教授、研究人员和 prolific 作家了。诺曼早期的人机设计指南是基于对人类认知的研究——他自己的和他人的研究。他对人们经常犯的认知错误特别感兴趣，以及如何设计计算机系统来减轻或消除这些错误的影响。
+类似地，其他设计准则的作者，比如 Brown、Shneiderman、Nielsen 和 Molich，也都在应用感知和认知心理学的知识，尝试改进交互系统的设计，使其更具可用性和实用性。
 
-Similarly, other authors of user-interface design guidelines—for example, Brown, Shneiderman, Nielsen, and Molich—used knowledge of perceptual and cognitive psychology to try to improve the design of usable and useful interactive systems.
-类似地，其他用户界面设计指南的作者——例如布朗、施奈德曼、尼尔森和莫利奇——利用了对感知和认知心理学的知识，试图改进可用且实用的交互式系统的设计。
+说到底，用户界面设计准则是以人类心理学为基础的。
 
-Bottom line: User-interface design guidelines are based on human psychology.
-结论：用户界面设计指南是基于人类心理学的。
+阅读本书，你将学到用户界面和可用性设计准则背后重要的心理学知识。
 
-By reading this book, you will learn the most important aspects of the psychology underlying user-interface and usability design guidelines.
-通过阅读这本书，你将学习人机界面和可用性设计指南背后的心理学最重要的方面。
+### 读者对象
+Intended Audience of This Book
 
-# Intended Audience of This Book
-本书的目标读者
-
-This book is intended mainly for software design and development professionals who have to apply user-interface and interaction design guidelines. This includes interaction designers, user-interface designers, user-experience designers, graphic designers, and hardware product designers. It also includes usability testers and evaluators, who often refer to design heuristics when reviewing software or analyzing observed usage problems.
 这本书主要面向需要应用用户界面和交互设计指南的软件设计和开发专业人士。这包括交互设计师、用户界面设计师、用户体验设计师、平面设计师和硬件产品设计师。它还包括可用性测试员和评估员，他们在审查软件或分析观察到的使用问题时经常参考设计启发式方法。
 
-A second important audience is students of interaction design and human–computer interaction. In fact, the second edition of this book turned out to be a popular textbook for college-level courses on UI/UX design. Because of that, one of my goals in updating and refining the book to produce this third edition has been to make it a better textbook.
 第二个重要的受众是交互设计和人机交互专业的学生。事实上，这本书的第二版已成为大学水平 UI/UX 设计课程的流行教科书。因此，我在更新和完善这本书以制作第三版时，一个目标就是使其成为更好的教科书。
 
-A third intended audience is software development managers who want enough of a background in the psychological basis of user-interface design rules to understand and evaluate the work of the people they manage.
 第三个预期的受众是希望了解用户界面设计规则的心理基础的软件开发经理，以便理解和评估他们所管理的人员的工作。
 
-# Chapter 1: Our Perception is Biased
-第一章：我们的感知是偏见的
+# 第一章：感知偏差
+Chapter 1: Our Perception is Biased
 
-# Abstract
 摘要
 
-What we perceive is not an accurate reflection of our environment. It is biased by at least three factors: past experience, current context, and future goals. This chapter discusses these factors in detail, gives examples of how they bias perception, and explains their implications for designing interactive systems.
 我们感知到的并非我们环境的准确反映。它至少受到三个因素的影响：过去的经验、当前的环境以及未来的目标。本章将详细讨论这些因素，举例说明它们如何影响感知，并解释它们对设计交互式系统的意义。
 
-# Keywords
 关键词
 
 Ambiguity; Attentional blink; Bias; Cocktail party effect; Context; Frames; Goals; Habituation; McGurk effect; Müller-Lyer; Optical illusion; Perception; Priming
 含糊不清；注意力瞬失；偏见；鸡尾酒会效应；环境；框架；目标；习惯化；麦克格鲁效应；缪勒-莱尔错觉；光学错觉；感知；启动效应
 
-Our perception of the world around us is not a true depiction of what is actually there. Our perceptions are heavily biased by at least three factors:
 我们对周围世界的感知并非对实际情况的真实描绘。我们的感知受到至少三个因素的影响：
 
-• The past: our experience • The present: the current context • The future: our goals
-• 过去：我们的经验 • 现在：当前环境 • 未来：我们的目标
+• 过去：我们的经验 
+• 现在：当前环境
+• 未来：我们的目标
 
-# Perception Biased by Experience
 经验导致感知偏见
 
-Experience—your past perceptions—can bias your current perception in several different ways.
-经验——你过去的感知——可以在几种不同的方式上影响你当前的感知。
+经验，即你过去的感知——可以在几种不同的方式上影响你当前的感知。
 
-# Perceptual priming
-感知启动
+感知的启动
 
-Imagine that you own a large insurance company. You are meeting with a real estate manager, discussing plans for a new campus of company buildings. The campus consists of a row of five buildings, the last two with T-shaped courtyards providing light for the cafeteria and fitness center. If the real estate manager showed you the map in Fig. 1.1, you would see five black shapes representing the buildings.
-想象一下，你拥有一家大型保险公司。你正在与一位房地产经理会面，讨论公司新建筑群的建设计划。建筑群由一排五栋建筑组成，最后两栋建筑有 T 形庭院，为食堂和健身中心提供光线。如果房地产经理向你展示了图 1.1 的地图，你会看到代表建筑的五个黑色形状。
+想象一下，你拥有一家大型保险公司，并将与一位房地产经理开会讨论公司新园区的建设方案。园区有五座建筑排成一排，后两座有给自助餐厅和健身中心采光的 T 字形庭院。如果房地产经理向你展示如图 1-1 所示的地图，你就会看到代表这些建筑物的五个图块。
 
-Now imagine that instead of a real estate manager, you are meeting with an advertising manager. You are discussing a new billboard ad to be placed in certain markets around the country. The advertising manager shows you the same image, but in this scenario the image is a sketch of the ad, consisting of a single word: LIFE. In this scenario, you see a word, clearly and unambiguously.
-现在想象一下，你不是在与房地产经理见面，而是在与广告经理见面。你们正在讨论要在全国某些市场放置的新广告牌。广告经理向你展示了同样的图像，但在这个场景中，图像是一张广告草图，由一个单词组成：生命。在这种情况下，你清楚地、明确地看到一个单词。
+![图1-1](https://cdn-mineru.openxlab.org.cn/extract/03d18d67-bed2-4264-a11b-961e1130db62/8f4d2f9e235e039020bc330626fa1e6b89c56155682101dd2dd3253659d5a9a2.jpg)
+图 1-1 这是建筑地图还是单词？你看到的取决于别人告诉你看什么
 
-When your perceptual system has been primed to see building shapes, you see building shapes, and the white areas between the buildings barely register in your perception. When your perceptual system has been primed to see text, you see text, and the black areas between the letters barely register.
-当你的感知系统被预先准备好看到建筑形状时，你看到建筑形状，建筑物之间的白色区域几乎不被你的感知所察觉。当你的感知系统被预先准备好看到文字时，你看到文字，字母之间的黑色区域几乎不被你的感知所察觉。
+现在想象一下与你见面的不是房地产经理，而是一位广告经理，讨论的是一个将在全国某些市场悬挂的广告牌。广告经理给你看的是同样的图像，但这次是广告牌的略图，由一个单词构成。这次，你清晰无误地看到了一个单词“LIFE”。
 
-![FIGURE 1.1](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/c1b3471f62bdbf1e732a019c6010eba01a9ad301aa3e5aada1d907b01f5417eb.jpg)
-图 1.1 这是建筑图还是文字？你看到什么取决于你被告知看到什么。
+当感知系统预先准备看的是建筑物的形状时，你就看到了建筑物的形状，几乎察觉不到建筑物之间的白色区域。当感知系统预先准备去看文字时，你就看到了文字，也几乎注意不到字母间的黑色区域。
+
+先入为主能够影响感知，有个著名的例子是一张素描。这张素描据传由R.C.James 所绘，大部分人对它的第一印象就是随手泼出的墨点。在继续阅读之前，先看看这张素描（见图 1-2）。 
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/0bbae79c196727bb76738a2d772699d5b41abdf2d1d810edc2fb4c895d5f39e7.jpg)
-FIGURE 1.2Image showing the effect of mental priming of the visual system. What do you see?
-图 1.2 展示了视觉系统心理启动效应的图像。你看到了什么？
+图 1.2 展示了先入为主在视觉上的效果。你看到了什么？
 
-A relatively famous example of how priming the mind can affect perception is an image, supposedly by R. C. James, 1 that initially looks to most people like a random splattering of paint (see Fig. 1.2) similar to the work of the painter Jackson Pollack. Before reading further, look at the image.
-一个相对著名的例子是，如何启动心智影响感知。这是一张图像，据说是 R. C. James 的作品，1 对大多数人来说，它最初看起来像一幅随机的泼溅颜料（见图 1.2），类似于画家杰克逊·波拉克的作品。在继续阅读之前，看看这张图像。
 
-Only after you are told that it is a Dalmatian dog sniffing the ground near a tree can your visual system organize the image into a coherent picture. Moreover, once you have seen the dog, it is hard to go back to seeing just a random collection of spots.
-只有在被告知这是一只达尔马提犬在树旁嗅地之后，你的视觉系统才能将图像组织成一幅连贯的画面。此外，一旦你看到了狗，就很难再回到看到只是一堆随机点的感觉。
+只有在告诉你这是一只在树附近嗅着地面的斑点狗之后，你的视觉系统才会把影像组织成一幅完整的画面。不仅如此，一旦你“看到了”这只狗，就很难再回头把这张素描看成随机无序的点。
 
-These priming examples are visual, but priming can also bias other types of perception, such as sentence comprehension. For example, the headline “New Vaccine Contains Rabies” would probably be understood differently by people who had recently heard stories about contaminated vaccines than by people who had recently heard stories about successful uses of vaccines to fight diseases.
-这些启动示例是视觉的，但启动也可以偏袒其他类型的感知，例如句子理解。例如，“新疫苗含有狂犬病”这个标题，对于最近听过关于疫苗污染故事的人来说，可能和最近听过关于疫苗成功用于防治疾病故事的人理解不同。
+以上是视觉的例子。经验也会影响其他类型的感知，如对语句的理解。例如，在不久前听说过疫苗污染事故的人与最近听说过利用疫苗成功对抗疾病的人，他们对“新疫苗含有狂犬病毒”这个标题或许就有不同的理解。
 
-# Familiar perceptual patterns or frames
 熟悉的感知模式或框架
 
-Much of our lives is spent in familiar situations: the rooms in our homes, our yards, our routes to and from school or work, our offices, neighborhood parks, stores, restaurants, etc. Repeated exposure to each type of situation builds a pattern in our minds of what to expect to see there. These perceptual patterns, which some researchers call frames, include the objects or events usually encountered in a particular situation.
-我们的生活中大部分时间都花在熟悉的环境中：我们家里的房间、我们的院子、我们上下学或上下班的路线、我们的办公室、社区公园、商店、餐馆等等。反复接触每种类型的环境，在我们的脑海中建立起一个模式，让我们知道在那里可以期待看到什么。这些感知模式，有些研究人员称之为框架，包括通常在特定环境中遇到的对象或事件。
+我们生活中大部分时间都在熟悉的环境里度过：家中的房间、花园、上学放学上班下班经过的路线、我们的办公室、小区附近的公园、商店、餐馆等。不断置身的各种环境在我们心智中建立起模式，让我们对不同地方的东西有不同期待。研究者们把这些感知模式称为框架，包括在各个环境下通常遇到的对象和事件。
 
-For example, you know most rooms in your home well enough that you need not constantly scrutinize every detail. You know their layout and where most objects are located. You can probably navigate much of your home in total darkness. But your experience with homes is broader than your specific home. In addition to having a pattern for your home, your brain has one for homes in general. It biases your perception of all homes, familiar and new. In a kitchen, you expect to see a stove and a sink. In a bathroom, you expect to see a toilet, sink, and shower or bathtub (or both).
-例如，你知道自己家里的大多数房间都足够熟悉，以至于你不需要不断地审视每一个细节。你知道它们的布局以及大多数物体的位置。你很可能在完全黑暗中也能在家的很大一部分地方导航。但你对房子的经验比你自己的房子更广泛。除了对你自己的家有一个模式，你的大脑还有一个关于房子的通用模式。它使你对所有房子，熟悉的和新的，都产生了偏见。在厨房里，你期望看到炉灶和水槽。在浴室里，你期望看到马桶、水槽和淋浴间或浴缸（或者两者都有）。
+举个例子，你不需要时常详细检查每一个细节，因为对家里的房间足够熟悉。你知道它们的布局，也知道大多数东西放在什么地方。你或许都能够在全黑的情况下在家中行走。但你对家的经验要比自己的住宅更广泛。除了对自己住宅的了解，你的大脑对家也有一个广泛的模式认知。这个模式影响了你对所有家的认知，不论熟悉的还是陌生的。在厨房，你期待看到灶具和水槽。在浴室，你期待看到马桶、洗手池、淋浴器或者浴缸。
 
-Our mental frames for situations bias our perception toward seeing the objects and events expected in each situation. They are a mental shortcut: by eliminating the need for us to constantly scrutinize every detail of our environment, they help us get around in our world. However, mental frames also make us see things that aren’t really there.
-我们对情况的心理框架使我们的感知倾向于看到每种情况下预期的物体和事件。它们是一种心理捷径：通过消除我们不断审视环境每个细节的需要，它们帮助我们在这个世界上移动。然而，心理框架也使我们看到实际上并不存在的东西。
+不同场合的心智框架影响人们在各个场合下对期待见到的事物的感知。因为不必不断地详细检视身边环境的每一个细节，这是心智的捷径，能帮助人们应付所处的世界。然而，心智框架也让人们看到其实并不存在的东西。
 
-For example, if you visit a house in which there is no stove in the kitchen, you might nonetheless later recall seeing one, because your mental frame for kitchens has a strong stove component. Similarly, part of the frame for eating at a restaurant is paying the bill, so you might recall paying for your dinner even if you absentmindedly walked out without paying. Your brain also has frames for backyards, schools, city streets, business offices, supermarkets, dentist visits, taxis, air travel, and other familiar situations.
-例如，如果你参观一个厨房里没有炉灶的房子，你可能之后仍然会记得看到过一个，因为你的厨房心理框架中有一个强烈的炉灶成分。类似地，吃饭在餐厅的框架中的一部分是支付账单，所以你可能会记得付了晚餐的钱，即使你心不在焉地走了出来而没有付款。你的大脑也有后院、学校、城市街道、商业办公室、超市、看牙医、出租车、航空旅行和其他熟悉情况的框架。
+比如，如果你拜访一个厨房里没有灶具的房子，你事后可能会回忆看到过一个灶具，因为在你对厨房的心智框架里，灶具是厨房的一个重要部分。类似地，去餐馆吃饭的心智框架中一部分是付账单，所以你可能记得自己已经付过钱了而心不在焉直接就走出餐馆。你的大脑对后院、学校、城市街道、办公室、超市、牙医诊所、的士、空中交通等熟悉场合都有各自的心智框架。
 
-Anyone who uses computers, websites, or smartphones has frames for the desktop and files, web browsers, websites, and various applications and online services. For example, when experienced Web users visit a new website, they expect to see a site name and logo, a navigation bar, some other links, and maybe a search box. When they book a flight online, they expect to specify trip details, examine search results, make a choice, and make a purchase. When they shop online, they expect a shopping cart and a checkout stage with a payment step.
-任何使用计算机、网站或智能手机的人都有关于桌面和文件、网络浏览器、网站以及各种应用程序和在线服务的框架。例如，当有经验的网络用户访问一个新网站时，他们期望看到网站名称和标志、导航栏、一些其他链接，也许还有搜索框。当他们在线预订航班时，他们期望指定旅行细节、查看搜索结果、做出选择并进行购买。当他们在线购物时，他们期望有一个购物车和结账阶段，包括支付步骤。
+任何使用电脑、网站或者智能手机的人对桌面和文件、网页浏览器、网站和各种类型的软件应用和在线服务都有对应的心智框架。比如，当他们访问一个新网站时，有经验的网络用户期待看到网站名字和标志、导航条、一些链接，也许还有一个搜索框。当在线订购机票时，他们期待能够指定行程详细信息，查看搜索结果，选择决定的航班，并且购买机票。
 
-Because users of computer software and websites have these perceptual frames, they often click buttons or links without looking carefully at them. Their perception of the display is based more on what their frame for the situation leads them to expect than on what is actually on the screen. This sometimes confounds software designers, who expect users to see what is on the screen—but that isn’t how human vision and attention works.
-因为计算机软件和网站的用户具有这些感知框架，他们通常在仔细查看按钮或链接之前就点击它们。他们对显示的感知更多地基于他们对当前情况所期望的内容，而不是屏幕上实际显示的内容。这有时会让软件设计师感到困惑，他们期望用户看到屏幕上的内容——但这并不是人类视觉和注意力如何工作的方式。
+由于软件用户和网站用户感知模式的存在，他们经常不仔细看就点击按钮或链接。他们对控件位置的期望更多来自在当前情况下，他们自己的框架期望他们在屏幕上看见什么。这点有时会让软件设计者觉得挫败，因为设计者期望用户看见屏幕上确实有的东西，但人类的视觉系统却不是这样工作的。
 
-For example, if the positions of the “Next” and “Back” buttons on the last page of a multistep screen sequence 2 are switched, many people would not immediately notice the change (see Fig. 1.3). Their visual system would have been lulled into inattention by the consistent placement of the buttons on the several pages that came before. Even after unintentionally going backward a few times by mistakenly clicking “Back” for “Next,” they might continue to perceive the buttons in their standard locations. This is why consistent placement of controls is a recommended user-interface guideline, to ensure that reality matches the user’s frame for the situation.
-例如，如果多步骤屏幕序列的最后一页上的“下一步”和“返回”按钮的位置被交换，许多人可能不会立即注意到这个变化（见图 1.3）。他们的视觉系统会被之前几页上按钮的一致位置所诱导而变得不集中。即使在不小心多次点击“返回”而不是“下一步”而无意中向后导航后，他们可能仍然会认为按钮在它们的标准位置。这就是为什么一致放置控件是推荐的用户界面指南，以确保现实与用户对当前情况的框架相匹配。
+例如，如果在一个多页对话框的最后一页上的“下一步（Next）”和“返回（Back）”按钮交换了位置，许多人就不会立刻注意到（见图 1.3）。前几页上布置一致的按钮麻痹了他们的视觉系统。甚至在无心地返回了几次之后，他们可能仍然觉察不到按钮不在标准位置上。这就是为什么“控件的摆放要一致”是一个常见的用户界面设计准则。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/7c5d7981c4cf64c371e9f6b71059a9b4965d8897fc775c73368319d362a05839.jpg)
-FIGURE 1.3 Users may always perceive the Next button on the right, even when it isn’t.
 图 1.3 用户可能始终认为下一步按钮在右侧，即使它不在那里。
 
-Similarly, if we are trying to find something but it is in a different place or looks different from usual, we might miss it even though it is in plain view because our mental frames tune us to look for expected features in expected locations. For example, if the “Submit” button on one form in a website is shaped differently or is a different color from those on other forms on the site, users might not find it. This expectation-induced blindness is discussed more later in this chapter in the “Perception Biased by Goals” section.
-同样地，如果我们试图寻找某物，但它在不同的地方或看起来与平时不同，即使它就在我们眼前，我们也可能错过它，因为我们的心理框架会让我们在预期的位置寻找预期的特征。例如，如果一个网站上的一个表单中的“提交”按钮的形状或颜色与其他表单上的不同，用户可能找不到它。这种期望引起的盲点将在本章后面的“目标导致感知偏差”部分进行更详细的讨论。
+类似地，在寻找某件东西时，如果它不在老地方或者看起来与往常不同，即使就在眼皮底下我们也可能视而不见。这是因为经验调整我们到期望的地方依据期望的特征去寻找。例如，如果一个网站某个表单上“提交”按钮的形状或者颜色与其他表单上的按钮不同，用户就可能找不到它。本章在关于目标如何影响感知的一节中，会深入讨论这种由预期导致的盲目性。
 
-# Habituation
-习惯化
+习惯性
 
-A third way in which experience biases perception is called habituation. Repeated exposure to the same (or highly similar) perceptions dulls our perceptual system’s sensitivity to them. Habituation is a very low-level phenomenon of our nervous system: it occurs at a neuronal level. Even primitive animals like flatworms and ameba, with very simple nervous systems, habituate to repeated stimuli (e.g., mild electric shocks or light flashes). People, with our complex nervous systems, habituate to a range of events, from lowlevel ones like a continually beeping tone, to medium-level ones like a blinking ad on a website, to high-level ones like a person who tells the same jokes at every party or a politician giving a long, repetitious speech.
-经验以第三种方式影响感知，这被称为习惯化。对相同（或高度相似）感知的重复接触会使我们的感知系统对其敏感度降低。习惯化是我们神经系统的一种非常低级的现象：它发生在神经元水平。即使是神经系统非常简单的扁形虫和变形虫等原始动物，也会对重复的刺激（例如轻微的电击或光线闪烁）产生习惯化。对于我们复杂的神经系统来说，我们会习惯于各种事件，从低级事件如持续响铃的音调，到中级事件如网站上的闪烁广告，再到高级事件如每次派对都讲相同笑话的人或发表冗长重复演讲的政治家。
+经验影响感知的第三种方式被称为习惯性。重复置身于同样（或者非常类似）的感觉会让感觉系统的敏感度降低。习惯性是人们神经系统在非常低层的一个现象，它发生在神经级别。即使是非常原始的、只具有非常简单神经系统的动物，比如扁形虫和阿米巴虫，也会对重复的刺激（比如轻微的电击或者闪光）产生习惯性。具有复杂神经系统的人类，对一系列事件也会产生习惯性，从低层次（如连续的蜂鸣声）、到中间层次（如网站上闪烁的广告条）再到高层次（比如某人在每次派对上重复说同一个笑话或者某政客的长单调的演讲），都是如此。
 
-We experience habituation in computer usage when the same error messages or “Are you sure?” confirmation messages appear again and again. People initially notice them and perhaps respond, but eventually they click them closed reflexively without bothering to read them.
-在计算机使用中，当相同的错误消息或“确定吗？”确认消息反复出现时，我们会经历习惯化。人们最初会注意到它们并可能做出回应，但最终会无意识地关闭它们，而不会去阅读。
+在使用电脑时，当“你是否确定”的确认框一次又一次出现，人们也能体验到习惯性。人们最开始会注意到并且或许会做出反应，但最终则会反射般直接忽视并关闭确认框。
 
-Habituation is also a factor in a recent phenomenon variously labeled “social media burnout” (Nichols, 2013), “social media fatigue,” or “Facebook vacations” (Rainie et al., 2013); newcomers to social media sites and tweeting are initially excited by the novelty of microblogging about their experiences, but sooner or later get tired of wasting time reading tweets about every little thing that their “friends” do or see—for example, “Man! Was that ever a great salmon salad I had for lunch today.”
-习惯化也是最近一个现象的因素，这个现象被各种称为“社交媒体倦怠”（Nichols，2013 年）、“社交媒体疲劳”或“Facebook 假期”（Rainie 等人，2013 年）；社交媒体的新手和发推者最初对关于他们经历的小博客的新奇感到兴奋，但迟早会厌倦浪费时间阅读关于他们“朋友”做或看到每一件小事的推文——例如，“天啊！我今天吃的三文鱼沙拉真是太棒了。”
+在最近被标以“社交媒体倦怠”（Nichols，2013）、“社交媒体疲劳”或者“Facebook 假期”（Rainie 等，2013）的现象中，习惯性也是一个因素。社交网站的新用户一开始对用微博来分享体验的创新感到兴奋，但迟早会感到疲惫不堪，不愿再耗费时间阅读“朋友们”分享的各种琐事，比如，“看！我午饭吃的这份三文鱼沙拉太赞了！”
 
-# Attentional blink
-注意力盲点
+注意瞬脱
 
-Another low-level biasing of perception by past experience occurs just after we spot or hear something important. For a very brief period following the recognition—between 0.15 and 0.45 second— we are nearly deaf and blind to other visual stimuli, even though our ears and eyes stay functional. Researchers call this the attentional blink (Raymond et al., 1992; Stafford and Webb, 2005). 3 It is thought to be caused by the brain’s perceptual and attention mechanisms being briefly fully occupied with processing the first recognition.
-过去的经验也会通过低水平的偏见影响感知。在我们发现或听到某件重要的事情后，就会发生这种情况。在识别后的极短时间内——0.15 到 0.45 秒之间——我们几乎对其他视觉刺激变得聋和瞎，尽管我们的耳朵和眼睛仍然是功能性的。研究人员称这种现象为注意力盲点（Raymond 等人，1992 年；Stafford 和 Webb，2005 年）。3 据认为，这是由于大脑的感知和注意力机制在处理第一次识别时暂时完全被占用。
+过往经验对低层感知的另一个影响，发生在人们刚刚发现或者听到某件重要的事情之后。在识别之后短暂的 0.15 秒到 0.45 秒之间，即使耳朵和眼睛正常工作，人们也接近于失聪而且无视其他视觉刺激。研究者们把这个现象称为注意瞬脱（Raymond 等，1992，Stafford 和 Webb，2005），认为这是由于大脑的感觉与注意力机制在短时间内完全用于处理第一个识别而产生的。
 
-A classic example: You are in a subway car as it enters a station, planning to meet two friends at that station. As the train arrives, your car passes one of your friends, and you spot him briefly through your window. In the next split second, your window passes your other friend, but you fail to notice her because her image hit your retina during the attentional blink that resulted from your recognition of your first friend.
-一个经典的例子：你在一列地铁进入车站时，计划在车站与两个朋友见面。当火车到达时，你的车厢经过了一个朋友，你通过车窗短暂地看到了他。在下一瞬间，你的车窗经过了你的另一个朋友，但你没有注意到她，因为她的图像在你识别第一个朋友时引起的注意力闪烁期间击中了你的视网膜。
+一个经典的例子：你在一节正在进站的地铁车厢内，计划与两位朋友在地铁站见面。当地铁到达时，你的车厢经过了一位朋友，你透过车窗短暂地看到了他。在下一秒钟，又经过了另一位朋友，但你却没注意到她。这是因为，当她的影像抵达你的视网膜时，你正好因为认出了第一位朋友而处于注意瞬脱中。
 
-When people use computer-based systems and online services, attentional blink can cause them to miss information or events if things appear in rapid succession. A popular modern technique for making documentary videos is to present a series of still photographs in rapid succession. 4 This technique is highly prone to attentional blink effects—if an image really captures your attention (e.g., it has a strong meaning for you), you will probably miss one or more of the immediately following images. In contrast, a captivating image in an auto-running slideshow (e.g., on a website or an information kiosk) is unlikely to cause attentional blink (i.e., missing the next image) because each image typically remains displayed for several seconds.
-当人们使用基于计算机的系统和服务时，如果事情快速相继出现，注意力闪烁可能会导致他们错过信息或事件。一种流行的现代纪录片制作技术是快速连续呈现一系列静态照片。这种技术很容易受到注意力闪烁的影响——如果图像真的吸引了你的注意力（例如，它对你有很强的意义），你可能会错过一个或多个紧随其后的图像。相比之下，自动运行的幻灯片（例如，在网站或信息亭上）中的吸引人的图像不太可能导致注意力闪烁（即错过下一个图像），因为每个图像通常显示几秒钟。
+当人们使用基于电脑的系统和在线服务时，如果事情连续发生得太快，他们会因为注意瞬脱而错过一些信息或者事件。当下制作纪录影片有一个流行的手段，就是连续快速展示一系列静态照片。这个方式是非常容易产生注意瞬脱的：如果一个图片真的吸引了你的注意力（比如对你有特别的意义），你可能就会错过紧接其后的一两张图片。相比之下，自动播放的幻灯片（比如在网站或者信息资讯机上）中的一张引人注目的图片是不大可能造成注意瞬脱的（即错过下一张图），因为每张图片都一般有几秒钟显示时间。
 
-# Perception Biased by Current Context
-感知被当前上下文偏差
 
-When we try to understand how our visual perception works, it is tempting to think of it as a bottom-up process, combining basic features such as edges, lines, angles, curves, and patterns into figures and ultimately meaningful objects. To take reading as an example, you might assume that our visual system first recognizes shapes as letters and then combines letters into words, words into sentences, and so on.
-当我们试图理解视觉感知是如何工作时，很容易将其视为一个自下而上的过程，将基本特征如边缘、线条、角度、曲线和图案组合成图形，最终形成有意义的物体。以阅读为例，你可能认为我们的视觉系统首先将形状识别为字母，然后将字母组合成单词，单词组合成句子，等等。
+环境影响感知
+Perception Biased by Current Context
 
-But visual perception—reading in particular—is not strictly a bottom-up process. It includes top-down influences too. For example, the word in which a character appears may affect how we identify the character (see Fig. 1.4).
-但视觉感知——尤其是阅读——并非严格的自下而上过程。它也包括自上而下的影响。例如，一个字符出现的单词可能会影响我们如何识别该字符（见图 1.4）。
+当我们试图去理解视觉如何工作时，很容易认为它是一个自下而上的过程，将边、线条、角度、弧线和纹路等基本要素组成图案并最后形成有意义的事物。以阅读为例，你可能假设我们的视觉系统首先识别字母，把它们组合成单词，再将单词组合成句子，如此继续。
 
-Similarly, our overall comprehension of a sentence or a paragraph can even influence what words we see in it. For example, the same letter sequence can be read as different words depending on the meaning of the surrounding paragraph (see Fig. 1.5).
-类似地，我们对句子或段落的整体理解甚至会影响我们看到其中的单词。例如，相同的字母序列可以根据周围段落的含义被读作不同的单词（见图 1.5）。
+但视觉感知，尤其是阅读，不完全是一个自下而上的过程，其中也有自上而下的作用。例如，包含某个字母的单词能够影响我们对这个字母的判断（见图 1-4）。
 
-Contextual biasing of vision need not involve reading. The MüllerLyer illusion is a famous example (see Fig. 1.6): the two horizontal lines are the same length, but the outward-pointing “fins” cause our visual system to see the top line as longer than the line with inwardpointing “fins.” This and other optical illusions (see Fig. 1.7) trick us because our visual system does not use accurate, optimal methods to perceive the world. It developed through evolution, a semirandom process that layers jury-rigged—often incomplete and inaccurate— solutions on top of each other. It works fine most of the time but includes many approximations, kludges, hacks, and outright “bugs” that cause it to fail in certain cases.
-视觉的情境偏见不一定涉及阅读。缪勒-莱尔错觉是一个著名的例子（见图 1.6）：两条水平线的长度相同，但向外指的“鳍”使我们的视觉系统认为顶部的线比带有向内指的“鳍”的线更长。这和其他光学错觉（见图 1.7）欺骗我们，因为我们的视觉系统不使用准确、最优的方法来感知世界。它通过进化发展而来，是一个半随机的进程，层层叠加了临时凑合的——通常是残缺和不准确的——解决方案。它大部分时间工作得很好，但包含许多近似值、笨拙的解决方案、黑客技术和直接的“错误”，导致它在某些情况下失效。
+![](https://cdn-mineru.openxlab.org.cn/extract/03d18d67-bed2-4264-a11b-961e1130db62/f25c698366d3bbaa69b28ba47d7e34d5577cf760772b7892a9eb74fea96bdd7e.jpg)
+图 1-4 同样的字符受其附近的字母影响而被感觉成 H 或 A
 
-![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/f9400e4222881a39a69de631dccf9683cff8f47eca82aac06e3f42a11f7b30c9.jpg)
-FIGURE 1.4The same character is perceived as H or A depending on the surrounding letters.
-图 1.4 同一个字符根据周围的字母被感知为 H 或 A。
+类似地，对一句话或者一段话完整的理解甚至能够影响我们所看到的单词。例如，同样的字母序列可以因前后段落含义的不同而被理解成不同的单词（见图 1-5）。
 
-Fold napkins. Polish silverware. Wash dishes.
-折叠餐巾。擦亮银器。洗碗。
-French napkins. Polish silverware. German dishes.
-法国餐巾。擦亮银器。德国餐具。
+![](https://cdn-mineru.openxlab.org.cn/extract/03d18d67-bed2-4264-a11b-961e1130db62/783f36d91c1105e25aca9f65f7dcf2da4f9cc578f8e72e897d92f686fbb169f2.jpg)
+图 1-5 同样的短语因其所在的短语组不同而有不同的解读
 
-FIGURE 1.5 The same phrase is perceived differently depending on the list it appears in.
-图 1.5 同一个短语在不同的列表中会被有不同的感知。
+视觉受环境因素影响的偏差在不仅仅在阅读中出现。Muller-Lyer 错觉就是一个著名的例子（见图 1-6）：两条水平线，一条有朝外指向的“翅”，另一条有着朝内指向的“翅”，尽管它们相同长度，但不同的“翅”使得我们的视觉系统觉得上方的线比下方的线更长。这类视错觉（见图 1-7）欺骗了我们，因为我们的视觉系统并不使用精确的、最佳的处理方式来感知世界。视觉系统在进化中发展，这是一个半随机的过程，不断叠加各种应急的，通常非完备且不精确的方案。它在大部分时间里运转正常，但包含许多粗略估计、拼凑、修补和一些在某些情况下彻底导致问题的 bug。
 
-![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/6f639e1397c71c60b55cb4afc73e3a60c0e708c74c89173b66c1713f8ca08e51.jpg)
-FIGURE 1.6 Müller-Lyer illusion: equal-length horizontal lines appear to have different lengths.
-图 1.6 缪勒-莱尔错觉：等长的水平线看起来有不同的长度。
+![](https://cdn-mineru.openxlab.org.cn/extract/03d18d67-bed2-4264-a11b-961e1130db62/64348fab7fe3016184cd66130612a8df4d1386cae126b42722238d67afdba2d9.jpg)
+图 1-6 Muller-Lyer 错觉：同样长度的水平线看起来不一样长
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/baf0698d21f1218f0bbdf286621d85556f80bfb1bbf8033b551387836cc60041.jpg)
-FIGURE 1.7 (A) The checkerboard does not bulge in the middle; (B) the triangle sides are not bent; and (C) the horizontal blue bars are horizontal, straight, and parallel.
-图 1.7 (A) 棋盘不会在中间凸起；(B) 三角形的边不会弯曲；(C) 水平的蓝色条是水平的、笔直的和平行的。
+图 1-7（A）棋盘中间并未凸起：（B）三角形的边没有弯曲 （C）红色的竖线是平行的
 
-Copyright $\circledcirc$ Victoria Skye, victoriaskye.com. Used by permission.
-版权所有 $\circledcirc$ 维多利亚·斯凯，victoriaskye.com。经许可使用。
+图 1-6 和图 1-7 中的例子显示，视觉被视觉环境所影响。然而，在当前环境下不同感官之间也会有感知的偏差。五官的感觉会同时相互影响。我们的触觉感受可能会被听到的、看到的或者闻到的所影响，视觉会被听觉影响，听觉也会被视觉影响。以下是我们的视觉影响听觉的两个例子。
 
-The examples in Figs. 1.6 and 1.7 show vision being biased by visual context. However, biasing of perception by the current context works between different senses too. Perceptions in any of our five senses may affect simultaneous perceptions in any of our other senses. What we feel with our tactile sense can be biased by what we hear, see, or smell. What we see can be biased by what we hear, and what we hear can be biased by what we see. The following two examples of visual perception affect what we hear:
-Figs. 1.6 和 1.7 中的例子显示了视觉受到视觉上下文的影响。然而，当前上下文对感知的偏袒也存在于不同的感官之间。我们五种感官中的任何一种感知都可能影响其他感官的同时感知。我们通过触觉感受到的可以通过我们听到的、看到的或闻到的来偏袒。我们看到的东西可以通过我们听到的来偏袒，而我们听到的东西可以通过我们看到的东西来偏袒。以下两个视觉感知的例子影响了我们听到的声音：
+McGurk 效应
+如果你观看一个视频，其中有人说着“吧、吧、吧”，接着“嗒、嗒、嗒”，然后“哇、哇、哇”，但音频一直是“吧、吧、吧”。你将会通过观看说话者的嘴唇运动而不是实际听到的来辨认他说的音节。只有当闭上眼睛或者转移目光，你才能真正听到实际语音发出的音节。我打赌你们不知道自己可以读唇，但事实上人们一天里这么做的次数相当多。
 
-• McGurk effect. If you watch a video of someone saying “bah, bah, bah,” then “dah, dah, dah,” then “vah, vah, vah,” but the audio is “bah, bah, bah” throughout, you will hear the syllable indicated by the speaker’s lip movement rather than the syllable actually in the audio track. 5 Only by closing or averting your eyes do you hear the syllable as it really is. I will bet you did not know you could read lips, and in fact do so many times a day.
-• 麦克鲁克效应。如果你观看一个人说“ba, ba, ba”，然后“da, da, da”，然后“va, va, va”的视频，但音频始终是“ba, ba, ba”，你会听到由说话者唇部动作指示的音节，而不是音频轨道中实际存在的音节。只有闭上或转移你的眼睛，你才会听到它真实的样子。我打赌你不知道你能读唇语，事实上你每天都会这样做很多次。
-• Ventriloquism. Ventriloquists don’t throw their voice; they just learn to talk without moving their mouths much. Viewers’ brains perceive the talking as coming from the nearest moving mouth: that of the ventriloquist’s puppet (Eagleman, 2012).
-• 假声术。假声师并不是把声音扔出去，而是学会不太多动嘴巴说话。观众的大脑会感知说话声来自最近的那个在动的嘴巴：假声师的木偶（Eagleman，2012 年）。
+腹语
+腹语表演者并不转移自己的声音，他们仅仅是学会了不动嘴说话。观众的大脑感觉是与声音最近的那个动着的嘴在说话，就是腹语者表演用的玩偶的嘴（Eagleman，2012)。
 
-An example of the opposite—hearing biasing vision—is the illusory flash effect. When a spot is flashed once briefly on a display but is accompanied by two quick beeps, it appears to flash twice. Similarly, the perceived rate of a blinking light can be adjusted by the frequency of a repeating click (Eagleman, 2012).
-相反的例子——听觉影响视觉——是错觉闪光效应。当在显示器上快速闪现一个光点一次，但伴随着两个快速蜂鸣声时，它看起来像是闪了两次。类似地，闪烁灯的感知速率可以通过重复点击的频率来调整（Eagleman，2012 年）。
+反过来，听觉影响视觉的一个例子是幻觉闪光效果。当屏幕上的某一点短暂地闪了一下，但伴随着两个快速的蜂鸣声，就会看起来像闪了两下。类似地，感觉到的闪光频率也可以随点击鼠标的频率变化（Eagleman，2012）。
 
-Later chapters explain how visual perception, reading, and recognition function in the human brain. For now, I will simply say that the pattern of neural activity that corresponds to recognizing a letter, a word, a face, or any object includes input from neural activity stimulated by the context. This context includes other nearby perceived objects and events and even reactivated memories of previously perceived objects and events.
-后面的章节将解释视觉感知、阅读和识别在人类大脑中是如何运作的。目前，我只需简单地说，与识别一个字母、一个单词、一张脸或任何物体相对应的神经活动模式包括由上下文刺激的神经活动输入。这个上下文包括附近感知到的其他物体和事件，甚至包括之前感知到的物体和事件的重新激活记忆。
+后续章节将解释人脑中的视觉感知、阅读和认知功能。现在就简单地表述为：识别一个字母、一个单词、一张脸或者其他任何物体的神经活动，都包含了环境刺激产生的神经信号的输入。这个环境包括感知到的其他邻近对象和事件，甚至由环境激活的、对以往感知到的对象和事件的记忆。
 
-Context biases perception not only in people but also in lower animals. A friend of mine often brought her dog with her in her car when running errands. One day, as she drove into her driveway, a cat was in the front yard. The dog saw it and began barking. My friend opened the car door and the dog jumped out and ran after the cat, which turned and jumped through a bush to escape. The dog dove into the bush but missed the cat. The dog remained agitated for some time afterward.
-情境偏见不仅影响人类，也影响低等动物。我的一个朋友经常在开车办事时带着她的狗。有一天，当她开车进院时，前院里有一只猫。狗看见了它，开始吠叫。朋友打开车门，狗跳下车追了猫，猫转身跳进灌木丛逃跑了。狗也跳进灌木丛，但没追上猫。狗之后一段时间都保持着激动状态。
+环境不仅影响人的感知，也影响低级动物的感知。一位朋友经常带着她的狗开车出门办事。一天当她开进自家车道时，有一只猫在前院。她的狗看见了就开始叫。我的朋友一打开车门，狗就蹄出去追那只猫，猫立刻转身跳进灌木丛中逃跑了。狗也扎进灌木丛，但没逮到猫。那之后的一段时间里，这条狗就一直很烦躁不安。
 
-Thereafter, for as long as my friend lived in that house, whenever she arrived at home with her dog in the car, he would get excited, bark, jump out of the car as soon as the door was opened, dash across the yard, and leap into the bush. There was no cat, but that didn’t matter. Returning home in the car was enough to make the dog see one—perhaps even smell one. However, walking home on foot, as the dog did after being taken for his daily walk, did not evoke the “cat mirage.”
-从那以后，只要我的朋友住在这栋房子里，每次她开车带着狗回家时，狗都会兴奋起来，一开门就跳下车，冲过院子，跳进灌木丛。即使没有猫，也没关系。只要开车回家就足以让狗“看见”一只——甚至可能闻到一只。然而，像狗每天散步后步行回家那样走路回家，并不会引发“猫的幻象”。
+之后，在我的朋友住在那里的那段时间，每次她开车带着狗回到家，它就兴奋地叫起来，并在车门打开那一刻跳出去，冲过院子，跃人灌木丛。没有猫在那里，但那并不重要。乘着车回到家对这狗来说已经足够让它看见甚至可能闻到一只猫。然而，如果是走回家，比如每天遛完它后，“猫幻影”就不会发生。
 
-# Perception Biased by Goals
 目标导向的感知偏差
+Perception Biased by Goals
 
-In addition to being biased by our past experience and the present context, our perception is influenced by our goals and plans for the future. Specifically, our goals:
 除了受过去经验和当前情境的影响外，我们的感知还受到我们对未来目标和计划的 影响。具体来说，我们的目标：
+• 引导我们的感知器官，让我们从周围的世界中采样我们所需要的信息；
+• 过滤我们的感知——与我们的目标无关的事物往往会预先无意识地被过滤掉，也就不会被我们的主观意识注意到。
 
-• Guide our perceptual apparatus, so we sample what we need from the world around us;
-• 指导我们的感知器官，使我们从周围的世界中采样我们所需要的信息；
-• Filter our perceptions—things unrelated to our goals tend to be filtered out preconsciously, never registering in our conscious minds.
-• 过滤我们的感知——与我们的目标无关的事物往往会预先无意识地被过滤掉，从未在我们的意识中留下痕迹。
+例如，当人们在软件里或者网站上寻找信息或者某个功能时，他们并不会认真阅读，只是快速而粗略地扫描屏幕上与目标相关的东西。他们不是仅仅忽略掉与目标无关的东西，而是经常根本注意不到它们。
 
-For example, when people navigate through software or a website, seeking information or a specific function, they don’t read carefully. They scan screens quickly and superficially for items that seem related to their goal. They don’t simply ignore items unrelated to their goals; they often don’t even notice them.
-例如，当人们浏览软件或网站，寻找信息或特定功能时，他们不会仔细阅读。他们会快速、肤浅地扫描屏幕，寻找看似与目标相关的项目。他们不仅仅忽略与目标无关的项目；他们甚至常常没有注意到它们。
-
-To see this, glance at Fig. 1.8 and look for scissors, and then immediately flip back to this page. Try it now.
-要看到这一点，请快速看一下图 1.8，寻找剪刀，然后立即翻回这一页。现在试试吧。
+现在就来体会一下。请在图 1-8 中的工具箱里找到剪刀，然后立刻回到这里。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/1935e0a827d2de581f8b1906bf86ed85676fa28a4b8a3bd0bf43ea21fcecb3c7.jpg)
-FIGURE 1.8 Toolbox: Are there scissors here?
-图 1.8 工具箱：这里有小剪刀吗？
+图 1-8 工具箱：这里有剪刀吗
 
-Did you spot the scissors? Now, without looking back at the toolbox, can you say whether there is a screwdriver in the toolbox too?
-你看到小剪刀了吗？现在，不用回头再看工具箱，你能说出工具箱里也有螺丝刀吗？
+你发现剪刀了吗？现在不去看工具箱，你能说出来那里面有没有螺丝刀吗？
 
-Our goals filter our perceptions in other perceptual senses as well as in vision. A familiar example is the “cocktail party” effect. If you are conversing with someone at a crowded party, you can focus your attention to hear mainly what he or she is saying even though many other people are talking near you. The more interested you are in the conversation, the more strongly your brain filters out surrounding chatter. If you are bored by what your conversational partner is saying, you will probably hear much more of the conversations around you.
-我们的目标不仅影响视觉感知，也影响其他感知。一个熟悉的例子是“鸡尾酒会”效应。如果你在拥挤的派对上与人交谈，你可以集中注意力主要听对方说什么，尽管你周围有很多人在说话。你对谈话越感兴趣，你的大脑就越能强烈地过滤掉周围的嘈杂声。如果你对谈话伙伴说的话感到无聊，你可能会听到周围更多的谈话声。
+除了视觉，我们的目标还过滤其他感官的感知。一个熟悉的例子是“鸡尾酒会”效应。如果你在一个拥挤的酒会上与某人谈话，你能把大部分注意力放在他说的话上，即使身边还有许多人在对话。你对谈话的兴趣越大就越能过滤掉周围的对话。如果你对谈话内容感到乏味了，多半就会越来越多地听到周围的谈话。
 
-The effect was first documented in studies of air traffic controllers, who were able to carry on conversations with the pilots of their assigned aircraft even though many different conversations were occurring simultaneously on the same radio frequency, coming out of the same speaker in the control room (Arons, 1992). Research suggests that our ability to focus on one conversation among several simultaneous ones depends not only on our interest level in the conversation, but also on objective factors, such as the similarity of voices in the cacophony, the amount of general “noise” (e.g., clattering dishes or loud music), and the predictability of what your conversational partner is saying (Arons, 1992).
-该效应首次在关于空中交通管制员的研究中得以记录，他们能够在同一无线电频率上同时进行许多不同的对话，这些对话都从控制室的同一个扬声器中传出，与分配给他们的飞机的飞行员进行交谈（Arons，1992 年）。研究表明，我们专注于同时发生的多个对话中的一次对话的能力，不仅取决于我们对对话的兴趣程度，还取决于客观因素，例如嘈杂中声音的相似性、一般“噪音”（例如，叮当作响的盘子或响亮的音乐）的数量，以及你对话者所说内容的可预测性（Arons，1992 年）。
+这个效应首次记录于对空中交通管制员的研究中。即使控制室的同一个扩音器传出在同一个频道上同时进行的许多不同对话，空中交通管制员们仍然能够与被指派飞机上的飞行员进行对话（Arons，1992）。研究表明，在多个同时进行的对话中，专注于一个对话的能力不仅取决于对谈话内容感兴趣的程度，也取决于客观因素，如在杂音中熟悉的语音、常见“噪声”的量（如碗碟的碰撞声或者喧闹的音乐）以及能否预见谈话对象要说什么（Arons，1992）。
 
-This filtering of perception by our goals is particularly true for adults, who tend to be more focused on goals than children are.
-这种由我们的目标进行的感知过滤，对于成年人来说尤其真实，他们比儿童更专注于目标。
+目标对感知的过滤在成人身上特别可靠，成人比儿童对目标更专注。儿童更容易被刺激驱使，目标较少地过滤他们的感知。这种特点使得他们比成人更容易分心，但也使得他们观察时更不容易产生偏差。
 
-Children are more stimulus-driven; their perception is less filtered by their goals. This characteristic makes them more distractible than adults, but it also makes them less biased as observers.
-儿童更受刺激驱动；他们的感知较少受到目标的过滤。这种特征使他们比成年人更容易分心，但也使他们作为观察者时较少有偏见。
+一个客厅游戏展示了年龄差异在感知过滤上的差别。它类似刚才的“工具箱”练习。大多数人的家里都有一个专门放厨房器具或者工具的抽屉。请一个人从客厅到那个抽屉所在的房间，要求他拿来某个工具，比如量勺或者水管扳手。当他带着工具回来时，问他在抽屉里是否有另外某个工具。大部分成人不记得抽屉里还有什么其他东西。但孩子们通常能够告诉你那里面还有什么其他东西，前提是他们完成了任务，而没有被抽屉里其他很酷的玩意彻底吸引。
 
-A parlor game demonstrates this age difference in perceptual filtering. It is similar to the Fig. 1.8 exercise. Most households have a catch-all drawer for kitchen implements or tools. From your living room, send a visitor to the room where the catch-all drawer is with instructions to fetch you a specific tool, such as measuring spoons or a pipe wrench. When the person returns with the tool, ask whether another specific tool was in the drawer. Most adults will not know what else was in the drawer. Children—if they can complete the task without being distracted by all the cool stuff in the drawer—will often be able to tell you more about what else was there.
-一个客厅游戏展示了这种感知过滤上的年龄差异。它类似于图 1.8 的练习。大多数家庭都有一个用于存放厨房工具或工具的杂用抽屉。从你的客厅，派一个访客去存放杂用抽屉的房间，并告诉他去拿一个特定的工具，比如量杯或管道扳手。当这个人拿着工具回来时，问另一个特定的工具是否在抽屉里。大多数成年人不会知道抽屉里还有什么。孩子——如果他们能在不被抽屉里所有酷炫的东西分心的情况下完成任务——通常能告诉你那里还有什么。
-
-Perceptual filtering can also be seen in how people navigate websites. Suppose I put you on the home page of New Zealand’s University of Canterbury (see Fig. 1.9) and asked you to find information about financial support for postgraduate students in the computer science department. You would quickly scan the page for words that were in the goal I gave you: “departments,” “scholarships,” “computer science,” or “postgraduate.” If you spotted a link containing one or more of those words, you would probably click on it. If you are a “search” person, you might instead go to the search symbol (magnifying glass, top right), click it and enter words related to the goal, and click “Go.”
-感知过滤也可以体现在人们浏览网站的过程中。假设我带你来到新西兰坎特伯雷大学的首页（见图 1.9），并让你查找计算机科学系研究生奖学金的信息。你会快速扫描页面，寻找与我给出的目标相关的词语：“系”、“奖学金”、“计算机科学”或“研究生”。如果你看到一个包含这些词语之一的链接，你可能会点击它。如果你是一个“搜索”型的人，你可能会去点击右上角的搜索符号（放大镜），输入与目标相关的词语，然后点击“搜索”。
+感知过滤在网站导航中也能观察到。假设我要你去新西兰的坎特伯雷大学（见图 1-9）的主页并找出对计算机科学系研究生提供资助的信息。你会扫视网页并可能很快地点击那些含有与目标相关单词的链接：Departments（“院系”，左上）、Scholarships（“奖学金”，中间），还有 PostgraduateStudents（“研究生”，左下）。如果你是个“搜索型”的人，也许就直接到搜索框（右上）输人与目标相关的单词，然后点击“Go”。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/441d932ab74bda5558565f2651aad691ad16782c51ad2c9ee949b290d807c64e.jpg)
-FIGURE 1.9 University of Canterbury website: navigating sites requires perceptual filtering.
-图 1.9 坎特伯雷大学网站：浏览网站需要感知过滤。
+图 1-9 坎特伯雷大学主页：网页导航过程包含感知过滤
 
-Whether you browse or search, it is likely that you would leave the home page without noticing that you were randomly chosen to win \\100$ (bottom right). Why? Because that was not related to your goal.
-无论你是浏览还是搜索，你很可能在离开首页时没有注意到你被随机选中赢得了 100 美元（右下角）。为什么？因为那与你的目标无关。
+不论你是浏览还是搜索，都很可能没注意到自己被随机地挑中赢得 100 美元（右下）而直接离开了主页。为什么？因为那与你的目标无关。
 
 What is the mechanism by which our current goals bias our perception? There are two:
 我们当前的目标如何影响我们的感知？机制有两种：
 
-• Influencing where we look. Perception is active, not passive. Think of your perceptual senses not as simply filtering what comes to you but rather as reaching out into the world and pulling in what you need to perceive. Your hands, your primary touch sensors, literally do this, but the rest of your senses do it too. You constantly move your eyes, ears, hands, feet, body, and attention to sample exactly the things in your environment that are most relevant to what you are doing or about to do (Ware, 2008). If you are looking on a website for a campus map, your eyes and pointer-controlling hand are attracted to anything that might lead you to that goal. You more or less ignore anything unrelated to your goal.
-• 影响我们看到哪里。感知是主动的，不是被动的。不要把你的感知感官简单地看作是过滤给你的一切，而是看作是伸向世界并拉入你需要感知的东西。你的手，你的主要触觉传感器，确实这样做，但你的其他感官也这样做。你不断地移动你的眼睛、耳朵、手、脚、身体和注意力，去采样与你正在做或即将做的事情最相关的环境中的事物（Ware，2008）。如果你正在一个网站上寻找校园地图，你的眼睛和控制指针的手会被任何可能引导你达到那个目标的任何东西所吸引。你或多或少会忽略任何与你的目标无关的东西。
+影响我们注意什么
+感知是主动的，不是被动的。感知不是对周围事物的简单过滤，而是对世界的体验以及对需要理解的东西的获取。我们始终移动眼睛、耳朵、手、脚、身体和注意力去寻找周围与我们正在做或者正要做的事最相关的东西（Ware，2008）。如果在一个网站上找园区地图，那些能够引导我们去完成目标的对象就会吸引我们的眼睛和控制鼠标的手。我们会或多或少地忽略掉与目标无关的东西。
 
-• Sensitizing our perceptual system to certain features. When you are looking for something, your brain can prime your perception to be especially sensitive to features of what you are looking for (Ware, 2008). For example, when you are looking for a red car in a large parking lot, red cars will seem to pop out as you scan the lot, and cars of other colors will barely register in your consciousness, even though you do in some sense see them. Similarly, when you are trying to find your spouse in a dark, crowded room, your brain “programs” your auditory system to be especially sensitive to the combination of frequencies that make up his or her voice.
-• 使我们的感知系统对某些特征敏感。当你寻找某样东西时，你的大脑可以预先感知，使其对正在寻找的东西的特征特别敏感（Ware，2008）。例如，当你在大停车场寻找一辆红色的车时，当你扫视停车场时，红色的车似乎会跳出来，而其他颜色的车几乎不会进入你的意识，尽管在某种程度上你确实看到了它们。同样，当你试图在昏暗拥挤的房间里找到你的配偶时，你的大脑“编程”你的听觉系统，使其对构成他或她声音的频率组合特别敏感。
+使我们的感知系统对某些特性敏感
+在寻找某件物品时，大脑能预先启动感官，使得它们对要寻找的东西变得非常敏感（Ware，2008）。例如，要在一个大型停车场找一辆红色轿车时，红颜色的车会在我们扫视场地时跃然而出，而其他颜色的车就几乎不会被注意到，即使我们的确“看到”了它们。类似地，当我们试图在一个黑暗拥挤的房间里寻找自己的伴侣时，大脑会对我们的听觉系统进行“编程”，从而对她或他的声音的频率组合非常敏感。
 
-# Taking Biased Perception into Account When Designing
-考虑设计中的偏见感知
 
-All these sources of perceptual bias of course have implications for user-interface design. Here are three.
-当然，这些感知偏差的来源对用户界面设计都有影响。这里有三点。
+设计时将感知的影响因素考虑在内
+Taking Biased Perception into Account When Designing
 
-# Avoid ambiguity
+这些对感知的影响因素对于用户界面设计有以下三点启发。 
+
 避免歧义
 
-Avoid ambiguous information displays, and test your design to verify that all users interpret the display in the same way. Where ambiguity is unavoidable, either rely on standards or conventions to resolve it, or prime users to resolve the ambiguity in the intended way.
-避免模糊的信息显示，并测试你的设计以验证所有用户都以相同的方式解释显示。当不可避免地存在歧义时，或者依靠标准或惯例来解决它，或者预先引导用户以预期的方式解决歧义。
+避免显示有歧义的信息，并通过测试确认所有用户对信息的理解是一致的。当无法消除歧义时，要么依靠标准或者惯例，要么告知用户用你期望的方式去理解歧义之处。
 
-For example, displays on digital devices often add drop-shadows to user-interface components to make them look raised in relation to the background surface (see Fig. 1.10). This appearance relies on a convention, familiar to most people who use digital devices, that the light source is at the top of the screen. If a technology user does not know this convention, it may be ambiguous to them whether the object is raised or sunken.
-例如，数字设备上的显示常常给用户界面组件添加阴影，使其看起来相对于背景表面更突出（见图 1.10）。这种外观依赖于一个约定，大多数使用数字设备的人都很熟悉，即光源在屏幕的上方。如果一个技术用户不知道这个约定，那么对于物体是凸起还是凹陷，对他们来说可能就是模糊不清的。
-
-# Be consistent
-保持一致
-
-Place information and controls in consistent locations. Controls and data displays that serve the same function on different pages should be placed in the same position on each page on which they appear. They should also have the same color, text fonts, shading, and so on. This consistency allows users to spot and recognize them quickly.
-将信息和控件放置在一致的位置。在不同页面上执行相同功能的控件和数据显示应该在每个它们出现的页面上放置在相同的位置。它们还应该具有相同的颜色、文本字体、阴影等。这种一致性使用户能够快速发现和识别它们。
-
-# Understand the goals
-理解目标
-
-Users come to a system with goals they want to achieve. Designers should understand those goals. Realize that users’ goals may vary and that their goals strongly influence what they perceive. Ensure that at every point in an interaction, the information users need is available, is prominent, and maps clearly to a possible user goal so users will notice and use the information.
-用户使用系统时带着他们想要实现的目标。设计师应该理解这些目标。认识到用户的目标可能会有所不同，并且他们的目标强烈影响着他们的感知。确保在交互的每一点上，用户需要的信息都是可用的、显眼的，并且与可能的目标用户清晰地对应，以便用户会注意到并使用这些信息。
+例如，数字设备上的显示常常给用户界面组件添加阴影，使其看起来相对于背景表面更突出（见图 1.10）。这种显示方式依赖一个大多数有经验的电脑用户都熟悉的惯例一光源在屏幕的左上角。如果一个物体是以光源在不同的位置来渲染的话，用户则无法看出它是凸起还是凹陷。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/04eb726c3796e5811eada43b93873e904ddf9802f29cdcece33ec3e6cd7e8b9e.jpg)
-FIGURE 1.10 Components on digital device screens are given drop-shadows so they are perceived to float above the background, but that perception depends on a convention that the light source is at the top.
-图 1.10 数字设备屏幕上的组件会添加阴影，使其看起来像是在背景上方漂浮，但这种感知依赖于一个约定，即光源在顶部。
+图 1-10 数字设备屏幕上的组件会添加阴影，使其看起来像是在背景上方漂浮，但这种感知只有在假设模拟光源在左上角时才有用。
 
-# Important Takeaways
+保持一致
+
+将信息和控件放置在一致的位置。不同页面上提供的相同功能的控件和数据显示应该摆放在每一页上相同的位置，而且它们还应该有相同的颜色、字体和阴影等。这样的一致性能让用户很快地找到和识别它们。
+
+理解目标
+
+用户去用一个系统是有目标的。设计者应该了解这些目标，要认识到不同用户的目标可能不同，而且他们的目标强烈左右他们能感知到什么。在一次交互的每个点上，确保提供了用户需要的信息，并非常清晰地对应到一个可能的用户目标，使用户能够注意到并使用这些信息。
+
+
 重要要点
-
 • Human perception is not an accurate reflection of what is “out there” in the world. It is biased by our experience, the current context, and our goals.
 • 人类的感知并不是对“世界”中事物的准确反映。它受到我们的经验、当前环境和我们的目标的影响。
 • Past experience can bias our perception by “priming” our perceptual systems to detect certain objects and events as well as “priming” them not to detect other objects and events. Repeated perception of an event over a short interval can cause habituation, increasing the chances that we will miss later occurrences of the event. With long-term experience, we develop frames for familiar situations that make us perceive things that aren’t there or miss things that are.
@@ -401,254 +306,181 @@ FIGURE 1.10 Components on digital device screens are given drop-shadows so they 
 5See youtube.com/watch?v $\mathbf{\sigma}=\mathbf{\sigma}$ PWGeUztTkRA, or search YouTubefor “McGurk effect.”
 5 查看 youtube.com/watch?v $\mathbf{\sigma}=\mathbf{\sigma}$ PWGeUztTkRA，或在 YouTube 上搜索“麦克格鲁克效应。”
 
-# Chapter 2: Our Vision is Optimized to See Structure
-第二章：我们的愿景是为了看到结构而优化
 
-# Abstract
+# 第二章 ：我们的视觉是为了看到结构而优化
+Chapter 2: Our Vision is Optimized to See Structure
+
 摘要
 
-This chapter introduces the Gestalt principles that describe human visual perception: proximity, similarity, continuity, closure, symmetry, figure-ground, and common fate, with examples of how each principle impacts user-interface design. For example, the proximity principle is that the relative distance between objects in a display affects the perception of whether and how the objects are organized into subgroups; objects near each other (relative to other objects) appear grouped, while those farther apart do not.
 本章介绍了描述人类视觉感知的格式塔原则：邻近性、相似性、连续性、闭合性、对称性、图底关系和共同命运，以及每个原则如何影响用户界面设计。例如，邻近性原则是指显示中对象之间的相对距离会影响人们对对象是否以及如何组织成子组的感知；彼此靠近的对象（相对于其他对象）看起来是分组的，而相距较远则不是。
 
-# Keywords
 关键词
 
 Ambiguity; Background; Closure; Common fate; Continuity; Displays; Figure-ground; Foreground; Gestalt principles; Grouping; Perception; Proximity; Similarity; Spacing; Symmetry; Vision; Visual; Visual design
 两可性；背景；闭合性；共同命运；连续性；显示；图底关系；前景；格式塔原则；分组；感知；邻近性；相似性；间距；对称性；视觉；视觉；视觉设计
 
-Early in the twentieth century, a group of German psychologists sought to explain how human visual perception works. They observed and cataloged many important visual phenomena. One of their basic findings was that human vision is holistic—our visual system automatically imposes structure on visual input and is wired to perceive whole shapes, figures, and objects rather than disconnected edges, lines, and areas. The German word for “shape” or “figure” is Gestalt, so these theories became known as the Gestalt principles of visual perception.
-20 世纪初，一群德国心理学家试图解释人类视觉是如何工作的。他们观察并记录了许多重要的视觉现象。他们的一项基本发现是，人类视觉是整体的——我们的视觉系统会自动对视觉输入施加结构，并且天生倾向于感知完整的形状、图形和物体，而不是断开的边缘、线条和区域。德语中“形状”或“图形”的意思是 Gestalt，因此这些理论被称为视觉感知的格式塔原则。
+20 世纪早期，一个由德国心理学家组成的研究小组试图解释人类视觉的工作原理。他们观察了许多重要的视觉现象并对它们编订了目录。其中最基础的发现是，人类视觉是整体的：我们的视觉系统自动对视觉输入构建结构，并且在神经系统层面上感知形状、图形和物体，而不是只看到互不相连的边、线和区域。“形状”和“图形”在德语中是 Gestalt，因此这些理论也就叫做视觉感知的格式塔（Gestalt）原理。
 
-Today’s perceptual and cognitive psychologists regard the Gestalt theory of perception more as a descriptive framework than as an explanatory and predictive theory. Current theories of visual perception are based heavily on the neurophysiology of the eyes, optic nerve, and brain (see Chapters 4–7).
-如今，感知和认知心理学家将格式塔感知理论更多地视为一种描述性框架，而不是一种解释性和预测性理论。当前的视觉感知理论主要基于眼睛、视神经和大脑的神经生理学（见第 4-7 章）。
+如今的感知和认知心理学家更多是把格式塔原理视为描述性的框架，而不是解释性和预测性的理论。如今的视觉感知理论更倾向基于眼球、视觉神经和大脑的神经心理学（见第 4 章到第 7 章）。
+并不意外，神经心理学家的发现支持了格式塔心理学家的观察结果。我们像其他动物一样，依据整体的对象来感知周围的环境—这是有神经系统基础的（Stafford&Webb，2005；Ware，2008）。因此，格式塔原理虽然不是对视觉感知的基础性解释，但仍然是一个合理的描述框架。格式塔原理也为图形和用户界面设计准则提供了有用的基础（Soegaard，2007）。
 
-Not surprisingly, the findings of neurophysiological researchers support the observations of the Gestalt psychologists. We really are —along with other animals—“wired” to perceive our surroundings in terms of whole objects (Stafford and Webb, 2005; Ware, 2008). Consequently, the Gestalt principles are still valid—if not as a fundamental explanation of visual perception, at least as a framework for describing it. They also provide a useful basis for guidelines for graphic design and user-interface design (Soegaard, 2007).
-令人不意外的是，神经生理学家的研究 findings 支持了格式塔心理学家的观察。我们确实——连同其他动物——在感知周围环境时是“以整体对象的方式”来感知的（Stafford 和 Webb，2005；Ware，2008）。因此，格式塔原则仍然是有效的——即使不是作为视觉感知的基本解释，至少可以作为描述它的框架。它们也为图形设计和用户界面设计的指南提供了一个有用的基础（Soegaard，2007）。
+对我们当前的讨论，最重要的格式塔原理有：接近性原理、相似性原理、连续性原理、封闭性原理、对称性原理、主体/背景原理和共同命运原理。在后续小节中，我会介绍每个原理，并列举静态图形设计和用户界面设计的例子。
 
-For this book, the most important Gestalt principles are Proximity, Similarity, Continuity, Closure, Symmetry, Figure/Ground, and Common Fate. The following sections describe each principle and provide examples from both static graphic design and user-interface design.
-对于这本书来说，最重要的格式塔原则是邻近性、相似性、连续性、闭合性、对称性、主体/背景和共同命运。接下来的部分将描述每个原则，并提供来自静态图形设计和用户界面设计的示例。
+格式塔原理：接近性
 
-# Gestalt Principle: Proximity
-格式塔原则：邻近性
-
-The Gestalt principle of Proximity is that the relative distance between objects in a display affects our perception of whether and how the objects are organized into groups and subgroups. Objects near each other (relative to others) appear grouped, while those farther apart do not.
-格式塔原则中的邻近性是指显示中对象之间的相对距离会影响我们对对象是否以及如何组织成组和子组的感知。彼此靠近的对象（相对于其他对象）看起来是分组的，而那些相距较远的则不是。
+接近性原理是指，物体之间的相对距离会影响我们感知它们是否以及如何组织在一起。互相靠近（相对于其他物体）的物体看起来属于一组，而那些距离较远的就不是。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/98a59ec3f9236b8b0c930fa38ac05ca6e204ecb1df8d6a7000fda7de3a7538cf.jpg)
-FIGURE 2.1Proximity: items that are closer appear grouped as rows (A) and columns (B).
-图 2.1 邻近性：靠得近的项目看起来像行（A）和列（B）一样分组。
+图 2-1 接近性：相互靠近的物体看起来属于一组。A 图为成行的星，B 图为成列的星 
 
-![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/66fba03f8cc40ec710122eda203f5708bd7ade0358951f07d8701bc35fd4369b.jpg)
-FIGURE 2.2Proximity: even dissimilar objects that are close together appear grouped.
-图 2.2 近似性：即使看起来不相似的物体如果靠得近也会显得成组。
+在图 2-1 中，左边的星相互之间在水平方向上比在垂直方向上靠得更近，因此我们看到星排成三行；而右边的星在垂直方向上更接近，因此我们看到星排成三列。
 
-In Fig. 2.1A, the stars are closer together horizontally than they are vertically, so we see three rows of stars, while the stars in Fig. 2.1B are closer together vertically than they are horizontally, so we see three columns.
-在图 2.1A 中，星星在水平方向上比垂直方向上更近，所以我们看到三行星星，而图 2.1B 中的星星在垂直方向上比水平方向上更近，所以我们看到三列。
-
-Although the stars in Fig. 2.1 are similar looking, objects need not look similar for them to appear grouped when placed near each other. For example, in Fig. 2.2, the groups are defined by how close together the objects are, not by how they look.
 虽然图 2.1 中的星星看起来很相似，但当物体彼此靠近时，它们并不一定需要看起来相似才能显得成组。例如，在图 2.2 中，组的定义是由物体之间的距离决定的，而不是它们看起来怎么样。
 
-The Proximity principle is useful when laying out control panels or data forms in software, websites, and electronic appliances. Designers who don’t know about Proximity sometimes use group boxes and horizontal or vertical lines to separate groups of controls and data displays. For example, Outlook’s Distribution List Membership dialogue box groups the Add …, Remove, and Properties … buttons together using Proximity but then associates that group with the listbox using an unnecessary group-box widget (see Fig. 2.3). Even less necessary is the group-box labeled “Distribution list,” since it contains only a single combo-box. “Group box around one item” is a common UI design blooper (Johnson, 2007).
-接近原则在软件、网站和电子设备中布置控制面板或数据表单时非常有用。不知道接近原则的设计师有时会使用分组框和水平或垂直线来分隔控制组和数据显示。例如，Outlook 的“分发列表成员”对话框使用接近原则将添加…、删除和属性…按钮组合在一起，但随后使用不必要的分组框小部件将其与列表框关联（见图 2.3）。甚至更不必要的是标有“分发列表”的分组框，因为它只包含一个单选框。“围绕单个项目的分组框”是一种常见的 UI 设计错误（Johnson，2007）。
+![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/66fba03f8cc40ec710122eda203f5708bd7ade0358951f07d8701bc35fd4369b.jpg)
+图 2-2 近似性：即使看起来不相似的物体如果靠得近也会显得成组。
+
+接近性原理在软件、网站和电子设备中布置控制面板或数据表单时非常有用。不知道接近原则的设计师有时会使用分组框和水平或垂直线来分隔控制组和数据显示。
+
+例如，Outlook 的“分发列表成员”对话框使用接近原则将添加…、删除和属性…按钮组合在一起，但随后使用不必要的分组框小部件将其与列表框关联（见图 2.3）。甚至更不必要的是标有“分发列表”的分组框，因为它只包含一个单选框。“围绕单个项目的分组框”是一种常见的 UI 设计错误（Johnson，2007）。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/0b829570714d33fc27e02ce33a800acf9267d11d23a4496ca2b6ebf9eaf3be26.jpg)
-FIGURE 2.3 In Outlook’s Distribution List Membership dialogue box, group boxes are used unnecessarily. Simple proximity—spacing—would be enough.
-图 2.3 在 Outlook 的“分发列表成员”对话框中，分组框使用得不必要。简单的接近——间距——就足够了。
+图 2-3 在 Outlook 的分发列表成员的对话框中，操作列表按钮放置在一个分组框里，与窗口控制按钮分开
 
-Using Proximity, items on a display can be visually grouped simply by spacing them closer to each other than to other controls without using group-boxes or visible borders. Furthermore, Proximity can be applied hierarchically to define groups of subgroups. For example, in Firefox’s keyboard text preferences dialogue box, the three checkboxes to control spell-checking, autocapitalization, and automatic addition of periods are grouped (see Fig. 2.4), and those are grouped with other controls as well as a table control. Graphic design experts recommend using Proximity to avoid visual clutter (Mullet and Sano, 1994), cut wasted ink or pixels that add no data to the presentation (Tufte, 2001), and reduce the amount of code needed to implement it.
-使用邻近性，显示屏上的项目可以通过将它们彼此之间的间距设置得比与其他控件之间的间距更近，而无需使用组框或可见边框来简单地视觉分组。此外，邻近性可以分层应用以定义子组的组。例如，在 Firefox 的键盘文本首选项对话框中，用于控制拼写检查、自动大写和自动添加句号的三个复选框被分组（见图 2.4），并且它们与其他控件以及一个表格控件一起分组。图形设计专家建议使用邻近性来避免视觉杂乱（Mullet 和 Sano，1994），减少添加不用于演示的数据的浪费墨水或像素（Tufte，2001），并减少实现它所需的代码量。
-
-Proximity also governs perception of the labels on controls. Too much space between a label and the item it labels, and people won’t connect the label with the item. Conversely, if a label is too close to a different item, people may connect it with that item instead of the intended one. For example, poor spacing of radio button labels in a form at Delta.com (2015) could easily cause people to choose the wrong button (see Fig. 2.5A), whereas the spacing of radio button labels at United.com (2020) shows clearly which label goes with which button (see Fig. 2.5B).
-接近性也影响着对控件标签的感知。标签与所标记项目之间的空间过大，人们就不会将标签与项目联系起来。相反，如果标签与另一个项目靠得太近，人们可能会将其与该项目联系起来，而不是预期的项目。例如，Delta.com（2015 年）表单中单选按钮标签的间距不当很容易导致人们选择错误的按钮（见图 2.5A），而 United.com（2020 年）单选按钮标签的间距清楚地显示了哪个标签对应哪个按钮（见图 2.5B）。
+然而，根据接近性原理，可以通过拉近某些对象之间的距离，拉开与其他对象的距离使它们在视觉上成为一组，而不需要分组框或者可见的边界。此外，邻近性可以分层应用以定义子组的组。
+例如，在 Firefox 的键盘文本首选项对话框中，用于控制拼写检查、自动大写和自动添加句号的三个复选框被分组（见图 2.4），并且它们与其他控件以及一个表格控件一起分组。图形设计专家建议使用邻近性来避免视觉杂乱（Mullet 和 Sano，1994），减少添加不用于演示的数据的浪费墨水或像素（Tufte，2001），并减少实现它所需的代码量。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/615ce51e8b187b08a3b8ff70ad8afdfad6a27914865bb89c66d14eb18faa7b61.jpg)
-FIGURE 2.4In Firefox’s keyboard text preferences dialogue box, controls are grouped using the Proximity principle without group boxes and borders.
-图 2.4 在 Firefox 的键盘文本首选项对话框中，控件使用接近性原则分组，没有使用分组框和边框。
+图 2-4 在 Firefox 的键盘文本首选项对话框中，控件使用接近性原则分组，没有使用分组框和边框。
+
+接近性也影响着对控件标签的感知。标签与所标记项目之间的空间过大，人们就不会将标签与项目联系起来。相反，如果标签与另一个项目靠得太近，人们可能会将其与该项目联系起来，而不是预期的项目。例如，Delta.com（2015 年）表单中单选按钮标签的间距不当很容易导致人们选择错误的按钮（见图 2.5A），而 United.com（2020 年）单选按钮标签的间距清楚地显示了哪个标签对应哪个按钮（见图 2.5B）。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/92cb97184b18740287c9531b18757631c033f9a1e2efec79b66be3da6d108954.jpg)
-FIGURE 2.5 Radio button labels: (A) Poor placement; (B) Good placement.
-图 2.5 单选按钮标签：（A）放置不当；（B）放置良好。
+图 2-5 单选按钮标签：（A）放置不当；（B）放置良好。
 
-# Gestalt Principle: Similarity
-格式塔原则：相似性
+格式塔原理：相似性
 
-Another factor that affects our perception of grouping is expressed in the Gestalt principle of Similarity, which states that similarlooking objects appear grouped, all other things being equal. In Fig. 2.6, the slightly larger, “hollow” stars are perceived as a group.
-影响我们对分组感知的另一个因素体现在格式塔相似性原则中，该原则指出，在所有其他条件相同的情况下，外观相似的物体看起来是分组的。在图 2.6 中，稍微更大、带“空心”的星星被视为一组。
-
-Gmail uses similarity—bold versus nonbold text—to help users perceive unread emails as a distinct group from already-read ones (see Fig. 2.7A). Lyft’s smartphone app uses similarity—car shapes— to let users see at a glance how many of its drivers are available in a potential rider’s vicinity (see Fig. 2.7B).
-Gmail 使用相似性——粗体与非粗体文本——来帮助用户将未读邮件视为一个与已读邮件不同的独立组（见图 2.7A）。Lyft 的智能手机应用程序使用相似性——汽车形状——让用户一目了然地看到在其潜在乘客附近的可用司机数量（见图 2.7B）。
+格式塔相似性原理指出了影响我们感知分组的另一个因素：如果其他因素相同，那么相似的物体看起来归属于一组。在图 2-6 中，稍微更大、带“空心”的星星被视为一组。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/9f9edfb8e876a6ce519fbcee790ffbe9392ed9e58842626868e827827c3c3c0b.jpg)
-FIGURE 2.6Similarity: items appear grouped if they look more similar to each other than to other objects.
-图 2.6 相似性：如果项目彼此看起来比与其他物体更相似，则它们会显得分组。
+图 2-6 相似性：如果物体看起来相似，就感觉属于一组
 
+Gmail 使用相似性——粗体与非粗体文本——来帮助用户将未读邮件视为一个与已读邮件不同的独立组（见图 2-7 A）。Lyft 的智能手机应用程序使用相似性——汽车形状——让用户一目了然地看到在其潜在乘客附近的可用司机数量（见图 2-7 B）。
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/a6096df751851e47a34233f95889c69d589ece1dff5a7902bbd8cdb0f1aa4b3b.jpg)
-FIGURE 2.7Similarity is used: (A) by Gmail to make unread emails stand out from already-read ones and (B) by Lyft to provide a quick overview of available rides.
-图 2.7 相似性被使用： (A) Gmail 用于使未读邮件与已读邮件区分开来，(B) Lyft 用于提供可用行程的快速概览。
+图 2-7 相似性被使用： (A) Gmail 用于使未读邮件与已读邮件区分开来，(B) Lyft 用于提供可用行程的快速概览。
 
-The Page Setup dialogue box in Mac OS applications uses both Similarity and Proximity to convey groupings (see Fig. 2.8). The two very similar and tightly spaced Orientation settings are intended to appear grouped. The two menus are not so tightly spaced but look similar enough that they appear grouped even though that probably wasn’t intended. The Cancel and OK buttons are positioned together, away from everything else. Even without the separator line, they would appear to be a group.
-Mac OS 应用程序中的页面设置对话框同时使用相似性和邻近性来传达分组（见图 2.8）。两个非常相似且紧密排列的方向设置旨在显得分组。这两个菜单虽然不是那么紧密排列，但看起来足够相似，以至于它们显得分组，即使这可能不是有意为之的。取消和确定按钮被放在一起，远离其他所有东西。即使没有分隔线，它们也会显得是一个组。
+MacOS 应用程序中的页面设置对话框同时使用相似性和邻近性来传达分组（见图 2-8）。两个非常相似且紧密排列的方向设置旨在显得分组。这两个菜单虽然不是那么紧密排列，但看起来足够相似，以至于它们显得分组，即使这可能不是有意为之的。取消和确定按钮被放在一起，远离其他所有东西。即使没有分隔线，它们也会显得是一个组。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/24f2747e5a006499d06f346a23d514092823ec8d2582e746147c790d7239eb4b.jpg)
-FIGURE 2.8 Mac OS Page Setup dialogue box. Similarity and Proximity are used to group settings and controls.
-图 2.8 Mac OS 页面设置对话框。相似性和邻近性用于对设置和控制进行分组。
+图 2-8 Mac OS 页面设置对话框。相似性和邻近性用于对设置和控制进行分组。
 
-# Gestalt Principle: Continuity
 格式塔原则：连续性
 
-Several Gestalt principles describe our visual system’s tendency to resolve ambiguity or fill in missing data so we perceive whole objects. The first such principle, the principle of Continuity, states that when visual elements are aligned with each other, our visual perception is biased to perceive them as continuous forms rather than disconnected segments.
-一些格式塔原理描述了我们视觉系统解决歧义或填补缺失数据以感知完整对象的倾向。第一个这样的原理，连续性原理，指出当视觉元素彼此对齐时，我们的视觉感知倾向于将它们感知为连续的形状，而不是分离的片段。
+上述两个格式塔原理都与我们试图给对象分组的倾向相关，另外几个格式塔原理则与我们的视觉系统试图解析模糊或者填补遗漏来感知整个物体的倾向相关。第一个是连续性原理：我们的视觉倾向于感知连续的形式而不是离散的碎片。
 
 For example, in Fig. 2.9A, we automatically see two crossing lines —one blue and one orange. We don’t see two separate orange segments and two separate blue ones, and we don’t see a blue-andorange V on top of an upside-down orange-and-blue V. In Fig. 2.9B, due to the vertical alignment of the pieces and the fact that they are spaced to match the curvature of the visible pieces, we see a sea monster in water, not three pieces of one. If we misaligned the pieces or spaced the pieces further than the curvature suggests, the illusion of continuity would disappear.
-例如，在图 2.9A 中，我们自动看到两条交叉的线——一条蓝色，一条橙色。我们看到两个独立的橙色片段和两个独立的蓝色片段，也没有看到一个蓝橙 V 形在倒置的橙蓝 V 形上方。在图 2.9B 中，由于部件的垂直对齐以及它们与可见部件的间距匹配曲线，我们看到水中的海怪，而不是三个部件中的一个。如果我们错位部件或使部件间距大于曲线所暗示的，连续性错觉就会消失。
+例如，在图 2-9A 中，我们自动看到了一蓝一橙两条交叉的线。我们看到的不是两段橙色线和两段蓝色线，也不是一个左蓝右橙的 V 形位于一个左橙右蓝的倒 V 形之上。在 B 图中，我们看到的是一只水中的海怪，而不是一只海怪的三段身体。如果我们错位部件或使部件间距大于曲线所暗示的，连续性错觉就会消失。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/5b994c04b6aa51993a04af28b89c721bac05be6d67d9d678cca0bf0dcde68f9c.jpg)
-FIGURE 2.9 Continuity: Human vision is biased to see continuous forms, even adding missing data if necessary.
-图 2.9 连续性：人类视觉倾向于看到连续的形状，即使必要时会添加缺失的数据。
+图 2-9 连续性：人类视觉倾向于看到连续的形式，必要时甚至会填补遗漏
 
-A well-known example of the use of the continuity principle in graphic design is the IBM logo. It consists of disconnected blue patches, and yet it is not at all ambiguous. The blue rectangles are stacked vertically with horizontal space between the stacks, so we see three bold letters, perhaps viewed through something like venetian blinds (see Fig. 2.10).
-在平面设计中，连续性原则的一个著名例子是 IBM 标志。它由不相连的蓝色区域组成，但一点也不含糊。蓝色的矩形垂直堆叠，每堆之间有水平间距，所以我们看到三个粗体字母，也许像是透过百叶窗看去（见图 2.10）。
-
-Slider controls are a user-interface example of the Continuity principle. We see a slider as depicting a single range controlled by a handle that appears somewhere on the slider, not as two separate ranges separated by the handle (see Fig. 2.11A). Even displaying different colors on each side of a slider’s handle doesn’t completely “break” our perception of a slider as one continuous object, although ComponentOne’s choice of strongly contrasting colors (gray vs. red) certainly strains that perception a bit (see Fig. 2.11B).
-滑块控件是用户界面中连续性原则的一个例子。我们看到滑块描绘了一个由滑块上的一个手柄控制的单一范围，而不是两个由手柄分隔的独立范围（见图 2.11A）。即使滑块手柄的每一侧显示不同的颜色，也不会完全“破坏”我们对手柄将滑块视为一个连续对象的感知，尽管 ComponentOne 选择强烈对比的颜色（灰色与红色）确实让这种感知有些吃力（见图 2.11B）。
+在图形设计中，使用了连续性原理的一个广为人知的例子就是 IBM 的标志。它由非连续的蓝色块组成，但一目了然，很容易就能看到三个粗体字母，就像透过百叶窗看到的效果（见图 2-10）。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/e7dc1d89c2c52993ad4fde9b8a301525e7ecd98550da088c274b6bc31130a157.jpg)
-FIGURE 2.10 The IBM company logo uses the Continuity principle to form letters from disconnected patches.
-图 2.10 IBM 公司标志使用连续性原则从不相连的区域形成字母。
+图 2-10 IBM 公司的标志使用了连续性原理使非连接的色块形成字母
+Slider controls are a user-interface example of the Continuity principle. We see a slider as depicting a single range controlled by a handle that appears somewhere on the slider, not as two separate ranges separated by the handle (see Fig. 2.11A). Even displaying different colors on each side of a slider’s handle doesn’t completely “break” our perception of a slider as one continuous object, although ComponentOne’s choice of strongly contrasting colors (gray vs. red) certainly strains that perception a bit (see Fig. 2.11B).
+滑动条控件是使用了连续性原理的一个用户界面示例。滑动条表示一个范围，我们看到的是滑动条某个位置上有一个“被控制”的滑块，而不是由滑块分隔成的两个不同区间（见图 2-11A）。即使将滑块的两端的滑动条显示成不同颜色，也不会完全“打破”我们对滑动条是一个连续整体的感知，尽管 ComponentOne 选择使用强烈反差的颜色（灰色与红色）肯定会稍微影响人们连续性的感知（见图 2-11B）。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/867ae723b2daa77aefb16d7f86a35caddb9d9cd429874814b0d78f981592e4c3.jpg)
-FIGURE 2.11 Continuity: we see a slider as a single slot with a handle somewhere on it, not as two slots separated by a handle: (A) Mac OS and (B) ComponentOne.
-图 2.11 连续性：我们看到滑块是一个带有手柄的单一插槽，而不是两个由手柄分隔的插槽：(A) Mac OS 和(B) ComponentOne。
+图 2-11 连续性：我们看到滑块是一个带有手柄的单一插槽，而不是两个由手柄分隔的插槽：(A) Mac OS 和(B) ComponentOne。
 
-# Gestalt Principle: Closure
+
 格式塔原则：闭合性
 
-Related to Continuity is the Gestalt principle of Closure: our visual system automatically tries to close open figures so they are perceived as whole objects rather than separate pieces. Thus, we perceive the disconnected arcs in Fig. 2.12A as a circle.
-与连续性相关的是格式塔的闭合原则：我们的视觉系统会自动尝试闭合开放的图形，使它们被视为整体对象，而不是单独的碎片。因此，我们感知图 2.12A 中的不连贯的弧线为一个圆。
-
-Our visual system is so strongly biased to see objects that it can even interpret a totally blank area as an object. We see the combination of shapes in Fig. 2.12B as a white triangle overlapping another triangle and three black circles, even though the figure really only contains three V shapes and three black Pac-Men.
-我们的视觉系统如此强烈地倾向于看到物体，甚至可以解释一个完全空白的地方为一个物体。我们看到图 2.12B 中的形状组合为一个白色三角形，它覆盖着另一个三角形和三个黑色圆圈，尽管这个图形实际上只包含三个 V 形和三个黑色的猫头鹰。
-
-The Closure principle is often applied in graphical user interfaces (GUIs). For example, GUIs often represent collections of objects (e.g., documents or messages) as stacks (see Fig. 2.13). Just showing one whole object and the edges of others “behind” it is enough to make users perceive a stack of objects, all whole.
-闭合原则经常应用于图形用户界面（GUI）。例如，GUI 通常将对象集合（例如文档或消息）表示为堆栈（见图 2.13）。只需显示一个完整的对象和它“后面”其他对象的边缘就足以让用户感知到一堆完整的对象。
+与连续性相关的是格式塔的闭合原则：我们的视觉系统会自动尝试闭合开放的图形，使它们被视为整体对象，而不是单独的碎片。因此，我们感知图 2-12A 中的不连贯的弧线为一个圆。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/4397836aca33392b40e3125cf040b1617608a3d10ecc8b1f54e2b8be4d177410.jpg)
-FIGURE 2.12 Closure: Human vision is biased to see whole objects, even when they are incomplete.
-图 2.12 闭合：人类视觉倾向于看到完整的物体，即使它们是不完整的。
+图 2-12 闭合：人类视觉倾向于看到完整的物体，即使它们是不完整的。
+
+我们的视觉系统强烈倾向于看到物体，以至于它能将一个完全空白的区域解析成一个物体。我们能将图 2-12B 中的形状组合感知为一个白色三角形、另一个三角形和三个黑色圆形叠加在一起，即使画面实际上只有三个 V 形和三个黑色的吃豆人。
+
+封闭性原理经常被应用于图形用户界面（GUI)。例如，GUI 经常用叠起的形式表示对象的集合，例如文档或者消息（见图 2.13）。仅仅显示一个完整的对象和其“背后”对象的一角就足以让用户感知到由一叠对象构成的整体。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/a6f74bd488ee2733dffb396d6f7e6198cdbb3d95df483c7f603ea11f4778500c.jpg)
-FIGURE 2.13 Desktop icons depicting stacks of objects exhibit the Closure principle: partially visible objects are perceived as whole.
-图 2.13 展示了桌面图标堆叠物体的闭合原则：部分可见的物体被视为整体。
+图 2.13 展示了桌面图标堆叠物体的闭合原则：部分可见的对象被视为整体。
 
-# Gestalt Principle: Symmetry
 格式塔原则：对称性
 
-A third fact about our tendency to see objects is captured in the Gestalt principle that in German is named “prägnanz,” which literally means “good Figure” but is often translated to Simplicity or Symmetry. It states that we tend to parse complex scenes in a way that reduces the complexity. The data in our visual field usually has more than one possible interpretation, but our vision automatically organizes and interprets the data to simplify it and give it symmetry, making it easier to comprehend.
 关于我们感知物体的第三个事实是格式塔原则，德语中称为“prägnanz”，字面意思是“良好的图形”，但通常翻译为简单或对称。它指出我们倾向于以减少复杂性的方式解析复杂场景。我们视觉场中的数据通常有多种可能的解释，但我们的视觉会自动组织和解释数据以简化它并赋予对称性，使其更容易理解。
 
 For example, we see the complex shape on the far left of Fig. 2.14 as two overlapping diamonds, not as two touching corner bricks or a pinch-waist octahedron with a square in its center. A pair of overlapping diamonds is simpler than the other two interpretations shown on the right—it has fewer sides and more symmetry than the other two interpretations.
-例如，我们看到图 2.14 最左侧的复杂形状是两个重叠的菱形，而不是两个接触的角落砖块或中心有一个方形的细腰八面体。一对重叠的菱形比右边的两种解释要简单——它比其他两种解释有更少的边和更多的对称性。
-
-The Symmetry principle also predicts that we will see Fig. 2.15 as five overlapping rings and not as a jumble of interconnected arcs.
-对称原则也预测我们会看到图 2.15 是五个重叠的圆环，而不是一堆相互连接的弧线。
-
+例如，我们将图 2.14 最左侧的复杂形状看作两个重叠的菱形，而不是两块顶部对接的隅砖或者一个中心为小四方形的细腰八边形。一对叠加的菱形比其他两个解释更简单，它的边更少并且比另外两个解析更对称。  
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/60016f60b75db8da5eee7afc67534a29f51a02166d565e793f7e6ff873370799.jpg)
-FIGURE 2.14 Symmetry: the human visual system tries to resolve complex scenes into combinations of simple, symmetrical shapes.
 图 2.14 对称性：人类视觉系统试图将复杂场景解析为简单对称形状的组合。
 
+对称原则也预测我们会看到图 2.15 是五个重叠的圆环，而不是一堆相互连接的弧线。
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/6dfd0c407f14982d49fd090a9682c184c7fc75caec2a01519d4d3f4ff3bc7633.jpg)
 FIGURE 2.15 Symmetry predicts that people will perceive this figure as five overlapping rings.
 图 2.15 对称性预测人们会将这个图形感知为五个重叠的圆环。
 
-Our visual system’s reliance on symmetry can be exploited to make complex information easier to scan and understand. For example, presenting information in a table—a symmetric way to present data—makes it easier to extract the desired information (see Table 2.1).
 我们视觉系统对对称性的依赖可以被用来简化复杂信息的扫描和理解。例如，以表格形式——一种对称的数据呈现方式——呈现信息，可以更容易地提取所需信息（参见表 2.1）。
 
-# Table 2.1
 表 2.1
-
 <table data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><tbody data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Student学生</td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Quiz2测验 2</td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"></td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"></td><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Quiz 4测验 4</td></tr><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Fred (B)弗雷德（B）</td><td>95</td><td>92</td><td>98</td><td>90</td></tr><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Susan H.苏珊·H.</td><td>99</td><td>98</td><td>97</td><td>95</td></tr><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Sergei L.</td><td>83</td><td>91</td><td>92</td><td>88</td></tr><tr data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c"><td data-immersive-translate-walked="7e167b07-79a4-43e0-8500-2022b67e9e8c" data-immersive-translate-paragraph="1">Hannah N.</td><td>75</td><td>87</td><td>92</td><td>83</td></tr></tbody></table>
 
-# Gestalt Principle: Figure/Ground
-格式塔原则：图形/背景
+格式塔原理：主体/背景
 
-The next Gestalt principle that describes how our visual system structures the data it receives is Figure/Ground. This principle states that our mind separates the visual field into the figure (the foreground) and ground (the background). The foreground consists of the elements of a scene that are the object of our primary attention, and the background is everything else.
-下一个格式塔原则描述了我们视觉系统如何组织它接收的数据，这个原则是图/底。该原则指出，我们的心智将视觉领域分为图（前景）和底（背景）。前景包括场景中我们主要注意力的元素，背景是其他所有东西。
+下一个描述我们的视觉系统如何组织数据的格式塔原理是主体/背景原理，它指出我们的大脑将视觉区域分为主体和背景。主体包括一个场景中占据我们主要注意力的所有元素，其余的则是背景。  
 
-The Figure/Ground principle also specifies that the visual system’s parsing of scenes into figure and ground is influenced by characteristics of the scene. For example, when a small object or color patch overlaps a larger one, we tend to perceive the smaller object as the figure and the larger object as the ground (see Fig. 2.16).
-图/底原则还规定，视觉系统对场景进行图和底的分析受到场景特征的影响。例如，当一个小物体或色块覆盖在一个大物体上时，我们倾向于将小物体视为图，将大物体视为底（见图 2.16）。
+主体/背景原理也说明场景的特点会影响视觉系统对场景中的主体和背景的解析。例如，当一个小物体或者色块与更大的物体或者色块重叠时，我们倾向于认为小的物体是主体而大的物体是背景（见图 2-16）。  
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/c06bfbb625ff8a3cae660d251b2689983bce85d9e86cb12d9bddf73bf951133a.jpg)
-FIGURE 2.16 Figure/Ground: when objects overlap, we see the smaller as the figure and the larger as the ground.
-图 2.16 图/底：当物体重叠时，我们看到较小的作为图，较大的作为底。
+图 2-16 主体/背景：当物体重叠时，我们把小的那个看成是背景之上的主体
 
-However, our perception of figure versus ground is not completely determined by scene characteristics. It also depends on the viewer’s focus of attention, as illustrated by Fig. 2.17. Is it a vase or two faces?
 然而，我们对图形与背景的感知并非完全由场景特征决定。它还取决于观察者的注意力焦点，如图 2.17 所示。这是一个花瓶还是两张脸？
-
-In user-interface and Web design, the Figure/Ground principle is often used to place an impression-inducing background “behind” the primary displayed content. The background can convey information, such as where the user is in the system as in the
-在用户界面和网页设计中，图/底原则常用于将一个能产生印象的背景“放置”在主要显示内容“后面”。背景可以传递信息，例如用户在系统中的位置，就像
-
-Android desktop in Fig. 2.18, or it can suggest a theme, brand, or mood for interpretation of the content.
-Android 桌面在图 2.18 中，或者它可以建议一个主题、品牌或情绪来解释内容。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/787e620bc97256ffd142b89f29f08e293ee4bb57649ee22f40f673b251fe6ca1.jpg)
 FIGURE 2.17 Vase or faces? Perception of figure versus ground depends on a viewer’s focus of attention.
 图 2.17 瓶子还是人脸？图形与背景的感知取决于观察者的注意力焦点。
 
+在用户界面和网页设计中，主体/背景原理经常用来在主要显示内容的“下方”放置印象诱导的背景。背景可以传递信息，例如用户在系统中的位置，就像 Android 桌面在图 2.18 中，或者它可以建议一个主题、品牌或情绪来解释内容。
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/71cc87eb65b9dcb387bdf11e1d2527aba366266a1a87d7bdd609f7b0d3565b75.jpg)
-
-![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/de2dbc8869be706ac603c0e68a08666437bb356489de472d00e7193bf4f77c0a.jpg)
-FIGURE 2.18 Figure/Ground is used in mobile phones, tablets, and computers to display a device’s “home” or “desktop” screen.
 图 2.18 图形/背景在手机、平板电脑和计算机中用于显示设备的“主页”或“桌面”屏幕。
-FIGURE 2.19 Figure/Ground can be used to display temporary information “over” the page content: (A) call-to-action at PBS.org’s mobile website and (B) Android settings pulldown.
-图 2.19 图形/背景可用于显示“覆盖”页面内容的信息：（A）PBS.org 移动网站的号召性用语和（B）Android 设置下拉菜单。
 
-Figure/Ground is also often used to pop up information over other content. Content that was formerly the figure—the focus of the user’s attention—temporarily becomes the background for new information, which appears briefly as the new figure (see Fig. 2.19). This approach is usually better than temporarily replacing the old information with the new information, because it provides context that helps keep people oriented regarding their place in the interaction.
+
 图形/背景也常用于在其它内容上弹出信息。原本是图形——用户注意力的焦点——暂时成为新信息的背景，新信息短暂地作为新的图形出现（见图 2.19）。这种方法通常比暂时用新信息替换旧信息更好，因为它提供了上下文，有助于人们了解他们在交互中的位置。
 
-# Gestalt Principle: Common Fate
-格式塔原则：共同命运
+![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/de2dbc8869be706ac603c0e68a08666437bb356489de472d00e7193bf4f77c0a.jpg)
+图 2.19 图形/背景可用于显示“覆盖”页面内容的信息：（A）PBS. Org 移动网站的号召性用语和（B）Android 设置下拉菜单。
 
-The previous six Gestalt principles concerned perception of static (unmoving) figures and objects. One final Gestalt principle— Common Fate—concerns moving objects. The Common Fate principle is related to the Proximity and Similarity principles—like them, it affects whether we perceive objects as grouped. The Common Fate principle states that objects that move together are perceived as grouped or related.
-之前的六条格式塔原则涉及对静态（不动的）图形和物体的感知。最后一条格式塔原则——共同命运——涉及运动的物体。共同命运原则与接近性和相似性原则相关——就像它们一样，它影响我们是否将物体感知为分组。共同命运原则指出，一起移动的物体会被感知为分组或相关。
+格式塔原理：共同命运
+前面 6 个格式塔原理针对的是静态（非运动）图形和对象，最后一个格式塔原理一共同命运，则涉及运动的物体。共同命运原理与接近性原理和相似性原理相关，都影响我们所感知的物体是否成组。共同命运原理指出一起运动的物体被感知为属于一组或者是彼此相关的。  
 
-For example, in a display showing dozens of pentagons, if seven of them wiggled in synchrony, people would see them as a related group, even if the wiggling pentagons were separated from each other and looked no different from all the other pentagons (see Fig. 2.20).
-例如，在一个显示着几十个五边形的展示中，如果其中七个五边形同步地晃动，人们会将其视为一个相关的组，即使晃动的五边形彼此分开，并且看起来与其他五边形没有区别（见图 2.20）。
-
-Common motion—implying common fate—is used in some animations to show relationships between entities. For example, Google’s Gapminder graphs animate dots representing nations to show changes in various factors of economic development over time. Countries that move together share development histories (see Fig. 2.21).
-共同运动——意味着共同命运——被用于某些动画中，以显示实体之间的关系。例如，谷歌的 Gapminder 图表通过动画显示代表国家的点，以展示经济开发因素随时间的变化。一起移动的国家共享发展历史（见图 2.21）。
+例如，在数十个五边形中，如果其中 7 个同步地前后摇摆，人们将把它们看成相关的一组，即使这些摇摆的五边形互相之间是分离的，而且看起来与其他的也没什么不同（见图 2.20）。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/dc1e0660573959418aebdc6e85303412148f8d0721f463559d42e961878f52cf.jpg)
-FIGURE 2.20 Common Fate: items appear grouped or related if they move together.
-图 2.20 共同命运：如果物品一起移动，它们会显得分组或相关。
+图 2.20 共同命运：一起运动的物体看起来是一组的或者相关的 
+
+共同的运动暗示共同的历程，在一些动态模拟中可用以展示不同实体的关系。例如，GapMinder 的图像中代表国家的点模拟经济发展的多个因素随着时间变化而变化，一同运动的国家具有相同的发展历史（见图 2.21）。
+
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/b60f4dd7e72b439f478517ab207b415354635a14cb5664a93393c61c6a8a7552.jpg)
-FIGURE 2.21 Common fate: Gapminder animates dots to show which nations have similar development histories (for details, animations, and videos, visit Gapminder.org).
-图 2.21 常见命运：Gapminder 通过动画展示哪些国家具有相似的发展历史（详情、动画和视频，请访问 Gapminder.org）。
+图 2.21 共同命运：GapMinder 动画模拟点显示哪些国家具有相似的发展历史（详情、动画和视频，请访问 Gapminder.org）。
 
-# Gestalt Principles: Combined
-格式塔原则：结合
 
-Of course, in real-world visual scenes, the Gestalt principles work in concert, not isolation. For example, a typical Mac OS desktop usually exemplifies six of the seven principles described here, excluding Common Fate): Proximity, Similarity, Continuity, Closure, Symmetry, and Figure/Ground (see Fig. 2.22). On a typical desktop, Common Fate is used (along with Similarity) when a user selects several files or folders and drags them as a group to a new location (see Fig. 2.23).
-当然，在现实世界的视觉场景中，格式塔原理是协同工作而非孤立工作的。例如，典型的 Mac OS 桌面通常体现了这里描述的七个原理中的六个（不包括常见命运）：邻近性、相似性、连续性、闭合性、对称性，以及图形/背景（见图 2.22）。在典型的桌面上，当用户选择多个文件或文件夹并将它们作为一个整体拖动到新位置时（见图 2.23），会使用常见命运（以及相似性）。
+将格式塔原理综合起来
 
-With all these Gestalt principles operating at once, a design may imply unintended visual relationships. A recommended practice after designing a display is to view it with each of the Gestalt principles in mind—Proximity, Similarity, Continuity, Closure, Symmetry,
-随着所有这些格式塔原理同时运作，设计可能会暗示未预料到的视觉关系。设计显示后推荐的实践是考虑到每个格式塔原理——邻近性、相似性、连续性、闭合性、对称性，
-
-Figure/Ground, and Common Fate—to see if the design suggests any relationships between elements that you do not intend.
-图形/背景，以及常见命运——来查看设计是否暗示了元素之间你未打算的关系。
-
+当然，在现实世界的视觉场景中，各种格式塔原理不是孤立的，而是共同起作用的。例如，一个典型的 MacOS 桌面通常可以示范之前提到 7 个原理中的 6 个（除了共同命运原理）：接近性原理、相似性原理、连续性原理、封闭性原理、对称性原理以及主体/背景原理（见图 2.22）。在典型的桌面中，当用户一次选取多个文件或者目录并拖曳到新的位置时，就用到了共同命运原理（还有相似性原理）（见图 2.23）。
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/6ac16c0d5eea4cfb61558c3acf7b211c7f5bc83a0df01c4604a918196c400234.jpg)
-FIGURE 2.22All of the Gestalt principles except Common Fate play a role in the Mac OS desktop.
-图 2.22 除了共同命运原则之外，所有的格式塔原则都在 Mac OS 桌面上发挥作用。
+图 2.22 除了共同命运原理，所有的格式塔原理在 MaCOS 桌面的这一部分都发挥了作用
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/18ddf70cd21860b7409df988728a453c481fcfed6a66169acca95d9df45075e9.jpg)
-FIGURE 2.23 Similarity and Common Fate: when users drag folders that they have selected, common highlighting and motion make the selected folders appear grouped.
-图 2.23 相似性和共同命运：当用户拖动他们选择的文件夹时，共同的突出显示和运动使选定的文件夹看起来是分组在一起的。
+图 2.23 相似性原理和共同命运原理：当用户拖曳选中的文件夹时，共同的高亮和运动使得所有被选中的文件夹看起来是一组的  
 
-# Important Takeaways
+同时用上所有的格式塔原理时，设计可能会导致无意产生的视觉关系。推荐的办法是，在设计一个显示之后，使用每个格式塔原理（接近性原理、相似性原理、连续性原理、封闭性原理、对称性原理、主体/背景原理以及共同命运原理）来考量各个设计元素之间的关系是否符合设计的初衷。
+
 重要要点
 
-For easy reference, here are the Gestalt principles of visual perception covered in this chapter, which are those most relevant to user-interface design:
 为了方便参考，本章介绍了格式塔视觉感知原则，这些原则与用户界面设计最相关：
 
 • Proximity: Objects near each other (relative to other objects) appear grouped, while those farther apart do not.
@@ -665,74 +497,58 @@ For easy reference, here are the Gestalt principles of visual perception covered
 • Figure/Ground: Our mind separates the visual field into the figure (the foreground) and ground (the background). • Common Fate: Objects that move together are perceived as grouped or related.
 • 图形/背景：我们的头脑将视觉领域分为图形（前景）和背景（地面）。 • 共命运：一起移动的物体被视为分组或相关。
 
-# Chapter 3: We Seek and Use Visual Structure
-第三章：我们寻求和使用视觉结构
+# 第三章：我们探索和利用视觉结构
+Chapter 3: We Seek and Use Visual Structure
 
-# Abstract
 摘要
 
-People use visual structure to help them extract information from what they see. Therefore, interactive systems that display information in structured ways allow people to extract the desired information more easily and quickly. This chapter gives examples of structured vs. nonstructured information displays. For example, an important goal in presenting information is to provide a visual hierarchy—an arrangement of the information that breaks it into distinct sections and subsections, labels sections prominently to clearly identify their content, and presents higher-level sections more strongly than lower-level ones. This allows people, when scanning information, to separate what is relevant to their goals from what is irrelevant instantly and focus on the relevant information.
 人们使用视觉结构来帮助他们从所见中提取信息。因此，以结构化方式显示信息的交互式系统使人们更容易、更快地提取所需信息。本章提供了结构化与非结构化信息显示的示例。例如，在呈现信息时，一个重要的目标是提供视觉层次结构——信息的排列方式将其分为不同的部分和子部分，突出显示部分以清楚地标识其内容，并比低级部分更强烈地呈现高级部分。这允许人们在扫描信息时，能立即将与其目标相关的内容与不相关的内容分开，并专注于相关信息。
 
-# Keywords
 关键词
 
 Credit card numbers; Online forms; Repetition; Search results; Social security numbers; Tables; Telephone numbers; Visual hierarchy; Visual structure
 信用卡号码；在线表单；重复；搜索结果；社会保障号码；表格；电话号码；视觉层次结构；视觉结构
 
-Chapter 2 showed how our visual system is optimized to perceive structure according to the Gestalt principles of visual perception. Perceiving structure in our environment helps us make sense of objects and events quickly. Chapter 2 also explained that when people are navigating through software or websites, they don’t scrutinize screens carefully and read every word. They scan quickly for information relevant to their goals. This chapter (1) shows that when information is presented in a terse, structured way, it is easier for people to scan and understand and (2) explains how best to structure information.
 第二章展示了我们的视觉系统如何根据视觉感知的格式塔原则来感知结构。感知环境中的结构有助于我们快速理解物体和事件。第二章还解释了，当人们浏览软件或网站时，他们不会仔细检查屏幕并阅读每个字。他们会快速扫描与他们目标相关的信息。本章（1）表明，当信息以简洁、结构化的方式呈现时，人们更容易扫描和理解，并（2）解释了如何最佳地组织信息。
 
 # Structured Information Is Easier to Scan
 结构化信息更容易浏览
 
-Consider two presentations of the same information about an airline flight reservation. The first presentation is unstructured prose text; the second is structured text in outline form (see Fig. 3.1). The structured presentation of the reservation can be scanned and understood much more quickly than the prose presentation.
-考虑两个关于航空公司航班预订的相同信息的展示。第一个展示是无结构的散文文本；第二个是大纲形式的结构化文本（见图 3.1）。与散文文本相比，结构化的预订展示可以更快地被扫描和理解。
+考虑一下对同一机票预定信息的两种呈现方式：一种是松散无结构的文字，另一种是以概述的形式结构化的文字（见图 3-1）。与用松散文字呈现的信息相比，结构化呈现的订票信息能够被更快地浏览和理解。  
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/4afbd3fde4367493b39c46076b8b77244adec0b226cc0609bd03297f42a4cade.jpg)
+图 3-1 结构化呈现的航班预定信息更容易浏览和理解  
 
-![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/ee8fc809f9b640a42bba26c43cdccab4322eaaa3a872f5184cc724327ba99ef7.jpg)
-FIGURE 3.2 Structured (bulleted) list is easier to scan.
-图 3.2 结构化（项目符号）列表更容易扫描。
-
-![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/df44632785a4cc747631d7fdb0c0d5496ebc98cddf211c55d90c05c3c7828eb9.jpg)
-FIGURE 3.3 Driver License Renewals, Duplicates, and Changes page of the California Department of Motor Vehicles (DMV) website (January 2020) buried important information in a wordy prose paragraph and repetitive list.
-加利福尼亚州机动车管理局（DMV）网站上的“驾照续期、重复和变更”页面（2020 年 1 月）将重要信息隐藏在冗长的段落和重复的列表中。
-
-Next, consider two ways to present a list. As above, the first presentation is unstructured prose text; the second is structured using bullets (see Fig. 3.2). The bulleted list is faster to scan and understand than the prose paragraph. That would also be true if the list were numbered.
 接下来，考虑两种展示列表的方式。如上所述，第一种是不结构的散文文本；第二种是使用项目符号（见图 3.2）进行结构化。与散文段落相比，项目符号列表更快地扫描和理解。如果列表是编号的，情况也是如此。
 
-The more structured and brief the presentation of information, the more quickly and easily people can scan and comprehend it. Look at the Driver License Renewals, Duplicates, and Changes page from the California Department of Motor Vehicles (see Fig. 3.3). Even with a bulleted list, the wordy, repetitive links slow users down and “bury” the important words they need to see.
-信息呈现得越结构化和简洁，人们就越能快速轻松地扫描和理解它。看看加利福尼亚州机动车管理局的“驾照续期、重复和变更”页面（见图 3.3）。即使有项目符号列表，冗长、重复的链接也会让用户放慢速度，并“隐藏”他们需要看到的重要词语。
+![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/ee8fc809f9b640a42bba26c43cdccab4322eaaa3a872f5184cc724327ba99ef7.jpg)
+图 3.2 结构化（项目符号）列表更容易扫描。
 
-![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/cb726e4ce845b2fff537ddb7472c7796bdf3ab0e0576eeec690726ad89b54bf1.jpg)
-FIGURE 3.4Possible (fictional) improvement of the “Driver License Renewals, Duplicates, and Changes” page of the California Department of Motor Vehicles (DMV) website, eliminating unneeded text and making it easier to scan.
-图 3.4 可能的（虚构的）加利福尼亚州机动车管理局（DMV）网站“驾照续期、重复和变更”页面的改进，消除了不需要的文本，使其更容易扫描。
+信息呈现越结构化和简洁，人们就越能快速轻松地扫描和理解它。看看加利福尼亚州机动车管理局的“驾照续期、重复和变更”页面（见图 3.3）。即使有项目符号列表，冗长、重复的链接也会让用户放慢速度，并“隐藏”他们需要看到的重要词语。
 
-Compare that with a less wordy, more structured hypothetical design that factors out needless repetition and marks as links only those words that represent options (see Fig. 3.4). The revision provides the same information and options as the website’s actual page but is easier to scan.
+![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/df44632785a4cc747631d7fdb0c0d5496ebc98cddf211c55d90c05c3c7828eb9.jpg)
+图 3.3 加利福尼亚州机动车管理局网站的内容页面上，重要的信息被掩埋在散乱重复的文字之中
+
 比较一下这种更简洁、结构化的假设设计，它消除了不必要的重复，并且只将代表选项的词语标记为链接（见图 3.4）。修订版提供了与网站实际页面相同的信息和选项，但更容易浏览。
 
-Displaying search results is another situation in which structuring data and avoiding repetitive “noise” can improve people’s ability to scan quickly and find what they seek. In 2006, search results at HP.com included so much repeated navigation data and metadata for each retrieved item that they were useless. Recent HP websites eliminate the repetition and structure the results, making them easier to scan and more useful (see Fig. 3.5).
+![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/cb726e4ce845b2fff537ddb7472c7796bdf3ab0e0576eeec690726ad89b54bf1.jpg)
+图 3.4 去掉加利福尼亚州机动车管理局网站内容页面上重复的文字，使用更好的视觉结构。
+
 显示搜索结果也是结构化数据并避免重复“噪音”可以提高人们快速浏览并找到他们需要的内容的情况。2006 年，HP.com 的搜索结果包含大量重复的导航数据和每个检索项的元数据，以至于它们毫无用处。最近的 HP 网站消除了重复并结构化结果，使它们更容易浏览且更有用（见图 3.5）。
 
-Of course, for information displays to be easy to scan, it is not enough merely to make them terse, structured, and nonrepetitious. They must also conform to the rules of graphic design, some of which were presented in Chapter 2.
-当然，为了使信息显示易于浏览，仅仅使它们简洁、结构化和非重复是不够的。它们还必须遵循图形设计的规则，其中一些规则在第二章中介绍。
+![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/639c228dc676366c903544027973da9adf160f8e09a8dbec699a85a09bcdbf1f.jpg)
+图 3.5 2006 年，HP.com 的站内搜索呈现重复的、高噪声的结果（A），但后来（2019 年）得到了改进（B）。
 
-For example, a prerelease version of a mortgage calculator on a real estate website presented its results in a table that violated at least two important rules of graphic design (see Fig. 3.6A). First, people usually read (online or offline) from top to bottom, but the labels for calculated amounts were below their corresponding values. Second, the labels were just as close to the value below as to their own value, so proximity (see Chapter 2) could not be used to perceive that labels were grouped with their values. To understand this mortgage results table, users had to scrutinize it carefully and slowly figure out which labels went with which numbers.
-例如，一个房地产网站上展示的抵押贷款计算器的预发布版本结果表格至少违反了两个重要的平面设计规则（见图 3.6A）。首先，人们通常（在线或离线）从上到下阅读，但计算金额的标签位于其对应值下方。其次，标签与其自身值以及其下方值的距离相同，因此无法利用邻近性（见第 2 章）来感知标签与其值是分组关系。为了理解这个抵押结果表格，用户必须仔细审查并慢慢弄清楚哪些标签与哪些数字对应。
+当然，要让信息能够被快速地浏览，仅仅把它们变得精炼、结构化和不重复还不够，它们还必须遵从图形设计的规则，第 2 章已经介绍了其中的一些。  
 
-The revised design, in contrast, allows users to perceive the correspondence between labels and values without conscious thought (see Fig. 3.6B).
+例如，一个房地产网站上的预览版的按揭计算器将其计算结果用表单的形式展示，就违反了至少两条重要的图形设计的规则（见图 3.6A）。其一，人们在线或离线阅读时通常是从上往下，但计算结果的标签却被放置在其结果值的下方；其二，标签和对应的值与下一个值之间的距离一样近，因此标签与其对应的值不能通过接近性（见第 2 章）被感知到是相关的。用户要理解这张按揭计算表格，就得非常费劲地认真检查，慢慢地搞清楚哪个标签对应哪个值。  
+
 相比之下，修订后的设计允许用户无需有意识思考就能感知标签与值的对应关系（见图 3.6B）。
 
-![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/639c228dc676366c903544027973da9adf160f8e09a8dbec699a85a09bcdbf1f.jpg)
-FIGURE 3.5In 2006, HP.com’s site search produced repetitious, “noisy” results (A), but later (2019) was improved (B).
-图 3.5 2006 年，HP.com 的网站搜索产生了重复的、“嘈杂”的结果（A），但后来（2019 年）得到了改进（B）。
-
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/fdf6c53f346f443537f9106641b9a2d6860cf1bf067d6f988b7c122fb2813777.jpg)
-FIGURE 3.6 (A) Mortgage summary presented by a software mortgage calculator; (B) an improved design.
 图 3.6 （A）软件抵押贷款计算器展示的抵押摘要；（B）一个改进的设计。
 
-# Visual Hierarchy Helps People Find Relevant Information
+
 视觉层次结构帮助人们找到相关信息
 
 One of the most common ways to structure information presentations is to provide a visual hierarchy—an arrangement that:
@@ -769,7 +585,7 @@ Visual hierarchy should actually be called “information hierarchy” because t
 panels and forms lets users find settings quickly:
 面板和表单使用户可以快速找到设置：
 
-# (A) Band-in-a-Box (2017—bad) and (B) Adobe Acrobat Pro (2019–good).
+
 (A) Band-in-a-Box (2017—差) 和 (B) Adobe Acrobat Pro (2019–好)
 
 Consider a blind person using a screen reader to search the screens shown in Fig. 3.7 for the information about “prominence” or trying to find a particular setting on the dialogue boxes shown in Fig. 3.8.
@@ -791,11 +607,9 @@ Even small amounts of data can be made easier to scan if they are structured. Tw
 即使是少量的数据，如果它们结构化，也会更容易扫描。电话号码和信用卡号码就是两个例子（见图 3.9）。这些数字应该被分成几部分——通常称为“块”——以便更容易扫描和记忆。块的大小是由心理学家和人类因素研究人员在几十年前电话号码和信用卡号码被引入时确定的（例如，米勒，1956 年）。这是基于人类短期记忆的容量（莫兰，2016 年）（另见第 7 章）。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/04a4ed49ac758fbab534c50b71a31ca99486219314f19e19b0017a8a2588d4d8.jpg)
-FIGURE 3.9 Telephone and credit card numbers are easier to scan, understand, and remember when separated into “chunks.”
 图 3.9 当电话号码和信用卡号码被分成“块”时，它们更容易扫描、理解和记忆。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/df3d42430ff7af57b0392742a28aa2053acd3414b8dc9886b7b4206bd695d926.jpg)
-FIGURE 3.10 (A) At KP.org (2020), credit card numbers cannot include spaces or other punctuation, making them hard to scan and verify. (B) At Amazon.com (2020), spaces are added automatically as users enter the number.
 图 3.10 (A) 在 KP.org（2020 年），信用卡号码不能包含空格或其他标点符号，这使得它们难以扫描和验证。(B) 在 Amazon.com（2020 年），当用户输入号码时，会自动添加空格。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/aa9592d2ba4b740a45ced1bcc153257d16f9de8a9a874ef60c4cb6a72f1ffa60.jpg)
@@ -827,14 +641,11 @@ Structured data-specific controls can also be constructed from menus. For exampl
 结构化的数据特定控件也可以由菜单构建。例如，Southwest.com 使用月份、日期和年份菜单来构建出生日期控件（见图 3.13A）。菜单也可以与文本字段组合，就像 Google 的出生日期控件（见图 3.13B）一样。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/495f111dc53e1476c9f584ba8519f5059a974c586f149cc68a6f880874dbd5ef.jpg)
-FIGURE 3.12 For getting flight dates, most airlines use a hybrid control: text field $+$ calendar. (A) AirNewZealand.com (B) mobile.Southwest.com.
 图 3.12 获取航班日期，大多数航空公司使用混合控件：文本字段 $+$ 日历。（A）AirNewZealand.com（B）mobile.Southwest.com。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/d2fb36b65a7f026c4bb3c6147f468e0be28cfbf9f9f34a51f3f52ef3412e2027.jpg)
-FIGURE 3.13 Birthdate control: (A) built with menus on Southwest.com (2020); (B) built with menus + text fields on Google.com (2020).
 图 3.13 出生日期控制：(A) 2020 年西南航空公司菜单；(B) 2020 年谷歌菜单+文本字段。
 
-# Important Takeaways
 重要要点
 
 • Presenting information in a terse, structured manner makes it easier for people to scan, understand, and remember. Eliminate needless words and repetition. Use bullets and numbered lists instead of paragraphs of text. • Visual hierarchy—breaking content up into clearly labeled sections and subsections—is a “best practice” way to structure information. • Hierarchical structuring of information, using section headings and labels that screen readers can recognize as
@@ -845,224 +656,170 @@ headings, helps people with visual impairments find their desired content. • C
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/78da477f1d3b7ef7e36028c29ecafcfeeda1b3121236d3cc04a888a65a5f569e.jpg)
 
-Used by permission, [www.OKCancel.com](http://www.OKCancel.com).
-经 OKCancel.com 网站授权使用。
 
-# Chapter 4: Our Color Vision is Limited
-第四章：我们的色彩视觉有限
 
-# Abstract
+# 第四章 ：我们的色彩视觉有限
+Chapter 4: Our Color Vision is Limited
+
 摘要
 
 This chapter starts with an overview of visual system neurophysiology, comparing it with how digital cameras work. It then explains strengths and weaknesses of human color vision: we can detect contrasts and edges but not overall brightness levels; the discrimination of color depends heavily on how it is displayed and the type of display; and people vary in their ability to discriminate colors. It explains what color blindness is and that it does not mean an inability to see colors. The chapter ends with guidelines for design.
 这一章从视觉系统神经生理学概述开始，将其与数码相机的工作原理进行比较。然后解释了人类色觉的优缺点：我们可以检测对比度和边缘，但不能检测整体亮度水平；颜色的辨别很大程度上取决于其显示方式和显示类型；人们的颜色辨别能力各不相同。本章解释了色盲是什么，以及它并不意味着无法看到颜色。本章最后提供了设计指南。
 
-# Keywords
 关键词
 
 Brightness; Color blindness; Color illusions; Color vision; Cones; Contrast; Distinctive colors; Edge detection; Guidelines; Redundancy; Retina; Rods; Strengths; Weaknesses
 亮度；色盲；色觉错觉；色觉；视锥细胞；对比度；显著颜色；边缘检测；指南；冗余；视网膜；视杆细胞；优点；缺点
 
-Human color perception has both strengths and limitations, many of which are relevant to user-interface design—for example:
-人类对颜色的感知既有优点也有局限性，其中许多与用户界面设计相关——例如：
+色觉是有限的
 
-• Our vision is optimized to detect contrasts (edges), not absolute brightness.
-• 我们的视觉系统优化用于检测对比度（边缘），而不是绝对亮度。
-• Our ability to distinguish colors depends on how colors are presented.
-• 我们区分颜色的能力取决于颜色的呈现方式。
-• Some people have color blindness.
-• 有些人有色盲。
-• The user’s display and viewing conditions affect color perception.
-• 用户的显示设备和观看条件会影响颜色感知。
+人类的色彩感知既有优势也有限制，其中不少与用户界面设计相关，例如：  
 
-To understand these qualities of human color vision, let’s start with a brief description of how the human visual system processes color information from the environment.
-为了理解人类色觉的这些特性，让我们先简要描述一下人类视觉系统如何处理来自环境中的颜色信息。
+我们的视觉是为检测反差（边缘）优化的，而不是绝对亮度；
+我们辨别颜色的能力依赖于颜色的呈现方式；
+有些人是色盲；  
+屏幕和观看条件会影响用户对颜色的感知。  
 
-# How Color Vision Works
+要理解人类色觉的这些特点，我们首先简单描述一下人类视觉系统如何处理环境中的颜色信息。  
+
+要理解人类色觉的这些特点，我们首先简单描述一下人类视觉系统如何处理环境中的颜色信息。  
+
 色觉是如何工作的
 
-If you took introductory psychology or neurophysiology in college, you probably learned that the retina at the back of the human eye— the surface onto which the eye focuses images—has two types of light-receptor cells: rods and cones. You probably also learned that the rods detect light levels but not colors, while the cones detect colors. Finally, you probably learned that there are three types of cones—sensitive to red, green, and blue light—suggesting that our color vision is similar to video cameras and computer displays, which detect or project a wide variety of colors through combinations of red, green, and blue pixels.
-如果你在大学里学过 introductory psychology 或 neurophysiology，你很可能学过人眼后部的视网膜——眼睛聚焦图像的表面——有两种类型的感光细胞：视杆细胞和视锥细胞。你可能还学过视杆细胞可以检测光线的亮度但不能检测颜色，而视锥细胞可以检测颜色。最后，你可能还学过有三种类型的视锥细胞——分别对红光、绿光和蓝光敏感，这表明我们的色觉类似于视频摄像机和计算机显示器，它们通过红、绿、蓝像素的组合来检测或投射各种颜色。
+如果你在学校上过心理学或者神经生理学的课程，或许你已经知道了眼睛内的视网膜（也就是眼球里聚焦成像的表面）有两类感光细胞：视杆细胞和视锥细胞。你或许也了解了视杆细胞察觉光线强度但感觉不到颜色，而视锥细胞能察觉颜色。最后，你或许还知道有三类视锥细胞，分别对红色、绿色和蓝色光敏感，这意味着我们的色觉与摄影机和计算机显示器类似，通过红色、绿色和蓝色像素的组合来探测或形成多种颜色。  
 
-What you learned in college is only partly right. People with normal vision do in fact have rods and three types of cones 1 in their retinas. The rods are sensitive to overall brightness while the three types of cones are sensitive to different frequencies of light. But that is where the truth departs from what most people learned in college, until recently.
-你在大学里学到的知识只是部分正确。具有正常视力的人确实在视网膜中有视杆细胞和三种类型的视锥细胞。视杆细胞对整体亮度敏感，而三种类型的视锥细胞对不同频率的光敏感。但这就是真相与大多数人在大学里学到的知识相背离的地方，直到最近。
+人们在学校里学到的知识只有一部分是正确的。对于视觉系统正常的人，视网膜上的确有对亮度敏感的视杆细胞和三种对不同频率的光敏感的视锥细胞。然而目前，大部分人在学校里学到的知识与真实的情况存在有一定差距。  
 
-First, those of us who live in industrialized societies hardly use our rods at all. They function only at low levels of light. They are for getting around in poorly lighted environments—the environments our ancestors lived in until the 19th century. Today, we use our rods only when we are having dinner by candlelight, feeling our way around our dark house at night, camping outside after dark, etc. (see Chapter 5). In bright daylight and modern artificially lighted environments—where we spend most of our time—our rods provide little useful information. Most of the time, our vision is based entirely on input from our cones (Ware, 2008).
-首先，那些生活在工业化社会的人几乎不使用我们的视杆。它们只在低光照水平下起作用。它们是为了在光线不足的环境中活动——我们的祖先生活在 19 世纪之前的这种环境。今天，我们只有在烛光下吃饭、晚上在黑暗的房子里摸索、在黑暗中露营等时候才使用我们的视杆（见第 5 章）。在明亮的白天和现代人工照明环境中——我们大部分时间都在这些环境中度过——我们的视杆提供很少有用的信息。大多数时候，我们的视觉完全基于来自视锥细胞的输入（Ware，2008）。
+首先，处于工业化社会中的我们几乎用不到视杆细胞，它们只在低亮度下工作。在光线很暗的环境中，如 19 世纪前我们祖先所生活的环境中，它们才起作用。今天，我们只有在烛光晚餐、夜里在黑暗屋子周围摸索、夜晚在外宿营等情况下才用到视杆细胞。（见第 5 章。）在明亮的白天和人工照明环境（我们在此打发的时间最多）下，视杆细胞则完全过曝了，不能提供任何有用信息。大部分时间里，我们的视觉完全基于视锥细胞所提供的信息（Ware，2008）。  
 
-So how do our cones work? Are the three types of cones sensitive to red, green, and blue light, respectively? In fact, each type of cone is sensitive to a wider range of light frequencies than you might expect, and the sensitivity ranges of the three types overlap considerably. In addition, the overall sensitivity of the three types of cones differs greatly (see Fig. 4.1A):
-那么，我们的视锥细胞是如何工作的？三种类型的视锥细胞分别对红、绿、蓝光敏感吗？事实上，每种类型的视锥细胞对光频率的敏感范围比你想象的要宽，而且三种类型的敏感范围重叠相当大。此外，三种类型的视锥细胞的整体敏感度差异很大（见图 4.1A）：
+那么视锥细胞是如何工作的？三种视锥细胞分别对红色、绿色和蓝色光敏感吗？事实上，每种视锥细胞敏感的光谱比你想象的还要广，而且三者的敏感范围是互相重叠的。此外，这三类视锥细胞的敏感度相差非常大（见图 4.1A）：
+![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/952e2bddb0e50925ac92349c0b133bce3db523aa93d663255655f6300d4e6d62.jpg)
+图 4.1 视网膜三类视锥细胞对光的敏感度（A）对比人造红色、绿色和蓝色光感受器对光的敏感度（B）。
+- 低频。这些视锥细胞对整个可见光频谱都敏感，但对处于频谱中间的黄色和低频的红色最敏感。
+- 中频。这些视锥细胞对从高频的蓝色到中频偏低的黄色和橙色有反应，但在整体上，它们的敏感度低于低频的视锥细胞。
+- 高频。这些视锥细胞对可见光的高频部分（紫色和蓝色）最敏感，但对中频（如绿色）的敏感度较低。此类视锥细胞的整体敏感度较前两者都低，数量上也更少。因此，我们的眼睛对蓝色和紫色不如对其他颜色敏感。  
 
-• Low frequency . These cones are sensitive to light over almost the entire range of visible light but are most sensitive to the middle (yellow) and low (red) frequencies.
-• 低频。这些视锥细胞对几乎整个可见光范围内的光敏感，但对中频（黄色）和低频（红色）最敏感。
-• Medium frequency . These cones respond to light ranging from the high-frequency blues through the lower middlefrequency yellows and oranges. Overall, they are less sensitive than the low-frequency cones.
-• 中频。这些锥状细胞对从高频的蓝色到低中频的黄色和橙色范围的光做出反应。总体而言，它们的敏感度低于低频锥状细胞。
-• High frequency . These cones are most sensitive to light at the upper end of the visible light spectrum—violets and blues— but also respond weakly to middle frequencies, such as green. These cones are much less sensitive overall than the other two types of cones and also less numerous. One result is that our eyes are much less sensitive to blues and violets than to other colors.
-• 高频。这些锥状细胞对可见光谱高端的光最敏感——紫蓝色和蓝色——但也对中频弱响应，例如绿色。总体而言，它们的敏感度远低于其他两种类型的锥状细胞，而且数量也较少。一个结果是，我们的眼睛对蓝色和紫色的敏感度远低于对其他颜色的敏感度。
-
-Compare a graph of the light sensitivity of our retinal cone cells (Fig. 4.1A) to what the graph might look like if electrical engineers had designed our retinas as a mosaic of receptors sensitive to red, green, and blue, like a camera (Fig. 4.1B).
 比较我们视网膜锥状细胞的光敏感性图（图 4.1A）与如果电气工程师设计我们的视网膜为像相机一样的红、绿、蓝敏感的受体镶嵌图（图 4.1B）可能的样子。
 
-![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/952e2bddb0e50925ac92349c0b133bce3db523aa93d663255655f6300d4e6d62.jpg)
-FIGURE 4.1 Sensitivity of the three types of retinal cones (A) versus artificial red, green, and blue receptors (B).
-图 4.1 三种类型的视网膜锥状细胞的敏感性（A）与人工红、绿、蓝受体（B）。
+在了解了我们视网膜上的这三类视锥细胞敏感度的奇怪关系后，我们就会对大脑如何综合视锥细胞传来的信号从而看到各种颜色而感到好奇了。  
 
-Given the odd relationships among the sensitivities of our three types of retinal cone cells, one might wonder how the brain combines the signals from the cones to allow us to see a broad range of colors.
-鉴于我们三种类型的视网膜视锥细胞之间的奇特的敏感性关系，人们可能会想知道大脑如何组合视锥细胞的信号，使我们能够看到广泛的各种颜色。
+答案就是：做减法。大脑后部视皮层上的神经元将通过视神经传递来的中频和低频视锥细胞的信号去掉，得到一个“红一绿”减影信号通道。另一些神经元将来自高频和低频视锥细胞的信号去掉，得到一个“黄一蓝”减影信号通道。第三组神经元将来自低频和中频视锥细胞的信号相加产生一个整体的亮度（或者叫“黑一白”）信号通道。这三个通道叫做颜色对抗通道。  
 
-The answer is by subtraction. Neurons in the visual cortex at the back of our brain subtract the signals coming over the optic nerves from the medium- and low-frequency cones, producing a red–green difference signal channel. Other neurons in the visual cortex subtract the signals from the high- and low-frequency cones, yielding a yellow–blue difference signal channel. A third group of neurons in the visual cortex adds the signals coming from the low- and mediumfrequency cones to produce an overall luminance (or black–white) signal channel. 2 These three channels are called color-opponent channels.
-答案是减法。我们大脑后部的视觉皮层中的神经元减去来自中频和高频视锥细胞的信号，产生一个红-绿差异信号通道。视觉皮层中的其他神经元减去来自高频和低频视锥细胞的信号，产生一个黄-蓝差异信号通道。视觉皮层中的第三组神经元将来自低频和中频视锥细胞的信号相加，产生一个整体亮度（或黑-白）信号通道。2 这三个通道被称为色对立通道。
+接下来，大脑对所有颜色对抗通道做更多的减法处理：来自视网膜上某个区域的信号将被来自其附近区域的类似信号减掉。  
 
-The brain then applies additional subtractive processes to all three color-opponent channels: signals coming from a given area of the retina are effectively subtracted from similar signals coming from nearby areas of the retina.
-大脑随后对所有三个色对立通道应用额外的减法过程：来自视网膜特定区域的所有信号实际上会从来自视网膜附近相似区域的信号中减去。
+视觉是为边缘反差而不是为亮度优化的
+Vision is Optimized for Detection of Edges, Not Brightness
 
-# Vision is Optimized for Detection of Edges, Not Brightness
-视觉优化用于边缘检测，而非亮度
+所有这些减法处理使得我们的视觉系统对颜色和亮度的差别，即对比鲜明的边缘，比对绝对的亮度水平要敏感得多。  
 
-All this subtraction makes our visual system much more sensitive to differences in color and brightness—that is, to contrasting colors and edges—than to absolute brightness levels.
-所有这些减法使得我们的视觉系统对颜色和亮度的差异比对绝对亮度水平更为敏感——也就是说，对对比色和边缘比对绝对亮度水平更为敏感。
-
-To see this, look at the inner bar in Fig. 4.2. The inner bar looks darker on the right, but in fact is one solid shade of gray. To our contrast-sensitive visual system, it looks lighter on the left and darker on the right because the outer rectangle is darker on the left and lighter on the right.
-要看到这一点，请看图 4.2 中的内条。内条在右侧看起来更暗，但实际上是单一色调的灰色。对于我们对比敏感的视觉系统来说，它在左侧看起来更亮，在右侧看起来更暗，因为外矩形在左侧更暗，在右侧更亮。
-
-The sensitivity of our visual system to contrast, edges, and rapid changes rather than to absolute brightness level is an advantage: it helped our distant ancestors recognize a leopard in the nearby bushes as the same dangerous animal whether they saw it in bright noon sunlight or in the early morning hours of a cloudy day. Similarly, being sensitive to contrasting rather than absolute colors allows us to see a rose as the same red whether it is in the sun or shade.
-我们视觉系统对对比、边缘和快速变化的敏感性，而不是对绝对亮度水平的敏感性，是一个优势：它帮助我们的远祖在附近的灌木丛中识别出一只豹子，无论他们在正午的阳光下还是在多云的清晨看到它，它都是同一种危险的动物。同样，对对比而不是绝对颜色的敏感性使我们能够在阳光下或阴影中看到玫瑰是同一种红色。
-
+为验证这一点，请看图 4-2 中内部的色块。内部色块右边的颜色看上去更深一些，但实际上左右两边的灰度是一样的。我们的视觉系统对差异十分敏感，因为外部矩形块的左边颜色较深，右边颜色较浅，这才使得我们感觉，内部色块的左边较浅，右边较深。  
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/55f407e5082fc07817e6088e03170b0438061c0e5ab447edd73565ad2f39746d.jpg)
-FIGURE 4.2The inner gray bar looks darker on the right but in fact is all one shade of gray.
-图 4.2 内部的灰色条在右侧看起来更暗，但实际上是单一色调的灰色。
+图 4.2 内部色块右边的颜色看上去更深一些，但实际上左右两边的灰度是一样的
 
-![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/536d7f126d82af2753c8035ddf54f562f49a088a2fc0414d079b30c562b6b289.jpg)
-FIGURE 4.3 The squares marked A and B are the same gray. We see B as white because it is shaded from the cylinder’s shadow.
-图 4.3 标记为 A 和 B 的方块是相同的灰色。我们看到 B 是白色，因为它被圆柱体的阴影遮挡了。
+视觉系统对对比度敏感而不是对绝对亮度敏感是人类的一个优势，这样我们原始社会的祖先无论是在阳光普照的响午，还是在阴云密布的清晨，都能分辨出躲在附近灌木丛中的豹以及其他类似的危险动物。同样，对颜色对比度而不是对绝对色彩敏感，会让我们觉得阳光下和阴影里的玫瑰花都一样红。
 
-Brain researcher Edward H. Adelson at the Massachusetts Institute of Technology developed an outstanding illustration of our visual system’s insensitivity to absolute brightness and its sensitivity to contrast (see Fig. 4.3). As difficult as it may be to believe, square A on the checkerboard is exactly the same shade as square B. Square B only appears white because it is depicted as being in the cylinder’s shadow.
 马萨诸塞理工学院的脑研究者爱德华·H·阿德森开发了一个出色的图示，说明了我们的视觉系统对绝对亮度的不敏感性和对对比度的敏感性（见图 4.3）。尽管可能难以置信，棋盘上的方块 A 与方块 B 的色调完全相同。方块 B 看起来是白色，是因为它被描绘在圆柱体的阴影中。
 
-# Discriminability of Colors Depends on How They are Presented
-颜色的可区分性取决于它们是如何呈现的
+![20200818182908112.png (1024×779)](https://img-blog.csdnimg.cn/20200818182908112.png)
+图 4.3 标记的方块 A 和方块 B 是同一种灰色，但我们觉得 B 是白色的，因为它在“影子”里 
 
-Even our ability to detect differences between colors is limited. Because of how our visual system works, three presentation factors affect our ability to distinguish colors from each other:
-即使是我们区分颜色的能力也是有限的。由于我们视觉系统的工作方式，三个呈现因素会影响我们区分颜色的能力：
+区别颜色的能力取决于颜色是如何呈现的
+Discriminability of Colors Depends on How They are Presented
 
-• Paleness . The paler (less saturated) two colors are, the harder it is to tell them apart (see Fig. 4.4A). • Color patch size . The smaller or thinner objects are, the harder it is to distinguish their colors (see Fig. 4.4B). Text is often thin, so the exact color of text is often hard to determine.
-• 肤色。两种颜色越浅（饱和度越低），就越难区分它们（见图 4.4A）。• 颜色块大小。物体越小或越薄，就越难区分它们的颜色（见图 4.4B）。文本通常很细，所以很难确定文本的确切颜色。
-
+我们对颜色之间差别的察觉也是有限的。基于视觉系统运作的方式，有以下三个呈现因素影响了我们区分颜色的能力：
+- 深浅度两个颜色越浅（不饱和），就越难将它们区分开（见图 4.4A）。
+- 色块的大小对象越小或者越细，就越难辨别它们的颜色（见图 4.4B）。
+- 分隔的距离两个色块之间离得越远，就越难区分它们的颜色，尤其是当它们之间的距离大到眼球需要运动时（见图 4.4C）。  
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/8a1627dc7a8c9296d5d7c3dfdf8e8221d1c5e1a4d5cfb7b60be7de8720ab74d0.jpg)
-FIGURE 4.4Factors affecting ability to distinguish colors: (A) paleness, (B) size, and (C) separation.
 图 4.4 影响区分颜色能力的因素：(A) 肤色、(B) 大小和 (C) 分离。
 
+图 4.5 展示了一个颜色过浅以至于任何设备上的任何人都不容易看到的例子。这是一个模拟的航空公司网站登机步骤指示器。当前步骤在圆圈内仅用浅绿色标记。也许你能区分绿色填充的圆圈和白色圆圈，但如果你有视力障碍或你在灰度屏幕或白平衡问题的数字投影仪上查看，也许你无法区分。
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/85659f9fa356c61741cf4e68cf3cc854626914ab33d2c38f0491c7de0ea5a73b.jpg)
-FIGURE 4.5 The current step is marked only with a pale color, making it hard for some users to see.
 图 4.5 当前步骤仅用浅色标记，这使得一些用户难以看清。
 
-• Separation . The more separated color patches are, the more difficult it is to distinguish their colors, especially if the separation is great enough to require eye motion between patches (see Fig. 4.4C).
-• 分离。颜色块分离得越远，区分它们的颜色就越困难，特别是当分离程度足以需要眼球在块之间移动时（见图 4.4C）。
-
-Fig. 4.5 shows an example of color that is too pale to be seen by anyone on any device. It is a simulated airline website check-in step indicator. The current step is marked only with pale green in the circle. Maybe you can distinguish the green-filled circle from the white circles, but if you have a vision impairment or you are viewing this on a grayscale screen or a digital projector with a white-balance problem, maybe you cannot.
-图 4.5 展示了一个颜色过浅以至于任何设备上的任何人都不容易看到的例子。这是一个模拟的航空公司网站登机步骤指示器。当前步骤在圆圈内仅用浅绿色标记。也许你能区分绿色填充的圆圈和白色圆圈，但如果你有视力障碍或你在灰度屏幕或白平衡问题的数字投影仪上查看，也许你无法区分。
-
-Small color patches are often seen in data charts and plots. Many business graphics packages produce legends on charts and plots but make the color patches in the legend very small (see Fig. 4.6). Color patches in chart legends should be large to help people distinguish the colors (see Fig. 4.7).
-在数据图表和图形中经常可以看到小色块。许多商业图形软件包在图表和图形中生成图例，但图例中的色块非常小（见图 4.6）。图表图例中的色块应该大一些，以帮助人们区分颜色（见图 4.7）。
-
-On websites, a common use of color is to distinguish unfollowed links from already followed ones. On some sites, the “followed” and “unfollowed” colors are too similar. The website of the Federal Reserve Bank of Minneapolis (see Fig. 4.8) has this problem. Furthermore, the two colors are shades of blue, the color range to which our eyes are least sensitive. Can you spot the two followed links? 3
-在网站上，颜色的一种常见用途是区分未关注的链接和已关注的链接。在一些网站上，“已关注”和“未关注”的颜色过于相似。明尼苏达联邦储备银行网站（见图 4.8）就有这个问题。此外，这两种颜色都是蓝色的阴影，而我们的眼睛对蓝色范围最不敏感。你能找到两个已关注的链接吗？
+在数据图表中经常能看到小的色块。许多商业制图软件会在图表旁边生成图例，但图例中的色块非常小（见图 4.6）。图例中的色块应该大到能帮助用户辨别不同的颜色（见图 4.7）。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/b78be8799087cbd7a55db0e9a0631c15caa71bf8cdb2f408eb90728b1ca2a180.jpg)
-FIGURE 4.6The tiny color patches in this chart legend are hard to distinguish.
-图 4.6 这个图表图例中的小色块很难区分。
+图 4.6 图例中的小色块很难区分。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/22b289d33b4f7cf886847829685d2265367da9ded7d381f5a7e62bfdf1c22b80.jpg)
-FIGURE 4.7Large color patches make it easier to distinguish the colors.
 图 4.7 大色块更容易区分颜色。
 
-![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/e7de2d75969fbdd54df0e9147644e64bee5cb220bc231f6036a0700f15f3aea8.jpg)
-FIGURE 4.8 The difference in color between visited and unvisited links is too subtle in MinneapolisFed.org’s website.
-明尼苏达联邦网站 MinneapolisFed.org 中，已访问和未访问链接之间的颜色差异过于微弱。
+网站上常常用颜色来区别访问过和未访问过的链接。在某些网站上，二者的颜色太接近了。明尼阿波利斯市的联邦储备银行的网站（见图 4.8）就有这样的问题。此外，它用的两种颜色是深浅不同的蓝色，而蓝色是人眼最不敏感的颜色。你能找到那两个访问过的链接吗
 
-# Color Blindness
+![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/e7de2d75969fbdd54df0e9147644e64bee5cb220bc231f6036a0700f15f3aea8.jpg)
+图 4.8 在MinneapolisFed.org 上，已访问和未访问链接之间的颜色差异过于微弱。
+
 色盲
 
-A fourth factor of color presentation that affects design principles for interactive systems is whether the colors can be distinguished by people who have common types of color blindness. Except in severe cases, having color blindness doesn’t mean a total inability to see colors. It just means that not all three of a normally sighted person’s types of color-detecting cone receptor cells (see “How Color Vision Works,” section above) function, making it difficult or impossible to distinguish certain pairs of colors. Approximately $8\%$ of men and slightly under $0.5\%$ of women have a color perception deficit: difficulty discriminating certain pairs of colors (Wolfmaier, 1999; Johnson and Finn, 2017). The most common type of color blindness is red–green; other types are rarer. Fig. 4.9 shows color pairs that people with red–green color blindness (deuteranopia) have trouble distinguishing.
 交互式系统设计原则中影响颜色呈现的第四个因素是颜色是否可以被有常见类型色盲的人区分。除了严重情况外，有色盲并不意味着完全无法看到颜色。这意味着一个视力正常的人的三种类型的色觉锥状细胞受体细胞（见上文“颜色视觉如何工作”部分）并不全部功能，导致难以或不可能区分某些颜色对。大约 $8\%$ 的男性和略低于 $0.5\%$ 的女性有色觉缺陷：难以区分某些颜色对（Wolfmaier，1999 年；Johnson 和 Finn，2017 年）。最常见的色盲类型是红绿色盲；其他类型较为罕见。图 4.9 显示了红绿色盲（视锥细胞色盲）的人难以区分的颜色对。
-
-The home finance application Moneydance provides a graphical breakdown of household expenses using color to indicate the various expense categories (see Fig. 4.10). Unfortunately, many of the colors are hues that color-blind people cannot tell apart. For example, people with red–green color blindness cannot distinguish the blue from the purple or the green from the khaki. If you are not color-blind, you can get an idea of which colors in an image will be hard to distinguish by converting the image to grayscale (see Fig. 4.11), but as described in the “Guidelines for Using Color” section later in this chapter, it is best to run the image through a colorblindness filter or simulator (see Fig. 4.12).
-家庭财务应用程序 Moneydance 使用图形方式分解家庭开支，并使用颜色来表示不同的开支类别（见图 4.10）。不幸的是，许多颜色是色盲人士无法区分的色调。例如，红绿色盲的人无法区分蓝色和紫色，也无法区分绿色和卡其色。如果你不是色盲，可以通过将图像转换为灰度（见图 4.11）来了解图像中哪些颜色难以区分，但正如本章后面“使用颜色的指南”部分所述，最好通过色盲过滤器或模拟器（见图 4.12）来处理图像。
-
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/4fc21db923e3336d5665873bd516a88090d36d62872a2665da5469191894092b.jpg)
-FIGURE 4.9 Red–green color-blind people cannot distinguish (A) dark-red from black, (B) blue from purple, and (C) light-green from white.
 图 4.9 红绿色盲的人无法区分（A）深红色和黑色，（B）蓝色和紫色，（C）浅绿色和白色。
 
+家庭金融软件 MoneyDance 提供了家庭支出分解的图表，用不同颜色来标记不同类别的消费（见图 4.10）。不幸的是，其中许多颜色是色盲人士无法区分的色相。例如红绿色盲的人无法区分蓝色和紫色，或者绿色和卡其色。如果你不是色盲，可以将图像转换为灰度图，来了解图上哪些颜色是难以区分的（见图 4.11）但最好像本章节后续内容“使用色彩的准则”中将要提到的那样，用色盲滤镜或模拟器来测试一下图像（见图 4.12）。
+
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/17a3065e3a630be8d9b0fc0745b5e0d67544e650b07fd56d29457d704846a421.jpg)
-FIGURE 4.10 Moneydance’s graph uses colors some users can’t distinguish.
 图 4.10 Moneydance 的图表使用了某些用户无法区分的颜色。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/3c64888a82776ad265b495998532b3fd0855917ea606a6410fa4e0398108a9c3.jpg)
-FIGURE 4.11 Moneydance’s graph rendered in grayscale.
-图 4.11 Moneydance 的图表以灰度方式呈现。
+图 4.11 转换为灰度图后的 MoneyDance 图表
 
-# "GoogleGoogle
-GoogleGoogle
+图 4.12 Google 的标志：（A）正常视觉下的观察效果，（B）红绿色盲滤镜下的观察效果
 
-# External Factors That Influence Our Ability to Distinguish Colors
 影响我们区分颜色的外部因素
+External Factors That Influence Our Ability to Distinguish Colors
 
-The environment in which digital technology is used can also affect people’s ability to distinguish colors—for example:
-数字技术使用的环境也可能影响人们区分颜色的能力——例如：
+外部环境因素也能影响人们分辨色彩的能力，例如以下一些因素：
 
-• Variations in color displays . Computer displays vary in how they display colors depending on their technologies, driver software, or color settings. Digital projectors and auxiliary screens sometimes display colors differently than on the computer sending the image. Even monitors of the same model with the same settings may display colors slightly differently. Something that looks yellow on one display may look beige on another. Colors that are clearly different on one may look the same on another. • Grayscale displays . Although most displays these days are color, some devices, especially small handheld e-readers, have black-and-white or grayscale displays (see Fig. 4.13). A grayscale display can make different colors look the same. • Daytime/nighttime adjustments and dark mode . Most modern smartphones, tablets, and computers can adjust their color balance, either on demand or based on the time of day. Some color adjustments are subtle, such as when devices decrease the amount of blue in the display to avoid interfering with a user’s ability to sleep after an evening of device use. Other color adjustments are dramatic, such as switching to “dark mode,” which displays light content on dark backgrounds (ironically, like most computer terminals did many decades ago). All of these affect the colors users see in a user interface.
-• 颜色显示的变化。电脑显示器在显示颜色方面有所不同，这取决于它们的技术、驱动软件或颜色设置。数字投影仪和辅助屏幕有时在显示颜色方面与发送图像的电脑不同。即使是具有相同设置的同型号显示器，也可能在颜色显示上略有不同。在一种显示器上看起来是黄色的东西，在另一种显示器上可能看起来是米色的。在一种显示器上明显不同的颜色，在另一种显示器上可能看起来是相同的。 • 灰度显示。尽管如今大多数显示器都是彩色的，但一些设备，特别是小型手持电子书阅读器，具有黑白或灰度显示（见图 4.13）。灰度显示可以使不同的颜色看起来是相同的。 • 日间/夜间调整和暗黑模式。大多数现代智能手机、平板电脑和电脑都可以调整它们的色彩平衡，无论是按需调整还是根据一天中的时间进行调整。一些色彩调整是微妙的，例如当设备减少显示器中的蓝色含量，以避免在晚上使用设备后干扰用户的睡眠能力时。 其他颜色调整非常明显，例如切换到“暗黑模式”，它会在深色背景上显示浅色内容（讽刺的是，这就像几十年前大多数电脑终端的样子）。所有这些都会影响用户在用户界面中看到的颜色。
+• 颜色显示的变化。电脑显示屏因各自采用的技术、驱动程序或者色彩设置的不同，在色彩显示上存在差异。即使是采用同样设置的同一型号显示器，在色彩显示上也会有轻微的不同。在一台显示器上看起来是黄色的东西，在另一台上看起来可能就是米黄色。而在一台显示器上看起来明显不同的颜色，在另一台上看起来也许就是相同的。
+• 灰度显示。虽然大部分显示器是彩色的，但还是有些设备，尤其是小型手持设备，采用了灰度显示器。图 4.13 展示了在灰度显示器上，一些原本颜色不同的区域看起来是相同的。
+• 日间/夜间调整和暗黑模式。大多数现代智能手机、平板电脑和电脑都可以调整它们的色彩平衡，无论是按需调整还是根据一天中的时间进行调整。一些色彩调整是微妙的，例如当设备减少显示器中的蓝色含量，以避免在晚上使用设备后干扰用户的睡眠能力时。 其他颜色调整非常明显，例如切换到“暗黑模式”，它会在深色背景上显示浅色内容（讽刺的是，这就像几十年前大多数电脑终端的样子）。所有这些都会影响用户在用户界面中看到的颜色。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/a73eff3f29dd5111e0b9f2392999c8dd9c481ad0cdf723b0903b1a5d5feba109.jpg)
-FIGURE 4.13 E-reader with grayscale screen.
 图 4.13 电子书阅读器带灰度屏幕。
 
-• Display angle . Some computer displays, particularly LCDs, work much better when viewed straight-on than at an angle. When LCDs are viewed at an angle, colors—and color differences—often are altered.
-• 显示角度。一些电脑显示器，尤其是液晶显示器，直视时效果比斜视时好得多。当液晶显示器被斜视时，颜色和颜色差异经常会改变。
+显示器角度
+一些电脑显示器，尤其是液晶显示器，在直视角度观看要比偏一定角度看时效果好得多。当从一定角度观看液晶屏时，色彩以及色彩之间差别都会发生变化。  
 
-• Ambient illumination . Strong light on a display washes out colors before it washes out light and dark areas, reducing color displays to grayscale, as anyone who has tried to use a bank ATM in direct sunlight knows. In offices, glare and venetian blind shadows can mask color differences. Smartphones and tablets are used everywhere, in all possible lighting conditions.
-• 环境照明。强光照射在显示器上会先冲淡颜色，而不是先冲淡亮区和暗区，从而将颜色显示减少为灰度，任何尝试在阳光下使用银行自动取款机的人都知道这一点。在办公室里，眩光和百叶窗的阴影可能会掩盖颜色差异。智能手机和平板电脑被到处使用，在各种可能的照明条件下使用。
+环境光线
+照射在屏幕上的强光会在将明暗区域的差别“冲洗”掉之前先将色彩“冲洗”掉，将彩色屏变成灰度屏，在阳光直射下使用过银行自动柜员机的人都体会过这种情况。办公室里的眩光和百叶窗的影子都能使颜色看起来不一样。 
 
-These external factors are usually out of the software designer’s control. Designers should therefore keep in mind that they don’t have full control of users’ color viewing experiences. Colors that seem highly distinguishable in the development facility, on the development team’s computer displays and under normal office lighting conditions, may not be as distinguishable in some environments where the software is used.
-这些外部因素通常不在软件设计者的控制范围内。因此，设计者应该记住他们无法完全控制用户的颜色观看体验。在开发设施、开发团队的个人电脑显示器以及正常办公室照明条件下看起来高度可区分的颜色，在一些软件使用的环境中可能并不那么可区分。
+这些外部因素通常不在软件设计者的控制范围内。因此，设计者们应记住他们并不对用户的观看体验具有完全的控制。在普通办公室照明条件下，用开发环境里的电脑显示器看到的高辨识度的色彩，在软件的其他使用环境里就未必能够分辨得出来。
 
-# Guidelines for Using Color
-使用颜色的指南
+使用色彩的准则
 
-In interactive software systems that rely on color to convey information, follow these five guidelines to assure that the users of the software receive the information:
-在依赖颜色传递信息的交互式软件系统中，遵循以下五项指南，以确保软件用户获得信息：
+在依赖颜色来传递信息的交互软件系统中，遵循以下 5 条准则，以保证用户能够获取信息。  
 
 1.Use distinctive colors . Recall that our visual system combines the signals from retinal cone cells to produce three color-opponent channels: red–green, yellow–blue, and black– white (luminance). The colors that people can distinguish most easily are those that cause a strong signal (positive or negative) on one of the three color-perception channels and neutral signals on the other two channels. Not surprisingly, those colors are red, green, yellow, blue, black, and white (see Fig. 4.14). All other colors cause signals on more than one color channel, so our visual system cannot distinguish them from other colors as quickly and easily as it can distinguish those six colors (Ware, 2008).
 使用鲜明的颜色。回忆一下，我们的视觉系统结合视网膜视锥细胞的信号，产生三个颜色对立通道：红-绿、黄-蓝和黑-白（亮度）。人们最容易区分的颜色是那些在一个颜色感知通道上产生强烈信号（正向或负向），而在其他两个通道上产生中性信号的颜色。毫不奇怪，这些颜色是红、绿、黄、蓝、黑和白（见图 4.14）。所有其他颜色都在多个颜色通道上产生信号，因此我们的视觉系统无法像区分这六种颜色那样快速轻松地将其与其他颜色区分开来（Ware，2008）。
+
 2.Separate strong opponent colors . Placing opponent colors right next to or on top of each other causes a disturbing shimmering sensation, so it should be avoided (see Fig. 4.15).
 分离强烈的对立颜色。将对立颜色紧挨着或放在彼此上面会导致令人不适的闪烁感，因此应避免（见图 4.15）。
+
 3.Distinguish colors by saturation and brightness, as well as hue . To make your software’s use of colors perceptible to all sighted users, avoid subtle color differences. Make sure the contrast between colors is high (but see guideline 5). One way to test whether colors are different enough is to view them in grayscale. If you cannot distinguish the colors when they are rendered in grays, they are not different enough.
 通过饱和度、亮度和色调来区分颜色。为了使您的软件使用的颜色对所有有视力的用户都可见，请避免使用微妙的颜色差异。确保颜色之间的对比度足够高（但请参阅指南 5）。一种测试颜色是否足够不同的方法是将其转换为灰度。如果您在灰度渲染时无法区分颜色，则它们的差异不够。
+
 4.Avoid color pairs that color-blind people cannot distinguish . Such pairs include dark red versus black, dark red versus dark green, blue versus purple, light green versus white. Don’t use dark reds, blues, or violets against any dark colors. Instead, use dark reds, blues, and violets against light yellows and greens. Use an online color-blindness simulator 4 to check web pages and images to see how people with various color-vision deficiencies would see them.
 避免使用色盲人士无法区分的颜色组合。此类组合包括深红色与黑色、深红色与深绿色、蓝色与紫色、浅绿色与白色。不要将深红色、蓝色或紫色与任何深色搭配使用。相反，应将深红色、蓝色和紫色与浅黄色和绿色搭配使用。使用在线色盲模拟器 4 检查网页和图像，以查看各种色觉缺陷的人将如何看到它们。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/639da54d1be2c2a0ee7bf5e8a30b76e828fb79a73c7eae93e24d07eaab17ad3b.jpg)
-FIGURE 4.14The most distinctive colors: black, white, red, green, yellow, and blue. Each color causes a strong signal on only one color-opponent channel.
-图 4.14 最具特色的颜色：黑色、白色、红色、绿色、黄色和蓝色。每种颜色只在一种颜色对立通道上产生强烈的信号。
+图 4.14 最独特的颜色：黑、白、红、绿、黄和蓝。每种颜色只在一种颜色对立通道上产生强信号。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/a384235bb8a6c75bf434ee9a5d131cbc3c7d0c551c6d3be0e90ccafb59d594ff.jpg)
-FIGURE 4.15 Opponent colors, placed on or directly next to each other, clash.
-图 4.15 对立颜色，放置在一起或紧挨着，会产生冲突。
+图 4.15 对抗色直接放在一起，让人崩溃
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/fd9db231203c66843e68655438e5c7c7e23aca1af89c01ec5e07a99eaea68456.jpg)
 FIGURE 4.16 Don’t use color alone to convey meaning (A). Use it redundantly with other cues—e.g., shape (B).
 不要仅用颜色来传达含义（A）。将其与其他线索一起重复使用——例如，形状（B）。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/dc76a14be67ce89b1634672295e7ef967ab734cddf4874ca2932cd713d9ef79c.jpg)
-FIGURE 4.17 MinneapolisFed.org’s graph uses shade differences visible to all sighted people on any display.
 MinneapolisFed.org 的图表使用了所有视力正常的人在任何显示器上都可见的阴影差异。
 
 5.Use color redundantly with other cues . Don’t rely on color alone. If you use color to mark something, mark it another way as well. For example, if green means one thing and blue means something else, don’t show green and blue dots; show a green triangle versus a blue dot, so both shape and color indicate the difference (see Fig. 4.16).
 将颜色与其他线索一起重复使用。不要仅依赖颜色。如果你用颜色来标记某物，也要用其他方式来标记它。例如，如果绿色表示一种含义，蓝色表示另一种含义，不要显示绿色和蓝色的点；显示一个绿色的三角形与一个蓝色的点，这样形状和颜色都能表示差异（见图 4.16）。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/1dd07f50-ff86-4eaa-8db7-7d2fdfbeeaca/47789cf67a98b25474dfb2de0f202c49816477c0c805ff59a488543ed8c07c38.jpg)
-FIGURE 4.18 (A) Poor design; (B) improved, more accessible design: the current step is highlighted redundantly using boldness and a more saturated color.
-（A）设计不佳；（B）改进的、更易访问的设计：当前步骤使用加粗和更饱和的颜色重复突出显示。
+FIGURE 4.18 （A）设计不佳；（B）改进的、更易访问的设计：当前步骤使用加粗和更饱和的颜色重复突出显示。
 
 A graph from the Federal Reserve Bank follows guideline 3 above by using shades of green (see Fig. 4.17). This is a well-designed graph. Any sighted person could read it.
 美联储银行的图表遵循上述第 3 条指南，使用了绿色阴影（见图 4.17）。这是一个设计良好的图表。任何视力正常的人都能读懂它。
@@ -1070,7 +827,6 @@ A graph from the Federal Reserve Bank follows guideline 3 above by using shades 
 Now let’s use guideline 5 (above) to fix the design problem discussed earlier (see Fig. 4.5), where the current step in a simulated airline check-in process was marked only with a pale green (see Fig. 4.18A). A simple way to correct it would be to mark the current step with a bold circle, a bold step number, a bold label below the circle, and increase the saturation of the green so it contrasts more strongly with the white backgrounds of the other circles (see Fig. 4.18B). To allow blind people using screen readers to know what step they are one, one can also set the ALT-text of the current step to “current step” to mark it. With these improvements, the current step is marked redundantly, as guideline 4 recommends.
 现在我们使用上述第 5 条指南来修复之前讨论的设计问题（见图 4.5），其中模拟航空公司登机过程中的当前步骤仅用浅绿色标记（见图 4.18A）。一种简单的纠正方法是，用粗圈标记当前步骤，用粗体步骤编号，在圆圈下方用粗体标签，并增加绿色的饱和度，使其与白色背景形成更强对比（见图 4.18B）。为了使使用屏幕阅读器的视障人士知道他们当前的步骤，还可以将当前步骤的 ALT 文本设置为“当前步骤”来标记它。通过这些改进，当前步骤被冗余地标记，正如第 4 条指南所推荐的。
 
-# Important Takeaways
 重要要点
 
 • People with normal color vision have three types of cone receptor cells in the retinas of their eyes. People with color blindness have only two functioning types—in rare cases one type—of cone receptor cells. A small percentage of women have four types.
@@ -1128,16 +884,14 @@ Now let’s use guideline 5 (above) to fix the design problem discussed earlier 
 4Search the Web for “color-blindness filter” or “color-blindness simulator.”
 4在网络上搜索“色盲过滤器”或“色盲模拟器”。
 
-# Chapter 5: Our Peripheral Vision is Poor
-第五章：我们的周边视觉很差
+# 第五章：我们的边界视觉很糟糕
+Chapter 5: Our Peripheral Vision is Poor
 
-# Abstract
 摘要
 
 Human vision has high resolution in a small area called the fovea at the middle of our visual field, and low resolution everywhere else. This chapter explains the neurophysiological factors that cause this—for example, a large difference in cone cell density between the fovea and periphery. It then discusses important functions of peripheral vision—for example, guiding the fovea and night vision. The bulk of the chapter discusses implications and guidelines for designing visual user interfaces. For example, stationary items in muted colors presented in the periphery of a person’s visual field often are not noticed, so error messages should appear in strongly contrasting colors or vibrate briefly to attract attention.
 人类的视觉在视觉场中央的一个小区域称为中央凹处具有高分辨率，而在其他地方分辨率较低。本章解释了造成这种现象的神经生理因素，例如中央凹和周边区域的视锥细胞密度差异很大。然后讨论了周边视觉的重要功能，例如引导中央凹和夜视。本章的大部分内容讨论了设计视觉用户界面时的重要意义和指南。例如，在人的视觉场周边以柔和颜色呈现的静止物品通常不会被注意到，因此错误消息应以强烈的对比色或短暂振动来吸引注意力。
 
-# Keywords
 关键词
 
 Attention; Cones; Error message; Fovea; Motion detection; Night vision; Peripheral vision; Resolution; Retina; Rods; Saccade; Visual cortex; Visual “pop”; Visual search
