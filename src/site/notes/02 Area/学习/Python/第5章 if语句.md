@@ -1,8 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"program/python/05_if_statements","permalink":"/program/python/05_if_statements/","metatags":{"description":"Python编程：从入门到实践（第3版）第5章 if语句的学习笔记","og:site_name":"DavonOs","og:title":"第5章 IF语句","og:type":"article","og:url":"https://zuji.eu.org/books/36365320/05_if_statements","og:image":"https://img.alicdn.com/i2/101450072/O1CN01vnmrBj1CP1LlhPSyR-101450072.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/python"],"created":"2024-10-25T10:20:12.823+08:00","updated":"2025-05-08T10:59:54.911+08:00"}
+{"dg-publish":true,"dg-permalink":"program/python/05_if_statements","permalink":"/program/python/05_if_statements/","metatags":{"description":"Python编程：从入门到实践（第3版）第5章 if语句的学习笔记","og:site_name":"DavonOs","og:title":"第5章 IF语句","og:type":"article","og:url":"https://zuji.eu.org/books/36365320/05_if_statements","og:image":"https://img.alicdn.com/i2/101450072/O1CN01vnmrBj1CP1LlhPSyR-101450072.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/python"],"created":"2024-10-25T10:20:12.823+08:00","updated":"2025-06-06T21:25:57.543+08:00"}
 ---
 
-# 第5章 IF 语句
 
 学习目标
 
