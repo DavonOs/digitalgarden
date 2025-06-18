@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/36624482","permalink":"/books/36624482/","metatags":{"description":"Make your ideas look awesome, without relying on a designer. Learn how to design beautiful user interfaces by yourself using specific tactics explained from a developer's point-of-view.","og:site_name":"DavonOs","og:title":"RefactoringUI","og:type":"book","og:url":"https://zuji.eu.org/books/36624482","og:image":"https://www.refactoringui.com/_next/static/media/book.43eb3b9aec83fb89.png","og:image: width":"50","og:image: alt":"bookcover"},"tags":["books/T工业技术/TP自动化技术、计算机技术"],"created":"2024-06-12T16:39:11.027+08:00","updated":"2025-05-08T13:35:22.186+08:00"}
+{"dg-publish":true,"dg-permalink":"books/36624482","permalink":"/books/36624482/","metatags":{"description":"Make your ideas look awesome, without relying on a designer. Learn how to design beautiful user interfaces by yourself using specific tactics explained from a developer's point-of-view.","og:site_name":"DavonOs","og:title":"RefactoringUI","og:type":"book","og:url":"https://zuji.eu.org/books/36624482","og:image":"https://www.refactoringui.com/_next/static/media/book.43eb3b9aec83fb89.png","og:image: width":"50","og:image: alt":"bookcover"},"tags":["books/T工业技术/TP自动化技术、计算机技术"],"created":"2024-06-12T16:39:11.027+08:00","updated":"2025-06-17T19:08:21.390+08:00"}
 ---
 
 
-| 封面                                                                                  | 书名                                             | 作者                                                  | 状态 | 评分    |
-| ----------------------------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------- | -- | ----- |
-| ![\|50](https://www.refactoringui.com/_next/static/media/book.43eb3b9aec83fb89.png) | [RefactoringUI](https://www.refactoringui.com) | <ul><li>Adam Wathan</li><li>Steve Schoger</li></ul> | 已读 | \- \- |
+| 封面                                                                                  | 书名                                             | 作者                                                  | 评分    |
+| ----------------------------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------- | ----- |
+| ![\|50](https://www.refactoringui.com/_next/static/media/book.43eb3b9aec83fb89.png) | [RefactoringUI](https://www.refactoringui.com) | <ul><li>Adam Wathan</li><li>Steve Schoger</li></ul> | \- \- |
 
 { .block-language-dataview}
 
