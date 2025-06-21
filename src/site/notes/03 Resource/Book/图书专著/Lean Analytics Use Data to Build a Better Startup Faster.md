@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/19992844","permalink":"/books/19992844/","metatags":{"description":"If you're involved with a startup, analytics help you find your way to the right product and market before the money runs out. But with a flood of information available, where do you start? This book shows you what to measure, how to analyze it, and how to report it, whether you're evaluating your business model, testing new features, enticing investors, or reporting progress to advisers. Written by Alistair Croll (founder of Coradiant) and Ben Yoskovitz (co-founder of Year One Labs), Lean Analytics lays out practical, proven steps to take your startup from initial idea to product/market fit and beyond. Examples and case studies show entrepreneurs and intrapreneneurs (entrepreneurs inside larger organizations) how to identify and measure a startup's single most important metric, and how to iterate until you get it right. While the authors primarily cover technology startups, their lessons can be applied far beyond the Web. Even traditional businesses are embracing a lean, learn-first approach, as demonstrated by owners of a San Francisco deli that used a temporary \\\"pop-up\\\" method to optimize their menu and operations before launching a permanent restaurant.","og:site_name":"DavonOs","og:title":"LeanAnalytics","og:type":"book","og:url":"https://zuji.eu.org/books/19992844","og:image":"assets/s26544134.jpg","og:image:width":"50","og:image:alt":"bookcover"},"tags":["books"],"created":"2025-05-07T19:02:38.402+08:00","updated":"2025-06-17T19:08:22.137+08:00"}
+{"dg-publish":true,"dg-permalink":"books/19992844","permalink":"/books/19992844/","metatags":{"description":"If you're involved with a startup, analytics help you find your way to the right product and market before the money runs out. But with a flood of information available, where do you start? This book shows you what to measure, how to analyze it, and how to report it, whether you're evaluating your business model, testing new features, enticing investors, or reporting progress to advisers. Written by Alistair Croll (founder of Coradiant) and Ben Yoskovitz (co-founder of Year One Labs), Lean Analytics lays out practical, proven steps to take your startup from initial idea to product/market fit and beyond. Examples and case studies show entrepreneurs and intrapreneneurs (entrepreneurs inside larger organizations) how to identify and measure a startup's single most important metric, and how to iterate until you get it right. While the authors primarily cover technology startups, their lessons can be applied far beyond the Web. Even traditional businesses are embracing a lean, learn-first approach, as demonstrated by owners of a San Francisco deli that used a temporary \\\"pop-up\\\" method to optimize their menu and operations before launching a permanent restaurant.","og:site_name":"DavonOs","og:title":"LeanAnalytics","og:type":"book","og:url":"https://zuji.eu.org/books/19992844","og:image":"assets/s26544134.jpg","og:image:width":"50","og:image:alt":"bookcover"},"tags":["books"],"created":"2025-05-07T19:02:38.402+08:00","updated":"2025-06-19T21:49:28.379+08:00"}
 ---
 
 
-| 封面                                                                    | 书名                                                         | 作者                                                        | 评分       |
-| --------------------------------------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------- | -------- |
-| ![\|50](https://m.media-amazon.com/images/I/6130r1y4XzL._SL1500_.jpg) | [LeanAnalytics](https://book.douban.com/subject/19992844/) | <ul><li>AlistairCroll</li><li>BenjaminYoskovitz</li></ul> | 8.2 ⭐⭐⭐⭐ |
+| 封面                                                                    | 书名                                                          | 作者                                                        | 评分       |
+| --------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------- | -------- |
+| ![\|50](https://m.media-amazon.com/images/I/6130r1y4XzL._SL1500_.jpg) | [Lean Analytics](https://book.douban.com/subject/19992844/) | <ul><li>AlistairCroll</li><li>BenjaminYoskovitz</li></ul> | 8.2 ⭐⭐⭐⭐ |
 
 { .block-language-dataview}
 
@@ -91,11 +91,11 @@ Lean Analytics doesn’t exist in a vacuum. We’re an extension of Lean Startup
 
 关于我们的书籍和课程的新闻和信息，请访问[我们的网站](http://www.oreilly.com)。
 
-在[领英](http://linkedin.com/company/oreilly-media)上找到我们：http://linkedin.com/company/oreilly-media
+在[领英](http://linkedin.com/company/oreilly-media)上找到我们
 
 关注我们在[推特](http://twitter.com/oreillymedia)  
 
-在 YouTube 上关注我们： [http://www.youtube.com/oreillymedia](http://www.youtube.com/oreillymedia)  
+在  [YouTube](http://www.youtube.com/oreillymedia) 上关注我们  
 
 [O’Reilly 在线学习](http://oreilly.com)
 
@@ -103,17 +103,14 @@ Lean Analytics doesn’t exist in a vacuum. We’re an extension of Lean Startup
 
 我们独特的专家和创新者网络通过书籍、文章和我们的在线学习平台分享他们的知识和专业知识。
 
-O'Reilly 的在线学习平台为您提供按需访问的实时培训课程、深入的学习路径、交互式编码环境，以及来自 O'Reilly 和 $200+$ 其他出版商的大量文本和视频资源。
+O'Reilly 的在线学习平台为您提供按需访问的实时培训课程、深入的学习路径、交互式编码环境，以及来自 O'Reilly 和 200+ 其他出版商的大量文本和视频资源。
 
+## P A R T O N E :  STOP LYING TO YOURSELF
+第一部分：停止欺骗自己
 
-
-P A R T O N E :  
-第一部分：
-
-# STOP LYING TO YOURSELF  
-停止欺骗自己
-
-在本书的这一部分，我们将探讨为什么你需要数据才能成功。我们将处理一些基本的分析概念，如定性数据、定量数据、虚荣指标、相关性、队列、细分和领先指标。我们将考虑过度依赖数据的危害。我们甚至还会稍微思考一下你应该在生活中做什么。
+探讨为什么你需要数据才能成功。
+处理一些基本的分析概念，如定性数据、定量数据、虚荣指标、相关性、队列、细分和领先指标。考虑过度依赖数据的危害。
+稍微思考一下你应该在生活中做什么。
 
 It depends on what the meaning of the word “is” is. William Jefferson Clinton  
 这取决于“是”这个词的含义。威廉·杰斐逊·克林顿
@@ -121,10 +118,8 @@ It depends on what the meaning of the word “is” is. William Jefferson Clinto
 # We’re All Liars  
 我们都是骗子
 
-Let’s face it: you’re delusional.  
 面对现实吧：你疯了。
 
-We’re all delusional—some more than others. Entrepreneurs are the most delusional of all.  
 我们都疯了——有些人比其他人更疯。企业家是最疯的。
 
 企业家尤其擅长欺骗自己。欺骗甚至可能是成为成功的企业家的一项先决条件——毕竟，在没有充分、确凿的证据的情况下，你需要说服他人某件事是真的。你需要信徒与你一同冒险。作为一名企业家，你需要活在一种半幻觉的状态中，才能度过创业过程中不可避免的过山车般的旅程。
@@ -203,8 +198,7 @@ In mid-to-late 2011, Airbnb had 20 photographers in the field taking pictures fo
 2011 年中期至晚期，Airbnb 有 20 名摄影师在实地为房东拍照——大约是预订夜数出现传统“冰球杆”式增长的同一时期，如图 1-1 所示。
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/58645ef0-8252-43a6-a42b-a033541a2da5/2910dbc6eb4faed17d0d3eeacc47e842d0a8ecd8a244fc97e70a90cb05407a5c.jpg)  
-图 1-1 用 20 名摄影师和人们的公寓能做出多么惊人的事情  
-2012 年 11 月 9 日，星期五
+图 1-1 用 20 名摄影师和人们的公寓能做出多么惊人的事情  2012 年 11 月 9 日，星期五
 
 Airbnb experimented further. It watermarked photos to add authenticity. It got customer service to offer professional photography as a service when renters or potential renters called in. It increased the requirements on photo quality. Each step of the way, the company measured the results and adjusted as necessary. The key metric Airbnb tracked was shoots per month, because it had already proven with its Concierge MVP that more professional photographs meant more bookings.  
 Airbnb 进一步进行了实验。它给照片添加了水印以增加真实性。它让客服在租客或潜在租客来电时提供专业摄影服务。它提高了照片质量要求。每一步，公司都衡量了结果并进行必要的调整。Airbnb 跟踪的关键指标是每月拍摄次数，因为它已经通过其管家 MVP 证明了更专业的照片意味着更多的预订。
@@ -215,15 +209,12 @@ By February 2012, Airbnb was doing nearly 5,000 shoots per month and continuing 
 
 摘要
 
-• Airbnb’s team had a hunch that better photos would increase rentals.  
 • Airbnb 的团队猜测更好的照片会增加租赁。  
-• They tested the idea with a Concierge MVP, putting the least effort possible into a test that would give them valid results.  
 • 他们用 Concierge MVP 测试了这个想法，在测试中投入了最小的精力，以获得有效结果。  
-• When the experiment showed good results, they built the necessary components and rolled it out to all customers.  
-当实验显示出良好结果时，他们建造了必要的组件并将其推广到所有客户。
+• 当实验显示出良好结果时，他们建造了必要的组件并将其推广到所有客户。
 
 # Analytics Lessons Learned  
-分析学经验教训
+分析经验教训
 
 Sometimes, growth comes from an aspect of your business you don’t expect. When you think you’ve found a worthwhile idea, decide how to test it quickly, with minimal investment. Define what success looks like beforehand, and know what you’re going to do if your hunch is right.  
 有时，增长来自于你意想不到的某个业务方面。当你认为找到了一个有价值的主意时，决定如何快速地、以最小的投资来测试它。事先定义成功的样子，并知道如果你的猜测是对的，你将做什么。
@@ -262,7 +253,9 @@ There are several reasons ratios tend to be the best metrics:
 比率通常是最好的指标有以下几个原因：
 
 • Ratios are easier to act on. Think about driving a car. Distance travelled is informational. But speed—distance per hour—is something you can act on, because it tells you about your current state, and whether you need to go faster or slower to get to your destination on time. • Ratios are inherently comparative. If you compare a daily metric to the same metric over a month, you’ll see whether you’re looking at a sudden spike or a long-term trend. In a car, speed is one metric, but speed right now over average speed this hour shows you a lot about whether you’re accelerating or slowing down. • Ratios are also good for comparing factors that are somehow opposed, or for which there’s an inherent tension. In a car, this might be distance covered divided by traffic tickets. The faster you drive, the more distance you cover—but the more tickets you get. This ratio might suggest whether or not you should be breaking the speed limit.  
-• 比率更容易采取行动。想想开车。行驶的距离是信息。但速度——每小时行驶的距离——是可以采取行动的，因为它告诉你你的当前状态，以及你是否需要更快或更慢才能按时到达目的地。• 比率也天然具有可比性。如果你将一个每日指标与同一个月的同一指标进行比较，你会看到你是面对一个突然的峰值还是一个长期趋势。在汽车中，速度是一个指标，但当前速度与平均速度的比较能告诉你很多关于你是否在加速或减速的信息。• 比率也适用于比较那些某种程度上相互对立或存在内在张力的因素。在汽车中，这可能是一定距离除以交通罚单。你开得越快，行驶的距离就越多——但得到的罚单也越多。这个比率可能会建议你是否应该超速行驶。
+• 比率更容易采取行动。想想开车。行驶的距离是信息。但速度——每小时行驶的距离——是可以采取行动的，因为它告诉你你的当前状态，以及你是否需要更快或更慢才能按时到达目的地。
+• 比率也天然具有可比性。如果你将一个每日指标与同一个月的同一指标进行比较，你会看到你是面对一个突然的峰值还是一个长期趋势。在汽车中，速度是一个指标，但当前速度与平均速度的比较能告诉你很多关于你是否在加速或减速的信息。
+• 比率也适用于比较那些某种程度上相互对立或存在内在张力的因素。在汽车中，这可能是一定距离除以交通罚单。你开得越快，行驶的距离就越多——但得到的罚单也越多。这个比率可能会建议你是否应该超速行驶。
 
 Leaving our car analogy for a moment, consider a startup with free and paid versions of its software. The company has a choice to make: offer a rich set of features for free to acquire new users, or reserve those features for paying customers, so they will spend money to unlock them. Having a full-featured free product might reduce sales, but having a crippled product might reduce new users. You need a metric that combines the two, so you can understand how changes affect overall health. Otherwise, you might do something that increases sales revenue at the expense of growth.  
 暂时放下我们的汽车比喻，考虑一个拥有免费和付费版本的软件的初创公司。该公司需要做出选择：为获取新用户提供丰富的免费功能，还是将这些功能保留给付费客户，让他们花钱来解锁它们。提供功能齐全的免费产品可能会减少销售额，而提供功能受限的产品可能会减少新用户。你需要一个结合两者的指标，以便了解变化如何影响整体健康状况。否则，你可能会做某事，在增加销售收入的同时牺牲了增长。
