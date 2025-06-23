@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"created":"2025-04-08T14:02:30.324+08:00","updated":"2025-06-18T21:48:06.797+08:00"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"created":"2025-04-08T14:02:30.324+08:00","updated":"2025-06-23T07:34:11.589+08:00"}
 ---
 
 
@@ -47,7 +47,7 @@
 
 [[02 Area/设计/Figma Design Learn/设置微调值（小和大）\|设置微调值（小和大）]]
 
-[[调整缩放和视图选项](https://help.figma.com/hc/en-us/articles/360041065034-Adjust-your-zoom-and-view-options)]([https://www.notion.so/204644ce6a388017ba90dde5fa75129e?pvs=21](https://www.notion.so/204644ce6a388017ba90dde5fa75129e?pvs=21))
+[[02 Area/设计/Figma Design Learn/调整缩放和视图选项\|调整缩放和视图选项]]
 
 [设置文件的自定义缩略图](https://help.figma.com/hc/en-us/articles/360038511413-Set-custom-thumbnails-for-files)
 
