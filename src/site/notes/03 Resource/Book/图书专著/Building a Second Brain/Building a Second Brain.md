@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/35761116","permalink":"/books/35761116/","metatags":{"description":"For the first time in history, we have instantaneous access to the world’s knowledge. There has never been a better time to learn, to contribute, and to improve ourselves. ","og:site_name":"DavonOs","og:title":"Building a Second Brain","og:type":"book","og:url":"https://zuji.eu.org/books/35761116","og:image":"https://imglink.win/image/2024/09/05/xKnio.webp","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"},"tags":["books/B哲学宗教/B80思维科学"],"created":"2024-05-24T10:11:06.189+08:00","updated":"2025-06-17T19:08:21.389+08:00"}
+{"dg-publish":true,"dg-permalink":"books/35761116","permalink":"/books/35761116/","metatags":{"description":"For the first time in history, we have instantaneous access to the world’s knowledge. There has never been a better time to learn, to contribute, and to improve ourselves. ","og:site_name":"DavonOs","og:title":"Building a Second Brain","og:type":"book","og:url":"https://zuji.eu.org/books/35761116","og:image":"https://m.media-amazon.com/images/I/61PxZdCkHAL._SL1500_.jpg","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"},"tags":["books/B哲学宗教/B80思维科学"],"created":"2024-05-24T10:11:06.189+08:00","updated":"2025-06-27T21:25:43.076+08:00"}
 ---
 
 
-| 封面                                                       | 书名                                                                   | 作者         | 评分     |
-| -------------------------------------------------------- | -------------------------------------------------------------------- | ---------- | ------ |
-| ![\|50](https://imglink.win/image/2024/09/05/xKnio.webp) | [Building a Second Brain](https://book.douban.com/subject/35761116/) | TiagoForte | 8 ⭐⭐⭐⭐ |
+| 封面                                                                    | 书名                                                                   | 作者         | 评分     |
+| --------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------- | ------ |
+| ![\|50](https://m.media-amazon.com/images/I/61PxZdCkHAL._SL1500_.jpg) | [Building a Second Brain](https://book.douban.com/subject/35761116/) | TiagoForte | 8 ⭐⭐⭐⭐ |
 
 { .block-language-dataview}
 
@@ -19,7 +19,7 @@
 
 # 第一部分基础：了解什么是可能的
 
-> *Your mind is for having ideas, not holding them.*—David Allen, author of Getting Things Done
+> Your mind is for having ideas, not holding them.—David Allen, author of Getting Things Done
 
 ## 为什么需要第二大脑？
 
@@ -424,7 +424,7 @@ PARA 是个动态的生产系统。
 
 需要第四层的最好迹象是当我发现自己一次又一次地访问一个笔记时，清楚地表明它是我思考的基石之一。这比我试图一次性总结整篇文章要容易得多。
 
-[Executive Summary的定义与写作策略：如何写出精准的总结？](https://www.excellentdue.com/executive-summary%e7%9a%84%e5%ae%9a%e4%b9%89%e4%b8%8e%e5%86%99%e4%bd%9c%e7%ad%96%e7%95%a5%ef%bc%9a%e5%a6%82%e4%bd%95%e5%86%99%e5%87%ba%e7%b2%be%e5%87%86%e7%9a%84%e6%80%bb%e7%bb%93%ef%bc%9f/)
+[Executive Summary的定义与写作策略：如何写出精准的总结？]
 
 - 毕加索的公牛
     

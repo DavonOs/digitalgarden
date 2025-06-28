@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"created":"2025-04-08T14:02:30.324+08:00","updated":"2025-06-23T10:20:33.883+08:00"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"created":"2025-04-08T14:02:30.324+08:00","updated":"2025-06-28T08:13:24.224+08:00"}
 ---
 
 
@@ -71,7 +71,7 @@
 
 [弧形工具：创建弧形、半圆形和圆环](https://help.figma.com/hc/en-us/articles/360040450173-Arc-tool-create-arcs-semi-circles-and-rings)
 
-[[蒙版](https://help.figma.com/hc/en-us/articles/360040450253-Masks)]([https://www.notion.so/204644ce6a3880ddaedfe2dd0197d198?pvs=21](https://www.notion.so/204644ce6a3880ddaedfe2dd0197d198?pvs=21))
+[[02 Area/设计/Figma Design Learn/蒙版\|蒙版]]
 
 ### 图层处理 Work with layers
 
