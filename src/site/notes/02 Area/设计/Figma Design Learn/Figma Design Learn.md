@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"created":"2025-04-08T14:02:30.324+08:00","updated":"2025-06-28T08:13:24.224+08:00"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"created":"2025-04-08T14:02:30.324+08:00","updated":"2025-07-03T10:52:24.205+08:00"}
 ---
 
 
@@ -61,7 +61,7 @@
 
 ### 创建和编辑图层 Create and edit layers
 
-[Figma Design 中的框架](https://help.figma.com/hc/en-us/articles/360041539473-Frames-in-Figma-Design)
+[[02 Area/设计/Figma Design Learn/Figma Design 中的框架\|Figma Design 中的框架]]
 
 [用铅笔工具在画布上绘制](https://help.figma.com/hc/en-us/articles/4402723791511-Sketch-on-the-canvas-with-the-pencil-tool)
 
@@ -76,6 +76,7 @@
 ### 图层处理 Work with layers
 
 [在画布上批量编辑对象](https://help.figma.com/hc/en-us/articles/21635177948567-Edit-objects-on-the-canvas-in-bulk)
+
 [识别匹配对象](https://help.figma.com/hc/en-us/articles/21523793229463-Identify-matching-objects)
 
 [父子关系和兄弟关系](https://help.figma.com/hc/en-us/articles/360039959014-Parent-child-and-sibling-relationships)
@@ -196,7 +197,7 @@
 
 [自动布局指南](https://help.figma.com/hc/en-us/articles/360040451373-Guide-to-auto-layout)
 
-[打开设计中的自动布局](https://help.figma.com/hc/en-us/articles/5731482952599-Toggle-auto-layout-on-designs)
+[[02 Area/设计/Figma Design Learn/在设计上切换自动布局\|在设计上切换自动布局]] (https://help.figma.com/hc/en-us/articles/5731482952599)
 
 ## Figma Draw
 
@@ -218,7 +219,7 @@
 
 ### 组件 Components
 
-[Figma 组件指南](https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-components-in-Figma)
+[[02 Area/设计/Figma Design Learn/Figma 组件指南\|Figma 组件指南]](https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-components-in-Figma)
 
 [创建可重复使用的设计组件](https://help.figma.com/hc/en-us/articles/360038663154-Create-components-to-reuse-in-designs)
 
@@ -337,8 +338,8 @@
 
 ### 指南 Guides
 
-- [Figma 中原型制作的指南](https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma)
-- [原型状态管理](https://help.figma.com/hc/en-us/articles/14397859494295-State-management-for-prototypes)
+[[02 Area/设计/Figma Design Learn/Figma 中原型制作的指南\|Figma 中原型制作的指南]] (https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma)
+[原型状态管理](https://help.figma.com/hc/en-us/articles/14397859494295-State-management-for-prototypes)
 - [Use animated GIFs in prototypes 原型中使用动画 GIF](https://help.figma.com/hc/en-us/articles/360041486873-Use-animated-GIFs-in-prototypes)
 - [Use videos in prototypes 原型中使用视频](https://help.figma.com/hc/en-us/articles/8878274530455-Use-videos-in-prototypes)
 - [Prototype triggers 原型触发器](https://help.figma.com/hc/en-us/articles/360040035834-Prototype-triggers)
