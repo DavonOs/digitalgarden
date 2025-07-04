@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/tool/calibre","permalink":"/books/tool/calibre/","metatags":{"description":"电子书阅读器 Calibre 的使用攻略","og:site_name":"DavonOs","og:title":"Calibre 日常处理方法","og:type":"article","og:url":"https://zuji.eu.org/books/tool/calibre","og:image":"https://calibre-ebook.com/resources/img/home-feature.jpg","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"created":"2024-12-06T10:43:54.964+08:00","updated":"2025-05-08T10:59:16.055+08:00"}
+{"dg-publish":true,"dg-permalink":"books/tool/calibre","permalink":"/books/tool/calibre/","metatags":{"description":"电子书阅读器 Calibre 的使用攻略","og:site_name":"DavonOs","og:title":"Calibre 日常处理方法","og:type":"article","og:url":"https://zuji.eu.org/books/tool/calibre","og:image":"https://calibre-ebook.com/resources/img/home-feature.jpg","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"created":"2024-12-06T10:43:54.964+08:00","updated":"2025-07-04T17:59:08.252+08:00"}
 ---
 
 ![home-feature](https://calibre-ebook.com/resources/img/home-feature.jpg)

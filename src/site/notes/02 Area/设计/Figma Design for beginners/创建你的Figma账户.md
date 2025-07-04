@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Create-your-Figma-account","permalink":"/design/Figma-Design/Create-your-Figma-account/","metatags":{"description":"Before you start Who can use this feature","og:site_name":"DavonOs","og:title":"创建你的Figma账户","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Create-your-Figma-account","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"created":"2025-07-03T10:59:57.936+08:00","updated":"2025-07-04T17:06:05.016+08:00"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Create-your-Figma-account","permalink":"/design/Figma-Design/Create-your-Figma-account/","metatags":{"description":"Before you start Who can use this feature","og:site_name":"DavonOs","og:title":"创建你的Figma账户","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Create-your-Figma-account","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"created":"2025-07-03T10:59:57.936+08:00","updated":"2025-07-04T17:50:51.245+08:00"}
 ---
 
 
