@@ -1,8 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/Davon's 数字花园/","title":"Davon's 数字花园","metatags":{"description":"这里是 🏡Davon的数字花园，是个人不断发展的想法的集合，作为半成品的思考，在可探索的空间中，随时间推移不断播种、修剪、塑造","og:site_name":"DavonOs","og:title":"Davon 的数字花园","og:type":"article","og:url":"https://zuji.eu.org","og:image":"https://wp.technologyreview.com/wp-content/uploads/2020/08/digital-garden_web.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["gardenEntry"],"created":"2023-06-03T20:26:48.504+08:00","updated":"2025-07-10T12:58:23.539+08:00"}
+{"dg-publish":true,"permalink":"/Davon's 数字花园/","metatags":{"description":"这里是 🏡Davon的数字花园，是个人不断发展的想法的集合，作为半成品的思考，在可探索的空间中，随时间推移不断播种、修剪、塑造","og:site_name":"DavonOs","og:title":"Davon 的数字花园","og:type":"article","og:url":"https://zuji.eu.org","og:image":"https://wp.technologyreview.com/wp-content/uploads/2020/08/digital-garden_web.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["gardenEntry"],"created":"2023-06-03T20:26:48.504+08:00","updated":"2025-07-10T13:06:18.486+08:00"}
 ---
 
+# Home
+
 Hello 👋，我是 [[04 Archive/About\|Davon]]，欢迎来到我的数字花园🌱。
+
+![](https://wp.technologyreview.com/wp-content/uploads/2020/08/digital-garden_web.jpg)
 
 >[!tip]+ 这是什么
 >- 思考过程的容器，不按日期时间组织，而是通过上下文关联链接在一起。
