@@ -1,45 +1,28 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/35761116","permalink":"/books/35761116/","metatags":{"description":"For the first time in history, we have instantaneous access to the world’s knowledge. There has never been a better time to learn, to contribute, and to improve ourselves.","og:site_name":"DavonOs","og:title":"Building a Second Brain","og:type":"book","og:url":"https://zuji.eu.org/books/35761116","og:image":"https://m.media-amazon.com/images/I/61PxZdCkHAL._SL1500_.jpg","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"},"tags":["books/B哲学宗教/B80思维科学"],"created":"2024-05-24T10:11:06.189+08:00","updated":"2025-07-12T18:12:48.232+08:00"}
+{"dg-publish":true,"dg-permalink":"books/35761116","permalink":"/books/35761116/","metatags":{"description":"For the first time in history, we have instantaneous access to the world’s knowledge. There has never been a better time to learn, to contribute, and to improve ourselves.","og:site_name":"DavonOs","og:title":"Building a Second Brain","og:type":"book","og:url":"https://zuji.eu.org/books/35761116","og:image":"https://m.media-amazon.com/images/I/61PxZdCkHAL._SL1500_.jpg","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"},"tags":["books/B哲学宗教/B80思维科学"],"created":"2024-05-24T10:11:06.189+08:00","updated":"2025-07-12T18:53:06.615+08:00"}
 ---
 
 
-| 封面                                                                             | 书名                                                                   | 作者          | 语言 | 关联         | 评分       |
-| ------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ----------- | -- | ---------- | -------- |
-| ![BookCover\|50](https://m.media-amazon.com/images/I/61PxZdCkHAL._SL1500_.jpg) | [Building a Second Brain](https://book.douban.com/subject/35761116/) | Tiago·Forte | en | [[03 Resource/Book/图书专著/Building a Second Brain/打造第二大脑\|打造第二大脑]] | 8.1 ⭐⭐⭐⭐ |
+| 封面                                                                             | 书名                                                                   | 作者          | 语言 | 关联         | 评分     |
+| ------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ----------- | -- | ---------- | ------ |
+| ![BookCover\|50](https://m.media-amazon.com/images/I/61PxZdCkHAL._SL1500_.jpg) | [Building a Second Brain](https://book.douban.com/subject/35761116/) | Tiago·Forte | en | [[03 Resource/Book/图书专著/Building a Second Brain/打造第二大脑\|打造第二大脑]] | 8 ⭐⭐⭐⭐ |
 
 { .block-language-dataview}
 
-<span><span><div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; margin: 20px 0; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.08); display: flex; transition: all 0.3s ease;" class="book-card">
-     
-    
-    <div style="flex-shrink: 0; margin-right: 20px; width: 30%; max-width: 180px;" class="book-cover">
-        <img style="width: 100%; height: auto; object-fit: contain; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1)" alt="Building a Second Brain封面" src="https://m.media-amazon.com/images/I/61PxZdCkHAL._SL1500_.jpg" referrerpolicy="no-referrer">
+<span><span><div class="book-card">
+    <div class="book-cover">
+        <img style="border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1)" alt="Building a Second Brain封面" src="https://m.media-amazon.com/images/I/61PxZdCkHAL._SL1500_.jpg" referrerpolicy="no-referrer">
     </div>
-    
-    
-    <div style="flex: 1;" class="book-info">
+    <div class="book-info">
+        <h3 dir="auto"><a style="color: #2e6bc6; text-decoration: none" href="https://book.douban.com/subject/35761116/" target="_blank" rel="noopener nofollow">Building a Second Brain</a></h3>
+        <p style="color: #666; font-size: 0.95em" class="subtitle" dir="auto">A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential</p>
         
-        <div style="margin-bottom: 8px;">
-            <h3 style="margin: 0 0 2px 0; line-height: 1.3;" dir="auto"> 
-                <a style="color: #2e6bc6; text-decoration: none" href="https://book.douban.com/subject/35761116/" target="_blank" rel="noopener nofollow">Building a Second Brain</a>
-            </h3>
-            <p style="color: #666; font-size: 0.95em; margin: 0;" class="subtitle" dir="auto">A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential</p>
-        </div>
-        
-        
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px 15px; margin: 12px 0; color: #444;" class="meta-grid">
+        <div class="meta-grid">
             <div><strong>作者:</strong> Tiago Forte</div>
             <div><strong>语言:</strong> en</div>
-            <div><strong>出版年:</strong> 2022</div>
-            <div><strong>评分:</strong> 8.1 ⭐⭐⭐⭐</div>
-            
-            
-            <div style="grid-column: span 2;">
-                <strong>关联书籍:</strong> 
-                <a class="internal-link" href="[[03 Resource/Book/图书专著/Building a Second Brain/打造第二大脑\|打造第二大脑]]" target="_blank" rel="noopener nofollow">打造第二大脑</a>
-            </div>
+            <div><strong>关联书籍:</strong> [[03 Resource/Book/图书专著/Building a Second Brain/打造第二大脑\|打造第二大脑]]</div>
+            <div><strong>评分:</strong> 8 ⭐⭐⭐⭐ </div>
         </div>
-        
         
         <div style="background-color: #4caf5066; 
               display: inline-block; padding: 2px 8px; border-radius: 12px; margin-top: 8px" class="status-tag">
