@@ -1,13 +1,35 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/35761116","permalink":"/books/35761116/","metatags":{"description":"For the first time in history, we have instantaneous access to the world’s knowledge. There has never been a better time to learn, to contribute, and to improve ourselves.","og:site_name":"DavonOs","og:title":"Building a Second Brain","og:type":"book","og:url":"https://zuji.eu.org/books/35761116","og:image":"https://m.media-amazon.com/images/I/61PxZdCkHAL._SL1500_.jpg","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"},"tags":["books/B哲学宗教/B80思维科学"],"created":"2024-05-24T10:11:06.189+08:00","updated":"2025-07-12T14:55:32.205+08:00"}
+{"dg-publish":true,"dg-permalink":"books/35761116","permalink":"/books/35761116/","metatags":{"description":"For the first time in history, we have instantaneous access to the world’s knowledge. There has never been a better time to learn, to contribute, and to improve ourselves.","og:site_name":"DavonOs","og:title":"Building a Second Brain","og:type":"book","og:url":"https://zuji.eu.org/books/35761116","og:image":"https://m.media-amazon.com/images/I/61PxZdCkHAL._SL1500_.jpg","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"},"tags":["books/B哲学宗教/B80思维科学"],"created":"2024-05-24T10:11:06.189+08:00","updated":"2025-07-12T17:31:18.204+08:00"}
 ---
 
 
-| 封面                                                                             | 书名                                                                   | 作者          | 语言 | 关联         | 评分     |
-| ------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ----------- | -- | ---------- | ------ |
-| ![BookCover\|50](https://m.media-amazon.com/images/I/61PxZdCkHAL._SL1500_.jpg) | [Building a Second Brain](https://book.douban.com/subject/35761116/) | Tiago·Forte | en | [[03 Resource/Book/图书专著/Building a Second Brain/打造第二大脑\|打造第二大脑]] | 8 ⭐⭐⭐⭐ |
+| 封面                                                                             | 书名                                                                   | 作者          | 语言 | 关联         | 评分       |
+| ------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ----------- | -- | ---------- | -------- |
+| ![BookCover\|50](https://m.media-amazon.com/images/I/61PxZdCkHAL._SL1500_.jpg) | [Building a Second Brain](https://book.douban.com/subject/35761116/) | Tiago·Forte | en | [[03 Resource/Book/图书专著/Building a Second Brain/打造第二大脑\|打造第二大脑]] | 8.1 ⭐⭐⭐⭐ |
 
 { .block-language-dataview}
+
+<span><span><div class="book-card">
+    <div class="book-cover">
+        <img style="border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1)" alt="Building a Second Brain封面" src="https://m.media-amazon.com/images/I/61PxZdCkHAL._SL1500_.jpg" referrerpolicy="no-referrer">
+    </div>
+    <div class="book-info">
+        <h3 dir="auto"><a style="color: #2e6bc6; text-decoration: none" href="https://book.douban.com/subject/35761116/" target="_blank" rel="noopener nofollow">Building a Second Brain</a></h3>
+        <p style="color: #666; font-size: 0.95em" class="subtitle" dir="auto">A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential</p>
+        
+        <div class="meta-grid">
+            <div><strong>作者:</strong> Tiago Forte</div>
+            <div><strong>语言:</strong> en</div>
+            <div><strong>关联书籍:</strong> [[03 Resource/Book/图书专著/Building a Second Brain/打造第二大脑\|打造第二大脑]]</div>
+            <div><strong>评分:</strong> 8.1 ⭐⭐⭐⭐ </div>
+        </div>
+        
+        <div style="background-color: #4caf5066; 
+              display: inline-block; padding: 2px 8px; border-radius: 12px; margin-top: 8px" class="status-tag">
+            已读
+        </div>
+    </div>
+</div></span></span><span><span></span></span>
 
 个人简评：一本知识管理类工具书。书中提出的CODE、PARA等方法，有助改变作为”信息囤积者“的我们在面对海量内容时焦虑和不知所措的状况。这本书从更深层次上讲，属于“自我提升”范畴的对立面。它是关于优化你自己之外不受你限制的系统。有了 [第二大脑](https://www.buildingasecondbrain.com/) 的力量，你可以做任何你想做的事。一切都只是信息，你是将其流动和塑造成你想要的任何未来的大师。
 
