@@ -85,6 +85,10 @@
 
 
 body{
+	@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+	body, .content, .workspace, .markdown-preview-view, .markdown-source-view {
+    font-family: 'PT Serif', serif !important;
+}
 	/* for list column, grid and card */
 	--list-min-width: 200px;
 	--col-rule-color: var(--background-modifier-border); /* #b3b3b3; */
