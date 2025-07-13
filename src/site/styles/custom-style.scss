@@ -85,9 +85,9 @@
 
 
 body{
-	@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+	@import url('https://cdn.jsdelivr.net/gh/irozhi/HarmonyOS-Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Medium.woff2') format('woff2');
 	body, .content, .workspace, .markdown-preview-view, .markdown-source-view {
-    font-family: 'PT Serif', serif !important;
+    font-family: 'HarmonyOS_Sans_SC_Medium', serif !important;
 }
 	/* for list column, grid and card */
 	--list-min-width: 200px;
