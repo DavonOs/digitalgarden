@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/36365320","permalink":"/books/36365320/","metatags":{"description":"本书是针对所有层次的 Python 读者而作的 Python 入门书，影响了超过250万读者。第 3 版进行了全面修订：使用了文本编辑器 VS Code，新增了介绍 removeprefix() 方法和removesuffix() 方法的内容，并且在项目中利用了 Matplotlib 和 Plotly 的最新特性等等。","og:site_name":"DavonOs","og:title":"Python编程（第3版）","og:type":"book","og:url":"https://zuji.eu.org/books/36365320","og:image":"https://img.alicdn.com/i2/101450072/O1CN01vnmrBj1CP1LlhPSyR-101450072.jpg","og:image:width":"50","og:image:alt":"bookcover"}}
+{"dg-publish":true,"dg-permalink":"books/36365320","permalink":"/books/36365320/","metatags":{"description":"本书是针对所有层次的 Python 读者而作的 Python 入门书，影响了超过250万读者。第 3 版进行了全面修订：使用了文本编辑器 VS Code，新增了介绍 removeprefix() 方法和removesuffix() 方法的内容，并且在项目中利用了 Matplotlib 和 Plotly 的最新特性等等。","og:site_name":"DavonOs","og:title":"Python编程（第3版）","og:type":"book","og:url":"https://zuji.eu.org/books/36365320","og:image":"https://img.alicdn.com/i2/101450072/O1CN01vnmrBj1CP1LlhPSyR-101450072.jpg","og:image:width":"50","og:image:alt":"bookcover"},"created":"2024-05-24T10:11:06.205+08:00","updated":"2025-07-13T09:24:57.438+08:00"}
 ---
 
 

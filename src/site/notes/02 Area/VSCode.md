@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"program/VSCode","permalink":"/program/VSCode/","metatags":{"description":"VSCode常用快捷键和配置指南","og:site_name":"DavonOs","og:title":"VSCode","og:type":"article","og:url":"https://zuji.eu.org/program/vscode","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"}}
+{"dg-publish":true,"dg-permalink":"program/VSCode","permalink":"/program/VSCode/","metatags":{"description":"VSCode常用快捷键和配置指南","og:site_name":"DavonOs","og:title":"VSCode","og:type":"article","og:url":"https://zuji.eu.org/program/vscode","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"created":"2025-03-14T11:34:44.946+08:00","updated":"2025-07-03T09:49:17.254+08:00"}
 ---
 
 
