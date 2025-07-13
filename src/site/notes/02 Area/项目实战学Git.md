@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"program/git","permalink":"/program/git/","metatags":{"description":"借用一个开发项目，实战操作Git，实现本地及远程版本控制管理","og:site_name":"DavonOs","og:title":"Git 快速上手","og:type":"article","og:url":"https://zuji.eu.org/learn/program/git","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/git"],"created":"2024-08-07T22:16:26.871+08:00","updated":"2025-07-04T17:57:03.323+08:00"}
+{"dg-publish":true,"dg-permalink":"program/git","permalink":"/program/git/","metatags":{"description":"借用一个开发项目，实战操作Git，实现本地及远程版本控制管理","og:site_name":"DavonOs","og:title":"Git 快速上手","og:type":"article","og:url":"https://zuji.eu.org/learn/program/git","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/git"]}
 ---
 
 Git简介与安装（略）

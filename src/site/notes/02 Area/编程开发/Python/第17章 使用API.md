@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"program/python/working-with-apis","permalink":"/program/python/working-with-apis/","metatags":{"description":"Python编程：从入门到实践（第3版）第17章使用API的学习笔记","og:site_name":"DavonOs","og:title":"第17章使用API","og:type":"article","og:url":"https://zuji.eu.org/books/36365320/working-with-apis","og:image":"https://img.alicdn.com/i2/101450072/O1CN01vnmrBj1CP1LlhPSyR-101450072.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/python"],"created":"2024-10-30T17:59:23.592+08:00","updated":"2025-07-04T17:48:33.668+08:00"}
+{"dg-publish":true,"dg-permalink":"program/python/working-with-apis","permalink":"/program/python/working-with-apis/","metatags":{"description":"Python编程：从入门到实践（第3版）第17章使用API的学习笔记","og:site_name":"DavonOs","og:title":"第17章使用API","og:type":"article","og:url":"https://zuji.eu.org/books/36365320/working-with-apis","og:image":"https://img.alicdn.com/i2/101450072/O1CN01vnmrBj1CP1LlhPSyR-101450072.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/python"]}
 ---
 
 如何编写一个独立的程序，对获取的数据进行可视化。这个程序将使用 **API**（应用程序接口，application program interface）自动请求网站的特定信息，并对这些信息进行可视化。
