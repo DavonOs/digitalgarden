@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/36624482","permalink":"/books/36624482/","metatags":{"description":"Make your ideas look awesome, without relying on a designer. Learn how to design beautiful user interfaces by yourself using specific tactics explained from a developer's point-of-view.","og:site_name":"DavonOs","og:title":"RefactoringUI","og:type":"book","og:url":"https://zuji.eu.org/books/36624482","og:image":"https://www.refactoringui.com/_next/static/media/book.43eb3b9aec83fb89.png","og:image: width":"50","og:image: alt":"bookcover"},"tags":["books/T工业技术/TP自动化技术、计算机技术"],"created":"2024-06-12T16:39:11.027+08:00","updated":"2025-07-04T17:55:23.876+08:00"}
+{"dg-publish":true,"dg-permalink":"books/36624482","permalink":"/books/36624482/","metatags":{"description":"Make your ideas look awesome, without relying on a designer. Learn how to design beautiful user interfaces by yourself using specific tactics explained from a developer's point-of-view.","og:site_name":"DavonOs","og:title":"RefactoringUI","og:type":"book","og:url":"https://zuji.eu.org/books/36624482","og:image":"https://www.refactoringui.com/_next/static/media/book.43eb3b9aec83fb89.png","og:image: width":"50","og:image: alt":"bookcover"},"created":"2024-06-12T16:39:11.027+08:00","updated":"2025-07-13T09:27:17.889+08:00"}
 ---
 
 
