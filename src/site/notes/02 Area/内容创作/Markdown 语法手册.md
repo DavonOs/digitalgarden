@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-permalink":"markdown","permalink":"/markdown/","metatags":{"description":"这里是 🏡Davon的数字花园，是个人不断发展的想法的集合，作为半成品的思考，在可探索的空间中，随时间推移不断播种、修剪、塑造","og:site_name":"DavonOs","og:title":"Markdown","og:type":"article","og:url":"https://zuji.eu.org/markdown","og:image":"https://markdown.com.cn/hero.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"dgShowInlineTitle":true,"created":"2011-11-01"}
+{"dg-publish":true,"dg-permalink":"markdown","permalink":"/markdown/","metatags":{"description":"这里是 🏡Davon的数字花园，是个人不断发展的想法的集合，作为半成品的思考，在可探索的空间中，随时间推移不断播种、修剪、塑造","og:site_name":"DavonOs","og:title":"Markdown","og:type":"article","og:url":"https://zuji.eu.org/markdown","og:image":"https://markdown.com.cn/hero.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"dgShowInlineTitle":true,"created":"2021-11-01"}
 ---
 
 
-[Markdown语法参考 | obsidian](https://coffeetea.top/zh/markdown/)
+[Markdown语法参考 | Obsidian](https://coffeetea.top/zh/markdown/)
 [Markdown语法](https://lgf4591.github.io/quartz-obsidian/markdown%E8%AF%AD%E6%B3%95)
 [MarkDown语法超详细教程](https://forum-zh.obsidian.md/t/topic/435)
 [Cmd Markdown在线编辑器](https://www.zybuluo.com/mdeditor)
