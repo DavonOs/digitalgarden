@@ -2,9 +2,7 @@
 {"dg-publish":true,"dg-permalink":"markdown","permalink":"/markdown/","metatags":{"description":"让我们用不到5分钟的时候，阅读 Markdown 概述，了解其工作原理以及你可以用它做什么。","og:site_name":"DavonOs","og:title":"Markdown","og:type":"article","og:url":"https://zuji.eu.org/markdown","og:image":"https://markdown.com.cn/hero.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"dgShowInlineTitle":true,"created":"2024-08-25 19:44","updated":"2025-07-14 11:12"}
 ---
 
-[Markdown语法参考 | Obsidian](https://coffeetea.top/zh/markdown/)
-[Markdown语法](https://lgf4591.github.io/quartz-obsidian/markdown%E8%AF%AD%E6%B3%95)
-[MarkDown语法超详细教程](https://forum-zh.obsidian.md/t/topic/435)
+
 [Cmd Markdown在线编辑器](https://www.zybuluo.com/mdeditor)
 [Arya - 在线 Markdown 编辑器](https://markdown.lovejade.cn/)
 [微信公众号markdown排版工具](https://markdown.com.cn/editor/)
@@ -362,3 +360,8 @@ pie
 >[!example]
 
 >[!quote]
+
+参考自：
+[Markdown语法参考 | Obsidian](https://coffeetea.top/zh/markdown/)
+[Markdown语法](https://lgf4591.github.io/quartz-obsidian/markdown%E8%AF%AD%E6%B3%95)
+[MarkDown语法超详细教程](https://forum-zh.obsidian.md/t/topic/435)

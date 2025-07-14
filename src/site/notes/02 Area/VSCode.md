@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"program/VSCode","permalink":"/program/VSCode/","metatags":{"description":"VSCode常用快捷键和配置指南","og:site_name":"DavonOs","og:title":"VSCode","og:type":"article","og:url":"https://zuji.eu.org/program/vscode","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"}}
+{"dg-publish":true,"dg-permalink":"program/vscode","permalink":"/program/vscode/","metatags":{"description":"VSCode常用快捷键和配置指南","og:site_name":"DavonOs","og:title":"VSCode","og:type":"article","og:url":"https://zuji.eu.org/program/vscode","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"dgShowInlineTitle":true}
 ---
 
 
@@ -32,9 +32,8 @@
 如果只想改变当前工作区的设置，可以通过在vscode界面依次点击“文件”→“首选项”→“设置”→“工作区”→“功能”→“终端”，找到Integrated:Cwd选项，将其值修改为“${fileDirname}”，即可在当前工作区内实现终端默认在当前文件的路径启动。
 
 ![Integrated:Cwd](https://i-blog.csdnimg.cn/blog_migrate/b9dd5089e62b74f16bd35679ac3792fb.png)
-也可以通过修改当前目录的.vscode文件夹下settings.json文件进行更改，具体为在settings.json文件中添加以下内容：
 
-​`"terminal.integrated.cwd":"${fileDirname}"`
+也可以通过修改当前目录的.vscode文件夹下settings.json文件进行更改，具体为在settings.json文件中添加以下内容：​`"terminal.integrated.cwd":"${fileDirname}"`
 
 需要注意的是，设置文件中的不同项是以逗号分隔的，如果上一行的结尾没有逗号，一定要记得添加，否则设置修改会无效。
 
@@ -48,7 +47,7 @@
 Windows系统：`%APPDATA%\Code\User\settings.json`
 Linux系统：`$HOME/.config/Code/User/settings.json`
 
-在 settings.json文件中添加：`"terminal.integrated.cwd":"${fileDirname}"`即可，同样需要注意逗号的问题。
+在 `settings.json` 文件中添加：`"terminal.integrated.cwd":"${fileDirname}"`即可，同样需要注意逗号的问题。
 
 ## 单击打开新文件窗口，不覆盖前一个窗口
 
@@ -62,5 +61,4 @@ Linux系统：`$HOME/.config/Code/User/settings.json`
 
 如下图，在 `编辑管理` 选项卡下拉找到 `Enable Preview` ，**去掉这个选项的勾**。
 ![Enable Preview](https://i-blog.csdnimg.cn/blog_migrate/41b2213c3e404d44ffba1cc38bbda861.png)
-或者<kbd>Ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>，输入setting，在设置文件中添加以下内容：
-`{ "workbench.editor.enablePreview": false }`保存文件后，预览模式将被禁用。
+或者<kbd>Ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>，输入 setting，在设置文件中添加以下内容：`{ "workbench.editor.enablePreview": false }`保存文件后，预览模式将被禁用。
