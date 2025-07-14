@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"program/python/userinput-and-while-loops","permalink":"/program/python/userinput-and-while-loops/","metatags":{"description":"Python编程：从入门到实践（第3版）第7章用户输入和while循环的学习笔记","og:site_name":"DavonOs","og:title":"第7章用户输入和while循环","og:type":"article","og:url":"https://zuji.eu.org/program/python/userinput-and-while-loops","og:image":"https://img.alicdn.com/i2/101450072/O1CN01vnmrBj1CP1LlhPSyR-101450072.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/python"],"created":"2024-10-25T10:20:12.742+08:00","updated":"2025-07-04T17:48:01.528+08:00"}
+{"dg-publish":true,"dg-permalink":"program/python/userinput-and-while-loops","permalink":"/program/python/userinput-and-while-loops/","metatags":{"description":"Python编程：从入门到实践（第3版）第7章用户输入和while循环的学习笔记","og:site_name":"DavonOs","og:title":"第7章用户输入和while循环","og:type":"article","og:url":"https://zuji.eu.org/program/python/userinput-and-while-loops","og:image":"https://img.alicdn.com/i2/101450072/O1CN01vnmrBj1CP1LlhPSyR-101450072.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/python"],"dgShowInlineTitle":true}
 ---
 
 
