@@ -1,16 +1,22 @@
-// body {
-//     /***
-//       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-//       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-//    ***/
-//     //  background-color: white;
-//     //  .content {
-//     //   font-size: 14px;
-//     //  }
-//     //  h1 {
-//     //   color: black;
-//     //  }
-// }
+body {
+	@font-face {
+    font-family:HarmonyOS_Sans_SC_Medium;font-style: normal;font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/irozhi/HarmonyOS-Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Medium.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/irozhi/HarmonyOS-Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Medium.woff') format('woff');
+}
+*{font-family:HarmonyOS_Sans_SC_Medium;}
+    /***
+      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
+      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
+   ***/
+    //  background-color: white;
+    //  .content {
+    //   font-size: 14px;
+    //  }
+    //  h1 {
+    //   color: black;
+    //  }
+}
 /* === README ===
 	Snippet: MCL Multi Column / Author: Faiz Khuzaimah / twitter: @faizkhuzaimah / github: https://github.com/efemkay
 
@@ -85,10 +91,6 @@
 
 
 body{
-	@import url('https://cdn.jsdelivr.net/gh/irozhi/HarmonyOS-Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Medium.woff2') format('woff2');
-	body, .content, .workspace, .markdown-preview-view, .markdown-source-view {
-    font-family: 'HarmonyOS_Sans_SC_Medium', serif !important;
-}
 	/* for list column, grid and card */
 	--list-min-width: 200px;
 	--col-rule-color: var(--background-modifier-border); /* #b3b3b3; */
