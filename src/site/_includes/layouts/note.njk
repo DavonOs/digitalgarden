@@ -17,7 +17,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% for imp in dynamics.notes.head %}
       {% include imp %}
     {% endfor %}
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/components/prism-applescript.min.js rel="stylesheet" />
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
     <!-- theme-{{meta.baseTheme}} 设置页面的主题。-->
