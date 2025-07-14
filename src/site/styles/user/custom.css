@@ -4,3 +4,17 @@
          url('https://cdn.jsdelivr.net/gh/irozhi/HarmonyOS-Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Medium.woff') format('woff');
 }
 *{font-family:HarmonyOS_Sans_SC_Medium;}
+
+h2 { 
+  font-size: 1.8rem;
+  padding: 0.5em 1em;
+  background: #f8f9fa;
+  border-left: 4px solid #4caf50;
+  margin-top: 1.5em;
+}
+h3 { 
+  font-size: 1.5rem;
+  border-bottom: 2px dashed #e0e0e0;
+  padding-bottom: 0.3em;
+}
+h4 { font-size: 1.2rem; color: #555; }
