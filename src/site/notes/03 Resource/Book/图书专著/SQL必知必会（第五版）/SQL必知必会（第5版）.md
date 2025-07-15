@@ -2,7 +2,167 @@
 {"dg-publish":true,"dg-permalink":"books/35167240","permalink":"/books/35167240/","metatags":{"description":"SQL 是使用最为广泛的数据库语言，几乎所有重要的 DBMS 都支持 SQL。本书是麻省理工学院、伊利诺伊大学等众多大学的参考教材，由浅入深地讲解了 SQL 的基本概念和语法，涉及数据的排序、过滤和分组，以及表、视图、联结、子查询、游标、存储过程和触发器等内容，实例丰富，便于查阅。与其他同类图书不同，本书没有过多阐述数据库基础理论，而是专门针对一线软件开发人员，直接从 SQLSELECT 开始，讲述实际工作环境中最常用和最必需的 SQL 知识，实用性极强。新版对书中的案例进行了全面的更新，并增加了章后挑战题，便于读者巩固所学知识。","og:site_name":"DavonOs","og:title":"SQL必知必会（第5版）","og:type":"book","og:url":"https://zuji.eu.org/books/35167240","og:image":"https://wfqqreader-1252317822.image.myqcloud.com/cover/685/34336685/t6_34336685.jpg","og:image:width":"50","og:image:alt":"bookcover"}}
 ---
 
-<div class="book-info-container" style="display: flex; gap: 25px; align-items: flex-start;padding: 20px; border-radius: 12px;background-color: var(--background-primary);box-shadow: var(--shadow-m);"><span></span><div class="cover-col" style="flex: 0 0 180px; position: relative;"><span></span><img src="https://wfqqreader-1252317822.image.myqcloud.com/cover/685/34336685/t6_34336685.jpg" style="width: 100%; border-radius: 6px;box-shadow: var(--shadow-l);border: 1px solid var(--background-modifier-border);" alt="SQL必知必会（第5版）"><div style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%);background: var(--color-orange);color: var(--text-on-accent); padding: 4px 12px;border-radius: 20px; font-size: 0.8em; font-weight: bold;white-space: nowrap; box-shadow: var(--shadow-s); z-index: 1;"><span>📖 在读</span></div></div><div class="info-col" style="flex: 1; min-width: 0;"><span></span><div style="margin-bottom: 0;"><span></span><h1 style="font-size: 1.8rem; font-weight: 800;margin: 0 0 5px 0;color: var(--text-title);"><span></span><a href="https://weread.qq.com/web/bookDetail/f7632a30720befadf7636bb" target="_blank" style="color: inherit; text-decoration: none;border-bottom: 2px solid var(--color-blue);"><span>SQL必知必会（第5版）</span></a></h1></div><div style="width: 100%;margin-top: 15px;display: flex;flex-direction: column;gap: 8px;"><span></span><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: var(--text-normal);font-weight: 500;font-size: 0.92em;opacity: 0.85;"><span>✍️ 作者</span></div><div style="flex: 1;font-weight: 500;color: var(--text-normal);"><span>Ben·Forta</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: var(--text-normal);font-weight: 500;font-size: 0.92em;opacity: 0.85;"><span>📚 分类</span></div><div style="flex: 1;font-weight: 500;color: var(--text-normal);"><span>T工业技术/TP自动化技术、计算机技术</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: var(--text-normal);font-weight: 500;font-size: 0.92em;opacity: 0.85;"><span>📅 出版日期</span></div><div style="flex: 1;font-weight: 500;color: var(--text-normal);"><span>2020</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: var(--text-normal);font-weight: 500;font-size: 0.92em;opacity: 0.85;"><span>🌐 语言</span></div><div style="flex: 1;font-weight: 500;color: var(--text-normal);"><span>zh-Hans</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: var(--text-normal);font-weight: 500;font-size: 0.92em;opacity: 0.85;"><span>⭐ 评分</span></div><div style="flex: 1;font-weight: 500;color: var(--text-normal);font-weight: 600; color: var(--text-title);"><span>9 ★★★★★</span></div></div></div></div></div>
+<div class="book-info-container mobile-optimized" style="
+            display: flex;
+            gap: 25px;
+            align-items: flex-start;
+            padding: 20px;
+            border-radius: 12px;
+            background-color: var(--background-primary);
+            box-shadow: var(--shadow-m);
+            flex-wrap: wrap; /* 关键：允许换行 */
+        "><span></span><div class="cover-col" style="
+            flex: 1 1 180px;  /* 关键：允许收缩 */
+            position: relative;
+            max-width: 220px; /* 移动端最大宽度限制 */
+            min-width: 150px; /* 防止过小 */
+        "><span></span><img src="https://wfqqreader-1252317822.image.myqcloud.com/cover/685/34336685/t6_34336685.jpg" style="
+            width: 100%;
+            border-radius: 6px;
+            box-shadow: var(--shadow-l);
+            border: 1px solid var(--background-modifier-border);
+        " alt="SQL必知必会（第5版）"><div style="
+                position: absolute;
+                bottom: -10px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: var(--color-orange);
+                color: var(--text-on-accent);
+                padding: 4px 12px;
+                border-radius: 20px;
+                font-size: 0.8em;
+                font-weight: bold;
+                white-space: nowrap;
+                box-shadow: var(--shadow-s);
+                z-index: 1;
+            "><span>📖 在读</span></div></div><div class="info-col" style="
+            flex: 3 1 300px;  /* 关键：更大伸缩比 */
+            min-width: 0;      /* 防止内容溢出 */
+        "><span></span><div style="margin-bottom: 0;"><span></span><h1 style="
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin: 0 0 5px 0;
+            color: var(--text-title);
+        "><span></span><a href="https://weread.qq.com/web/bookDetail/f7632a30720befadf7636bb" target="_blank" style="
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 2px solid var(--color-blue);
+        "><span>SQL必知必会（第5版）</span></a></h1></div><div style="
+            width: 100%;
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        "><span></span><div class="info-row" style="
+                display: flex;
+                align-items: flex-start;
+                gap: 8px;
+            "><span></span><div style="
+                flex: 0 0 auto;
+                min-width: 120px; /* 防止挤压 */
+                color: var(--text-normal);
+                font-weight: 500;
+                font-size: 0.92em;
+                opacity: 0.85;
+            "><span>✍️ 作者</span></div><div style="
+                flex: 1;
+                font-weight: 500;
+                word-wrap: break-word;
+                color: var(--text-normal);
+                
+            "><span>Ben·Forta</span></div></div><div class="info-row" style="
+                display: flex;
+                align-items: flex-start;
+                gap: 8px;
+            "><span></span><div style="
+                flex: 0 0 auto;
+                min-width: 120px; /* 防止挤压 */
+                color: var(--text-normal);
+                font-weight: 500;
+                font-size: 0.92em;
+                opacity: 0.85;
+            "><span>📚 分类</span></div><div style="
+                flex: 1;
+                font-weight: 500;
+                word-wrap: break-word;
+                color: var(--text-normal);
+                
+            "><span>T工业技术/TP自动化技术、计算机技术</span></div></div><div class="info-row" style="
+                display: flex;
+                align-items: flex-start;
+                gap: 8px;
+            "><span></span><div style="
+                flex: 0 0 auto;
+                min-width: 120px; /* 防止挤压 */
+                color: var(--text-normal);
+                font-weight: 500;
+                font-size: 0.92em;
+                opacity: 0.85;
+            "><span>📅 出版日期</span></div><div style="
+                flex: 1;
+                font-weight: 500;
+                word-wrap: break-word;
+                color: var(--text-normal);
+                
+            "><span>2020</span></div></div><div class="info-row" style="
+                display: flex;
+                align-items: flex-start;
+                gap: 8px;
+            "><span></span><div style="
+                flex: 0 0 auto;
+                min-width: 120px; /* 防止挤压 */
+                color: var(--text-normal);
+                font-weight: 500;
+                font-size: 0.92em;
+                opacity: 0.85;
+            "><span>🌐 语言</span></div><div style="
+                flex: 1;
+                font-weight: 500;
+                word-wrap: break-word;
+                color: var(--text-normal);
+                
+            "><span>zh-Hans</span></div></div><div class="info-row" style="
+                display: flex;
+                align-items: flex-start;
+                gap: 8px;
+            "><span></span><div style="
+                flex: 0 0 auto;
+                min-width: 120px; /* 防止挤压 */
+                color: var(--text-normal);
+                font-weight: 500;
+                font-size: 0.92em;
+                opacity: 0.85;
+            "><span>⭐ 评分</span></div><div style="
+                flex: 1;
+                font-weight: 500;
+                word-wrap: break-word;
+                color: var(--text-normal);
+                font-weight: 600; color: var(--text-title);
+            "><span>9 ★★★★★</span></div></div></div></div></div><style><span><pre><code>@media (max-width: 768px) {
+    .book-info-container.mobile-optimized {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cover-col {
+        flex: 0 0 auto !important;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .info-row {
+        flex-direction: column !important;
+        gap: 4px !important;
+    }
+    .info-row &gt; div:first-child {
+        width: 100% !important;
+        opacity: 1 !important;
+        font-weight: 600 !important;
+    }
+    .info-row &gt; div:last-child {
+        width: 100% !important;
+        padding-left: 10px;
+    }
+}
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></span></style>
 
 本书介绍的 SQL 主要适用于以下系统（需要时会给出特殊说明和注释）：
 - IBM DB2 （包括云上 DB2）
