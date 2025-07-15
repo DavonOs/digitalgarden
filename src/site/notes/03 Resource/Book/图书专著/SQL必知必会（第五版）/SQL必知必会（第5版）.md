@@ -254,24 +254,25 @@ Products;
 
 **输入**▼
 
-SELECT prod\_id, prod\_name, prod\_price
-
+```sql
+SELECT prod_id, prod_name, prod_price
 FROM Products;
+```
 
 
 与前一个例子一样，这条语句使用SELECT语句从表Products中选择数据。在这个例子中，指定了3个列名，列名之间用逗号分隔。此语句的输出如下：
 
-| prod\_id | prod\_name          | prod\_price |
-| :------- | :------------------ | :---------- |
-| BNBG01   | Fish bean bag toy   | 3\.49       |
-| BNBG02   | Bird bean bag toy   | 3\.49       |
-| BNBG03   | Rabbit bean bag toy | 3\.49       |
-| BR01     | 8 inch teddy bear   | 5\.99       |
-| BR02     | 12 inch teddy bear  | 8\.99       |
-| BR03     | 18 inch teddy bear  | 11\.99      |
-| RGAN01   | Raggedy Ann         | 4\.99       |
-| RYL01    | King doll           | 9\.49       |
-| RYL02    | Queen dool          | 9\.49       |
+| prod_id | prod_name           | prod_price |
+| :------ | :------------------ | :--------- |
+| BNBG01  | Fish bean bag toy   | 3\.49      |
+| BNBG02  | Bird bean bag toy   | 3\.49      |
+| BNBG03  | Rabbit bean bag toy | 3\.49      |
+| BR01    | 8 inch teddy bear   | 5\.99      |
+| BR02    | 12 inch teddy bear  | 8\.99      |
+| BR03    | 18 inch teddy bear  | 11\.99     |
+| RGAN01  | Raggedy Ann         | 4\.99      |
+| RYL01   | King doll           | 9\.49      |
+| RYL02   | Queen dool          | 9\.49      |
 
 **说明：数据表示**
 
@@ -279,13 +280,15 @@ SQL语句一般返回原始的、无格式的数据，不同的DBMS和客户端�
 
 1. 检索所有列
 
-除了指定所需的列外（如上所述，一列或多列），SELECT语句还可以检索所有的列而不必逐个列出它们。在实际列名的位置使用星号（\*）通配符可以做到这点，如下所示。
+除了指定所需的列外（如上所述，一列或多列），SELECT语句还可以检索所有的列而不必逐个列出它们。在实际列名的位置使用星号（`*`）通配符可以做到这点，如下所示。
 
 **输入**▼
 
-SELECT \*
+```
+SELECT *
 
 FROM Products;
+```
 
 **分析**▼
 
