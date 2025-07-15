@@ -129,9 +129,9 @@ SQL的优点
 >[!note]+ 说明：SQL的扩展
 为了提供执行特定操作的额外功能或简化方法，许多DBMS厂商通过增加语句或指令，对SQL进行了扩展。虽然这种扩展有用，但一般都是针对个别DBMS的，很少有两个厂商同时支持这种扩展。
 
-标准 SQL 由 ANSI标准委员会管理，从而称为ANSI SQL。所有主要的 DBMS，即使有自己的扩展，也都支持 ANSI SQL。各个实现有自己的名称，如 Oracle 的 PL/SQL、微软 SQL Server 用的 Transact-SQL 等。
+标准 SQL 由 ANSI标准委员会管理，从而称为 ANSI SQL。所有主要的 DBMS，即使有自己的扩展，也都支持 ANSI SQL。各个实现有自己的名称，如 Oracle 的 PL/SQL、微软 SQL Server 用的 Transact-SQL 等。
 
-本书讲授的 SQL 主要是ANSI SQL。在使用某种DBMS特定的SQL 时，会特别说明。
+本书讲授的 SQL 主要是 ANSI SQL。在使用某种DBMS特定的SQL 时，会特别说明。
 
 ## 1.3 动手实践
 
@@ -230,13 +230,15 @@ Queen doll
 
 在处理SQL语句时，其中所有空格都被忽略。SQL语句可以写成长长的一行，也可以分写在多行。下面这3种写法的作用是一样的。
 
-SELECT prod\_name FROM Products;
+`SELECT prod\_name FROM Products;`
 
-SELECT prod\_name FROM Products;
+`SELECT prod\_name FROM Products;`
 
+```
 SELECT prod\_name FROM
 
 Products;
+```
 
 多数SQL开发人员认为，将SQL语句分成多行更容易阅读和调试。
 
