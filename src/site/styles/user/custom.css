@@ -62,3 +62,60 @@ h6 {
   color: var(--h6-color);
   margin: 1.2rem 0 0.6rem;
 }
+.book-info-container {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: var(--background-primary);
+  box-shadow: var(--shadow-m);
+}
+
+/* 响应式优化 - 移动端优先 */
+@media (max-width: 768px) {
+  .book-info-container {
+    flex-direction: column; /* 垂直排列 */
+    align-items: center; /* 内容居中 */
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .cover-col {
+    flex: 0 0 auto; /* 取消固定宽度 */
+    width: 60%; /* 图片相对宽度 */
+    margin-bottom: 10px;
+  }
+  
+  .info-col {
+    width: 100%; /* 占满容器宽度 */
+    text-align: center; /* 内容居中 */
+  }
+  
+  .info-row {
+    flex-direction: column; /* 垂直排列 */
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 8px;
+  }
+  
+  .info-row > div:first-child {
+    width: 100%; /* 标签占满宽度 */
+    opacity: 1; /* 增强可读性 */
+  }
+  
+  h1 {
+    font-size: 1.5rem !important; /* 标题缩小 */
+  }
+}
+
+/* 平板设备优化 */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cover-col {
+    flex: 0 0 150px; /* 缩小封面宽度 */
+  }
+  
+  .info-row > div:first-child {
+    width: 25%; /* 调整标签宽度比例 */
+  }
+}
