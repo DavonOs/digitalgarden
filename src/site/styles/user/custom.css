@@ -62,3 +62,57 @@ h6 {
   color: var(--h6-color);
   margin: 1.2rem 0 0.6rem;
 }
+
+	/* 基础样式 */
+	.book-info-container {
+	  display: flex;
+	  gap: 25px;
+	  align-items: flex-start;
+	  padding: 20px;
+	  border-radius: 12px;
+	  background-color: #1a1a1a;
+	  box-shadow: 0 4px 12px rgba(0, 0, 0, .6);
+	  border: 1px solid #333;
+	}
+	.book-info-container span {
+	  display: none; /* 移除空span标签，避免不必要的布局影响 */
+	}
+	.cover-col {
+	  flex: 0 0 180px;
+	  position: relative;
+	}
+	.info-col {
+	  flex: 1;
+	  min-width: 0;
+	}
+	/* 响应式设计样式 */
+	/* 当屏幕宽度小于768px时 */
+	@media (max-width: 768px) {
+	  .book-info-container {
+	    flex-direction: column;
+	    align-items: center;
+	  }
+	  .cover-col {
+	    flex-basis: auto; /* 允许封面列根据内容自动调整大小 */
+	    order: -1; /* 将封面列移动到顶部 */
+	  }
+	  .info-col {
+	    width: 100%; /* 信息列宽度设置为100% */
+	  }
+	}
+	/* 当屏幕宽度小于480px时 */
+	@media (max-width: 480px) {
+	  .book-info-container {
+	    padding: 10px;
+	  }
+	  .info-row {
+	    flex-direction: column;
+	    align-items: flex-start;
+	  }
+	  .info-row div {
+	    width: auto; /* 调整作者和分类的宽度 */
+	  }
+	  .info-row span {
+	    font-size: .8em; /* 调整字体大小 */
+	  }
+	}
