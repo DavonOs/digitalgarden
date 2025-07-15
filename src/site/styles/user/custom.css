@@ -63,56 +63,127 @@ h6 {
   margin: 1.2rem 0 0.6rem;
 }
 
-	/* 基础样式 */
-	.book-info-container {
-	  display: flex;
-	  gap: 25px;
-	  align-items: flex-start;
-	  padding: 20px;
-	  border-radius: 12px;
-	  background-color: #1a1a1a;
-	  box-shadow: 0 4px 12px rgba(0, 0, 0, .6);
-	  border: 1px solid #333;
-	}
-	.book-info-container span {
-	  display: none; /* 移除空span标签，避免不必要的布局影响 */
-	}
-	.cover-col {
-	  flex: 0 0 180px;
-	  position: relative;
-	}
-	.info-col {
-	  flex: 1;
-	  min-width: 0;
-	}
-	/* 响应式设计样式 */
-	/* 当屏幕宽度小于768px时 */
-	@media (max-width: 768px) {
-	  .book-info-container {
-	    flex-direction: column;
-	    align-items: center;
-	  }
-	  .cover-col {
-	    flex-basis: auto; /* 允许封面列根据内容自动调整大小 */
-	    order: -1; /* 将封面列移动到顶部 */
-	  }
-	  .info-col {
-	    width: 100%; /* 信息列宽度设置为100% */
-	  }
-	}
-	/* 当屏幕宽度小于480px时 */
-	@media (max-width: 480px) {
-	  .book-info-container {
-	    padding: 10px;
-	  }
-	  .info-row {
-	    flex-direction: column;
-	    align-items: flex-start;
-	  }
-	  .info-row div {
-	    width: auto; /* 调整作者和分类的宽度 */
-	  }
-	  .info-row span {
-	    font-size: .8em; /* 调整字体大小 */
-	  }
-	}
+.book-info-container {
+	display: flex;
+	gap: 25px;
+        align-items: flex-start;
+        padding: 20px;
+        border-radius: 12px;
+        background-color: #1a1a1a;
+        box-shadow: 0 4px 12px rgba(0,0,0,.6);
+        border: 1px solid #333;
+        flex-direction: column; /* 移动端默认垂直排列 */
+}
+
+        .cover-col {
+            flex: 0 0 auto;
+            position: relative;
+            width: 100%; /* 移动端全宽 */
+            max-width: 180px; /* 封面最大宽度 */
+            margin: 0 auto; /* 居中显示 */
+        }
+
+        .cover-col img {
+            width: 100%;
+            border-radius: 6px;
+            box-shadow: 0 8px 15px rgba(0,0,0,.4);
+            border: 1px solid #444;
+        }
+
+        .cover-col div {
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #ff9800;
+            color: #fff;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: .8em;
+            font-weight: 700;
+            white-space: nowrap;
+            box-shadow: 0 2px 8px rgba(0,0,0,.5);
+            z-index: 1;
+            text-shadow: 0 1px 1px rgba(0,0,0,.3);
+        }
+
+        .info-col {
+            flex: 1;
+            min-width: 0;
+            width: 100%; /* 移动端全宽 */
+        }
+
+        .info-col h1 {
+            font-size: 1.5rem; /* 移动端标题大小 */
+            font-weight: 800;
+            margin: 0 0 15px 0;
+            color: #e0e0e0;
+            text-align: center; /* 移动端居中 */
+        }
+
+        .info-col h1 a {
+            color: #4da6ff;
+            text-decoration: none;
+            border-bottom: 2px solid #4da6ff;
+        }
+
+        .info-row {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column; /* 移动端垂直排列 */
+            gap: 5px;
+            margin-bottom: 12px;
+        }
+
+        .info-row > div:first-child {
+            width: 100%; /* 移动端全宽 */
+            color: #a0a0a0;
+            font-weight: 500;
+            font-size: .92em;
+        }
+
+        .info-row > div:last-child {
+            width: 100%; /* 移动端全宽 */
+            font-weight: 500;
+            color: #e0e0e0;
+        }
+
+        /* 平板及以上设备响应式设计 */
+        @media (min-width: 768px) {
+            .book-info-container {
+                flex-direction: row; /* 横排布局 */
+            }
+            
+            .cover-col {
+                flex: 0 0 180px;
+                margin: 0; /* 取消居中 */
+            }
+            
+            .info-col h1 {
+                font-size: 1.8rem;
+                text-align: left; /* 左对齐 */
+                margin: 0 0 5px 0;
+            }
+            
+            .info-row {
+                flex-direction: row; /* 横排布局 */
+                gap: 0;
+                margin-bottom: 8px;
+            }
+            
+            .info-row > div:first-child {
+                width: 30%; /* 固定标签宽度 */
+            }
+            
+            .info-row > div:last-child {
+                flex: 1;
+            }
+        }
+
+        /* 桌面设备优化 */
+        @media (min-width: 992px) {
+            .book-info-container {
+                max-width: 900px; /* 限制最大宽度 */
+                margin: 0 auto; /* 居中显示 */
+            }
+        }
