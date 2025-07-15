@@ -62,3 +62,79 @@ h6 {
   color: var(--h6-color);
   margin: 1.2rem 0 0.6rem;
 }
+/* 基础双栏布局样式（已有部分无需修改） */
+.book-info-container {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: var(--background-primary);
+  box-shadow: var(--shadow-m);
+}
+
+.cover-col {
+  flex: 0 0 180px;
+  position: relative;
+}
+
+.info-col {
+  flex: 1;
+  min-width: 0;
+}
+
+/* 响应式设计 - 移动端适配 */
+@media screen and (max-width: 768px) {
+  .book-info-container {
+    flex-direction: column; /* 改为垂直布局 */
+    align-items: center; /* 内容居中 */
+    gap: 15px; /* 减少间距 */
+    padding: 15px; /* 缩小内边距 */
+  }
+  
+  .cover-col {
+    flex: 0 0 auto; /* 取消固定宽度 */
+    width: 100%; /* 占满容器宽度 */
+    max-width: 250px; /* 限制最大宽度 */
+    margin-bottom: 15px; /* 增加封面与信息的间距 */
+  }
+  
+  .info-col {
+    width: 100%; /* 占满容器宽度 */
+  }
+  
+  /* 调整底部标签位置 */
+  .cover-col > div {
+    bottom: -5px; /* 上移标签 */
+    transform: translateX(-50%) scale(0.9); /* 缩小并保持居中 */
+  }
+  
+  /* 优化信息行布局 */
+  .info-row {
+    flex-wrap: wrap; /* 允许换行 */
+  }
+  
+  .info-row > div:first-child {
+    width: 25%; /* 缩小标签宽度 */
+  }
+  
+  .info-row > div:last-child {
+    width: 75%; /* 增加内容宽度 */
+  }
+}
+
+/* 极端小屏优化 */
+@media screen and (max-width: 480px) {
+  .book-info-container {
+    padding: 12px;
+  }
+  
+  .info-row {
+    flex-direction: column; /* 改为垂直布局 */
+    gap: 3px;
+  }
+  
+  .info-row > div {
+    width: 100% !important; /* 强制占满宽度 */
+  }
+}
