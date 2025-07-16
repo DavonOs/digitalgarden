@@ -1,9 +1,6 @@
 ---
-{"dg-publish":true,"dg-permalink":"Obsidian","permalink":"/Obsidian/","metatags":{"description":"这里是 Obsidian 从0到1的简易新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidian-basic","og:image":"https://obsidian.md/images/banner.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"],"dgShowInlineTitle":true}
+{"dg-publish":true,"dg-permalink":"Obsidian","permalink":"/Obsidian/","metatags":{"description":"这里是 Obsidian 从0到1的简易新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidian-basic","og:image":"https://obsidian.md/images/banner.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"],"dgShowInlineTitle":true,"created":"2023-07-31 18:07","updated":"2025-07-17T07:13:01.341+08:00"}
 ---
-
-
-[Obsidian Help - Home ](https://help.obsidian.md/Home)
 
 ## 写在前面
 
@@ -17,13 +14,9 @@
 
 ## 文件结构
 
-资料库：
+资料库：Obsidian每个资料库是独立的，不同资料库里的信息无法互相连接，创建时需要想好这个资料库的定位是什么，要如何去使用这个资料库，不宜分太多，大类相同就放在一个库。
 
-Obsidian每个资料库是独立的，不同资料库里的信息无法互相连接，创建时需要想好这个资料库的定位是什么，要如何去使用这个资料库，不宜分太多，大类相同就放在一个库。
-
-库内的.Obsidian文件夹：
-
-存放配置文件的文件夹，设置、主题、插件都是存放于此，创建新的库是没有这些配置的，可以把.Obsidian文件夹直接复制到新库内，就可以直接使用。
+库内的`.Obsidian`文件夹：存放配置文件的文件夹，设置、主题、插件都是存放于此，创建新的库是没有这些配置的，可以把`.Obsidian`文件夹直接复制到新库内，直接使用。
 
 ## 认识界面
 
@@ -34,7 +27,6 @@ Obsidian每个资料库是独立的，不同资料库里的信息无法互相连
 关系图谱：以图谱的形式展示所有笔记之间的链接关系
 
 命令面板：让Obsidian快速的去执行一些特定的命令
-
 
 切换资料库
 帮助：
@@ -259,3 +251,4 @@ CSS 多栏布局
 
 [「回归 Obsidian 的纯与真，写给普通人的入门指南」](https://sspai.com/post/72697)
 
+[Obsidian Help - Home ](https://help.obsidian.md/Home)
