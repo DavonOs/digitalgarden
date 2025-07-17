@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Obsidian/Templater","permalink":"/Obsidian/Templater/","metatags":{"description":"","og:site_name":"DavonOs","og:title":"Obsidian 插件：Templater","og:type":"article","og:url":"https://zuji.eu.org/Obsidian/Templater","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"created":"2025-07-13 19:37","updated":"2025-07-17 11:31"}
+{"dg-publish":true,"dg-permalink":"Obsidian/Templater","permalink":"/Obsidian/Templater/","metatags":{"description":"","og:site_name":"DavonOs","og:title":"Obsidian 插件：Templater","og:type":"article","og:url":"https://zuji.eu.org/Obsidian/Templater","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"dgShowInlineTitle":true,"created":"2025-07-13 19:37","updated":"2025-07-17 12:56"}
 ---
 
 
