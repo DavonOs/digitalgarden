@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Obsidian/Templater","permalink":"/Obsidian/Templater/","metatags":{"description":"","og:site_name":"DavonOs","og:title":"Obsidian 插件：Templater","og:type":"article","og:url":"https://zuji.eu.org/Obsidian/Templater","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"dgShowInlineTitle":true,"updated":"2025-07-16T10:02:33.115+08:00"}
+{"dg-publish":true,"dg-permalink":"Obsidian/Templater","permalink":"/Obsidian/Templater/","metatags":{"description":"","og:site_name":"DavonOs","og:title":"Obsidian 插件：Templater","og:type":"article","og:url":"https://zuji.eu.org/Obsidian/Templater","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"created":"2025-07-13T19:37:46.102+08:00","updated":"2025-07-17T08:33:13.587+08:00"}
 ---
 
 
@@ -11,7 +11,7 @@
 
 使用 Templater 语法的以下模板文件：
 
-```
+```markdown
 ---
 creation date: <% tp.file.creation_date() %>
 modification date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
@@ -25,7 +25,7 @@ modification date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %
 
 插入后将生成以下结果：
 
-```
+```markdown
 ---
 creation date: 2021-01-07 17:20
 modification date: Thursday 7th January 2021 17:20:43
@@ -75,7 +75,7 @@ Templater 的所有功能都是 JavaScript 对象，它们通过**命令**来调
 
 使用 `tp.date.now` 内部函数的完整命令将是： `<% tp.date.now() %>`
 
-### 函数语法 Function syntax
+### 函数语法
 
 #### 对象层级 Objects hierarchy 
   
@@ -102,7 +102,7 @@ Templater 的所有函数，无论是内部函数还是用户函数，都可在�
 
 调用函数时必须尊重参数的类型，否则它将无法工作。
 
-#### 函数文档语法function documentation syntax
+#### 函数文档语法
 
 Templater 内部函数的文档使用以下语法：
 
@@ -119,13 +119,10 @@ Templater 内部函数的文档使用以下语法：
 
 如果一个参数可以有不同的类型，将使用管道 | 来指定，例如 `arg4_name: type1|type2`
 
-##### Syntax warning  语法警告
-
-请注意，这种语法仅用于文档目的，以便理解函数期望的参数。
-
-你不应该在调用函数时指定参数的名称、类型或默认值，只需要提供参数的值。
-
-##### 示例
+>[!warning]+
+>请注意，这种语法仅用于文档目的，以便理解函数期望的参数。
+>
+>你不应该在调用函数时指定参数的名称、类型或默认值，只需要提供参数的值。
 
 以 `tp.date.now` 内部函数文档为例：
 
@@ -152,7 +149,7 @@ Templater 内部函数的文档使用以下语法：
 
 ## 设置
 
-## [General Settings  通用设置](https://silentvoid13.github.io/Templater/settings.html#general-settings)
+通用设置
 
 - `Template folder location` ：此文件夹中的文件将可用作模板。
 - `Syntax Highlighting on Desktop` 在编辑模式下为 Templater 命令添加语法高亮。
@@ -162,48 +159,35 @@ Templater 内部函数的文档使用以下语法：
 - 请确保在下方“文件夹模板”或“文件正则模板”中设置规则。
 - 警告：如果您在创建时添加了未知/不安全内容的新文件，这可能会带来危险。确保每个新文件在创建时的内容都是安全的。”
 
-## [Template Hotkeys  模板快捷键](https://silentvoid13.github.io/Templater/settings.html#template-hotkeys)
+模板快捷键
 
-Template Hotkeys allows you to bind a template to a hotkey.  
 模板快捷键允许您将模板绑定到快捷键。
 
-## [Folder Templates  文件夹模板](https://silentvoid13.github.io/Templater/settings.html#folder-templates)
+文件夹模板
 
-**Note**: This setting is hidden by default. To view it first enable the `Trigger Template on new file creation` setting. And since it's mutually exclusive with File Regex Templates, enabling one will disable the other.  
-注意：此设置默认隐藏。要查看它，请首先启用 `Trigger Template on new file creation` 设置。并且由于它与文件正则模板互斥，启用其中一个将禁用另一个。
+>[!note]+
+>此设置默认隐藏。要查看它，请首先启用 `Trigger Template on new file creation` 设置。并且由于它与文件正则模板互斥，启用其中一个将禁用另一个。
 
-You can specify a template that will automatically be used on a selected folder and children using the `Folder Templates` functionality. The deepest match will be used, so the order of the rules is irrelevant.  
 您可以使用 `Folder Templates` 功能指定一个模板，该模板将自动应用于选定文件夹及其子文件夹。将使用最深的匹配项，因此规则的顺序无关紧要。
 
-Add a rule for "`/`" if you need a catch-all.  
 如果您需要通配符，请为 " `/` " 添加一条规则。
 
-## [File Regex Templates  文件正则模板](https://silentvoid13.github.io/Templater/settings.html#file-regex-templates)
+文件正则模板
 
-**Note**: This setting is hidden by default. To view it first enable the `Trigger Template on new file creation` setting. And since it's mutually exclusive with Folder Templates, enabling one will disable the other.  
-注意：此设置默认隐藏。要查看它，首先需要启用 `Trigger Template on new file creation` 设置。由于它与文件夹模板互斥，启用其中一个将禁用另一个。
+>[!note]+
+>此设置默认隐藏。要查看它，首先需要启用 `Trigger Template on new file creation` 设置。由于它与文件夹模板互斥，启用其中一个将禁用另一个。
 
-You can specify regex declarations that a new file's path will be tested against. If a regex matches, the associated template will automatically be used. Rules are tested top-to-bottom, and the first match will be used.  
 您可以指定正则表达式声明，用于测试新文件路径。如果正则表达式匹配，则将自动使用关联的模板。规则将按从上到下的顺序进行测试，第一个匹配项将被使用。
 
-End with a rule for "`.*`" if you need a catch-all.  
 如果您需要通配符，请以规则 " `.*` " 结尾。
 
-Use a tool like [Regex101](https://regex101.com/) to verify your regexes.  
-使用 Regex101 等工具来验证您的正则表达式。
+使用 [Regex101](https://regex101.com/) 等工具来验证您的正则表达式。
 
-## [Startup Templates  启动模板](https://silentvoid13.github.io/Templater/settings.html#startup-templates)
+启动模板
 
-Startup Templates are templates that will get executed once when Templater starts.  
-启动模板是在 Templater 启动时执行一次的模板。
+启动模板是在 Templater 启动时执行一次的模板。这些模板不会输出任何内容。这可以用于设置模板，例如向 Obsidian 事件添加钩子。
 
-These templates won't output anything.  
-这些模板不会输出任何内容。
-
-This can be useful to set up templates adding hooks to obsidian events for example.  
-这可以用于设置模板，例如向 Obsidian 事件添加钩子。
-
-## [User Script Functions  用户脚本函数](https://silentvoid13.github.io/Templater/settings.html#user-script-functions)
+用户脚本函数
 
 All JavaScript files in this folder will be loaded as CommonJS modules, to import custom [user functions](https://silentvoid13.github.io/Templater/user-functions/overview.html).  
 本文件夹中的所有 JavaScript 文件将作为 CommonJS 模块加载，以导入自定义用户函数。
@@ -213,7 +197,7 @@ The folder needs to be accessible from the vault.
 
 请查阅[文档](https://silentvoid13.github.io/Templater/user-functions/script-user-functions.html)获取更多信息。
 
-## 用户系统命令函数
+用户系统命令函数
 
 Allows you to create [user functions](https://silentvoid13.github.io/Templater/user-functions/overview.html) linked to system commands.  
 允许您创建与系统命令关联的用户函数。
@@ -224,7 +208,7 @@ Check the [documentation](https://silentvoid13.github.io/Templater/user-functio
 **Warning:** It can be dangerous to execute arbitrary system commands from untrusted sources. Only run system commands that you understand, from trusted sources.  
 警告：从不可信来源执行任意系统命令可能很危险。仅从可信来源运行您理解的系统命令。
 
-# [常见问题](https://silentvoid13.github.io/Templater/faq.html#frequently-asked-questions)
+## 常见问题
 
 
 [在 Windows 上 Unicode 字符（表情符号、...）无法工作吗？](https://silentvoid13.github.io/Templater/faq.html#unicode-characters-emojis--are-not-working-on-windows-)
@@ -243,8 +227,7 @@ Another good solution (probably the best) is to use [Windows Terminal](https://
 
 # 内部函数
 
-The different internal variables and functions offered by [Templater](https://github.com/SilentVoid13/Templater) are available under different **modules**, to sort them. The existing **internal modules** are:  
-Templater 提供的不同内部变量和函数分布在不同的模块下，以便分类。现有的内部模块有：
+Templater 提供的不同内部变量和函数分布在不同的**模块**下，以便分类。现有的**内部模块**有：
 
 - [App module](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/app-module.html): `tp.app`
 - [Config module](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/config-module.html): `tp.config`
@@ -256,15 +239,12 @@ Templater 提供的不同内部变量和函数分布在不同的模块下，以�
 - [System module](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/system-module.html): `tp.system`
 - [Web module](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/web-module.html): `tp.web`
 
-If you understood the [object hierarchy](https://silentvoid13.github.io/Templater/syntax.html#objects-hierarchy) correctly, this means that a typical internal function call looks like this: `<% tp.<module_name>.<internal_function_name> %>`  
-如果你正确理解了对象层次结构，这意味着一个典型的内部函数调用看起来是这样的： `<% tp.<module_name>.<internal_function_name> %>`
+如果你正确理解了[[02 Area/内容创作/Obsidian 插件：Templater#对象层级 Objects hierarchy\|对象层次结构]]，这意味着一个典型的内部函数调用看起来是这样的： `<% tp.<module_name>.<internal_function_name> %>`
 
-## [Contribution  贡献](https://silentvoid13.github.io/Templater/internal-functions/overview.html#contribution)
+贡献
+我邀请大家通过添加新的内部函数来为这个插件开发做出贡献。更多信息请查看[这里](https://silentvoid13.github.io/Templater/internal-functions/contribute.html)。
 
-I invite everyone to contribute to this plugin development by adding new internal functions. More information [here](https://silentvoid13.github.io/Templater/internal-functions/contribute.html).  
-我邀请大家通过添加新的内部函数来为这个插件开发做出贡献。更多信息请查看这里。
-
-# App 模块
+App 模块
 
 This module exposes the app instance. Prefer to use this over the global app instance.  
 该模块暴露了应用实例。建议优先使用该模块而不是全局应用实例。

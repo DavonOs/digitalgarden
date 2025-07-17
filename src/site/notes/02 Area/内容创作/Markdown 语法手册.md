@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Obsidian/markdown","permalink":"/Obsidian/markdown/","metatags":{"description":"让我们用不到5分钟的时候，阅读 Markdown 概述，了解其工作原理以及你可以用它做什么。","og:site_name":"DavonOs","og:title":"Markdown","og:type":"article","og:url":"https://zuji.eu.org/markdown","og:image":"https://markdown.com.cn/hero.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"dgShowInlineTitle":true,"created":"2024-08-25 19:44","updated":"2025-07-17T07:13:02.746+08:00"}
+{"dg-publish":true,"dg-permalink":"Obsidian/markdown","permalink":"/Obsidian/markdown/","metatags":{"description":"让我们用不到5分钟的时候，阅读 Markdown 概述，了解其工作原理以及你可以用它做什么。","og:site_name":"DavonOs","og:title":"Markdown","og:type":"article","og:url":"https://zuji.eu.org/markdown","og:image":"https://markdown.com.cn/hero.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"created":"2024-08-25T19:44:26.921+08:00","updated":"2025-07-17T08:33:13.587+08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/design-app-experiences-with-charts","permalink":"/design/design-app-experiences-with-charts/","title":"如何用图表构建出色的应用体验","metatags":{"description":"学习如何通过图表增强您的应用，以更清晰和吸引人的方式传达数据。我们将向您展示何时使用图表，如何使用它们以及它们如何在图表设计系统中协同工作。","og:site_name":"DavonOs","og:title":"如何使用图表构建出色的应用体验","og:type":"article","og:url":"https://zuji.eu.org/design/design-app-experiences-with-charts","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"updated":"2025-07-04T17:55:32.142+08:00"}
+{"dg-publish":true,"dg-permalink":"design/design-app-experiences-with-charts","permalink":"/design/design-app-experiences-with-charts/","title":"如何用图表构建出色的应用体验","metatags":{"description":"学习如何通过图表增强您的应用，以更清晰和吸引人的方式传达数据。我们将向您展示何时使用图表，如何使用它们以及它们如何在图表设计系统中协同工作。","og:site_name":"DavonOs","og:title":"如何使用图表构建出色的应用体验","og:type":"article","og:url":"https://zuji.eu.org/design/design-app-experiences-with-charts","og:image":null,"og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"created":"2025-04-18T10:29:55.328+08:00","updated":"2025-07-04T17:55:32.142+08:00"}
 ---
 
 
