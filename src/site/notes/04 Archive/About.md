@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"about","permalink":"/about/","metatags":{"description":"这里是 🏡Davon的数字花园，是个人不断发展的想法的集合，作为半成品的思考，在可探索的空间中，随时间推移不断播种、修剪、塑造","og:site_name":"DavonOs","og:title":"关于","og:type":"article","og:url":"https://zuji.eu.org/about","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"created":"2024-09-30T11:24:36.843+08:00","updated":"2025-04-06T19:38:28.525+08:00"}
+{"dg-publish":true,"dg-permalink":"about","permalink":"/about/","metatags":{"description":"这里是 🏡Davon的数字花园，是个人不断发展的想法的集合，作为半成品的思考，在可探索的空间中，随时间推移不断播种、修剪、塑造","og:site_name":"DavonOs","og:title":"关于","og:type":"article","og:url":"https://zuji.eu.org/about","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"created":"2024-09-30 11:24","updated":"2025-04-06 19:38"}
 ---
 
 ## 关于我

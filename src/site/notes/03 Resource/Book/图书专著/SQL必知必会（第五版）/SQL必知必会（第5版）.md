@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/35167240","permalink":"/books/35167240/","title":"SQL必知必会（第5版）","metatags":{"description":"SQL 是使用最为广泛的数据库语言，几乎所有重要的 DBMS 都支持 SQL。本书是麻省理工学院、伊利诺伊大学等众多大学的参考教材，由浅入深地讲解了 SQL 的基本概念和语法，涉及数据的排序、过滤和分组，以及表、视图、联结、子查询、游标、存储过程和触发器等内容，实例丰富，便于查阅。与其他同类图书不同，本书没有过多阐述数据库基础理论，而是专门针对一线软件开发人员，直接从 SQLSELECT 开始，讲述实际工作环境中最常用和最必需的 SQL 知识，实用性极强。新版对书中的案例进行了全面的更新，并增加了章后挑战题，便于读者巩固所学知识。","og:site_name":"DavonOs","og:title":"SQL必知必会（第5版）","og:type":"book","og:url":"https://zuji.eu.org/books/35167240","og:image":"https://wfqqreader-1252317822.image.myqcloud.com/cover/685/34336685/t6_34336685.jpg","og:image:width":"50","og:image:alt":"bookcover"},"created":"2024-05-24T10:11:06.205+08:00","updated":"2025-07-16T09:37:39.905+08:00"}
+{"dg-publish":true,"dg-permalink":"books/35167240","permalink":"/books/35167240/","title":"SQL必知必会（第5版）","metatags":{"description":"SQL 是使用最为广泛的数据库语言，几乎所有重要的 DBMS 都支持 SQL。本书是麻省理工学院、伊利诺伊大学等众多大学的参考教材，由浅入深地讲解了 SQL 的基本概念和语法，涉及数据的排序、过滤和分组，以及表、视图、联结、子查询、游标、存储过程和触发器等内容，实例丰富，便于查阅。与其他同类图书不同，本书没有过多阐述数据库基础理论，而是专门针对一线软件开发人员，直接从 SQLSELECT 开始，讲述实际工作环境中最常用和最必需的 SQL 知识，实用性极强。新版对书中的案例进行了全面的更新，并增加了章后挑战题，便于读者巩固所学知识。","og:site_name":"DavonOs","og:title":"SQL必知必会（第5版）","og:type":"book","og:url":"https://zuji.eu.org/books/35167240","og:image":"https://wfqqreader-1252317822.image.myqcloud.com/cover/685/34336685/t6_34336685.jpg","og:image:width":"50","og:image:alt":"bookcover"}}
 ---
 
 
@@ -15,7 +15,6 @@
 - SQLite
 
 本书所有数据库示例（或者创建数据库示例的SQL脚本例子）对这些DBMS都适用，它们可以在[本书的网页](https://forta.com/books/0135182794)上获得。
-
 
 # 第1课了解SQL
 
