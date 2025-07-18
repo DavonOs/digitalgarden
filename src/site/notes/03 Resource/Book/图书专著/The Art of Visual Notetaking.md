@@ -3,11 +3,7 @@
 ---
 
 
-| 封面                                                                   | 书名                                              | 作者 | 评分    |
-| -------------------------------------------------------------------- | ----------------------------------------------- | -- | ----- |
-| ![\|50](https://m.media-amazon.com/images/I/81CCVAmtqfL._SY425_.jpg) | [\-](https://book.douban.com/subject/36777497/) | \- | \- \- |
-
-{ .block-language-dataview}
+<span><span></span></span><div class="book-info-container" style="display: flex; gap: 25px; align-items: flex-start;padding: 20px; border-radius: 12px;"><span></span><div class="cover-col" style="flex: 0 0 180px; position: relative;"><span></span><img src="https://m.media-amazon.com/images/I/81CCVAmtqfL._SY425_.jpg" style="width: 100%; border-radius: 6px;box-shadow: 0 8px 15px rgba(0,0,0,0.4);" alt="The Art of Visual Notetaking"></div><div class="info-col" style="flex: 1; min-width: 0;"><span></span><div style="margin-bottom: 15px;"><span></span><h1 style="font-size: 1.8rem; font-weight: 800;margin: 0 0 5px 0;color: #e0e0e0;"><span></span><a href="https://book.douban.com/subject/36777497/" target="_blank" style="color: #4da6ff; text-decoration: none;border-bottom: 2px solid #4da6ff;"><span>The Art of Visual Notetaking</span></a></h1></div><div style="width: 100%;margin-top: 15px;display: flex;flex-direction: column;gap: 8px;"><span></span><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>✍️ 作者</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>EmilyMills</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>🔢 ISBN</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>9781600584589</span></div></div></div></div></div>
 
 关于作者
 
