@@ -3,14 +3,7 @@
 ---
 
 
-| 封面                                                                                                                   | 书名                                         | 作者 | 评分    |
-| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | -- | ----- |
-| ![\|50](https://i5.walmartimages.com/asr/e40fda23-efe4-469c-8f94-b1e7d8686d77.f371457f88a369e391c302eceb43f9fc.jpeg) | [\-](https://www.amazon.com/dp/0128182024) | \- | \- \- |
-
-{ .block-language-dataview}
-
-以用户为中心的设计：用户界面设计指南简易教程，第三版
-中译本为[认知与设计：理解UI设计准则（第2版）](https://book.douban.com/subject/25932290/)
+<span><span></span></span><div class="book-info-container" style="display: flex; gap: 25px; align-items: flex-start;padding: 20px; border-radius: 12px;"><span></span><div class="cover-col" style="flex: 0 0 180px; position: relative;"><span></span><img src="https://i5.walmartimages.com/asr/e40fda23-efe4-469c-8f94-b1e7d8686d77.f371457f88a369e391c302eceb43f9fc.jpeg" style="width: 100%; border-radius: 6px;box-shadow: 0 8px 15px rgba(0,0,0,0.4);" alt="Designing with the Mind in Mind"></div><div class="info-col" style="flex: 1; min-width: 0;"><span></span><div style="margin-bottom: 15px;"><span></span><h1 style="font-size: 1.8rem; font-weight: 800;margin: 0 0 5px 0;color: #e0e0e0;"><span></span><a href="https://www.amazon.com/dp/0128182024" target="_blank" style="color: #4da6ff; text-decoration: none;border-bottom: 2px solid #4da6ff;"><span>Designing with the Mind in Mind</span></a></h1><div style="font-size: 1.1rem;color: #a0a0a0;font-weight: 500;line-height: 1.4;margin-top: 0;"><span>Simple Guide to Understanding User Interface Design Guidelines</span></div></div><div style="width: 100%;margin-top: 15px;display: flex;flex-direction: column;gap: 8px;"><span></span><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>✍️ 作者</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>Jeff·Johnson</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>📅 出版日期</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;">2020-10-06</div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>🌐 语言</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>en-us (关联版本: <a data-href="认知与设计 理解UI设计准则 第2版" href="认知与设计 理解UI设计准则 第2版" class="internal-link" target="_blank" rel="noopener nofollow">认知与设计 理解UI设计准则 第2版</a>)</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>📄 页数</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>304页</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>🔢 ISBN</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>9780128182024</span></div></div></div></div></div>
 
 ## 引言
 ### 用户界面设计规则 ：从何而来?如何有效使用？
@@ -254,7 +247,6 @@ What is the mechanism by which our current goals bias our perception? There are 
 
 
 设计时将感知的影响因素考虑在内
-Taking Biased Perception into Account When Designing
 
 这些对感知的影响因素对于用户界面设计有以下三点启发。 
 
