@@ -1,11 +1,10 @@
 ---
-{"dg-publish":true,"dg-permalink":"about","permalink":"/about/","metatags":{"description":"这里是 🏡Davon的数字花园，是个人不断发展的想法的集合，作为半成品的思考，在可探索的空间中，随时间推移不断播种、修剪、塑造","og:site_name":"DavonOs","og:title":"关于","og:type":"article","og:url":"https://zuji.eu.org/about","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"created":"2024-09-30 11:24","updated":"2025-04-06 19:38"}
+{"dg-publish":true,"dg-permalink":"about","permalink":"/about/","title":"关于我","metatags":{"description":"这里是 🏡Davon的数字花园，是个人不断发展的想法的集合，作为半成品的思考，在可探索的空间中，随时间推移不断播种、修剪、塑造","og:site_name":"DavonOs","og:title":"关于","og:type":"article","og:url":"https://zuji.eu.org/about","og:image":null,"og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"dgShowInlineTitle":true,"created":"2024-09-30 11:24","updated":"2025-07-20 13:28"}
 ---
 
 
 >[!quote]
->When nothing seems to help, I go look at a stonecutter hammering away at his rock, perhaps a hundred times without as much as a crack showing in it. Yet at the hundred and first blow it will split in two, and I know it was not that blow that did it, but all that had gone before. -- *Jacob Riis*
-## 关于我
+>*When nothing seems to help, I go look at a stonecutter hammering away at his rock, perhaps a hundred times without as much as a crack showing in it. Yet at the hundred and first blow it will split in two, and I know it was not that blow that did it, but all that had gone before.*-- Jacob Riis
 
 个人感兴趣且长期关注的领域
 
