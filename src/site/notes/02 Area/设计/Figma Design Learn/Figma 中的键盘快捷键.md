@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Keyboard-shortcuts-in-Figma","permalink":"/design/Figma-Design/Keyboard-shortcuts-in-Figma/","metatags":{"description":"Before you start Who can use this feature","og:site_name":"DavonOs","og:title":"Figma 中的键盘快捷键","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma 中的键盘快捷键","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Keyboard-shortcuts-in-Figma","permalink":"/design/Figma-Design/Keyboard-shortcuts-in-Figma/","metatags":{"description":"Before you start Who can use this feature","og:site_name":"DavonOs","og:title":"Figma 中的键盘快捷键","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma 中的键盘快捷键","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-06-18 21:24","updated":"2025-07-21 20:24"}
 ---
 
 

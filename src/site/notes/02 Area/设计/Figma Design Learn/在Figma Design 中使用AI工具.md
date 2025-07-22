@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/在Figma Design 中使用AI工具","permalink":"/design/Figma-Design/在Figma Design 中使用AI工具/","metatags":{"description":"Before you start Who can use this feature","og:site_name":"DavonOs","og:title":"在Figma Design 中使用AI工具","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/在Figma Design 中使用AI工具","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/在Figma Design 中使用AI工具","permalink":"/design/Figma-Design/在Figma Design 中使用AI工具/","metatags":{"description":"Before you start Who can use this feature","og:site_name":"DavonOs","og:title":"在Figma Design 中使用AI工具","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/在Figma Design 中使用AI工具","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-06-04 20:29","updated":"2025-07-21 21:22"}
 ---
 
 译自： [Use AI tools in Figma Design](https://help.figma.com/hc/en-us/articles/23870272542231-Use-AI-tools-in-Figma-Design)
