@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"Figma's mission is to make design accessible to everyone. Discover Figma’s products and how they bring people together to create better products.","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-04-08 14:02","updated":"2025-07-17 12:56"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"Figma's mission is to make design accessible to everyone. Discover Figma’s products and how they bring people together to create better products.","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true}
 ---
 
 
@@ -21,13 +21,13 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 7C6.5 8.04349 7.03275 8.96254 7.8411 9.5C7.03275 10.0375 6.5 10.9565 6.5 12C6.5 13.0435 7.03276 13.9625 7.84111 14.5C7.03276 15.0375 6.5 15.9565 6.5 17C6.5 18.6569 7.84315 20 9.5 20C11.1569 20 12.5 18.6569 12.5 17V15V14.5V14.2361C13.0308 14.7111 13.7316 15 14.5 15C16.1569 15 17.5 13.6569 17.5 12C17.5 10.9565 16.9672 10.0375 16.1589 9.5C16.9672 8.96254 17.5 8.04349 17.5 7C17.5 5.34315 16.1569 4 14.5 4H12.5H12H11.5H9.5C7.84315 4 6.5 5.34315 6.5 7ZM14.5 9C15.6046 9 16.5 8.10457 16.5 7C16.5 5.89543 15.6046 5 14.5 5H12.5V9H14.5ZM12.5 12C12.5 13.1046 13.3954 14 14.5 14C15.6046 14 16.5 13.1046 16.5 12C16.5 10.8954 15.6046 10 14.5 10C13.3954 10 12.5 10.8954 12.5 12ZM11.5 14H9.5C8.39543 14 7.5 13.1046 7.5 12C7.5 10.8954 8.39543 10 9.5 10H11.5V12V14ZM9.5 15H11.5V17C11.5 18.1046 10.6046 19 9.5 19C8.39543 19 7.5 18.1046 7.5 17C7.5 15.8954 8.39543 15 9.5 15ZM11.5 9H9.5C8.39543 9 7.5 8.10457 7.5 7C7.5 5.89543 8.39543 5 9.5 5H11.5V9Z" fill="currentColor" fill-opacity="0.9"/>
 </svg>
 
-## 浏览界面 Tour the interface
+## 浏览界面
 
-### 探索 Explore
+### 探索
 
 [[02 Area/设计/Figma Design Learn/在Figma Design 中使用AI工具\|在Figma Design 中使用AI工具]]
 
-[探索设计文件](https://help.figma.com/hc/en-us/articles/15297425105303-Explore-design-files)
+[[02 Area/设计/Figma Design Learn/探索设计文件\|探索设计文件]]
 
 [更改画布的背景颜色](https://help.figma.com/hc/en-us/articles/360041064814-Change-the-background-color-of-the-canvas)
 
@@ -49,7 +49,7 @@
 
 [[02 Area/设计/Figma Design Learn/调整缩放和视图选项\|调整缩放和视图选项]]
 
-[设置文件的自定义缩略图](https://help.figma.com/hc/en-us/articles/360038511413-Set-custom-thumbnails-for-files)
+[[02 Area/设计/Figma Design Learn/设置文件的自定义缩略图\|设置文件的自定义缩略图]]
 
 [向画布或框架添加指南](https://help.figma.com/hc/en-us/articles/360040449713-Add-guides-to-the-canvas-or-frames)
 
@@ -57,9 +57,9 @@
 
 [在 Figma 中查找和替换](https://help.figma.com/hc/en-us/articles/9141292269847-Find-and-replace-in-Figma)
 
-## 创建设计 Create designs
+## 创建设计
 
-### 创建和编辑图层 Create and edit layers
+### 创建和编辑图层
 
 [[02 Area/设计/Figma Design Learn/Figma Design 中的框架\|Figma Design 中的框架]]
 
@@ -73,7 +73,7 @@
 
 [[02 Area/设计/Figma Design Learn/蒙版\|蒙版]]
 
-### 图层处理 Work with layers
+### 图层处理
 
 [在画布上批量编辑对象](https://help.figma.com/hc/en-us/articles/21635177948567-Edit-objects-on-the-canvas-in-bulk)
 
@@ -109,7 +109,7 @@
 
 [组合布局指南和约束](https://help.figma.com/hc/en-us/articles/360039957934-Combine-layout-guides-and-constraints)
 
-### 使用矢量工具进行设计 Design with vector tools
+### 使用矢量工具进行设计
 
 [使用形状构建工具创建自定义形状](https://help.figma.com/hc/en-us/articles/31616004109847-Create-custom-shapes-with-the-shape-builder-tool)
 
@@ -123,7 +123,7 @@
 
 [将文本转换为矢量路径](https://help.figma.com/hc/en-us/articles/360047239073-Convert-text-to-vector-paths)
 
-### 文本和排版 Text and typography
+### 文本和排版
 [Figma Design 中的文本指南](https://help.figma.com/hc/en-us/articles/360039956434-Guide-to-text-in-Figma-Design)
 
 [探索文本属性](https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties)
@@ -152,7 +152,7 @@
 
 [添加从右到左的文本](https://help.figma.com/hc/en-us/articles/4972283635863-Add-right-to-left-text)
 
-### 颜色、渐变和图像 Color, gradients, and images
+### 颜色、渐变和图像
 
 [将图案用作填充或描边](https://help.figma.com/hc/en-us/articles/31616030150167-Use-patterns-as-a-fill-or-stroke)
 
@@ -180,15 +180,14 @@
 
 [调整图像属性](https://help.figma.com/hc/en-us/articles/360041098433-Adjust-the-properties-of-an-image)
 
-### 其他属性 Additional properties
-
+### 其他属性
 [应用和调整描边属性](https://help.figma.com/hc/en-us/articles/360049283914-Apply-and-adjust-stroke-properties)
 
 [为图层应用效果](https://help.figma.com/hc/en-us/articles/360041488473-Apply-effects-to-layers)
 
 [调整圆角半径和平滑度](https://help.figma.com/hc/en-us/articles/360050986854-Adjust-corner-radius-and-smoothing)
 
-### 使用自动布局 Use auto layout
+### 使用自动布局
 [创建多维自动布局流程](https://help.figma.com/hc/en-us/articles/31441443713047-Create-multi-dimensional-auto-layout-flows)
 
 [使用自动布局中的水平和垂直流程](https://help.figma.com/hc/en-us/articles/31289464393751-Use-the-horizontal-and-vertical-flows-in-auto-layout)
@@ -197,7 +196,7 @@
 
 [自动布局指南](https://help.figma.com/hc/en-us/articles/360040451373-Guide-to-auto-layout)
 
-[[02 Area/设计/Figma Design Learn/在设计上切换自动布局\|在设计上切换自动布局]] (https://help.figma.com/hc/en-us/articles/5731482952599)
+[[02 Area/设计/Figma Design Learn/在设计上切换自动布局\|在设计上切换自动布局]]
 
 ## Figma Draw
 
@@ -207,7 +206,7 @@
 
 [创建带变换的图案](https://help.figma.com/hc/en-us/articles/31440427042839-Create-patterns-with-transforms)
 
-## 构建设计系统 Build design systems
+## 构建设计系统
 
 ### 样式 Styles
 
@@ -219,9 +218,9 @@
 
 ### 组件 Components
 
-[[02 Area/设计/Figma Design Learn/Figma 组件指南\|Figma 组件指南]](https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-components-in-Figma)
+[[02 Area/设计/Figma Design Learn/Figma 组件指南\|Figma 组件指南]]
 
-[创建可重复使用的设计组件](https://help.figma.com/hc/en-us/articles/360038663154-Create-components-to-reuse-in-designs)
+[[02 Area/设计/Figma Design Learn/创建可重复使用的设计组件\|创建可重复使用的设计组件]]
 
 [创建和使用变体](https://help.figma.com/hc/en-us/articles/360056440594-Create-and-use-variants)
 
@@ -334,11 +333,11 @@
 
 [管理组织的开发模式设置](https://help.figma.com/hc/en-us/articles/22927410880535-Manage-Dev-Mode-settings-for-an-organization)
 
-## 创建原型 Create prototypes
+## 创建原型
 
 ### 指南 Guides
 
-[[02 Area/设计/Figma Design Learn/Figma 中原型制作的指南\|Figma 中原型制作的指南]] (https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma)
+[[02 Area/设计/Figma Design Learn/Figma 中原型制作的指南\|Figma 中原型制作的指南]]
 [原型状态管理](https://help.figma.com/hc/en-us/articles/14397859494295-State-management-for-prototypes)
 - [Use animated GIFs in prototypes 原型中使用动画 GIF](https://help.figma.com/hc/en-us/articles/360041486873-Use-animated-GIFs-in-prototypes)
 - [Use videos in prototypes 原型中使用视频](https://help.figma.com/hc/en-us/articles/8878274530455-Use-videos-in-prototypes)
@@ -381,9 +380,9 @@
 - [Export from Figma Design 从 Figma Design 导出](https://help.figma.com/hc/en-us/articles/360040028114-Export-from-Figma-Design)
 - [Export formats and settings 导出格式和设置](https://help.figma.com/hc/en-us/articles/13402894554519-Export-formats-and-settings)
 
-## 在文件中协同工作 Work together in files
+## 文件协同工作
 
-### 评论 Comment
+### 评论
 [Figma 中的评论指南](https://help.figma.com/hc/en-us/articles/360039825314-Guide-to-comments-in-Figma)
 
 [为文件添加评论](https://help.figma.com/hc/en-us/articles/360041068574-Add-comments-to-files)
@@ -396,7 +395,7 @@
 
 [管理文件评论的邮件通知](https://help.figma.com/hc/en-us/articles/360041547813-Manage-email-notifications-for-comments-on-files)
 
-### 多人工具 Multiplayer tools
+### 多人工具
 [查看您的文件查看历史](https://help.figma.com/hc/en-us/articles/29638316371479-See-viewer-history-for-your-files)
 
 [使用聚光灯向协作者展示](https://help.figma.com/hc/en-us/articles/360040322673-Present-to-collaborators-using-spotlight)
@@ -405,8 +404,7 @@
 
 [优化设计文件以供开发者交接](https://help.figma.com/hc/en-us/articles/360040521453-Optimize-design-files-for-developer-handoff)
 
-### 分支和合并 Branching and merging
-
+### 分支和合并
 [分支指南](https://help.figma.com/hc/en-us/articles/360063144053-Guide-to-branching)
 
 [分享分支](https://help.figma.com/hc/en-us/articles/5665697002263-Share-a-branch)
@@ -439,3 +437,4 @@
 [UXBAIKE - 只分享有价值的设计经验](https://www.uxbaike.com/)
 
 [Figma教程！教你一次性搞定 9 种视觉效果 - 优优教程网 - 自学就上优优网 - UiiiUiii.com](https://uiiiuiii.com/inspiration/1616553086.html)
+

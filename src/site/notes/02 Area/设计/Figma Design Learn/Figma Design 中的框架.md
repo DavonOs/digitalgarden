@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Frames-in-Figma-Design","permalink":"/design/Figma-Design/Frames-in-Figma-Design/","metatags":{"description":"Before you start Who can use this feature Available on all plansAnyone with can edit access to a file can create and edit frames...","og:site_name":"DavonOs","og:title":"Figma Design 中的框架","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Frames-in-Figma-Design","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-07-03 09:56","updated":"2025-07-17 12:56"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Frames-in-Figma-Design","permalink":"/design/Figma-Design/Frames-in-Figma-Design/","metatags":{"description":"Before you start Who can use this feature Available on all plansAnyone with can edit access to a file can create and edit frames...","og:site_name":"DavonOs","og:title":"Figma Design 中的框架","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Frames-in-Figma-Design","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true}
 ---
 
 [Frames in Figma Design](https://help.figma.com/hc/en-us/articles/360041539473-Frames-in-Figma-Design)
@@ -30,16 +30,7 @@
 
 ## 创建框架
 
-Once the **Frame** tool is selected, there are several ways to create frames:
 选择框架工具后，有几种方法可以创建框架：
-
-- [Click on the canvas
-	点击画布](https://help.figma.com/hc/en-us/articles/#h_01JH5Y00ZHGVVK1N6P5ZWPGD09)
-- [Use a frame preset
-	使用框架预设](https://help.figma.com/hc/en-us/articles/#h_01JH5Y0VVZJVB5AXYNYAHJRV3R)
-- [Duplicate an existing frame
-	复制现有框架](https://help.figma.com/hc/en-us/articles/#h_01JH5Y20QY0BYP980T4GH4H42S)
-
 ### Click on the canvas 点击画布
 
 With the **Frame** tool selected, do one of the following:
@@ -60,14 +51,13 @@ With the **Frame** tool selected, do one of the following:
 
 ### Use a frame preset 使用框架预设
 
-When the **Frame** tool is enabled, a list of frame presets become available in right sidebar. Click the arrow to expand the section and select a preset from the list. You can choose presets for popular device and asset templates:
 当框架工具启用时，右侧边栏会出现一系列框架预设。点击箭头展开该部分，从列表中选择一个预设。您可以选择适用于流行设备和资源模板的预设：
 
 - Phone 手机
 - Tablet 平板电脑
 - Desktop 桌面电脑
 - Presentation 演示
-- Watch 观看
+- Watch 手表
 - Paper 论文
 - Social Media 社交媒体
 - Figma Community Figma 社区
@@ -78,7 +68,6 @@ If you want to change a frame to a different preset, select the frame and use th
 
 ### Duplicate an existing frame 复制现有框架
 
-There are two ways to duplicate an existing frame:
 复制现有框架有两种方法：
 
 - **Quick-add**: With the **Frame** tool enabled, hover over an existing frame and pressing the + **plus** on either side of the frame. This will duplicate the frame and nudge other frames over to accommodate the new frame.
@@ -86,10 +75,8 @@ There are two ways to duplicate an existing frame:
 - **Duplication shortcut**: Select a frame and use the duplication keyboard shortcut ⌘ Command D (Mac) / ⌃ Control D (Windows). You don’t need to enable the **Frame** tool to use this method. Learn more about [duplicating options](https://help.figma.com/hc/en-us/articles/4409078832791-Copy-and-paste-objects#h_01J92HBF9A2T61H5YH99SGW24A).
 	复制快捷键：选择一个框架并使用复制键盘快捷键 ⌘ Command D （Mac） / ⌃ Control D （Windows）。您无需启用框架工具即可使用此方法。了解更多关于复制选项的信息。
 
-For both methods, if your frame is in a section, the section will resize to accommodate the new frame.
 对于这两种方法，如果您的框架位于一个区域中，该区域将调整大小以适应新的框架。
 
-You can also quickly create a blank frame of the same size by clicking the + **plus** on either side of the frame while holding the keyboard modifier:
 你也可以通过按住键盘修饰键，点击框架两侧的+号，快速创建一个相同大小的空白框架：
 
 - Mac: ⌥ Option
@@ -99,7 +86,6 @@ You can also quickly create a blank frame of the same size by clicking the + **p
 
 ## Frame properties  框架属性
 
-There are a few properties associated with frames. Frames support the following properties.  
 框架有一些相关属性。框架支持以下属性。
 
 - **Corner Radius**: Round the corner of a frame to create softer edges.  
@@ -134,8 +120,7 @@ Frames allow you to access extra functionality in Figma. You will need to use fr
 A frame is a **parent** object. This means that it can control or influence any **child** objects you place within it.  
 框架是一个父级对象。这意味着它可以控制或影响其中放置的任何子对象。
 
-[Learn more about parent/child relationships in Figma.  
-了解更多关于 Figma 中父子关系的信息。](https://help.figma.com/hc/en-us/articles/360039959014)
+[Learn more about parent/child relationships in Figma. 了解更多关于 Figma 中父子关系的信息。](https://help.figma.com/hc/en-us/articles/360039959014)
 
 Tip: You can hand off frames for development without reorganizing your file. [Create a section for your frame](https://help.figma.com/hc/en-us/articles/9771500257687), or convert the frame to a section. Then, [mark the section as **Ready for dev**](https://help.figma.com/hc/en-us/articles/9771500257687#h_01HHN2CDAMSCQ3XVSEA2JYSEQJ).  
 提示：您可以在不重新组织文件的情况下将框架移交给开发。为您的框架创建一个区域，或将框架转换为区域。然后，将区域标记为“准备开发”。
@@ -174,8 +159,7 @@ This creates new hierarchies or relationships:
 - **Children:** Any object that is within a frame  
     子对象：任何位于框架内的对象
 
-[Learn more about parent, child, and sibling relationships.  
-了解更多关于父级、子级和同级关系。](https://help.figma.com/hc/en-us/articles/360039959014)
+[Learn more about parent, child, and sibling relationships.  了解更多关于父级、子级和同级关系。](https://help.figma.com/hc/en-us/articles/360039959014)
 
 ### Top-level frames  顶层框架
 
@@ -201,7 +185,7 @@ Using one of our device presets, we can create a top-level frame for our elemen
 
 ![Image of an example app design in the canvas, where you can see the individual frames by themselves on the left and then combined into a single frame on the right.png](https://help.figma.com/hc/article_attachments/24436758037399)
 
-## Resize frames  调整框架大小
+## 调整框架大小
 
 You can interact with frames like any other object on the canvas, including change the size or scale of frames. There are a few ways to change the size of a Frame:  
 你可以像操作画布上的其他对象一样与框架交互，包括改变框架的大小或比例。改变框架大小有几种方法：
@@ -258,8 +242,8 @@ Update the Frame's **Width** and **Height** using the right sidebar.
 Enter a new number in the **W** and **H** fields, or hover over the icon to scrub the field. Drag left to decrease and right to increase.  
 在 W 和 H 字段中输入一个新数字，或将鼠标悬停在图标上以拖动调整字段。向左拖动以减小，向右拖动以增加。
 
-Select <icon> Lock aspect ratio next to the **W**idth and **H**eight fields to maintain the layer’s proportions while resizing it.  
-选择宽度（Width）和高度（Height）字段旁边的 <icon> 锁定长宽比（Lock aspect ratio）以在调整图层大小时保持其比例。![aspect-ratio-right-sidebar.png](https://help.figma.com/hc/article_attachments/29799683542679)  
+选择宽度（Width）和高度（Height）字段旁边的 `<icon>` 锁定长宽比（Lock aspect ratio）以在调整图层大小时保持其比例。
+![aspect-ratio-right-sidebar.png](https://help.figma.com/hc/article_attachments/29799683542679)  
 
 **Tip:** You can use the dimension fields to perform calculations. This allows you to quickly scale or resize objects.  
 提示：您可以使用尺寸字段进行计算。这使您能够快速缩放或调整对象大小。
@@ -275,8 +259,8 @@ Select <icon> Lock aspect ratio next to the **W**idth and **H**eight fields to
 - /  Divide, such as /8  
     / 分割，例如 /8 
 
-It's not possible to **multiply** a width or height by a **percentage**, for example *50% will result in a value 50x the original, not 50%.  
-无法将宽度或高度乘以百分比，例如 *50% 将得到原始值 50 倍的结果，而不是 50。
+
+无法将宽度或高度乘以百分比，例如 ×50% 将得到原始值 50 倍的结果，而不是 50。
 
 ### Resize to fit  调整以适应
 
@@ -294,10 +278,9 @@ You can resize a frame so that it shrinks or grows to fit its child objects. Thi
 
 ## Ungroup a frame  取消组合框架
 
-To ungroup a frame, select the frame and press:  
 要取消组合框架，请选择框架并按下：
 
-- Mac: ⌘ CommandShiftG or ⌘ CommandDelete  
-    Mac: ⌘ Command Shift G 或 ⌘ Command Delete
-- Windows: ControlShiftG or ControlBackspace  
-    Windows: Control Shift G 或 Control Backspace
+
+Mac: ⌘ Command Shift G 或 ⌘ Command Delete
+
+Windows: Control Shift G 或 Control Backspace

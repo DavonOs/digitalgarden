@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-permalink":"program/python/userinput-and-while-loops","permalink":"/program/python/userinput-and-while-loops/","metatags":{"description":"Python编程：从入门到实践（第3版）第7章用户输入和while循环的学习笔记","og:site_name":"DavonOs","og:title":"第7章用户输入和while循环","og:type":"article","og:url":"https://zuji.eu.org/program/python/userinput-and-while-loops","og:image":"https://img.alicdn.com/i2/101450072/O1CN01vnmrBj1CP1LlhPSyR-101450072.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/python"],"dgShowInlineTitle":true,"created":"2024-10-25 10:20","updated":"2025-07-17 08:33"}
+{"dg-publish":true,"dg-permalink":"program/python/userinput-and-while-loops","permalink":"/program/python/userinput-and-while-loops/","metatags":{"description":"Python编程：从入门到实践（第3版）第7章用户输入和while循环的学习笔记","og:site_name":"DavonOs","og:title":"第7章用户输入和while循环","og:type":"article","og:url":"https://zuji.eu.org/program/python/userinput-and-while-loops","og:image":"https://img.alicdn.com/i2/101450072/O1CN01vnmrBj1CP1LlhPSyR-101450072.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/python"],"dgShowInlineTitle":true}
 ---
 
 
 学习目标
-使用input()来让用户提供信息
+使用`input()`来让用户提供信息
 处理文本和数的输入，使用while循环让程序按用户要求运行
 多种控制while循环流程的方式
 使用while循环在列表间移动元素，以及从列表中删除所有包含特定值的元素
@@ -20,10 +20,9 @@ print(message)
 >>>
 Tell me something, and I will repeat it back to you: Hello Python!
 Hello Python!
-
 ```
 
-input() 函数接受一个参数，即要向用户显示的提示（prompt），让用户知道该输入什么样的信息。在这个示例中，当 Python 运行第一行代码时， 用户将看到提示“Tell me something, and I will repeat it back to you:”。程序等待用户输入，并在用户按回车键后继续运行。用户的输入被赋给变量 message，接下来的 print(message) 将输入呈现给用户。
+`input()` 函数接受一个参数，即要向用户显示的提示（prompt），让用户知道该输入什么样的信息。在这个示例中，当 Python 运行第一行代码时， 用户将看到提示“Tell me something, and I will repeat it back to you:”。程序等待用户输入，并在用户按回车键后继续运行。用户的输入被赋给变量 message，接下来的 print(message) 将输入呈现给用户。
 
 注意：有些文本编辑器不能运行提示用户输入的程序。你可使用这些文本编辑器编写提示用户输入的程序，但必须从终端运行它们。
 
@@ -64,17 +63,14 @@ Hello, Eric!
 7.1.2 使用 int() 来获取数值输入
 
 在使用 input() 函数时，Python 会将用户输入解读为字符串。请看下面让用户输入年龄的解释器会话：
-
 ```python
 >>> age = input("How old are you? ")
 How old are you? 21
 >>> age
 '21'
-
 ```
 
 用户输入的是数 21，但当我们请求 Python 提供变量 age 的值时，它返回的是 '21'——用户输入数值的字符串表示。我们怎么知道 Python 将输入解读成了字符串呢？因为这个数是用引号引起来的。如果只想打印输入，这一点⼉问题都没有；但如果试图将输入作为数来使用，就会引发错误：
-
 ```python
 >>> age = input("How old are you? ")
 How old are you? 21
@@ -117,11 +113,9 @@ You're tall enough to ride!
 
 在将数值输入用于计算和比较前，务必将其转换为数值表示。
 
-## 基础数据运算
-
 7.1.3 求模运算符
 
-在处理数值信息时，求模运算符（%）是个很有用的工具，它将两个数相除并返回余数：
+在处理数值信息时，求模运算符（`%`）是个很有用的工具，它将两个数相除并返回余数：
 
 ```python
 >>> 4 % 3
@@ -132,7 +126,6 @@ You're tall enough to ride!
 0
 >>> 7 % 3
 1
-
 ```
 
 求模运算符不会指出一个数是另一个数的多少倍，只指出余数是多少。
@@ -159,12 +152,7 @@ for 循环用于针对集合中的每个元素执行一个代码块，而 while 
 
 ### 7.2.1 使用 while 循环
 
-可以使用 while 循环来数数。
-
-例如，下面的 while 循环从 1 数到 5：
-
-
-只要满足条件 `current_number` <= 5，Python 就持续运行这个循环。
+可以使用 while 循环来数数。例如，while 循环从 1 数到 5：只要满足条件 `current_number` <= 5，Python 就持续运行这个循环。
 
  1 小于 5，所以 Python 打印 1 并将 current_number 加 1，使其为 2； 因为 2 小于 5，所以 Python 打印 2 并将 current_number 加 1，使其为3；依此类推。一旦current_number 大于 5，循环就将停止，整个程序也将结束。
 
@@ -222,7 +210,7 @@ Tell me something, and I will repeat it back to you: Enter 'quit' to end the pro
 ### 7.2.4 使用 break 退出循环
 
 如果不管条件测试的结果如何，想⽴即退出 while 循环，不再运行循环中余下的代码，可使用 break 语句。break 语句用于控制程序流程，可用来控制哪些代码行将执行、哪些代码行不执行，从而让程序按你的要求执行你要执行的代码。
-例如，来看一个让用户指出他到过哪些地方的程序。在这个程序中，可在用户输入'quit'后使用 break 语句⽴即退出 while 循环：
+例如，来看一个让用户指出他到过哪些地方的程序。在这个程序中，可在用户输入'quit'后使用 break 语句立即退出 while 循环：
 
 ```python
 prompt = "\nPlease enter the name of a city you have visited:"

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Obsidian","permalink":"/Obsidian/","metatags":{"description":"这里是 Obsidian 从0到1的简易新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidian-basic","og:image":"https://obsidian.md/images/banner.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"],"dgShowInlineTitle":true,"created":"2023-07-31 18:07","updated":"2025-07-17 12:56"}
+{"dg-publish":true,"dg-permalink":"Obsidian","permalink":"/Obsidian/","metatags":{"description":"这里是 Obsidian 从0到1的简易新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidian-basic","og:image":"https://obsidian.md/images/banner.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"],"dgShowInlineTitle":true}
 ---
 
 ## 写在前面
