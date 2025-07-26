@@ -5,17 +5,11 @@
 
 [The Complete Guide to Memory - Scott H Young](https://www.scotthyoung.com/blog/2019/02/15/memory/)
 
-by [Scotth Young](http://www.scotthyoung.com) & [Jakub Jílek](https://www.scotthyoung.com/blog/author-jakub-jilek/) 
-
 ![](https://cdn-mineru.openxlab.org.cn/extract/e9deac09-9006-4432-84bd-59cbdc160cce/9182cb8e045d861b7fbeba3de861c1027d9761063ba5834e79494933232af00f.jpg)
 
 你的记忆力是如何工作的？如何记住更多？防止遗忘？
 
 这些问题是你所学习、行动和经历的核心。你的记忆力影响着你所做的一切，从你在学校的表现、职业发展、生活，甚至是你对自我和幸福的感知。
-
-这是一个长期令我着迷的话题，我在这个博客上之前写过很多关于记忆的内容。然而，我希望创建一个指南，将我们科学上所知的关于记忆的一切整合起来，并将这些知识提炼成实用的建议。
-
-为此，我与 [Jakub Jílek](https://www.scotthyoung.com/blog/author-jakub-jilek/) 合作，他拥有伦敦大学学院认知科学硕士学位，目前正在攻读博士学位。在这个完整指南中，我们将涵盖关于记忆的一切你需要知道的内容，它如何运作以及你如何可以提升它。
 
 ## 为什么记忆很重要
 
