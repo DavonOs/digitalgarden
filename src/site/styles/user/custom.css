@@ -26,44 +26,30 @@ h5,
 h6 {
   line-height: var(--line-height);
   position: relative;
-  padding-bottom: 0.5rem;
 }
 
 h1 { 
-  font-size: 2.5rem;
   color: var(--h1-color);
-  margin: 2rem 0 1.5rem;
-  padding-bottom: 0.8rem;
 }
 
 h2 { 
-  font-size: 2.2rem; 
   color: var(--h2-color);
-  margin: 2.2rem 0 1.3rem;
 }
 
 h3 { 
-  font-size: 1.9rem;
   color: var(--h3-color);
-  margin: 1.8rem 0 1.1rem;
 }
 
 h4 { 
-  font-size: 1.6rem;
   color: var(--h4-color);
-  margin: 1.6rem 0 0.9rem;
 }
 
 h5 { 
-  font-size: 1.4rem;
   color: var(--h5-color);
-  margin: 1.4rem 0 0.7rem;
 }
 
 h6 { 
-  font-size: 1.2rem; 
   color: var(--h6-color);
-  margin: 1.2rem 0 0.6rem;
 }
 /* ===== 基础样式重置 ===== */
 .book-info-container,
