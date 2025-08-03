@@ -1,16 +1,17 @@
 ---
-{"dg-publish":true,"dg-permalink":"Obsidian","permalink":"/Obsidian/","metatags":{"description":"这里是 Obsidian 从0到1的简易新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidian-basic","og:image":"https://obsidian.md/images/banner.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"],"dgShowInlineTitle":true,"created":"2023-07-31 18:07","updated":"2025-07-17 12:56"}
+{"dg-publish":true,"dg-permalink":"Obsidian","permalink":"/Obsidian/","metatags":{"description":"这里是 Obsidian 从0到1的简易新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidian-basic","og:image":"https://obsidian.md/images/banner.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"],"dgShowInlineTitle":true,"created":"2023-07-31 18:07","updated":"2025-08-01 14:50"}
 ---
 
+<p><span>已使用 <a data-tooltip-position="top" aria-label="https://obsidian.md/" rel="noopener nofollow" class="external-link" href="https://obsidian.md/" target="_blank">Obsidian</a> 968 天，共创建 428 篇文档、106 个标签、13 个待办。 <br></span></p>
 ## 写在前面
 
 开箱即用的库：
 - [cumany](https://github.com/cumany/Blue-topaz-examples)非常多奇技淫巧，可以将其作为大而全的词典，借鉴用法和代码，不推荐全盘照搬
 - [Rainbell129](https://github.com/Rainbell129/Obsidian-Homepage)dataview运用的很娴熟，可以作为dataview的实践教材。
 - [BCS’s Vault for Researchers V1.1](https://forum-zh.obsidian.md/t/topic/8114)给Obsidian新手科研人的开箱即用库
-- [Obsidian-Plug-and-Play](https://github.com/juestchaos/Obsidian-Plug-and-Play)一个简单的Obsidian 库，关注文本和内容本身，值得学习
-- [template_for_researcher](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher)科研向的库，拒绝花里胡哨
-- [Chens_LMS_Public](https://github.com/laozhou-in-germany/Chens_LMS_Public)主打目标管理+dailynote+知识管理+回顾系统。配有各种丰富的模板。
+- [Obsidian-Plug-and-Play](https://github.com/juestchaos/Obsidian-Plug-and-Play) 一个简单的Obsidian 库，关注文本和内容本身，值得学习
+- [template_for_researcher](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher) 科研向的库，拒绝花里胡哨
+- [Chens_LMS_Public](https://github.com/laozhou-in-germany/Chens_LMS_Public) 主打目标管理+dailynote+知识管理+回顾系统。配有各种丰富的模板。
 
 ## 文件结构
 
@@ -243,6 +244,8 @@ task-done：“”——已完成的任务
 [[02 Area/内容创作/Obsidian 插件：Templater\|Templater]]
 [[Obsidian 插件：Task\|Task]]
 [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin/blob/master/docs/zh-cn/README.md)：流程图设计
+[QuickAdd](https://quickadd.obsidian.guide/)
+[Obsidian Spaced Repetition](https://www.stephenmwangi.com/obsidian-spaced-repetition/)
 [Contribution Graph](https://github.com/vran-dev/obsidian-contribution-graph)
 
 CSS 多栏布局

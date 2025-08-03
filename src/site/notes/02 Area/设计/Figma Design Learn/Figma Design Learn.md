@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"Figma's mission is to make design accessible to everyone. Discover Figma’s products and how they bring people together to create better products.","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-04-08 14:02","updated":"2025-07-21 21:25"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"Figma's mission is to make design accessible to everyone. Discover Figma’s products and how they bring people together to create better products.","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-04-08 14:02","updated":"2025-07-29 07:34"}
 ---
 
 
@@ -29,15 +29,15 @@
 
 [[02 Area/设计/Figma Design Learn/探索设计文件\|探索设计文件]]
 
-[更改画布的背景颜色](https://help.figma.com/hc/en-us/articles/360041064814-Change-the-background-color-of-the-canvas)
+[[02 Area/设计/Figma Design Learn/更改画布的背景颜色\|更改画布的背景颜色]]
 
-[从工具栏访问设计工具](https://help.figma.com/hc/en-us/articles/360041064174-Access-design-tools-from-the-toolbar)
+[[02 Area/设计/Figma Design Learn/从工具栏访问设计工具\|从工具栏访问设计工具]]
 
 [浏览 UI3：Figma 的新界面](https://help.figma.com/hc/en-us/articles/23954856027159-Navigating-UI3-Figma-s-new-UI)
 
 [[02 Area/设计/Figma Design Learn/在左侧边栏查看图层和页面\|在左侧边栏查看图层和页面]]
 
-[在右侧边栏设计、原型和探索图层属性](https://help.figma.com/hc/en-us/articles/360039832014-Design-prototype-and-explore-layer-properties-in-the-right-sidebar)
+[[02 Area/设计/Figma Design Learn/在右侧边栏设计、原型和探索图层属性\|在右侧边栏设计、原型和探索图层属性]]
 
 ### 文件工具
 
