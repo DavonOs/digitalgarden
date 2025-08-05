@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Obsidian/Templater","permalink":"/Obsidian/Templater/","dgShowInlineTitle":true,"created":"2025-07-13 19:37","updated":"2025-07-22 10:58"}
+{"dg-publish":true,"dg-permalink":"Obsidian/Templater","permalink":"/Obsidian/Templater/","dgShowInlineTitle":true,"created":"2025-07-13 19:37","updated":"2025-07-22 11:18"}
 ---
 
 

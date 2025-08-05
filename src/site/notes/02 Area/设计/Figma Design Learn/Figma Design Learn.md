@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"Figma's mission is to make design accessible to everyone. Discover Figma’s products and how they bring people together to create better products.","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-04-08 14:02","updated":"2025-07-29 07:34"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"Figma's mission is to make design accessible to everyone. Discover Figma’s products and how they bring people together to create better products.","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-04-08 14:02","updated":"2025-08-03 20:35"}
 ---
 
 
@@ -65,7 +65,7 @@
 
 [用铅笔工具在画布上绘制](https://help.figma.com/hc/en-us/articles/4402723791511-Sketch-on-the-canvas-with-the-pencil-tool)
 
-[形状工具](https://help.figma.com/hc/en-us/articles/360040450133-Shape-tools)
+[[02 Area/设计/Figma Design Learn/形状工具\|形状工具]]
 
 [框架和组的区别](https://help.figma.com/hc/en-us/articles/360039832054-The-difference-between-frames-and-groups)
 
@@ -158,7 +158,7 @@
 
 [使用吸管工具取样颜色](https://help.figma.com/hc/en-us/articles/27643269375767-Sample-colors-with-the-eyedropper-tool)
 
-[Figma 中的绘画](https://help.figma.com/hc/en-us/articles/360041003694-Paints-in-Figma)
+[[02 Area/设计/Figma Design Learn/Figma 中的涂料\|Figma 中的涂料]](https://help.figma.com/hc/en-us/articles/360041003694-Paints-in-Figma)
 
 [为文本和形状图层添加填充](https://help.figma.com/hc/en-us/articles/360040623954-Add-fills-to-text-and-shape-layers)
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"program/python/if-statements","permalink":"/program/python/if-statements/","metatags":{"description":"Python编程：从入门到实践（第3版）第5章 if语句的学习笔记","og:site_name":"DavonOs","og:title":"第5章 IF语句","og:type":"article","og:url":"https://zuji.eu.org/program/python/if-statements","og:image":"https://img.alicdn.com/i2/101450072/O1CN01vnmrBj1CP1LlhPSyR-101450072.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/python"],"dgShowInlineTitle":true,"created":"2024-10-25 10:20","updated":"2025-07-17 08:33"}
+{"dg-publish":true,"dg-permalink":"program/python/if-statements","permalink":"/program/python/if-statements/","metatags":{"description":"Python编程：从入门到实践（第3版）第5章 if语句的学习笔记","og:site_name":"DavonOs","og:title":"第5章 IF语句","og:type":"article","og:url":"https://zuji.eu.org/program/python/if-statements","og:image":"https://img.alicdn.com/i2/101450072/O1CN01vnmrBj1CP1LlhPSyR-101450072.jpg","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["program/python"],"dgShowInlineTitle":true,"created":"2024-10-25 10:20","updated":"2025-07-17 12:58"}
 ---
 
 

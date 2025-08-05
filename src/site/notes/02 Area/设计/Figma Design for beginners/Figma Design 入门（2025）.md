@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-for-beginners","permalink":"/design/Figma-Design/Figma-Design-for-beginners/","metatags":{"description":"Start your Figma Design learning journey with this hands-on course where we design a portfolio website from scratch. We'll cover the basics like shapes, text, and frames, and tap into more advanced features like auto layout, components, and prototyping. By the end, you'll be ready to start bringing your own ideas to life.","og:site_name":"DavonOs","og:title":"Figma 设计入门","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-for-beginners","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-07-03 10:26","updated":"2025-07-17 11:24"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-for-beginners","permalink":"/design/Figma-Design/Figma-Design-for-beginners/","metatags":{"description":"Start your Figma Design learning journey with this hands-on course where we design a portfolio website from scratch. We'll cover the basics like shapes, text, and frames, and tap into more advanced features like auto layout, components, and prototyping. By the end, you'll be ready to start bringing your own ideas to life.","og:site_name":"DavonOs","og:title":"Figma 设计入门","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-for-beginners","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-07-03 10:26","updated":"2025-08-03 20:32"}
 ---
 
 
@@ -47,8 +47,8 @@ Navigate Figma Design files
 Set your file preferences
 
 ## Layers and frames
-Create your avatar using shapes and fills
 
+[[02 Area/设计/Figma Design for beginners/使用形状和填充创建你的头像\|使用形状和填充创建你的头像]]
 Build your bio using text layers
 
 Add your layers to a frame
