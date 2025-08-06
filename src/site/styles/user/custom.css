@@ -13,7 +13,9 @@ code {
   border: 1px solid var(--code-border, #e0e0e0); /* 细边框增强层次感 */
   
   /* 交互细节 */
-  white-space: nowrap; /* 防止代码换行 */
+  white-space: pre-wrap; /* 保留空格，且允许自动换行 */
+  word-wrap: break-word; /* 长单词会被拆分换行 */
+  word-break: break-word; /* 支持在单词内换行 */
   transition: background-color 0.2s ease;
 }
 
