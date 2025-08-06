@@ -28,33 +28,34 @@ code {
 
 /* 键盘按键样式 */
 kbd {
-  /* 基础样式 */
+  /* 基础样式 - 减小尺寸和间距 */
   display: inline-block;
-  padding: 0.2em 0.6em;
-  margin: 0 0.1em;
+  padding: 0.1em 0.4em; /* 减少内边距 */
+  margin: 0 0.2em; /* 调整间距 */
   border-radius: 3px;
   font-family: inherit;
-  font-size: 0.85em;
-  line-height: 1.2;
+  font-size: 0.8em; /* 略微缩小字体 */
+  line-height: 1.1; /* 调整行高 */
+  vertical-align: middle; /* 与文字垂直居中对齐 */
   
   /* 按键质感 */
   background-color: var(--kbd-bg, #f9f9f9);
   color: var(--kbd-color, #333);
   border: 1px solid var(--kbd-border, #ccc);
-  border-bottom: 3px solid var(--kbd-shadow, #bbb); /* 底部厚边框模拟按下效果 */
+  border-bottom: 2px solid var(--kbd-shadow, #bbb); /* 减少底部边框厚度 */
   
   /* 细节装饰 */
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px 0 white; /* 轻微文字阴影增强立体感 */
+  text-shadow: 0 1px 0 white;
   
   /* 交互效果 */
   transition: all 0.1s ease;
 }
 
-/* 按下状态模拟（可选） */
+/* 按下状态模拟 */
 kbd:active {
   border-bottom-width: 1px;
-  transform: translateY(2px); /* 轻微下移模拟按压 */
+  transform: translateY(1px); /* 减少下移距离 */
 }
 
 /* 深色模式适配 */
