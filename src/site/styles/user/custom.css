@@ -502,7 +502,8 @@ kbd:active {
   src: url('https://s1.hdslb.com/bfs/static/jinkela/long/font/HarmonyOS_Regular.a1.woff2') format('woff2');
   unicode-range: U+21-7e,U+a4,U+a7-a8,U+b0-b1,U+b7;
 }
-body{
+
+*{
  font-family:HarmonyOS_Regular!important;
 }
 :root {
@@ -513,6 +514,11 @@ body{
   --h4-color: #81d4fa;
   --h5-color: #b3e5fc;
   --h6-color: #e1f5fe;
+  
+  /* 间距变量 */
+  --heading-margin-top: 2em;
+  --heading-margin-bottom: 0.8em;
+  --heading-weight: 600;
 }
 
 h1,
@@ -523,30 +529,109 @@ h5,
 h6 {
   line-height: var(--line-height);
   position: relative;
+  font-weight: var(--heading-weight);
+  margin-top: var(--heading-margin-top);
+  margin-bottom: var(--heading-margin-bottom);
+  transition: all 0.2s ease;
+  /* 移除所有边框和内边距相关样式 */
+  padding: 0;
+  border: none;
 }
 
+/* 标题大小层级区分 */
 h1 { 
   color: var(--h1-color);
+  font-size: 2.2rem;
 }
 
 h2 { 
   color: var(--h2-color);
+  font-size: 1.8rem;
 }
 
 h3 { 
   color: var(--h3-color);
+  font-size: 1.5rem;
 }
 
 h4 { 
   color: var(--h4-color);
+  font-size: 1.3rem;
 }
 
 h5 { 
   color: var(--h5-color);
+  font-size: 1.15rem;
 }
 
 h6 { 
   color: var(--h6-color);
+  font-size: 1rem;
+}
+
+/* 首个标题无需顶部间距 */
+h1:first-of-type,
+h2:first-of-type,
+h3:first-of-type,
+h4:first-of-type,
+h5:first-of-type,
+h6:first-of-type {
+  margin-top: 0;
+}
+
+/* 悬停效果保持 */
+h1:hover, h2:hover, h3:hover {
+  opacity: 0.9;
+  transform: translateX(2px);
+}
+
+/* 深色模式适配 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --h1-color: #90caf9;
+    --h2-color: #64b5f6;
+    --h3-color: #42a5f5;
+    --h4-color: #2196f3;
+    --h5-color: #1e88e5;
+    --h6-color: #1976d2;
+  }
+}
+strong {
+  /* 基础样式 */
+  font-weight: 700; /* 比普通文本更粗重 */
+  color: var(--strong-color, #2d3748); /* 主色调 */
+  
+  /* 增强突出效果的细节 */
+  position: relative;
+  padding: 0 0.15em;
+  
+  /* 微妙的背景强调（可选） */
+  background-image: linear-gradient(to right, 
+    var(--strong-highlight, rgba(100, 181, 246, 0.2)) 0%, 
+    var(--strong-highlight, rgba(100, 181, 246, 0.2)) 100%);
+  background-repeat: no-repeat;
+  background-position: 0 85%;
+  background-size: 100% 0.4em;
+  
+  /* 过渡效果 */
+  transition: all 0.2s ease;
+}
+
+/* 悬停效果增强交互感 */
+strong:hover {
+  color: var(--strong-hover-color, #3182ce);
+  background-color: var(--strong-hover-bg, rgba(100, 181, 246, 0.3));
+  border-radius: 2px;
+}
+
+/* 深色模式适配 */
+@media (prefers-color-scheme: dark) {
+  strong {
+    --strong-color: #e2e8f0;
+    --strong-highlight: rgba(100, 181, 246, 0.3);
+    --strong-hover-color: #ffffff;
+    --strong-hover-bg: rgba(100, 181, 246, 0.2);
+  }
 }
 /* ===== 基础样式重置 ===== */
 .book-info-container,
