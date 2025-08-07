@@ -604,24 +604,6 @@ strong {
   /* 增强突出效果的细节 */
   position: relative;
   padding: 0 0.15em;
-  
-  /* 微妙的背景强调（可选） */
-  background-image: linear-gradient(to right, 
-    var(--strong-highlight, rgba(100, 181, 246, 0.2)) 0%, 
-    var(--strong-highlight, rgba(100, 181, 246, 0.2)) 100%);
-  background-repeat: no-repeat;
-  background-position: 0 85%;
-  background-size: 100% 0.4em;
-  
-  /* 过渡效果 */
-  transition: all 0.2s ease;
-}
-
-/* 悬停效果增强交互感 */
-strong:hover {
-  color: var(--strong-hover-color, #3182ce);
-  background-color: var(--strong-hover-bg, rgba(100, 181, 246, 0.3));
-  border-radius: 2px;
 }
 
 /* 深色模式适配 */
