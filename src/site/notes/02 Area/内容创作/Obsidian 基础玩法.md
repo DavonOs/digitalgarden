@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-permalink":"Obsidian","permalink":"/Obsidian/","metatags":{"description":"这里是 Obsidian 从0到1的简易新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidian-basic","og:image":"https://obsidian.md/images/banner.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"],"dgShowInlineTitle":true,"created":"2023-07-31 18:07","updated":"2025-08-02 08:15"}
+{"dg-publish":true,"dg-permalink":"Obsidian","permalink":"/Obsidian/","metatags":{"description":"这里是 Obsidian 从0到1的新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidian-basic","og:image":"https://obsidian.md/images/banner.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"],"dgShowInlineTitle":true,"created":"2023-07-31 18:07","updated":"2025-08-08 10:24"}
 ---
 
-<p><span>已使用 <a data-tooltip-position="top" aria-label="https://obsidian.md/" rel="noopener nofollow" class="external-link" href="https://obsidian.md/" target="_blank">Obsidian</a> 971 天，共创建 493 篇文档、47 个标签、13 个待办。 <br></span></p>
+**Obsidian** 是一款基于 [[02 Area/内容创作/Markdown 语法手册\|Markdown]] 文件的本地知识管理软件，支持跨平台使用，包括 Windows、Linux、macOS 以及移动操作系统（如 Android 和 iOS）。它具有高度的可扩展性，用户可以通过插件实现数据库查询、任务管理等功能，适合管理大量笔记。对于个人用户，Obsidian 是永久免费的，商业使用则需购买许可。
 ## 写在前面
 
 开箱即用的库：
@@ -86,7 +86,7 @@
 
 内联标签
 
-笔记有一个内联标签 #learn  ，而 frontmatter 中没有标签 
+笔记有一个内联标签  `#learn`  ，而 frontmatter 中没有标签 
 
 ## 双链
 
@@ -163,18 +163,15 @@
 1. 新建笔记
 2. 点击左侧工具栏“插入模板”图标
 
-
 ### 占位符
 
 官方文档详细教程：ob界面左下角，小问号，第一个选项，点进去有中文的
 
-## Obsidian命令面板（尽量使用英文版）
+## 命令面板（尽量使用英文版）
 
 快捷键：<kbd>Ctrl</kbd>+<kbd>P</kbd>，集合了各种功能方便使用
 
-
-
-### Obsidian快捷键
+Obsidian 快捷键
 
 设置 - 快捷键，内可以设置各种快捷键功能
 
@@ -186,7 +183,7 @@
 
 
 
-# 搜索和查询
+## 搜索和查询
 
 搜索：针对笔记内容的查找，条件单一无需保存结果
 
@@ -229,7 +226,7 @@ task-done：“”——已完成的任务
 借助 VScode 实现批量替换 Obsidian 库中的字符
 
 可将OB库添加到 VScode 工作区中，点击搜索进行批量查找和替换。
-# 插件
+## 插件
 
 社区插件搜索下载&复制到 plugins 文件夹
 
@@ -248,9 +245,22 @@ task-done：“”——已完成的任务
 [Obsidian Spaced Repetition](https://www.stephenmwangi.com/obsidian-spaced-repetition/)
 [Contribution Graph](https://github.com/vran-dev/obsidian-contribution-graph)
 
-CSS 多栏布局
+## 其他
+### CSS 多栏布局
 
 参考MCL CSS：[MCL Multi Column—通过 CSS 和Callout实现分栏样式](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E5%A4%96%E8%A7%82/css-%E7%89%87%E6%AE%B5/obsidian%E6%A0%B7%E5%BC%8F-mcl-multi-column/)
+
+### Obsidian 原生CSS内容获取方法
+
+关闭自定义主题以切换到默认 Obsidian 主题：设置 → 外观 → 主題：管理 → 选择默认 → 点击使用按钮  
+
+在应用中的任意地方打开网页开发工具检查器：按 <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd>，或 Mac 用户按<kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>I</kbd>
+
+在开发工具中选择 Sources 标签 → 顶部 → obsidian.md → app.css。复制并粘贴到文本编辑器中，或者右键点击并另存为… 到你的机器上。
+
+![9540b4433839d174c86793cb84c60a59dbc31c86_2_867x750.png (867×750)](https://forum.obsidian.md/uploads/default/optimized/3X/9/5/9540b4433839d174c86793cb84c60a59dbc31c86_2_867x750.png)
+
+参考自：[查找默认Obsidian 默认的 CSS 文件](https://forum.obsidian.md/t/where-to-find-the-original-default-obsidian-css/5842/22)
 
 [「回归 Obsidian 的纯与真，写给普通人的入门指南」](https://sspai.com/post/72697)
 

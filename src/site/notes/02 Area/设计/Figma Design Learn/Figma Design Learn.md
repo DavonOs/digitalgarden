@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"Figma's mission is to make design accessible to everyone. Discover Figma’s products and how they bring people together to create better products.","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-04-08 14:02","updated":"2025-08-03 20:35"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"Figma's mission is to make design accessible to everyone. Discover Figma’s products and how they bring people together to create better products.","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-04-08 14:02","updated":"2025-08-07 16:40"}
 ---
 
 
@@ -81,7 +81,7 @@
 
 [父子关系和兄弟关系](https://help.figma.com/hc/en-us/articles/360039959014-Parent-child-and-sibling-relationships)
 
-[选择图层和对象](https://help.figma.com/hc/en-us/articles/360040449873-Select-layers-and-objects)
+[[02 Area/设计/Figma Design Learn/选择图层和对象\|选择图层和对象]]
 
 [调整对齐、旋转、位置和尺寸](https://help.figma.com/hc/en-us/articles/360039956914-Adjust-alignment-rotation-position-and-dimensions)
 
