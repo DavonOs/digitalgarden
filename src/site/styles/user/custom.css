@@ -1,11 +1,3 @@
-/* 基础重置 - 统一浏览器默认样式 */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box; /* Safari兼容 */
-}
-
 
 @font-face {
   font-family: 'HarmonyOS_Regular';
@@ -439,227 +431,40 @@
   src: url('https://s1.hdslb.com/bfs/static/jinkela/long/font/HarmonyOS_Regular.a1.woff2') format('woff2');
   unicode-range: U+21-7e,U+a4,U+a7-a8,U+b0-b1,U+b7;
 }
-
-/* 根元素样式 - 设置基础字体大小 */
-:root {
-  font-size: 16px; /* 基础字体大小，确保rem单位一致性 */
-  --line-height: 1.3;
-  
-  /* 标题颜色变量 */
-  --h1-color: #64b5f6;
-  --h2-color: #4fc3f7;
-  --h3-color: #4dd0e1;
-  --h4-color: #81d4fa;
-  --h5-color: #b3e5fc;
-  --h6-color: #e1f5fe;
-  
-  /* 代码样式变量 */
-  --code-bg: #f5f5f5;
-  --code-color: #e83e8c;
-  --code-border: #e0e0e0;
-  
-  /* 键盘样式变量 */
-  --kbd-bg: #f9f9f9;
-  --kbd-color: #333;
-  --kbd-border: #ccc;
-  --kbd-shadow: #bbb;
-  
-  /* 强调文本样式变量 */
-  --strong-color: #2d3748;
-  --strong-highlight: rgba(100, 181, 246, 0.1);
-  --strong-hover-color: #1a202c;
-  --strong-hover-bg: rgba(100, 181, 246, 0.2);
-  
-  /* 间距变量 */
-  --heading-margin-top: 2em;
-  --heading-margin-bottom: 0.8em;
-  --heading-weight: 600;
+@font-face {
+  font-family: 'Fira Code';
+  /* 先加载 woff2（现代浏览器） */
+  src: url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2.2/woff2/FiraCode-Regular.woff2') format('woff2'),
+       /* 其次 fallback 到 ttf（较老浏览器） */
+       url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2.2/ttf/FiraCode-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
 }
-
 /* 全局字体设置 - 增加备选字体栈 */
-body {
+body,
+.callout {
   font-family: 'HarmonyOS_Regular', -apple-system, BlinkMacSystemFont, 
                "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, 
                "Open Sans", "Helvetica Neue", sans-serif !important;
 }
 
-/* 行内代码样式 - 增加浏览器前缀 */
-code {
-  /* 基础样式 */
-  padding: 0.15em 0.4em;
-  border-radius: 4px;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-  font-size: 0.92em;
-  line-height: 1.4;
-  
-  /* 颜色方案 */
-  background-color: var(--code-bg);
-  color: var(--code-color);
-  border: 1px solid var(--code-border);
-  
-  /* 交互细节 - 增加Safari兼容属性 */
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  -webkit-hyphens: auto; /* Safari断字支持 */
-  hyphens: auto;
-  transition: background-color 0.2s ease;
+/*-----------------------------------------
+  2. 给代码块统一基础样式
+----------------------------------------*/
+/* ① 代码块（<pre><code>）或单行代码 */
+pre, code {
+  font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; /* 兜底 */
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.95rem;          /* 可自行微调 */
+  line-height: 1.5;
+  tab-size: 4;                 /* 行内标签空格宽度 */
+    /* 开启 Fira Code 的连字效果 */
+  font-variant-ligatures: normal;          /* 默认开启 */
+  font-feature-settings: "calt" 1, "liga" 1, "dlig" 1;
 }
 
-/* 键盘按键样式 */
-kbd {
-  display: inline-block;
-  padding: 0.1em 0.4em;
-  margin: 0 0.2em;
-  border-radius: 3px;
-  font-family: inherit;
-  font-size: 0.8em;
-  line-height: 1.1;
-  vertical-align: middle;
-  
-  /* 按键质感 */
-  background-color: var(--kbd-bg);
-  color: var(--kbd-color);
-  border: 1px solid var(--kbd-border);
-  border-bottom: 2px solid var(--kbd-shadow);
-  
-  /* 细节装饰 - 增加浏览器前缀 */
-  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px 0 white;
-  
-  /* 交互效果 */
-  transition: all 0.1s ease;
-}
-
-kbd:active {
-  border-bottom-width: 1px;
-  -webkit-transform: translateY(1px); /* Safari兼容 */
-  transform: translateY(1px);
-}
-
-/* 标题样式 */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: var(--line-height);
-  position: relative;
-  font-weight: var(--heading-weight);
-  margin-top: var(--heading-margin-top);
-  margin-bottom: var(--heading-margin-bottom);
-  transition: all 0.2s ease;
-  padding: 0;
-  border: none;
-}
-
-/* 标题大小层级区分 - 使用相对单位并增加回退 */
-h1 { 
-  color: var(--h1-color);
-  font-size: 2.2rem;
-  font-size: clamp(1.8rem, 5vw, 2.2rem); /* 响应式字体大小 */
-}
-
-h2 { 
-  color: var(--h2-color);
-  font-size: 1.8rem;
-  font-size: clamp(1.5rem, 4vw, 1.8rem);
-}
-
-h3 { 
-  color: var(--h3-color);
-  font-size: 1.5rem;
-  font-size: clamp(1.3rem, 3vw, 1.5rem);
-}
-
-h4 { 
-  color: var(--h4-color);
-  font-size: 1.3rem;
-}
-
-h5 { 
-  color: var(--h5-color);
-  font-size: 1.15rem;
-}
-
-h6 { 
-  color: var(--h6-color);
-  font-size: 1rem;
-}
-
-/* 首个标题无需顶部间距 */
-h1:first-of-type,
-h2:first-of-type,
-h3:first-of-type,
-h4:first-of-type,
-h5:first-of-type,
-h6:first-of-type {
-  margin-top: 0;
-}
-
-/* 悬停效果 - 增加浏览器前缀 */
-h1:hover, h2:hover, h3:hover {
-  opacity: 0.9;
-  -webkit-transform: translateX(2px); /* Safari兼容 */
-  transform: translateX(2px);
-}
-
-/* 强调文本样式 */
-strong {
-  font-weight: 700;
-  color: var(--strong-color);
-  position: relative;
-  padding: 0 0.15em;
-}
-
-/* 深色模式适配 - 增加媒体查询前缀 */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --h1-color: #90caf9;
-    --h2-color: #64b5f6;
-    --h3-color: #42a5f5;
-    --h4-color: #2196f3;
-    --h5-color: #1e88e5;
-    --h6-color: #1976d2;
-    
-    --code-bg: #2d2d2d;
-    --code-color: #ff79c6;
-    --code-border: #444;
-    
-    --kbd-bg: #3a3a3a;
-    --kbd-color: #f0f0f0;
-    --kbd-border: #555;
-    --kbd-shadow: #444;
-    
-    --strong-color: #e2e8f0;
-    --strong-highlight: rgba(100, 181, 246, 0.3);
-    --strong-hover-color: #ffffff;
-    --strong-hover-bg: rgba(100, 181, 246, 0.2);
-  }
-  
-  kbd {
-    text-shadow: none;
-  }
-}
-
-/* 针对Safari的特殊修复 */
-@supports (-webkit-overflow-scrolling: touch) {
-  code {
-    word-break: break-all; /* Safari中更好的断词处理 */
-  }
-  
-  h1, h2, h3 {
-    -webkit-transition: all 0.2s ease; /* 确保Safari支持过渡效果 */
-  }
-}
-
-/* 针对Edge的特殊修复 */
-@supports (-ms-ime-align: auto) {
-  kbd {
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Edge中更明显的阴影 */
-  }
-}
 /* ===== 基础样式重置 ===== */
 .book-info-container,
 .book-info-container *,
