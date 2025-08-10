@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Keyboard-shortcuts-in-Figma","permalink":"/design/Figma-Design/Keyboard-shortcuts-in-Figma/","metatags":{"description":"Before you start Who can use this feature","og:site_name":"DavonOs","og:title":"Figma 中的键盘快捷键","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma 中的键盘快捷键","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-06-18 21:24","updated":"2025-07-21 21:23"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Keyboard-shortcuts-in-Figma","permalink":"/design/Figma-Design/Keyboard-shortcuts-in-Figma/","metatags":{"description":"Before you start Who can use this feature","og:site_name":"DavonOs","og:title":"Figma 中的键盘快捷键","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Keyboard-shortcuts-in-Figma","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-06-18 21:24","updated":"2025-07-21 21:23"}
 ---
 
-
-
-译自：[Keyboard shortcuts in Figma](https://help.figma.com/hc/en-us/articles/360040328653-Keyboard-shortcuts-in-Figma)
 
 **谁可以使用此功能**
 
@@ -28,8 +25,8 @@
 - 使用键盘快捷键：
     - **Mac:**<kbd>Control</kbd>+<kbd>Shift</kbd>+<kbd>?</kbd>
     
-    - Windows： Ctrl Shift ?
-        
+    - Windows： <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>?</kbd>
+
 
 Figma 将在屏幕底部打开快捷键面板。使用面板顶部的标签页浏览与每组操作相关的快捷键。要[查看当前的键盘布局或选择其他布局](https://help.figma.com/hc/en-us/articles/5665442977431-Select-keyboard-layout)，请选择“布局”标签。
 
