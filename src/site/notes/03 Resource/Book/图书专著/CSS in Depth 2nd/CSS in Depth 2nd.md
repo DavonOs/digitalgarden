@@ -8,54 +8,54 @@
 
 第一部分深入探讨了 CSS 最基本的部分——层叠、相对单位、文档流以及盒模型。前三章介绍的这些基础知识决定了样式与页面元素的对应关系，以及如何确定这些元素的尺寸。全面理解这些内容是阅读本书后续章节及其他 CSS 知识的基础。
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第一章 层叠、优先级与继承\|第一章 层叠、优先级与继承]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/01 层叠、优先级与继承\|01 层叠、优先级与继承]]
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第二章 相对单位\|第二章 相对单位]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/02 相对单位\|02 相对单位]]
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第三章 文档流与盒模型\|第三章 文档流与盒模型]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/03 文档流与盒模型\|03 文档流与盒模型]]
 ## 第二部分精通布局
 
 CSS 提供了多种工具来控制网页布局。本书第二部分（涵盖第四~七章）将介绍其中最重要的几种，包括弹性盒布局、网格布局及定位。这些工具本质上讲并没有优劣之分，只是各自的功能实现略有不同。我将介绍它们各自的工作原理，以便利用这些知识在页面上进行混搭，最终实现理想的效果。之后，您还会学习响应式设计的构建方法，让页面布局能够适应用户的各种屏幕尺寸。
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第四章 Flexbox 弹性盒布局\|第四章 Flexbox 弹性盒布局]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/04 Flexbox 弹性盒布局\|04 Flexbox 弹性盒布局]]
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第五章 网格布局\|第五章 网格布局]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/05 网格布局\|05 网格布局]]
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第六章 定位与堆叠上下文\|第六章 定位与堆叠上下文]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/06 定位与堆叠上下文\|06 定位与堆叠上下文]]
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第七章 响应式设计\|第七章 响应式设计]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/07 响应式设计\|07 响应式设计]]
 
 ## 第三部分 现代代码组织
 
 代码是一种交流：不仅是与计算机之间的交流，也是与使用代码的其他开发人员的交流。掌握浏览器如何渲染 CSS 很重要，了解如何在项目中编写和组织 CSS 同样也很重要。在这一部分（第八章到第十章），我们将介绍最近添加到 CSS 语言中的一些工具，它们可以提供更明确的层叠控制，并有助于代码的整体组织；同时还将向您展示如何编写 CSS，使其条理清晰，便于日后维护。
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第八章 层叠图层及其嵌套\|第八章 层叠图层及其嵌套]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/08 层叠图层及其嵌套\|08 层叠图层及其嵌套]]
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第九章 CSS 的模块化与作用域\|第九章 CSS 的模块化与作用域]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/09 CSS 的模块化与作用域\|09 CSS 的模块化与作用域]]
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第十章 CSS 容器查询\|第十章 CSS 容器查询]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/10 CSS 容器查询\|10 CSS 容器查询]]
 
 ## 第四部分 视觉增强技术
 
 本书讲到这里，想必您已经建立了自己的 CSS 知识体系，也应该了解了这门语言的工作原理、处理浏览器样式问题的基本思路、以及如何绕开一些常见的陷阱。至此，也该引入一些趣味性强的内容了。此前构建的页面可能已经实现了功能全面的目标，现在该让它们看起来更美观了。用户往往更信赖经过专业外观设计后的应用产品。如果网站设计得赏心悦目，估计他们会更乐意花时间去浏览。因此，在本篇接下来的四章内容中，我们将整合前面所学的所有知识点，把重心放在与设计相关的一些关键考量上。这些看似微不足道的细节，往往会对网站的观感产生重大影响。
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第十一章 颜色与对比\|第十一章 颜色与对比]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/11 CSS 颜色与对比\|11 CSS 颜色与对比]]
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第十二章 CSS 排版与间距\|第十二章 CSS 排版与间距]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/12 CSS 排版与间距\|12 CSS 排版与间距]]
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第十三章 渐变、阴影与混合模式\|第十三章 渐变、阴影与混合模式]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/13 渐变、阴影与混合模式\|13 渐变、阴影与混合模式]]
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第十四章 蒙版、形状与剪切\|第十四章 蒙版、形状与剪切]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/14 蒙版、形状与剪切\|14 蒙版、形状与剪切]]
 
 ## 第五部分 添加动效
 
 动效（Motion）与动态变化是您为页面样式的润色所做的最后一道工序。页面元素可以淡出（fade out）屏幕；菜单可以滑入（slide in）加载；颜色也可以自由变换（shift）。即便动效平平，这些措施也会让页面交互妙趣横生；但若尽善尽美，动效的意义则远不止于此。在适当的时候恰到好处地引入变化效果，既可以有效地向用户传达特定信息，同时也能将他们的注意力吸引到页面适当的位置。本书最后这几章内容将深入探讨 CSS 中能为页面带来动效的相关知识。
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第十五章 过渡\|第十五章 过渡]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/15 过渡\|15 过渡]]
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第十六章 变换\|第十六章 变换]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/16 变换\|16 变换]]
 
-[[03 Resource/Book/图书专著/CSS in Depth 2nd/第十七章 动画\|第十七章 动画]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/17 动画\|17 动画]]
 
 ## 附录
 [[03 Resource/Book/图书专著/CSS in Depth 2nd/附录 A：选择器参考\|附录 A：选择器参考]]
