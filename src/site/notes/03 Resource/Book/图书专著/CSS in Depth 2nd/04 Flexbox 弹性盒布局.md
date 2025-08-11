@@ -60,7 +60,6 @@ Flexbox，全称为 弹性盒子布局（Flexible Box Layout），是一种布�
     <nav>
       <!-- 导航菜单 -->
       <ul class="site-nav">
-        <li><a href="/">Home</a></li>
         <li><a href="/features">Features</a></li>
         <li><a href="/pricing">Pricing</a></li>
         <li><a href="/support">Support</a></li>
@@ -157,7 +156,6 @@ body {
 
 ```html
 <ul class="site-nav">
-  <li><a href="/">Home</a></li>
   <li><a href="/features">Features</a></li>
   <li><a href="/pricing">Pricing</a></li>
   <li><a href="/support">Support</a></li>
