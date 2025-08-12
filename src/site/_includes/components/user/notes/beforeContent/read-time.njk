@@ -1,0 +1,22 @@
+{% set content = page.content | striptags %}
+{% set wordCount = content | split(' ') | length %}
+{% set avgWpm = 200 %} {# 平均阅读速度：每分钟200字 #}
+{% set readTime = (wordCount / avgWpm) | round(0, 'ceil') %}
+
+<div class="read-time-indicator" style="margin: 1rem 0; padding: 0.5rem 1rem; background: #f5f5f5; border-radius: 4px;">
+  <span>预计阅读时间：{{ readTime }} 分钟</span>
+</div>
+
+{# 可选：添加动态样式（也可放在src/site/styles/user目录下） #}
+<style>
+  .read-time-indicator span {
+    color: #666;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  .read-time-indicator span::before {
+    content: "⏱️";
+    margin-right: 0.5rem;
+  }
+</style>
