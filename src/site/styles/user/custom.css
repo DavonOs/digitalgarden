@@ -474,6 +474,73 @@ pre, code {
     margin: 0;
     padding: 0;
 }
+:root {
+  /* APCA 优化后的色阶 */
+  --heading-1: #ffffff;  /* APCA 90 */
+  --heading-2: #f8f8f8;  /* APCA 85 */
+  --heading-3: #f0f0f0;  /* APCA 80 */
+  --heading-4: #e8e8e8;  /* APCA 75 */
+  --heading-5: #e0e0e0;  /* APCA 70 */
+  --heading-6: #d8d8d8;  /* APCA 65 */
+  --text-bold: #f5f5f5;  /* APCA 83 */
+}
+
+/* 标题层级系统 */
+h1 {
+  color: var(--heading-1);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1.5em 0 0.75em;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  color: var(--heading-2);
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1.3em 0 0.6em;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 0.3em;
+}
+
+h3 {
+  color: var(--heading-3);
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 1.1em 0 0.5em;
+}
+
+h4 {
+  color: var(--heading-4);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 1em 0 0.4em;
+}
+
+h5 {
+  color: var(--heading-5);
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0.9em 0 0.3em;
+  font-style: italic;
+}
+
+h6 {
+  color: var(--heading-6);
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0.8em 0 0.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* 加粗文本样式 */
+strong, b {
+  color: var(--text-bold);
+  font-weight: 600;
+  /* 微妙的文字阴影增强可读性 */
+  text-shadow: 0 0 0.5px rgba(255,255,255,0.3);
+}
 
 /* ===== 图书容器 ===== */
 .book-info-container {
