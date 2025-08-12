@@ -1,21 +1,9 @@
-{% set content = page.content | striptags %}
-{% set wordCount = content.split(' ').length %}
-{% set avgWpm = 200 %}
-{% set readTime = (wordCount / avgWpm) | round(0, 'ceil') %}
-
-<div class="read-time-indicator" style="margin: 1rem 0; padding: 0.5rem 1rem; background: #f5f5f5; border-radius: 4px;">
-  <span>预计阅读时间：{{ readTime }} 分钟</span>
-</div>
-
-<style>
-  .read-time-indicator span {
-    color: #666;
-    font-size: 0.9rem;
-    display: inline-flex;
-    align-items: center;
-  }
-  .read-time-indicator span::before {
-    content: "⏱️";
-    margin-right: 0.5rem;
-  }
-</style>
+{% macro displayReadTime(content) %}
+  {% set words = content | striptags | wordcount %}
+  {% set minutes = (words / 200) | round(0, 'ceil') | atLeast(1) %}
+  
+  <span class="readtime-badge" 
+        title="{{ words }} words">
+    ⏱️ {{ minutes }} min read
+  </span>
+{% endmacro %}
