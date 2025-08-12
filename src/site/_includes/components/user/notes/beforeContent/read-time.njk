@@ -1,9 +1,0 @@
-{% macro displayReadTime(content) %}
-  {% set words = content | striptags | wordcount %}
-  {% set minutes = (words / 200) | round(0, 'ceil') | atLeast(1) %}
-  
-  <span class="readtime-badge" 
-        title="{{ words }} words">
-    ⏱️ {{ minutes }} min read
-  </span>
-{% endmacro %}
