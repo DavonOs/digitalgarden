@@ -452,11 +452,11 @@ body,
   2. 给代码块统一基础样式
 ----------------------------------------*/
 /* ① 代码块（<pre><code>）或单行代码 */
-pre, code {
+pre, code, kbd{
   font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; /* 兜底 */
   font-optical-sizing: auto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 0.95rem;          /* 可自行微调 */
   line-height: 1.5;
   tab-size: 4;                 /* 行内标签空格宽度 */
@@ -464,7 +464,112 @@ pre, code {
   font-variant-ligatures: normal;          /* 默认开启 */
   font-feature-settings: "calt" 1, "liga" 1, "dlig" 1;
 }
+kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.8em;
+  padding: 0.2em 0.5em;
+  margin: 0 0.15em;
+  font-weight: 500;
+  color: #f0f0f0;
+  background-color: #1e293b;
+  border: 1px solid #3b95e6; /* 使用h4的蓝色作为边框 */
+  border-radius: 4px;
+  box-shadow: 
+    0 1px 0 rgba(77, 166, 255, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  vertical-align: middle;
+  transition: all 0.1s ease;
+}
 
+kbd:hover {
+  background-color: #273449;
+  border-color: #4da6ff; /* 使用h3的蓝色作为hover状态边框 */
+  box-shadow: 
+    0 1px 0 rgba(77, 166, 255, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+kbd:active {
+  box-shadow: 
+    0 1px 0 rgba(0, 0, 0, 0.3),
+    inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  transform: translateY(1px);
+}
+
+/* 组合键样式 */
+kbd + kbd:before {
+  content: "+";
+  display: inline-block;
+  margin: 0 0.2em;
+  color: #888;
+}
+:root {
+  /* 蓝色系色阶 - 基于#4da6ff调整，符合APCA对比度标准 */
+  --heading-1: #74b9ff;  /* APCA 90+，最高对比度 */
+  --heading-2: #60afff;  /* APCA 85+ */
+  --heading-3: #4da6ff;  /* APCA 80+，基础蓝色 */
+  --heading-4: #3b95e6;  /* APCA 75+ */
+  --heading-5: #2a84cc;  /* APCA 70+ */
+  --heading-6: #1973b3;  /* APCA 65+ */
+  --text-bold: #5dade2;  /* APCA 83+，用于强调文本 */
+}
+
+/* 标题层级系统 - 增强视觉区分度 */
+h1 {
+  color: var(--heading-1);
+  font-size: 2.5rem;
+  font-weight: 800; /* 加粗增强层级 */
+  margin: 1.5em 0 0.75em;
+  letter-spacing: -0.02em;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1); /* 轻微阴影增强可读性 */
+}
+
+h2 {
+  color: var(--heading-2);
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 1.3em 0 0.6em;
+  border-bottom: 2px solid rgba(77, 166, 255, 0.2); /* 蓝色边框增强识别 */
+}
+
+h3 {
+  color: var(--heading-3);
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1.1em 0 0.5em;
+}
+
+h4 {
+  color: var(--heading-4);
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 1em 0 0.4em;
+}
+
+h5 {
+  color: var(--heading-5);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.9em 0 0.3em;
+}
+
+h6 {
+  color: var(--heading-6);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0.8em 0 0.2em;
+  letter-spacing: 0.05em;
+}
+/* 加粗文本样式 */
+strong, b {
+  color: var(--text-bold);
+  font-weight: 600;
+  /* 微妙的文字阴影增强可读性 */
+  text-shadow: 0 0 0.5px rgba(255,255,255,0.3);
+}
 /* ===== 基础样式重置 ===== */
 .book-info-container,
 .book-info-container *,
@@ -473,73 +578,6 @@ pre, code {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-:root {
-  /* APCA 优化后的色阶 */
-  --heading-1: #ffffff;  /* APCA 90 */
-  --heading-2: #f8f8f8;  /* APCA 85 */
-  --heading-3: #f0f0f0;  /* APCA 80 */
-  --heading-4: #e8e8e8;  /* APCA 75 */
-  --heading-5: #e0e0e0;  /* APCA 70 */
-  --heading-6: #d8d8d8;  /* APCA 65 */
-  --text-bold: #f5f5f5;  /* APCA 83 */
-}
-
-/* 标题层级系统 */
-h1 {
-  color: var(--heading-1);
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin: 1.5em 0 0.75em;
-  letter-spacing: -0.02em;
-}
-
-h2 {
-  color: var(--heading-2);
-  font-size: 2rem;
-  font-weight: 600;
-  margin: 1.3em 0 0.6em;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-  padding-bottom: 0.3em;
-}
-
-h3 {
-  color: var(--heading-3);
-  font-size: 1.75rem;
-  font-weight: 600;
-  margin: 1.1em 0 0.5em;
-}
-
-h4 {
-  color: var(--heading-4);
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin: 1em 0 0.4em;
-}
-
-h5 {
-  color: var(--heading-5);
-  font-size: 1.25rem;
-  font-weight: 500;
-  margin: 0.9em 0 0.3em;
-  font-style: italic;
-}
-
-h6 {
-  color: var(--heading-6);
-  font-size: 1.1rem;
-  font-weight: 500;
-  margin: 0.8em 0 0.2em;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-/* 加粗文本样式 */
-strong, b {
-  color: var(--text-bold);
-  font-weight: 600;
-  /* 微妙的文字阴影增强可读性 */
-  text-shadow: 0 0 0.5px rgba(255,255,255,0.3);
 }
 
 /* ===== 图书容器 ===== */
