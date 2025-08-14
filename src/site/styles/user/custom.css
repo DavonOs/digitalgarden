@@ -515,53 +515,90 @@ kbd + kbd:before {
   --heading-5: #2a84cc;  /* APCA 70+ */
   --heading-6: #1973b3;  /* APCA 65+ */
   --text-bold: #5dade2;  /* APCA 83+，用于强调文本 */
+  
+  /* 覆盖冲突的变量 - 针对h2的样式变量 */
+  --h2-color: var(--heading-2);
+  --h2-size: 2.25rem;
+  --h2-weight: 700;
+  --h2-line-height: 1.3; /* 根据需要调整合适的行高 */
+  --h2-variant: normal;
+  --h2-style: normal;
+  --h2-font: inherit;
+  --h2-letter-spacing: -0.02em; /* 定义我们需要的字母间距 */
+  
+  /* 为其他标题也预设变量以防未来冲突 */
+  --h1-color: var(--heading-1);
+  --h1-size: 2.5rem;
+  --h1-weight: 800;
+  --h1-letter-spacing: -0.02em;
+  
+  --h3-color: var(--heading-3);
+  --h3-size: 2rem;
+  --h3-weight: 700;
+  
+  --h4-color: var(--heading-4);
+  --h4-size: 1.75rem;
+  --h4-weight: 600;
+  
+  --h5-color: var(--heading-5);
+  --h5-size: 1.5rem;
+  --h5-weight: 600;
+  
+  --h6-color: var(--heading-6);
+  --h6-size: 1.25rem;
+  --h6-weight: 600;
+  --h6-letter-spacing: 0.05em;
 }
 
 /* 标题层级系统 - 增强视觉区分度 */
 h1 {
-  color: var(--heading-1);
-  font-size: 2.5rem;
-  font-weight: 800; /* 加粗增强层级 */
+  color: var(--h1-color);
+  font-size: var(--h1-size);
+  font-weight: var(--h1-weight);
   margin: 1.5em 0 0.75em;
-  letter-spacing: -0.02em;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.1); /* 轻微阴影增强可读性 */
+  letter-spacing: var(--h1-letter-spacing);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 
 h2 {
-  color: var(--heading-2);
-  font-size: 2.25rem;
-  font-weight: 700;
+  color: var(--h2-color);
+  font-size: var(--h2-size);
+  font-weight: var(--h2-weight);
   margin: 1.3em 0 0.6em;
-  border-bottom: 2px solid rgba(77, 166, 255, 0.2); /* 蓝色边框增强识别 */
+  letter-spacing: var(--h2-letter-spacing);
+  line-height: var(--h2-line-height);
+  font-style: var(--h2-style);
+  font-family: var(--h2-font);
+  font-variant: var(--h2-variant);
 }
 
 h3 {
-  color: var(--heading-3);
-  font-size: 2rem;
-  font-weight: 700;
+  color: var(--h3-color);
+  font-size: var(--h3-size);
+  font-weight: var(--h3-weight);
   margin: 1.1em 0 0.5em;
 }
 
 h4 {
-  color: var(--heading-4);
-  font-size: 1.75rem;
-  font-weight: 600;
+  color: var(--h4-color);
+  font-size: var(--h4-size);
+  font-weight: var(--h4-weight);
   margin: 1em 0 0.4em;
 }
 
 h5 {
-  color: var(--heading-5);
-  font-size: 1.5rem;
-  font-weight: 600;
+  color: var(--h5-color);
+  font-size: var(--h5-size);
+  font-weight: var(--h5-weight);
   margin: 0.9em 0 0.3em;
 }
 
 h6 {
-  color: var(--heading-6);
-  font-size: 1.25rem;
-  font-weight: 600;
+  color: var(--h6-color);
+  font-size: var(--h6-size);
+  font-weight: var(--h6-weight);
   margin: 0.8em 0 0.2em;
-  letter-spacing: 0.05em;
+  letter-spacing: var(--h6-letter-spacing);
 }
 /* 加粗文本样式 */
 strong, b {
