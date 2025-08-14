@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"Figma's mission is to make design accessible to everyone. Discover Figma’s products and how they bring people together to create better products.","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-04-08 14:02","updated":"2025-08-07 16:40"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"Figma's mission is to make design accessible to everyone. Discover Figma’s products and how they bring people together to create better products.","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-04-08 14:02","updated":"2025-08-13 20:30"}
 ---
 
 
@@ -17,43 +17,40 @@
   <path fill-rule="evenodd" clip-rule="evenodd" d="M17.3536 6.64645C17.5488 6.84171 17.5488 7.15829 17.3536 7.35355L12.7071 12L17.3536 16.6464C17.5488 16.8417 17.5488 17.1583 17.3536 17.3536C17.1583 17.5488 16.8417 17.5488 16.6464 17.3536L12 12.7071L7.35355 17.3536C7.15829 17.5488 6.84171 17.5488 6.64645 17.3536C6.45118 17.1583 6.45118 16.8417 6.64645 16.6464L11.2929 12L6.64645 7.35365C6.45119 7.15839 6.45118 6.84181 6.64644 6.64654C6.84171 6.45128 7.15829 6.45128 7.35355 6.64654L12 11.2929L16.6464 6.64645C16.8417 6.45118 17.1583 6.45118 17.3536 6.64645Z" fill="currentColor" fill-opacity="0.9" />
 </svg>
 
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0.5" y="0.5" width="23" height="23" rx="3" stroke="#CCCCCC" stroke-width="1" fill="none" />
-<path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 7C6.5 8.04349 7.03275 8.96254 7.8411 9.5C7.03275 10.0375 6.5 10.9565 6.5 12C6.5 13.0435 7.03276 13.9625 7.84111 14.5C7.03276 15.0375 6.5 15.9565 6.5 17C6.5 18.6569 7.84315 20 9.5 20C11.1569 20 12.5 18.6569 12.5 17V15V14.5V14.2361C13.0308 14.7111 13.7316 15 14.5 15C16.1569 15 17.5 13.6569 17.5 12C17.5 10.9565 16.9672 10.0375 16.1589 9.5C16.9672 8.96254 17.5 8.04349 17.5 7C17.5 5.34315 16.1569 4 14.5 4H12.5H12H11.5H9.5C7.84315 4 6.5 5.34315 6.5 7ZM14.5 9C15.6046 9 16.5 8.10457 16.5 7C16.5 5.89543 15.6046 5 14.5 5H12.5V9H14.5ZM12.5 12C12.5 13.1046 13.3954 14 14.5 14C15.6046 14 16.5 13.1046 16.5 12C16.5 10.8954 15.6046 10 14.5 10C13.3954 10 12.5 10.8954 12.5 12ZM11.5 14H9.5C8.39543 14 7.5 13.1046 7.5 12C7.5 10.8954 8.39543 10 9.5 10H11.5V12V14ZM9.5 15H11.5V17C11.5 18.1046 10.6046 19 9.5 19C8.39543 19 7.5 18.1046 7.5 17C7.5 15.8954 8.39543 15 9.5 15ZM11.5 9H9.5C8.39543 9 7.5 8.10457 7.5 7C7.5 5.89543 8.39543 5 9.5 5H11.5V9Z" fill="currentColor" fill-opacity="0.9"/>
-</svg>
 
 ## 浏览界面
 
 ### 探索
 
-[[02 Area/设计/Figma Design Learn/在Figma Design 中使用AI工具\|在Figma Design 中使用AI工具]]
+[[02 Area/设计/Figma Design Learn/浏览界面/在Figma Design 中使用AI工具\|在Figma Design 中使用AI工具]]
 
-[[02 Area/设计/Figma Design Learn/探索设计文件\|探索设计文件]]
+[[02 Area/设计/Figma Design Learn/浏览界面/探索设计文件\|探索设计文件]]
 
-[[02 Area/设计/Figma Design Learn/更改画布的背景颜色\|更改画布的背景颜色]]
+[[02 Area/设计/Figma Design Learn/浏览界面/更改画布的背景颜色\|更改画布的背景颜色]]
 
-[[02 Area/设计/Figma Design Learn/从工具栏访问设计工具\|从工具栏访问设计工具]]
+[[02 Area/设计/Figma Design Learn/浏览界面/从工具栏访问设计工具\|从工具栏访问设计工具]]
 
 [浏览 UI3：Figma 的新界面](https://help.figma.com/hc/en-us/articles/23954856027159-Navigating-UI3-Figma-s-new-UI)
 
-[[02 Area/设计/Figma Design Learn/在左侧边栏查看图层和页面\|在左侧边栏查看图层和页面]]
+[[02 Area/设计/Figma Design Learn/浏览界面/在左侧边栏查看图层和页面\|在左侧边栏查看图层和页面]]
 
-[[02 Area/设计/Figma Design Learn/在右侧边栏设计、原型和探索图层属性\|在右侧边栏设计、原型和探索图层属性]]
+[[02 Area/设计/Figma Design Learn/浏览界面/在右侧边栏设计、原型和探索图层属性\|在右侧边栏设计、原型和探索图层属性]]
 
 ### 文件工具
 
-[在 Figma Design 中使用操作菜单](https://help.figma.com/hc/en-us/articles/23570416033943-Use-the-actions-menu-in-Figma-Design)
+[[02 Area/设计/Figma Design Learn/浏览界面/在 Figma Design 中使用操作菜单\|在 Figma Design 中使用操作菜单]] 
 
-[[02 Area/设计/Figma Design Learn/Figma 中的键盘快捷键\|Figma 中的键盘快捷键]]
+[[02 Area/设计/Figma Design Learn/浏览界面/Figma 中的键盘快捷键\|Figma 中的键盘快捷键]]
 
-[[02 Area/设计/Figma Design Learn/设置微调值（小和大）\|设置微调值（小和大）]]
+[[02 Area/设计/Figma Design Learn/浏览界面/设置微调值（小和大）\|设置微调值（小和大）]]
 
-[[02 Area/设计/Figma Design Learn/调整缩放和视图选项\|调整缩放和视图选项]]
+[[02 Area/设计/Figma Design Learn/浏览界面/调整缩放和视图选项\|调整缩放和视图选项]]
 
-[[02 Area/设计/Figma Design Learn/设置文件的自定义缩略图\|设置文件的自定义缩略图]]
+[[02 Area/设计/Figma Design Learn/浏览界面/设置文件的自定义缩略图\|设置文件的自定义缩略图]]
 
 [向画布或框架添加指南](https://help.figma.com/hc/en-us/articles/360040449713-Add-guides-to-the-canvas-or-frames)
 
-[[02 Area/设计/Figma Design Learn/在 Figma Design 中查看图层轮廓\|在 Figma Design 中查看图层轮廓]]
+[[02 Area/设计/Figma Design Learn/浏览界面/在 Figma Design 中查看图层轮廓\|在 Figma Design 中查看图层轮廓]]
 
 [在 Figma 中查找和替换](https://help.figma.com/hc/en-us/articles/9141292269847-Find-and-replace-in-Figma)
 
@@ -61,17 +58,17 @@
 
 ### 创建和编辑图层
 
-[[02 Area/设计/Figma Design Learn/Figma Design 中的框架\|Figma Design 中的框架]]
+[[02 Area/设计/Figma Design Learn/创建设计/Figma Design 中的框架\|Figma Design 中的框架]]
 
 [用铅笔工具在画布上绘制](https://help.figma.com/hc/en-us/articles/4402723791511-Sketch-on-the-canvas-with-the-pencil-tool)
 
-[[02 Area/设计/Figma Design Learn/形状工具\|形状工具]]
+[[02 Area/设计/Figma Design Learn/创建设计/形状工具\|形状工具]]
 
 [框架和组的区别](https://help.figma.com/hc/en-us/articles/360039832054-The-difference-between-frames-and-groups)
 
 [弧形工具：创建弧形、半圆形和圆环](https://help.figma.com/hc/en-us/articles/360040450173-Arc-tool-create-arcs-semi-circles-and-rings)
 
-[[02 Area/设计/Figma Design Learn/蒙版\|蒙版]]
+[[02 Area/设计/Figma Design Learn/创建设计/蒙版\|蒙版]]
 
 ### 图层处理
 
@@ -81,7 +78,7 @@
 
 [父子关系和兄弟关系](https://help.figma.com/hc/en-us/articles/360039959014-Parent-child-and-sibling-relationships)
 
-[[02 Area/设计/Figma Design Learn/选择图层和对象\|选择图层和对象]]
+[[02 Area/设计/Figma Design Learn/创建设计/选择图层和对象\|选择图层和对象]]
 
 [调整对齐、旋转、位置和尺寸](https://help.figma.com/hc/en-us/articles/360039956914-Adjust-alignment-rotation-position-and-dimensions)
 
@@ -89,13 +86,13 @@
 
 [缩放图层同时保持比例](https://help.figma.com/hc/en-us/articles/360040451453-Scale-layers-while-maintaining-proportions)
 
-[使用区域组织你的画布](https://help.figma.com/hc/en-us/articles/9771500257687-Organize-your-canvas-with-sections)
+[[02 Area/设计/Figma Design Learn/使用区块组织你的画布\|使用区块组织你的画布]]
 
 [测量图层之间的距离](https://help.figma.com/hc/en-us/articles/360039956974-Measure-distances-between-layers)
 
 [锁定和解锁图层](https://help.figma.com/hc/en-us/articles/360041596573-Lock-and-unlock-layers)
 
-[[02 Area/设计/Figma Design Learn/切换可见性以隐藏图层\|切换可见性以隐藏图层]]
+[[02 Area/设计/Figma Design Learn/创建设计/切换可见性以隐藏图层\|切换可见性以隐藏图层]]
 
 [重命名图层](https://help.figma.com/hc/en-us/articles/360039958934-Rename-Layers)
 
@@ -291,17 +288,17 @@
 
 [移除您对图库的访问权限](https://help.figma.com/hc/en-us/articles/360038743894-Remove-your-access-to-a-library)
 
-## 开发者模式 Dev Mode
+## 开发者模式
 
-### 浏览界面 Tour the interface
+### 浏览界面
 
-[开发者模式指南](https://help.figma.com/hc/en-us/articles/15023124644247-Guide-to-Dev-Mode)
+[[02 Area/设计/Figma Design Learn/开发模式指南\|开发模式指南]]
 
 [在开发模式下导航设计](https://help.figma.com/hc/en-us/articles/15023152204951-Navigate-designs-in-Dev-Mode)
 
 [管理员用的开发模式](https://help.figma.com/hc/en-us/articles/19813618057623-Dev-Mode-for-admins)
 
-### 检查设计 Inspect designs
+### 检查设计
 
 [检查设计的指南](https://help.figma.com/hc/en-us/articles/22012921621015-Guide-to-inspecting)
 
@@ -311,7 +308,7 @@
 
 [开发模式中的变量](https://help.figma.com/hc/en-us/articles/27882809912471-Variables-in-Dev-Mode)
 
-### 将设计转换为代码 Turn designs to code
+### 将设计转换为代码
 
 [开发模式 MCP 服务器的指南](https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server)
 
@@ -323,7 +320,7 @@
 
 [Figma for VS Code](https://help.figma.com/hc/en-us/articles/15023121296151-Figma-for-VS-Code)
 
-### 组织范围内的开发模式 Dev Mode across your organization
+### 组织范围内的开发模式
 
 [开发模式状态和通知](https://help.figma.com/hc/en-us/articles/26781702258583-Dev-Mode-statuses-and-notifications)
 
@@ -337,7 +334,7 @@
 
 ### 指南 Guides
 
-[[02 Area/设计/Figma Design Learn/Figma 中原型制作的指南\|Figma 中原型制作的指南]]
+[[02 Area/设计/Figma Design Learn/Figma 原型制作指南\|Figma 原型制作指南]]
 [原型状态管理](https://help.figma.com/hc/en-us/articles/14397859494295-State-management-for-prototypes)
 - [Use animated GIFs in prototypes 原型中使用动画 GIF](https://help.figma.com/hc/en-us/articles/360041486873-Use-animated-GIFs-in-prototypes)
 - [Use videos in prototypes 原型中使用视频](https://help.figma.com/hc/en-us/articles/8878274530455-Use-videos-in-prototypes)
@@ -346,7 +343,7 @@
 - [Prototype animations 原型动画](https://help.figma.com/hc/en-us/articles/360040522373-Prototype-animations)
 - [Prototype easing and spring animations 原型缓动和弹簧动画](https://help.figma.com/hc/en-us/articles/360051748654-Prototype-easing-and-spring-animations)
 
-### 创建原型 Create prototypes
+### 创建原型
 
 - [在原型中使用区块](https://help.figma.com/hc/en-us/articles/16194160540567-Use-sections-in-prototyping)
 - [Add prototype connections from main components 从主要组件添加原型连接](https://help.figma.com/hc/en-us/articles/4404380377367-Add-prototype-connections-from-main-components)
@@ -355,7 +352,7 @@
 - [Preserve scroll position in prototypes 在原型中保留滚动位置](https://help.figma.com/hc/en-us/articles/360051747774-Preserve-scroll-position-in-prototypes)
 - [Prototype scroll and overflow behavior 原型滚动和溢出行为](https://help.figma.com/hc/en-us/articles/360039818734-Prototype-scroll-and-overflow-behavior)
 
-### 高级原型 Advanced prototyping
+### 高级原型
 - [Advanced prototyping examples 高级原型示例](https://help.figma.com/hc/en-us/articles/17146044893591-Advanced-prototyping-examples)
 - [Smart animate layers between frames 智能在帧之间动画化图层](https://help.figma.com/hc/en-us/articles/360039818874-Smart-animate-layers-between-frames)
 - [Variable modes in prototypes 原型中的变量模式](https://help.figma.com/hc/en-us/articles/15253268379799-Variable-modes-in-prototypes)
@@ -372,7 +369,7 @@
 - [View prototypes on a mobile device 在移动设备上查看原型](https://help.figma.com/hc/en-us/articles/360040321093-View-prototypes-on-a-mobile-device)
 - [Accessible prototypes in Figma 在 Figma 中访问原型](https://help.figma.com/hc/en-us/articles/7810391964695-Accessible-prototypes-in-Figma)
 
-### 导入和导出 Import and export
+### 导入和导出
 - [Guide to imports in Figma Design Figma Design 导入指南](https://help.figma.com/hc/en-us/articles/360040027794-Guide-to-imports-in-Figma-Design)
 - [Import files to the file browser 将文件导入文件浏览器](https://help.figma.com/hc/en-us/articles/360041003114-Import-files-to-the-file-browser)
 - [Import Sketch files 导入 Sketch 文件](https://help.figma.com/hc/en-us/articles/360040514273-Import-Sketch-files)

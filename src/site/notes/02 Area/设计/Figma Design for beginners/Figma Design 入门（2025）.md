@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-for-beginners","permalink":"/design/Figma-Design/Figma-Design-for-beginners/","metatags":{"description":"Start your Figma Design learning journey with this hands-on course where we design a portfolio website from scratch. We'll cover the basics like shapes, text, and frames, and tap into more advanced features like auto layout, components, and prototyping. By the end, you'll be ready to start bringing your own ideas to life.","og:site_name":"DavonOs","og:title":"Figma 设计入门","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-for-beginners","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-07-03 10:26","updated":"2025-08-03 20:32"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-for-beginners","permalink":"/design/Figma-Design/Figma-Design-for-beginners/","metatags":{"description":"Start your Figma Design learning journey with this hands-on course where we design a portfolio website from scratch. We'll cover the basics like shapes, text, and frames, and tap into more advanced features like auto layout, components, and prototyping. By the end, you'll be ready to start bringing your own ideas to life.","og:site_name":"DavonOs","og:title":"Figma 设计入门","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-for-beginners","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-07-03 10:26","updated":"2025-08-13 18:08"}
 ---
 
 
@@ -27,7 +27,7 @@ Figma Design 用于创建各种数字体验，包括移动应用、网站、插�
 
 社区文件：[Figma Design for beginners 社区文件](https://www.figma.com/community/file/1499455316701927850)包含我们将要创建的组件和页面布局的示例。在学习课程的过程中参考这个文件，或者使用完成的组件来探索和开发你自己的页面布局。
 
-帮助中心：想了解某个特定功能的更多详情？Figma 的[帮助中心](https://help.figma.com/hc/en-us)为您提供关于[[02 Area/设计/Figma Design Learn/在设计上切换自动布局\|自动布局]]、[[02 Area/设计/Figma Design Learn/Figma 组件指南\|组件]]、[[02 Area/设计/Figma Design Learn/Figma 中原型制作的指南\|原型设计]]等内容的全面指南。
+帮助中心：想了解某个特定功能的更多详情？Figma 的[帮助中心](https://help.figma.com/hc/en-us)为您提供关于[[02 Area/设计/Figma Design Learn/在设计上切换自动布局\|自动布局]]、[[02 Area/设计/Figma Design Learn/Figma 组件指南\|组件]]、[[02 Area/设计/Figma Design Learn/Figma 原型制作指南\|原型设计]]等内容的全面指南。
 
 Figma 论坛：在 [Figma 论坛](https://forum.figma.com/)上提问、分享想法，与其他学习者建立联系。
 
