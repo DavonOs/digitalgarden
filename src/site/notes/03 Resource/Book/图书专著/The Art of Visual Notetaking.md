@@ -1,14 +1,11 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/36777497","permalink":"/books/36777497/","title":"The Art of Visual Notetaking","metatags":{"description":"Improve your bullet journals, to-do lists, class notes, and everything in between with The Art of Visual Notetaking and its unique approach to taking notes in the twenty-first century. Visual notetaking is the perfect skill for journaling, class lectures, conferences, and any other time that retaining information is key. Also referred to as sketchnoting, visual notetaking is ideal for documenting processes, planning projects, outlining ideas, and capturing information. And as you'll learn in The Art of Visual Notetaking, this approach doesn't require advanced drawing or hand-lettering skills; anyone can learn how to use simple lines, connectors, shapes, and text to take dynamic notes. In The Art of Visual Notetaking, aspiring sketchnoters and journalers will find helpful \"Getting Started\" pages of icons and badges for common note-taking purposes, with tips and encouragement for creating you own unique icons. You'll go on to discover instruction and how-to techniques, tips, and tutorials that focus on visual notetaking for different settings, from a business meeting, workshop, or convention, to a college lecture or sermon. Expert instruction from a professional sketchnote artist and educator demonstrates how to visually arrange and compile ideas, focal points, and key concepts.","og:site_name":"DavonOs","og:title":"TheArtofVisualNotetaking","og:type":"book","og:url":"https://zuji.eu.org/books/36777497","og:image":"https://m.media-amazon.com/images/I/81CCVAmtqfL._SY425_.jpg","og:image:width":"50","og:image:alt":"bookcover"}}
+{"dg-publish":true,"dg-permalink":"books/36777497","permalink":"/books/36777497/","title":"The Art of Visual Notetaking","metatags":{"description":"Improve your bullet journals, to-do lists, class notes, and everything in between with The Art of Visual Notetaking and its unique approach to taking notes in the twenty-first century. Visual notetaking is the perfect skill for journaling, class lectures, conferences, and any other time that retaining information is key. Also referred to as sketchnoting, visual notetaking is ideal for documenting processes, planning projects, outlining ideas, and capturing information. And as you'll learn in The Art of Visual Notetaking, this approach doesn't require advanced drawing or hand-lettering skills; anyone can learn how to use simple lines, connectors, shapes, and text to take dynamic notes. In The Art of Visual Notetaking, aspiring sketchnoters and journalers will find helpful \"Getting Started\" pages of icons and badges for common note-taking purposes, with tips and encouragement for creating you own unique icons. You'll go on to discover instruction and how-to techniques, tips, and tutorials that focus on visual notetaking for different settings, from a business meeting, workshop, or convention, to a college lecture or sermon. Expert instruction from a professional sketchnote artist and educator demonstrates how to visually arrange and compile ideas, focal points, and key concepts.","og:site_name":"DavonOs","og:title":"The Art of Visual Notetaking","og:type":"book","og:url":"https://zuji.eu.org/books/36777497","og:image":"https://m.media-amazon.com/images/I/81CCVAmtqfL._SY425_.jpg","og:image:width":"50","og:image:alt":"bookcover"}}
 ---
 
 
 <span><span></span></span><div class="book-info-container" style="display: flex; gap: 25px; align-items: flex-start;padding: 20px; border-radius: 12px;"><span></span><div class="cover-col" style="flex: 0 0 180px; position: relative;"><span></span><img src="https://m.media-amazon.com/images/I/81CCVAmtqfL._SY425_.jpg" style="width: 100%; border-radius: 6px;box-shadow: 0 8px 15px rgba(0,0,0,0.4);" alt="The Art of Visual Notetaking"></div><div class="info-col" style="flex: 1; min-width: 0;"><span></span><div style="margin-bottom: 15px;"><span></span><h1 style="font-size: 1.8rem; font-weight: 800;margin: 0 0 5px 0;color: #e0e0e0;"><span></span><a href="https://book.douban.com/subject/36777497/" target="_blank" style="color: #4da6ff; text-decoration: none;border-bottom: 2px solid #4da6ff;"><span>The Art of Visual Notetaking</span></a></h1></div><div style="width: 100%;margin-top: 15px;display: flex;flex-direction: column;gap: 8px;"><span></span><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>✍️ 作者</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>Emily·Mills</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>📅 出版日期</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;">2019-1-01</div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>📄 页数</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>131页</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>🔢 ISBN</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>9781600584589</span></div></div></div></div></div>
-关于作者
 
-EmilyMilIs 是一位自由插画师和速写笔记狂热者。当她不在全国范围内为《速写效果》做视觉笔记时，你可以找到她在为自己的客户服务或在 SketchnoteAcademy.com 上教授在线课程。Emily 和丈夫 Joseph 住在田纳西州纳什维尔的郊区。订阅 SketchnoteAcademy.com，获取更多视觉笔记文章和练习
-
-# 基础：什么是视觉笔记？
+## 基础：什么是视觉笔记？
 
 视觉笔记，也被称为“草图笔记”，是为了保留信息而制作的，是使用绘画和文字手绘的信息或体验记录
 
@@ -18,18 +15,16 @@ EmilyMilIs 是一位自由插画师和速写笔记狂热者。当她不在全国
 
 视觉笔记的总体目标是记住所分享或经历的信息。如果信息无法被记住或分享，它就毫无价值！视觉笔记帮助信息在时间中保持其价值
 
-![](https://cdn-mineru.openxlab.org.cn/extract/aba0d90d-2313-470d-b19a-e3fa698efae7/0345b402732fa32191e117e5365ff10ad3794368731787237a590e5bdfe36cd1.jpg)
 手绘
 视觉笔记必须由人手完成，无论是实时还是事后，无论是数字还是纸质人类元素对于有效的视觉笔记至关重要
-![](https://cdn-mineru.openxlab.org.cn/extract/aba0d90d-2313-470d-b19a-e3fa698efae7/965d793deacfba0224f3b80cc5ff14b97b92282140054a87ab1c3ac9be73c50a.jpg)
 
 信息可视化记录
 就像照片是对某个时刻的视觉呈现和记录一样，视觉笔记是对传递的信息或体验的视觉呈现
-![](https://cdn-mineru.openxlab.org.cn/extract/aba0d90d-2313-470d-b19a-e3fa698efae7/eeef95869e864267477c360ce26243d0a2ea7f0cdf00d1ffcd6c85a266fb6df0.jpg)
 
 绘画与文字
 
 这部分非常重要，需要掌握！通过视觉笔记，你要么创造清晰，要么制造混乱视觉笔记的存在是为了可视化、澄清和组织信息插图的自的在于帮助信息被理解和记忆，因此与信息搭配的插图应该始终直接相关，否则你会制造混乱插图和信息应该协同工作，共同创造视觉理解，以增强清晰度我们稍后会深入探讨其背后的科学原理
+
 下面是这一概念的实际应用：
 ![](https://cdn-mineru.openxlab.org.cn/extract/aba0d90d-2313-470d-b19a-e3fa698efae7/ba68cc5012aeeaeaee81fe257ec40e00fe67a7290c755c7a791c688f548996ca.jpg)
  
@@ -48,7 +43,6 @@ EmilyMilIs 是一位自由插画师和速写笔记狂热者。当她不在全国
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/aba0d90d-2313-470d-b19a-e3fa698efae7/b11c7c98959f827ebfe9f94a7d939a1009a48cf6e985ef45f57697bcea505955.jpg)
 
-视觉笔记不仅仅是信息
 视觉笔记不仅只是插画，它们也不仅只是信息
 
 在视觉笔记中，信息始终是优先的，但如果没有插画的辅助，它就会失去驱动力。一墙的文字会让人感到不知所措，而且不有趣（或者难以记住！）把一页文字交给一个人让他们阅读 -他们可能会叹气！如果你给他们一张既有图像又有文字的纸，他们的反应可能会不同。
