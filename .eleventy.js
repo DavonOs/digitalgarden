@@ -425,62 +425,6 @@ module.exports = function (eleventyConfig) {
     // 返回转换后的字符串和解析后的HTML内容。
     return str && parsed.innerHTML;
   });
-  // 新增：处理标题中的Obsidian链接，保留跳转功能
-  eleventyConfig.addTransform("parse-heading-links", function (str) {
-    // 仅处理HTML文件
-    if (!this.outputPath || !this.outputPath.endsWith(".html")) {
-      return str;
-    }
-    const parsed = parse(str);
-    // 匹配所有标题标签
-    const headings = parsed.querySelectorAll("h1, h2, h3, h4, h5, h6");
-    headings.forEach(heading => {
-      let headingHtml = heading.innerHTML;
-      // 匹配Obsidian链接格式：[[路径|显示文本]] 或 [[路径]]
-      const linkRegex = /\[\[(.*?)\]\]/g;
-      const parsedHtml = headingHtml.replace(linkRegex, (match, linkContent) => {
-        // 分割路径和显示文本
-        const [filePath, displayText] = linkContent.split('|');
-        // 确定显示文本
-        const text = displayText || filePath.split('/').pop();
-        // 复用现有函数获取链接属性
-        const { attributes } = getAnchorAttributes(filePath, text);
-        // 生成带链接的标题内容
-        return `<a ${Object.keys(attributes).map(key => `${key}="${attributes[key]}"`).join(' ')}>${text}</a>`;
-      });
-      // 更新标题内容
-      heading.innerHTML = parsedHtml;
-    });
-    return parsed.innerHTML;
-  });
-  eleventyConfig.addTransform("picture", function (str) {
-    if(process.env.USE_FULL_RESOLUTION_IMAGES === "true"){
-      return str;
-    }
-    const parsed = parse(str);
-    for (const imageTag of parsed.querySelectorAll(".cm-s-obsidian img")) {
-      const src = imageTag.getAttribute("src");
-      if (src && src.startsWith("/") && !src.endsWith(".svg")) {
-        const cls = imageTag.classList.value;
-        const alt = imageTag.getAttribute("alt");
-        const width = imageTag.getAttribute("width") || '';
-        try {
-          const meta = transformImage(
-            "./src/site" + decodeURI(imageTag.getAttribute("src")),
-            cls.toString(),
-            alt,
-            ["(max-width: 480px)", "(max-width: 1024px)"]
-          );
-          if (meta) {
-            fillPictureSourceSets(src, cls, alt, meta, width, imageTag);
-          }
-        } catch {
-          // 容错处理
-        }
-      }
-    }
-    return str && parsed.innerHTML;
-  });
   // 填充图片源集的函数。
   function fillPictureSourceSets(src, cls, alt, meta, width, imageTag) {
     imageTag.tagName = "picture";// 将图像标签转换为<picture>标签。
@@ -520,6 +464,44 @@ module.exports = function (eleventyConfig) {
     imageTag.innerHTML = html;// 将生成的HTML设置回图像标签的innerHTML。
   }
 
+  // 添加一个名为 "picture" 的转换器，用于处理图片标签
+  eleventyConfig.addTransform("picture", function (str) {
+    // 检查环境变量USE_FULL_RESOLUTION_IMAGES是否设置为"true"，如果是，则直接返回原始字符串
+    if(process.env.USE_FULL_RESOLUTION_IMAGES === "true"){
+      return str;
+    }
+    // 使用parse函数解析HTML字符串
+    const parsed = parse(str);
+    // 遍历所有class为"cm-s-obsidian img"的img标签
+    for (const imageTag of parsed.querySelectorAll(".cm-s-obsidian img")) {
+      const src = imageTag.getAttribute("src");// 获取img标签的src属性
+      // 检查src是否存在，以"/"开头且不以".svg"结尾
+      if (src && src.startsWith("/") && !src.endsWith(".svg")) {
+        // 获取img标签的class和alt属性
+        const cls = imageTag.classList.value;
+        const alt = imageTag.getAttribute("alt");
+        // 获取img标签的width属性，如果不存在则默认为空字符串
+        const width = imageTag.getAttribute("width") || '';
+
+        try {
+          // 调用transformImage函数处理图片，并传入相应的参数
+          const meta = transformImage(
+            "./src/site" + decodeURI(imageTag.getAttribute("src")),
+            cls.toString(),
+            alt,
+            ["(max-width: 480px)", "(max-width: 1024px)"]
+          );
+
+          if (meta) {
+            fillPictureSourceSets(src, cls, alt, meta, width, imageTag);
+          }
+        } catch {
+          // Make it fault tolarent.
+        }
+      }
+    }
+    return str && parsed.innerHTML;
+  });
   // 添加一个名为 "table" 的转换器，用于处理表格标签
   eleventyConfig.addTransform("table", function (str) {
     const parsed = parse(str);// 使用parse函数解析HTML字符串
