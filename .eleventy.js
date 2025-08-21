@@ -425,6 +425,62 @@ module.exports = function (eleventyConfig) {
     // 返回转换后的字符串和解析后的HTML内容。
     return str && parsed.innerHTML;
   });
+  // 新增：处理标题中的Obsidian链接，保留跳转功能
+  eleventyConfig.addTransform("parse-heading-links", function (str) {
+    // 仅处理HTML文件
+    if (!this.outputPath || !this.outputPath.endsWith(".html")) {
+      return str;
+    }
+    const parsed = parse(str);
+    // 匹配所有标题标签
+    const headings = parsed.querySelectorAll("h1, h2, h3, h4, h5, h6");
+    headings.forEach(heading => {
+      let headingHtml = heading.innerHTML;
+      // 匹配Obsidian链接格式：[[路径|显示文本]] 或 [[路径]]
+      const linkRegex = /\[\[(.*?)\]\]/g;
+      const parsedHtml = headingHtml.replace(linkRegex, (match, linkContent) => {
+        // 分割路径和显示文本
+        const [filePath, displayText] = linkContent.split('|');
+        // 确定显示文本
+        const text = displayText || filePath.split('/').pop();
+        // 复用现有函数获取链接属性
+        const { attributes } = getAnchorAttributes(filePath, text);
+        // 生成带链接的标题内容
+        return `<a ${Object.keys(attributes).map(key => `${key}="${attributes[key]}"`).join(' ')}>${text}</a>`;
+      });
+      // 更新标题内容
+      heading.innerHTML = parsedHtml;
+    });
+    return parsed.innerHTML;
+  });
+  eleventyConfig.addTransform("picture", function (str) {
+    if(process.env.USE_FULL_RESOLUTION_IMAGES === "true"){
+      return str;
+    }
+    const parsed = parse(str);
+    for (const imageTag of parsed.querySelectorAll(".cm-s-obsidian img")) {
+      const src = imageTag.getAttribute("src");
+      if (src && src.startsWith("/") && !src.endsWith(".svg")) {
+        const cls = imageTag.classList.value;
+        const alt = imageTag.getAttribute("alt");
+        const width = imageTag.getAttribute("width") || '';
+        try {
+          const meta = transformImage(
+            "./src/site" + decodeURI(imageTag.getAttribute("src")),
+            cls.toString(),
+            alt,
+            ["(max-width: 480px)", "(max-width: 1024px)"]
+          );
+          if (meta) {
+            fillPictureSourceSets(src, cls, alt, meta, width, imageTag);
+          }
+        } catch {
+          // 容错处理
+        }
+      }
+    }
+    return str && parsed.innerHTML;
+  });
   // 填充图片源集的函数。
   function fillPictureSourceSets(src, cls, alt, meta, width, imageTag) {
     imageTag.tagName = "picture";// 将图像标签转换为<picture>标签。
