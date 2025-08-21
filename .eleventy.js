@@ -520,44 +520,6 @@ module.exports = function (eleventyConfig) {
     imageTag.innerHTML = html;// 将生成的HTML设置回图像标签的innerHTML。
   }
 
-  // 添加一个名为 "picture" 的转换器，用于处理图片标签
-  eleventyConfig.addTransform("picture", function (str) {
-    // 检查环境变量USE_FULL_RESOLUTION_IMAGES是否设置为"true"，如果是，则直接返回原始字符串
-    if(process.env.USE_FULL_RESOLUTION_IMAGES === "true"){
-      return str;
-    }
-    // 使用parse函数解析HTML字符串
-    const parsed = parse(str);
-    // 遍历所有class为"cm-s-obsidian img"的img标签
-    for (const imageTag of parsed.querySelectorAll(".cm-s-obsidian img")) {
-      const src = imageTag.getAttribute("src");// 获取img标签的src属性
-      // 检查src是否存在，以"/"开头且不以".svg"结尾
-      if (src && src.startsWith("/") && !src.endsWith(".svg")) {
-        // 获取img标签的class和alt属性
-        const cls = imageTag.classList.value;
-        const alt = imageTag.getAttribute("alt");
-        // 获取img标签的width属性，如果不存在则默认为空字符串
-        const width = imageTag.getAttribute("width") || '';
-
-        try {
-          // 调用transformImage函数处理图片，并传入相应的参数
-          const meta = transformImage(
-            "./src/site" + decodeURI(imageTag.getAttribute("src")),
-            cls.toString(),
-            alt,
-            ["(max-width: 480px)", "(max-width: 1024px)"]
-          );
-
-          if (meta) {
-            fillPictureSourceSets(src, cls, alt, meta, width, imageTag);
-          }
-        } catch {
-          // Make it fault tolarent.
-        }
-      }
-    }
-    return str && parsed.innerHTML;
-  });
   // 添加一个名为 "table" 的转换器，用于处理表格标签
   eleventyConfig.addTransform("table", function (str) {
     const parsed = parse(str);// 使用parse函数解析HTML字符串
