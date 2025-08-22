@@ -28,6 +28,7 @@ function transformImage(src, cls, alt, sizes, widths = ["500", "700", "auto"]) {
   let metadata = Image.statsSync(src, options);
   return metadata;
 }
+
 function getAnchorLink(filePath, linkTitle) {
   const {attributes, innerHTML} = getAnchorAttributes(filePath, linkTitle);
   return `<a ${Object.keys(attributes).map(key => `${key}="${attributes[key]}"`).join(" ")}>${innerHTML}</a>`;
