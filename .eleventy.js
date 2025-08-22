@@ -273,6 +273,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("isoDate", function (date) {
     return date && date.toISOString();
   });
+
   eleventyConfig.addFilter("link", function (str) {
     return (
       str &&
