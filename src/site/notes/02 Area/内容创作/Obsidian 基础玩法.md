@@ -31,7 +31,7 @@
 
 切换资料库
 帮助：
-设置：常用，内有各种设置，默认快捷键<kbd>Ctrl</kbd>+<kbd>,</kbd>
+设置：常用，内有各种设置，默认快捷键<kbd>Ctrl</kbd> + <kbd>,</kbd>
 
 **二、笔记列表区：**
 
@@ -169,7 +169,7 @@
 
 ## 命令面板（尽量使用英文版）
 
-快捷键：<kbd>Ctrl</kbd>+<kbd>P</kbd>，集合了各种功能方便使用
+快捷键：<kbd>Ctrl</kbd> + <kbd>P</kbd>，集合了各种功能方便使用
 
 Obsidian 快捷键
 
@@ -179,7 +179,7 @@ Obsidian 快捷键
 
 建议：为你设置的快捷键列出清单
 
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>←</kbd>/<kbd>→</kbd>方向键代表前进后退
+Ctrl + <kbd>Alt</kbd>+ <kbd>←</kbd> / <kbd>→</kbd>方向键代表前进后退
 
 
 
@@ -187,9 +187,9 @@ Obsidian 快捷键
 
 搜索：针对笔记内容的查找，条件单一无需保存结果
 
-搜索当前文档：<kbd>Ctrl</kbd>+<kbd>F</kbd>
+搜索当前文档：<kbd>Ctrl</kbd> + <kbd>F</kbd>
 
-搜索整个资料库：<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd>（需要先切换成英文）
+搜索整个资料库：<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>（需要先切换成英文）
 
 搜索面板
 

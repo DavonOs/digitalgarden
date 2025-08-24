@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/30355759/03-How-to-Build-Better-Habits-in-4-Simple-Steps","permalink":"/books/30355759/03-How-to-Build-Better-Habits-in-4-Simple-Steps/","metatags":{"description":"无论您的目标是什么，Atomic Habits 都提供了一个经过验证的改进框架 - 每天都在。詹姆斯·克利尔揭示了实用的习惯养成策略，这些策略将教您如何养成好习惯、打破坏习惯并掌握导致显着效果的微小行为。如果您在改变习惯方面遇到困难，那么问题不在于您。问题在于您的系统。坏习惯一次又一次地重复出现，不是因为你不想改变，而是因为你有错误的改变系统。","og:site_name":"DavonOs","og:title":"How to Build Better Habits in 4 Simple Steps","og:type":"book","og:url":"https://zuji.eu.org/books/30355759/03-How-to-Build-Better-Habits-in-4-Simple-Steps","og:image":"https://m.media-amazon.com/images/I/81ANaVZk5LL._SL1500_.jpg","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"}}
+{"dg-publish":true,"dg-permalink":"books/30355759/How-to-Build-Better-Habits-in-4-Simple-Steps","permalink":"/books/30355759/How-to-Build-Better-Habits-in-4-Simple-Steps/","title":"培养良好习惯的四步法","metatags":{"description":"无论您的目标是什么，Atomic Habits 都提供了一个经过验证的改进框架 - 每天都在。詹姆斯·克利尔揭示了实用的习惯养成策略，这些策略将教您如何养成好习惯、打破坏习惯并掌握导致显着效果的微小行为。如果您在改变习惯方面遇到困难，那么问题不在于您。问题在于您的系统。坏习惯一次又一次地重复出现，不是因为你不想改变，而是因为你有错误的改变系统。","og:site_name":"DavonOs","og:title":"Atomaic Habits","og:type":"book","og:url":"https://zuji.eu.org/books/30355759/How-to-Build-Better-Habits-in-4-Simple-Steps","og:image":"https://m.media-amazon.com/images/I/81ANaVZk5LL._SL1500_.jpg","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"},"dgShowInlineTitle":true,"created":"2025-08-19 12:56","updated":"2025-08-21 08:19"}
 ---
 
 1898 年，心理学家爱德华·桑代克（Edward Thorndike）进行了一项实验，为我们后来理解习惯形成的过程以及主导我们行为的规则奠定了基础。桑代克对动物的行为表现出浓厚的兴趣，他就以研究猫为开端。
@@ -126,13 +126,3 @@
 如果你曾经有过这样的疑问：“为什么我不照自己说的去做呢？为什么我不减肥或者戒烟，或者为退休存钱，或者开始做兼职呢？为什么我说某事很重要，但似乎从来都不为它抽出些时间？”这些问题的答案全都能从这四条定律中找到。培养好习惯和破除坏习惯的关键是理解这些基本定律，并掌握根据你的具体情况加以调整的技巧。如果你设定的每个目标都违措人性，那它注定会失败。
 
 你的习惯是由你生活中的各种系统塑造的。在接下来的章节中，我们将对这几条定律一一加以探讨，并展示如何利用它们来创立一个体系，在这个体系中，好习惯自然出现，坏习惯逐渐消失。
-
-# 本章小结
-
-习惯是一种行为，因为重复的次数已经足够多，便可以自然而然地出现。
-
-习惯的最终目的是用尽可能少的精力和努力来解决生活中的问题。
-
-任何习惯都可以分解成一个反馈回圈，它包括四个步骤：提示、渴求、反应和奖励。
-
-行为转变的四大定律是一套我们可以用来培养好习惯的简单规则。它们是：（1）让它显而易见；（2）让它有吸引力；（3）让它简便易行；（4）让它令人愉悦。

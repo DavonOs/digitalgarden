@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/30355759/02-How-Your-Habits-Shape-Your-Identity-and-Vice-Versa","permalink":"/books/30355759/02-How-Your-Habits-Shape-Your-Identity-and-Vice-Versa/","metatags":{"description":"无论您的目标是什么，Atomic Habits 都提供了一个经过验证的改进框架 - 每天都在。詹姆斯·克利尔揭示了实用的习惯养成策略，这些策略将教您如何养成好习惯、打破坏习惯并掌握导致显着效果的微小行为。如果您在改变习惯方面遇到困难，那么问题不在于您。问题在于您的系统。坏习惯一次又一次地重复出现，不是因为你不想改变，而是因为你有错误的改变系统。","og:site_name":"DavonOs","og:title":"How Your Habits Shape Your Identity (and Vice Versa)","og:type":"book","og:url":"https://zuji.eu.org/books/30355759/02-How-Your-Habits-Shape-Your-Identity-and-Vice-Versa","og:image":"https://m.media-amazon.com/images/I/81ANaVZk5LL._SL1500_.jpg","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"}}
+{"dg-publish":true,"dg-permalink":"books/30355759/How-Your-Habits-Shape-Your-Identity-and-Vice-Versa","permalink":"/books/30355759/How-Your-Habits-Shape-Your-Identity-and-Vice-Versa/","title":"你的习惯如何塑造你的身份（反之亦然）","metatags":{"description":"无论您的目标是什么，Atomic Habits 都提供了一个经过验证的改进框架 - 每天都在。詹姆斯·克利尔揭示了实用的习惯养成策略，这些策略将教您如何养成好习惯、打破坏习惯并掌握导致显着效果的微小行为。如果您在改变习惯方面遇到困难，那么问题不在于您。问题在于您的系统。坏习惯一次又一次地重复出现，不是因为你不想改变，而是因为你有错误的改变系统。","og:site_name":"DavonOs","og:title":"Atomaic Habits","og:type":"book","og:url":"https://zuji.eu.org/books/30355759/How-Your-Habits-Shape-Your-Identity-and-Vice-Versa","og:image":"https://m.media-amazon.com/images/I/81ANaVZk5LL._SL1500_.jpg","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"},"dgShowInlineTitle":true,"created":"2025-08-19 12:45","updated":"2025-08-21 08:19"}
 ---
 
 为什么沾染不良习惯那么容易，培养好习惯却如此困难？改进日常习惯会左右人生发展的轨迹，其影响力之大超过了几乎所有的事情。然而，明年的今天你的表现会与此时此刻一模一样，没有任何改善。即使有真实的努力和偶尔爆发的十足冲劲，要连续几天保持好习惯往往很难做到。像健身、冥想、写日记和烹饪这样的习惯是保持一两天还行，接下来就成了烦心事。
@@ -157,12 +157,3 @@
 
 # 本章小结
 
-变化有三个层次：结果变化、过程变化和身份变化。
-
-改变习惯的最有效方法不是关注你想要达到的目标，而是你想要成为谁。
-
-你的身份来自你的习惯。每个行动都是你在投票给你想成为的人。
-
-要想使自己做到最好，你需要持续编辑你的信念，升级和扩充套件你的身份。
-
-习惯至关重要的真正原因不是因为它们能带给你更好的结果（尽管它们能做到这一点），而是因为它们能改变你对自己抱有的信念。

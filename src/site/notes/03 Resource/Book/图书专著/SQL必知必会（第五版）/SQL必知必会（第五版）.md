@@ -181,14 +181,14 @@ Windows 用户可以使用 Microsoft SQL Server Express。这是强大的 SQL Se
 
 ### 2.2 检索单个列
 
-   我们将从简单的SQL SELECT语句讲起，此语句如下所示：
+我们将从简单的SQL SELECT语句讲起，此语句如下所示：
 
 **输入**
 ```sql
 SELECT prod_name
 FROM Products;
 ```
-   
+
 上述语句利用SELECT语句从Products表中检索一个名为prod_name 的列。所需的列名写在SELECT关键字之后，FROM关键字指出从哪个表中检索数据。此语句的输出如下所示：
 
 **输出**▼
@@ -233,7 +233,7 @@ Queen doll
 
 `SELECT prod\_name FROM Products;`
 
-```
+```sql
 SELECT prod\_name FROM
 
 Products;
@@ -251,7 +251,7 @@ Products;
 
 下面的SELECT语句从Products表中选择3列。
 
-**输入**▼
+输入▼
 
 ```sql
 SELECT prod_id, prod_name, prod_price
@@ -261,17 +261,17 @@ FROM Products;
 
 与前一个例子一样，这条语句使用SELECT语句从表Products中选择数据。在这个例子中，指定了3个列名，列名之间用逗号分隔。此语句的输出如下：
 
-| prod_id | prod_name           | prod_price |
+| prod_id | prod_name  | prod_price |
 | :------ | :------------------ | :--------- |
-| BNBG01  | Fish bean bag toy   | 3\.49      |
-| BNBG02  | Bird bean bag toy   | 3\.49      |
-| BNBG03  | Rabbit bean bag toy | 3\.49      |
-| BR01    | 8 inch teddy bear   | 5\.99      |
-| BR02    | 12 inch teddy bear  | 8\.99      |
-| BR03    | 18 inch teddy bear  | 11\.99     |
-| RGAN01  | Raggedy Ann         | 4\.99      |
-| RYL01   | King doll           | 9\.49      |
-| RYL02   | Queen dool          | 9\.49      |
+| BNBG01  | Fish bean bag toy| 3\.49|
+| BNBG02  | Bird bean bag toy| 3\.49|
+| BNBG03  | Rabbit bean bag toy | 3\.49|
+| BR01 | 8 inch teddy bear| 5\.99|
+| BR02 | 12 inch teddy bear  | 8\.99|
+| BR03 | 18 inch teddy bear  | 11\.99  |
+| RGAN01  | Raggedy Ann| 4\.99|
+| RYL01| King doll  | 9\.49|
+| RYL02| Queen dool | 9\.49|
 
 **说明：数据表示**
 
@@ -1128,7 +1128,7 @@ WHERE vend_id != 'DLL01';
 
 输出▼
 
-prod_name               prod_price
+prod_nameprod_price
 
 ------------------- ----------
 
@@ -1362,9 +1362,9 @@ WHERE (vend_id = 'DLL01' OR vend_id = 'BRS01') AND prod_price >= 10;
 
 输出▼
 
-prod_name               prod_price
+prod_nameprod_price
 
-------------------- ---------- 18 inch teddy bear      11.9900
+------------------- ---------- 18 inch teddy bear11.9900
 
 分析▼
 
@@ -1424,19 +1424,19 @@ OR vend_id = 'BRS01'
 
 输出▼
 
-12 inch teddy bear      8.9900
+12 inch teddy bear8.9900
 
-18 inch teddy bear      11.9900
+18 inch teddy bear11.9900
 
-8 inch teddy bear       5.9900
+8 inch teddy bear 5.9900
 
-Bird bean bag toy       3.4900
+Bird bean bag toy 3.4900
 
-Fish bean bag toy       3.4900
+Fish bean bag toy 3.4900
 
-Rabbit bean bag toy     3.4900
+Rabbit bean bag toy  3.4900
 
-Raggedy Ann             4.9900
+Raggedy Ann 4.9900
 
 为什么要使用IN操作符？其优点如下。
 
@@ -1647,37 +1647,37 @@ WHERE prod\_name LIKE 'F%y';
 
 1. 下划线（\_）通配符
 
-   另一个有用的通配符是下划线（\_）。下划线的用途与%一样，但它只匹配单个字符，而不是多个字符。
+另一个有用的通配符是下划线（\_）。下划线的用途与%一样，但它只匹配单个字符，而不是多个字符。
 
-   **说明：DB2通配符**
+**说明：DB2通配符**
 
-   DB2不支持通配符一。
+DB2不支持通配符一。
 
-   举一个例子：
+举一个例子：
 
-   **输入**▼
+**输入**▼
 
-   SELECT prod\_id, prod\_name
+SELECT prod\_id, prod\_name
 
-   FROM Products
+FROM Products
 
-   WHERE prod\_name LIKE '\_\_ inch teddy bear';
+WHERE prod\_name LIKE '\_\_ inch teddy bear';
 
-   **说明：请注意后面所跟的空格**
+**说明：请注意后面所跟的空格**
 
-   与上例一样，可能需要给这个模式添加一个通配符。
+与上例一样，可能需要给这个模式添加一个通配符。
 
-   **输出**▼
+**输出**▼
 
-   prod\_id	prod\_name
+prod\_id	prod\_name
 
 	 	
 
-   BR02	12 inch teddy	bear
+BR02	12 inch teddy	bear
 
-   BR03	18 inch teddy	bear
+BR03	18 inch teddy	bear
 
-   **分析**▼
+**分析**▼
 
 这个WHERE子句中的搜索模式给出了后面跟有文本的两个通配符。结果只显示匹配搜索模式的行：第一行中下划线匹配12，第二行中匹配 18。8 inch teddy bear产品没有匹配，因为搜索模式要求匹配两个通配符而不是一个。对照一下，下面的SELECT语句使用％通配符，返回三行产品：
 
@@ -2149,7 +2149,7 @@ SELECT语句为测试、检验函数和计算提供了很好的方法。虽然SE
 
 1. 使用函数
 
-   大多数SQL实现支持以下类型的函数。
+大多数SQL实现支持以下类型的函数。
 
 口用于处理文本字符串（如删除或填充值，转换值为大写或小写）的文本函数。
 
@@ -2245,13 +2245,13 @@ Kids Place	Michelle Green
 
 1. 日期和时间处理函数
 
-   日期和时间采用相应的数据类型存储在表中，每种DBMS都有自己的特殊形式。日期和时间值以特殊的格式存储，以便能快速和有效地排序或过滤，并且节省物理存储空间。
+日期和时间采用相应的数据类型存储在表中，每种DBMS都有自己的特殊形式。日期和时间值以特殊的格式存储，以便能快速和有效地排序或过滤，并且节省物理存储空间。
 
-   应用程序一般不使用日期和时间的存储格式，因此日期和时间函数总是用来读取、统计和处理这些值。由于这个原因，日期和时间函数在SQL 中具有重要的作用。遗憾的是，它们很不一致，可移植性最差。
+应用程序一般不使用日期和时间的存储格式，因此日期和时间函数总是用来读取、统计和处理这些值。由于这个原因，日期和时间函数在SQL 中具有重要的作用。遗憾的是，它们很不一致，可移植性最差。
 
-   我们举个简单的例子，来说明日期处理函数的用法。Orders表中包含的订单都带有订单日期。要检索出某年的所有订单，需要按订单日期去找， 但不需要完整日期，只要年份即可。
+我们举个简单的例子，来说明日期处理函数的用法。Orders表中包含的订单都带有订单日期。要检索出某年的所有订单，需要按订单日期去找， 但不需要完整日期，只要年份即可。
 
-   为在SQL Server中检索2020年的所有订单，可如下进行：
+为在SQL Server中检索2020年的所有订单，可如下进行：
 
 
 **输入**▼
@@ -2346,9 +2346,9 @@ DBMS提供的功能远不止简单的日期成分提取。大多数DBMS具有比
 
 1. 数值处理函数
 
-   数值处理函数仅处理数值数据。这些函数一般主要用于代数、三角或几何运算，因此不像字符串或日期-时间处理函数使用那么频繁。
+数值处理函数仅处理数值数据。这些函数一般主要用于代数、三角或几何运算，因此不像字符串或日期-时间处理函数使用那么频繁。
 
-   具有讽刺意味的是，在主要DBMS的函数中，数值函数是最一致、最统一的函数。表8-3列出一些常用的数值处理函数。
+具有讽刺意味的是，在主要DBMS的函数中，数值函数是最一致、最统一的函数。表8-3列出一些常用的数值处理函数。
 
 **
 
@@ -2367,7 +2367,7 @@ DBMS提供的功能远不止简单的日期成分提取。大多数DBMS具有比
 
 1. 小结
 
-   这一课介绍了如何使用SQL的数据处理函数。虽然这些函数在格式化、 处理和过滤数据中非常有用，但它们在各种SQL实现中很不一致。
+这一课介绍了如何使用SQL的数据处理函数。虽然这些函数在格式化、 处理和过滤数据中非常有用，但它们在各种SQL实现中很不一致。
 
 1. 挑战题
 1. . 我们的商店已经上线了，正在创建顾客账户。所有用户都需要登录名， 默认登录名是其名称和所在城市的组合。编写SQL语句，返回顾客ID (cust\_id)、顾客名称(customer\_name)和登录名(user\_login)， 其中登录名全部为大写字母，并由顾客联系人的前两个字符(cust\_ contact)和其所在城市的前三个字符(cust\_city)组成。例如， 我的登录名是BEOAK(Ben Forta，居住在Oak Park)。提示：需要使用函数、拼接和别名。
@@ -2378,17 +2378,17 @@ DBMS提供的功能远不止简单的日期成分提取。大多数DBMS具有比
 
 1. 聚集函数
 
-   我们经常需要汇总数据而不用把它们实际检索出来，为此SQL提供了专门的函数。使用这些函数，SQL查询可用于检索数据，以便分析和报表生成。这种类型的检索例子有：
+我们经常需要汇总数据而不用把它们实际检索出来，为此SQL提供了专门的函数。使用这些函数，SQL查询可用于检索数据，以便分析和报表生成。这种类型的检索例子有：
 
-   口确定表中行数（或者满足某个条件或包含某个特定值的行数）；
+口确定表中行数（或者满足某个条件或包含某个特定值的行数）；
 
-   口获得表中某些行的和；
+口获得表中某些行的和；
 
-   口找出表列（或所有行或某些特定的行）的最大值、最小值、平均值。
+口找出表列（或所有行或某些特定的行）的最大值、最小值、平均值。
 
-   上述例子都需要汇总出表中的数据，而不需要查出数据本身。因此，返回实际表数据纯属浪费时间和处理资源（更不用说带宽了）。再说一遍， 我们实际想要的是汇总信息。
+上述例子都需要汇总出表中的数据，而不需要查出数据本身。因此，返回实际表数据纯属浪费时间和处理资源（更不用说带宽了）。再说一遍， 我们实际想要的是汇总信息。
 
-   为方便这种类型的检索，SQL给出了 5个聚集函数，见表9-1。这些函数能进行上述检索。与前一章介绍的数据处理函数不同，SQL的聚集函数在各种主要SQL实现中得到了相当一致的支持。
+为方便这种类型的检索，SQL给出了 5个聚集函数，见表9-1。这些函数能进行上述检索。与前一章介绍的数据处理函数不同，SQL的聚集函数在各种主要SQL实现中得到了相当一致的支持。
 
 **
 
@@ -2407,63 +2407,63 @@ DBMS提供的功能远不止简单的日期成分提取。大多数DBMS具有比
 
 1. AVG()函数
 
-   AVG()通过对表中行数计数并计算其列值之和，求得该列的平均值。AVG() 可用来返回所有列的平均值，也可以用来返回特定列或行的平均值。
+AVG()通过对表中行数计数并计算其列值之和，求得该列的平均值。AVG() 可用来返回所有列的平均值，也可以用来返回特定列或行的平均值。
 
-   下面的例子使用AVG。返回Products表中所有产品的平均价格：
+下面的例子使用AVG。返回Products表中所有产品的平均价格：
 
-   **输入**▼
+**输入**▼
 
-   SELECT AVG(prod\_price) AS avg\_price
+SELECT AVG(prod\_price) AS avg\_price
 
-   FROM Products;
+FROM Products;
 
-   **输出**▼
+**输出**▼
 
-   avg\_price
+avg\_price
 
 	
 
-   6\.823333
+6\.823333
 
-   **分析**▼
+**分析**▼
 
-   此SELECT语句返回值avg\_price，它包含Products表中所有产品的
+此SELECT语句返回值avg\_price，它包含Products表中所有产品的
 
-   平均价格。如第7课所述，avg\_price是一个别名。
+平均价格。如第7课所述，avg\_price是一个别名。
 
-   AVG。也可以用来确定特定列或行的平均值。下面的例子返回特定供应商所提供产品的平均价格：
+AVG。也可以用来确定特定列或行的平均值。下面的例子返回特定供应商所提供产品的平均价格：
 
-   **输入**▼
+**输入**▼
 
-   SELECT AVG(prod\_price) AS avg\_price
+SELECT AVG(prod\_price) AS avg\_price
 
-   FROM Products
+FROM Products
 
-   WHERE vend\_id = 'DLL01';
+WHERE vend\_id = 'DLL01';
 
-   **输出**▼
+**输出**▼
 
-   avg\_price 	
+avg\_price 	
 
-   3\.8650
+3\.8650
 
-   **分析**▼
+**分析**▼
 
-   这条SELECT语句与前一条的不同之处在于，它包含了 WHERE子句。此 WHERE子句仅过滤出vend\_id为DLL01的产品，因此avg\_price中返回的值只是该供应商产品的平均值。
+这条SELECT语句与前一条的不同之处在于，它包含了 WHERE子句。此 WHERE子句仅过滤出vend\_id为DLL01的产品，因此avg\_price中返回的值只是该供应商产品的平均值。
 
-   **注意：只用于单个列**
+**注意：只用于单个列**
 
-   AVG()只能用来确定特定数值列的平均值，而且列名必须作为函数参数给出。为了获得多个列的平均值，必须使用多个AVG()函数。只有一个例外是要从多个列计算出一个值时，本课后面会讲到。
+AVG()只能用来确定特定数值列的平均值，而且列名必须作为函数参数给出。为了获得多个列的平均值，必须使用多个AVG()函数。只有一个例外是要从多个列计算出一个值时，本课后面会讲到。
 
-   **说明：NULL值**
+**说明：NULL值**
 
-   AVG()函数忽略列值为NULL的行。
+AVG()函数忽略列值为NULL的行。
 
 1. COUNT()函数
 
-   COUNT。函数进行计数。可利用COUNT。确定表中行的数目或符合特定条件的行的数目。
+COUNT。函数进行计数。可利用COUNT。确定表中行的数目或符合特定条件的行的数目。
 
-   COUNT。函数有两种使用方式：
+COUNT。函数有两种使用方式：
 
 口使用COUNT。\*)对表中行的数目进行计数，不管表列中包含的是空值 (NULL)还是非空值。
 
@@ -2505,95 +2505,95 @@ num\_cust
 
 1. MAX()函数
 
-   MAX。返回指定列中的最大值。MAX()要求指定列名，如下所示：
+MAX。返回指定列中的最大值。MAX()要求指定列名，如下所示：
 
-   **输入**▼
+**输入**▼
 
-   SELECT MAX(prod\_price) AS max\_price FROM Products;
+SELECT MAX(prod\_price) AS max\_price FROM Products;
 
-   **输出**▼
+**输出**▼
 
-   max\_price 	 11.9900
+max\_price 	 11.9900
 
-   **分析**▼
+**分析**▼
 
-   这里，MAX。返回Products表中最贵物品的价格。
+这里，MAX。返回Products表中最贵物品的价格。
 
-   **提示：对非数值数据使用MAX()**
+**提示：对非数值数据使用MAX()**
 
-   虽然MAX()一般用来找出最大的数值或日期值，但许多(并非所有) DBMS允许将它用来返回任意列中的最大值，包括返回文本列中的最大值。在用于文本数据时，MAX()返回按该列排序后的最后一行。
+虽然MAX()一般用来找出最大的数值或日期值，但许多(并非所有) DBMS允许将它用来返回任意列中的最大值，包括返回文本列中的最大值。在用于文本数据时，MAX()返回按该列排序后的最后一行。
 
-   **说明：NULL值**
+**说明：NULL值**
 
-   MAX()函数忽略列值为NULL的行。
+MAX()函数忽略列值为NULL的行。
 
 1. MIN()函数
 
-   MIN。的功能正好与MAX。功能相反，它返回指定列的最小值。与MAX() 一样，MIN()要求指定列名，如下所示：
+MIN。的功能正好与MAX。功能相反，它返回指定列的最小值。与MAX() 一样，MIN()要求指定列名，如下所示：
 
-   **输入**▼
+**输入**▼
 
-   SELECT MIN(prod\_price) AS min\_price
+SELECT MIN(prod\_price) AS min\_price
 
-   FROM Products;
+FROM Products;
 
-   **输出**▼
+**输出**▼
 
-   min\_price
+min\_price
 
 	
 
-   3\.4900
+3\.4900
 
-   **分析**▼
+**分析**▼
 
-   其中MIN()返回Products表中最便宜物品的价格。
+其中MIN()返回Products表中最便宜物品的价格。
 
-   **提示：对非数值数据使用MIN()**
+**提示：对非数值数据使用MIN()**
 
-   虽然MIN()一般用来找出最小的数值或日期值，但许多(并非所有) DBMS允许将它用来返回任意列中的最小值，包括返回文本列中的最小值。在用于文本数据时，MIN()返回该列排序后最前面的行。
+虽然MIN()一般用来找出最小的数值或日期值，但许多(并非所有) DBMS允许将它用来返回任意列中的最小值，包括返回文本列中的最小值。在用于文本数据时，MIN()返回该列排序后最前面的行。
 
-   **说明：NULL值**
+**说明：NULL值**
 
-   MIN()函数忽略列值为NULL的行。
+MIN()函数忽略列值为NULL的行。
 
 1. SUM()函数
 
-   SUM。用来返回指定列值的和(总计)。 下面举一个例子，Orderitems包含订单中实际的物品，每个物品有相应的数量。可如下检索所订购物品的总数(所有quanti ty值之和)：
+SUM。用来返回指定列值的和(总计)。 下面举一个例子，Orderitems包含订单中实际的物品，每个物品有相应的数量。可如下检索所订购物品的总数(所有quanti ty值之和)：
 
-   **输入**▼
+**输入**▼
 
-   SELECT SUM(quantity) AS items\_ordered FROM OrderItems
+SELECT SUM(quantity) AS items\_ordered FROM OrderItems
 
-   WHERE order\_num = 20005;
+WHERE order\_num = 20005;
 
-   **输出**▼
+**输出**▼
 
-   items\_ordered
+items\_ordered
 
 	
 
-   200
+200
 
-   **分析**▼
+**分析**▼
 
-   函数SUM(quantity)返回订单中所有物品数量之和，WHERE子句保证只统计某个物品订单中的物品。
+函数SUM(quantity)返回订单中所有物品数量之和，WHERE子句保证只统计某个物品订单中的物品。
 
-   SUM。也可以用来合计计算值。在下面的例子中，合计每项物品的 i tem\_price\*quanti ty，得出总的订单金额：
+SUM。也可以用来合计计算值。在下面的例子中，合计每项物品的 i tem\_price\*quanti ty，得出总的订单金额：
 
-   **输入**▼
+**输入**▼
 
-   SELECT SUM(item\_price\*quantity) AS total\_price FROM OrderItems
+SELECT SUM(item\_price\*quantity) AS total\_price FROM OrderItems
 
-   WHERE order\_num = 20005;
+WHERE order\_num = 20005;
 
-   **输出**▼
+**输出**▼
 
-   total\_price 	 1648.0000
+total\_price 	 1648.0000
 
-   **分析**▼
+**分析**▼
 
-   函数SUM(item\_price\*quantity)返回订单中所有物品价钱之和，WHERE 
+函数SUM(item\_price\*quantity)返回订单中所有物品价钱之和，WHERE 
 
 **
 
@@ -2610,7 +2610,7 @@ SUM()函数忽略列值为NULL的行。
 
 1. 聚集不同值
 
-   以上5个聚集函数都可以如下使用。
+以上5个聚集函数都可以如下使用。
 
 口对所有行执行计算，指定ALL参数或不指定参数(因为ALL是默认行为)。
 
@@ -2658,9 +2658,9 @@ avg\_price
 
 1. 组合聚集函数
 
-   目前为止的所有聚集函数例子都只涉及单个函数。但实际上，SELECT语句可根据需要包含多个聚集函数。请看下面的例子：
+目前为止的所有聚集函数例子都只涉及单个函数。但实际上，SELECT语句可根据需要包含多个聚集函数。请看下面的例子：
 
-   **输入**▼
+**输入**▼
 
 SELECT COUNT(\*) AS num\_items, MIN(prod\_price) AS price\_min, MAX(prod\_price) AS price\_max, AVG(prod\_price) AS price\_avg
 
@@ -2680,7 +2680,7 @@ FROM Products;
 
 1. 小结
 
-   聚集函数用来汇总数据。SQL支持5个聚集函数，可以用多种方法使用它们，返回所需的结果。这些函数很高效，它们返回结果一般比你在自己的客户端应用程序中计算要快得多。
+聚集函数用来汇总数据。SQL支持5个聚集函数，可以用多种方法使用它们，返回所需的结果。这些函数很高效，它们返回结果一般比你在自己的客户端应用程序中计算要快得多。
 
 1. 挑战题
 1. .编写SQL语句，确定已售出产品的总数(使用Orderitems中的 quantity 歹列)。
@@ -2694,21 +2694,21 @@ FROM Products;
 
 1. 数据分组
 
-   从上一课得知，使用SQL聚集函数可以汇总数据。这样，我们就能够对行进行计数，计算和与平均数，不检索所有数据就获得最大值和最小值。
+从上一课得知，使用SQL聚集函数可以汇总数据。这样，我们就能够对行进行计数，计算和与平均数，不检索所有数据就获得最大值和最小值。
 
-   目前为止的所有计算都是在表的所有数据或匹配特定的WHERE子句的数据上进行的。比如下面的例子返回供应商DLL01提供的产品数目：
+目前为止的所有计算都是在表的所有数据或匹配特定的WHERE子句的数据上进行的。比如下面的例子返回供应商DLL01提供的产品数目：
 
-   **输入**▼
+**输入**▼
 
-   SELECT COUNT(\*) AS num\_prods
+SELECT COUNT(\*) AS num\_prods
 
-   FROM Products
+FROM Products
 
-   WHERE vend\_id = 'DLL01';
+WHERE vend\_id = 'DLL01';
 
-   **输出**▼
+**输出**▼
 
-   num\_prods 
+num\_prods 
 
 **
 
@@ -2719,35 +2719,35 @@ FROM Products;
 
 1. 创建分组
 
-   分组是使用SELECT语句的GROUP BY子句建立的。理解分组的最好办法是看一个例子：
+分组是使用SELECT语句的GROUP BY子句建立的。理解分组的最好办法是看一个例子：
 
-   **输入**▼
+**输入**▼
 
-   SELECT vend\_id, COUNT(\*) AS num\_prods
+SELECT vend\_id, COUNT(\*) AS num\_prods
 
-   FROM Products
+FROM Products
 
-   GROUP BY vend\_id;
+GROUP BY vend\_id;
 
-   **输出**▼
+**输出**▼
 
-   vend\_id	num\_prods
+vend\_id	num\_prods
 
 	 	
 
-   BRS01	3
+BRS01	3
 
-   DLL01	4
+DLL01	4
 
-   FNG01	2
+FNG01	2
 
-   **分析**▼
+**分析**▼
 
-   上面的SELECT语句指定了两个列：vend\_id包含产品供应商的ID, num\_prods为计算字段(用COUNT(\*)函数建立)。GROUP BY子句指示 DBMS按vend\_id排序并分组数据。这就会对每个vend\_id而不是整个表计算num\_prods 一次。从输出中可以看到，供应商BRS01有3个产品，供应商DLL01有4个产品，而供应商FNG01有2个产品。
+上面的SELECT语句指定了两个列：vend\_id包含产品供应商的ID, num\_prods为计算字段(用COUNT(\*)函数建立)。GROUP BY子句指示 DBMS按vend\_id排序并分组数据。这就会对每个vend\_id而不是整个表计算num\_prods 一次。从输出中可以看到，供应商BRS01有3个产品，供应商DLL01有4个产品，而供应商FNG01有2个产品。
 
-   因为使用了 GROUP BY,就不必指定要计算和估值的每个组了。系统会自动完成。GROUP BY子句指示DBMS分组数据，然后对每个组而不是整个结果集进行聚集。
+因为使用了 GROUP BY,就不必指定要计算和估值的每个组了。系统会自动完成。GROUP BY子句指示DBMS分组数据，然后对每个组而不是整个结果集进行聚集。
 
-   在使用GROUP BY子句前，需要知道一些重要的规定。
+在使用GROUP BY子句前，需要知道一些重要的规定。
 
 口 GROUP BY子句可以包含任意数目的列，因而可以对分组进行嵌套， 更细致地进行数据分组。
 
@@ -2773,17 +2773,17 @@ Microsoft SQL Server等有些SQL实现在GROUP BY中支持可选的ALL 子句。
 
 1. 过滤分组
 
-   除了能用GROUP BY分组数据外，SQL还允许过滤分组，规定包括哪些分组，排除哪些分组。例如，你可能想要列出至少有两个订单的所有顾客。为此，必须基于完整的分组而不是个别的行进行过滤。
+除了能用GROUP BY分组数据外，SQL还允许过滤分组，规定包括哪些分组，排除哪些分组。例如，你可能想要列出至少有两个订单的所有顾客。为此，必须基于完整的分组而不是个别的行进行过滤。
 
-   我们已经看到了 WHERE子句的作用（第4课提及）。但是，在这个例子中WHERE不能完成任务，因为WHERE过滤指定的是行而不是分组。事实上，WHERE没有分组的概念。
+我们已经看到了 WHERE子句的作用（第4课提及）。但是，在这个例子中WHERE不能完成任务，因为WHERE过滤指定的是行而不是分组。事实上，WHERE没有分组的概念。
 
-   那么，不使用WHERE使用什么呢？ SQL为此提供了另一个子句，就是 HAVING子句。HAVING非常类似于WHERE。事实上，目前为止所学过的所有类型的WHERE子句都可以用HAVING来替代。唯一的差别是，WHERE 过滤行，而HAVING过滤分组。
+那么，不使用WHERE使用什么呢？ SQL为此提供了另一个子句，就是 HAVING子句。HAVING非常类似于WHERE。事实上，目前为止所学过的所有类型的WHERE子句都可以用HAVING来替代。唯一的差别是，WHERE 过滤行，而HAVING过滤分组。
 
-   **提示：HAVING支持所有WHERE操作符**
+**提示：HAVING支持所有WHERE操作符**
 
-   在第4课和第5课中，我们学习了 WHERE子句的条件（包括通配符条件和带多个操作符的子句）。学过的这些有关WHERE的所有技术和选项都适用于HAVING。它们的句法是相同的，只是关键字有差别。
+在第4课和第5课中，我们学习了 WHERE子句的条件（包括通配符条件和带多个操作符的子句）。学过的这些有关WHERE的所有技术和选项都适用于HAVING。它们的句法是相同的，只是关键字有差别。
 
-   那么，怎么过滤分组呢？请看以下的例子：
+那么，怎么过滤分组呢？请看以下的例子：
 
 **
 
@@ -2866,7 +2866,7 @@ HAVING与WHERE非常类似，如果不指定GROUP BY,则大多数DBMS 会同等�
 
 1. 分组和排序
 
-   GROUP BY和ORDER BY经常完成相同的工作，但它们非常不同，理解这一点很重要。表10-1汇总了它们之间的差别。
+GROUP BY和ORDER BY经常完成相同的工作，但它们非常不同，理解这一点很重要。表10-1汇总了它们之间的差别。
 
 表 10-1 ORDER BY 与 GROUP BY
 
@@ -2940,21 +2940,21 @@ ORDER BY items, order\_num;
 
 1. SELECT子句顺序
 
-   下面回顾一下SELECT语句中子句的顺序。表10-2以在SELECT语句中使用时必须遵循的次序，列出迄今为止所学过的子句。
+下面回顾一下SELECT语句中子句的顺序。表10-2以在SELECT语句中使用时必须遵循的次序，列出迄今为止所学过的子句。
 
-   |表10-2 SELECT子句及其顺序|||
-   | :-: | :- | :- |
-   |子句|说明|是否必须使用|
-   |SELECT|要返回的列或表达式|是|
-   |FROM|从中检索数据的表|仅在从表选择数据时使用|
-   |WHERE|行级过滤|否|
-   |GROUP BY|分组说明|仅在按组计算聚集时使用|
-   |HAVING|组级过滤|否|
-   |ORDER BY|输出排序顺序|否|
+|表10-2 SELECT子句及其顺序|||
+| :-: | :- | :- |
+|子句|说明|是否必须使用|
+|SELECT|要返回的列或表达式|是|
+|FROM|从中检索数据的表|仅在从表选择数据时使用|
+|WHERE|行级过滤|否|
+|GROUP BY|分组说明|仅在按组计算聚集时使用|
+|HAVING|组级过滤|否|
+|ORDER BY|输出排序顺序|否|
 
 1. 小结
 
-   上一课介绍了如何用SQL聚集函数对数据进行汇总计算。这一课讲授了如何使用GROUP BY子句对多组数据进行汇总计算，返回每个组的结果。 我们看到了如何使用 HAVING 子句过滤特定的组，还知道了 ORDER BY 和GROUP BY之间以及WHERE和HAVING之间的差异。
+上一课介绍了如何用SQL聚集函数对数据进行汇总计算。这一课讲授了如何使用GROUP BY子句对多组数据进行汇总计算，返回每个组的结果。 我们看到了如何使用 HAVING 子句过滤特定的组，还知道了 ORDER BY 和GROUP BY之间以及WHERE和HAVING之间的差异。
 
 1. 挑战题
 1. . Orderitems表包含每个订单的每个产品。编写SQL语句，返回每个订单号（order\_num）各有多少行数（order\_l i nes）,并按 order\_l i nes 对结果进行排序。
@@ -2978,17 +2978,17 @@ ORDER BY items, order\_num;
 
 1. 子查询
 
-   SELECT语句是SQL的查询。我们迄今为止所看到的所有SELECT语句都是简单查询，即从单个数据库表中检索数据的单条语句。
+SELECT语句是SQL的查询。我们迄今为止所看到的所有SELECT语句都是简单查询，即从单个数据库表中检索数据的单条语句。
 
-   **查询（query ）**
+**查询（query ）**
 
-   任何SQL语句都是查询。但此术语一般指SELECT语句。
+任何SQL语句都是查询。但此术语一般指SELECT语句。
 
-   SQL还允许创建子查询（subquery ）,即嵌套在其他查询中的查询。为什么要这样做呢？理解这个概念的最好方法是考察几个例子。
+SQL还允许创建子查询（subquery ）,即嵌套在其他查询中的查询。为什么要这样做呢？理解这个概念的最好方法是考察几个例子。
 
 1. 利用子查询进行过滤
 
-   本书所有课中使用的数据库表都是关系表（关于每个表及关系的描述， 请参阅附录A）。订单存储在两个表中。每个订单包含订单编号、客户ID、 订单日期，在 Orders 表中存储为一行。各订单的物品存储在相关的 Orderitems表中。Orders表不存储顾客信息，只存储顾客ID。顾客的实际信息存储在Customers表中。
+本书所有课中使用的数据库表都是关系表（关于每个表及关系的描述， 请参阅附录A）。订单存储在两个表中。每个订单包含订单编号、客户ID、 订单日期，在 Orders 表中存储为一行。各订单的物品存储在相关的 Orderitems表中。Orders表不存储顾客信息，只存储顾客ID。顾客的实际信息存储在Customers表中。
 
 **
 
@@ -3139,25 +3139,25 @@ WHERE prod\_id = 'RGAN01'));
 
 1. 作为计算字段使用子查询
 
-   使用子查询的另一方法是创建计算字段。假如需要显示Customers表中每个顾客的订单总数。订单与相应的顾客ID存储在Orders表中。
+使用子查询的另一方法是创建计算字段。假如需要显示Customers表中每个顾客的订单总数。订单与相应的顾客ID存储在Orders表中。
 
-   执行这个操作，要遵循下面的步骤：
+执行这个操作，要遵循下面的步骤：
 
-   ⑴从Customers表中检索顾客列表；
+⑴从Customers表中检索顾客列表；
 
-   ⑵对于检索出的每个顾客，统计其在Orders表中的订单数目。
+⑵对于检索出的每个顾客，统计其在Orders表中的订单数目。
 
-   正如前两课所述，可以使用SELECT COUNT(\*)对表中的行进行计数，并且通过提供一条WHERE子句来过滤某个特定的顾客ID，仅对该顾客的订单进行计数。例如，下面的代码对顾客1000000001的订单进行计数：
+正如前两课所述，可以使用SELECT COUNT(\*)对表中的行进行计数，并且通过提供一条WHERE子句来过滤某个特定的顾客ID，仅对该顾客的订单进行计数。例如，下面的代码对顾客1000000001的订单进行计数：
 
-   **输入**▼
+**输入**▼
 
-   SELECT COUNT(\*) AS orders FROM Orders
+SELECT COUNT(\*) AS orders FROM Orders
 
-   WHERE cust\_id = 1000000001;
+WHERE cust\_id = 1000000001;
 
-   要对每个顾客执行COUNT。\*)，应该将它作为一个子查询。请看下面的代码:
+要对每个顾客执行COUNT。\*)，应该将它作为一个子查询。请看下面的代码:
 
-   **输入**▼
+**输入**▼
 
 SELECT cust\_name, cust\_state, (SELECT COUNT(\*)
 
@@ -3231,7 +3231,7 @@ ORDER BY cust\_name;
 
 1. 小结
 
-   这一课学习了什么是子查询，如何使用它们。子查询常用于WHERE子句的IN操作符中，以及用来填充计算列。我们举了这两种操作类型的例子。
+这一课学习了什么是子查询，如何使用它们。子查询常用于WHERE子句的IN操作符中，以及用来填充计算列。我们举了这两种操作类型的例子。
 
 **
 
@@ -3241,7 +3241,7 @@ ORDER BY cust\_name;
 1. .你想知道订购BR01产品的日期。编写SQL语句，使用子查询来确定哪些订单(在Orderitems中)购买了 prod\_id为BR01的产品，然后从Orders表中返回每个产品对应的顾客ID( cust\_id)和订单日期(order\_date)。按订购日期对结果进行排序。
 1. . 现在我们让它更具挑战性。在上一个挑战题，返回购买 prod\_id 为 BR01的产品的所有顾客的电子邮件(Customers表中的cust\_email)。
 
-   提示：这涉及SELECT语句，最内层的从Orderitems表返回order\_num， 中间的从Customers表返回cust\_id。
+提示：这涉及SELECT语句，最内层的从Orderitems表返回order\_num， 中间的从Customers表返回cust\_id。
 
 1. .我们需要一个顾客ID列表，其中包含他们已订购的总金额。编写SQL 语句，返回顾客ID(Orders表中的cust\_id)，并使用子查询返回 total\_ordered以便返回每个顾客的订单总数。将结果按金额从大到小排序。提示：你之前已经使用SUM()计算订单总数。
 1. .再来。编写SQL语句，从Products表中检索所有的产品名称(prod\_ name)，以及名为quant\_sold的计算列，其中包含所售产品的总数 (在Orderitems表上使用子查询和SUM(quanti ty)检索)。
@@ -3253,17 +3253,17 @@ ORDER BY cust\_name;
 
 1. 联结
 
-   SQL最强大的功能之一就是能在数据查询的执行中联结(join)表联结是利用SQL的SELECT能执行的最重要的操作，很好地理解联结及其语法是学习SQL的极为重要的部分。
+SQL最强大的功能之一就是能在数据查询的执行中联结(join)表联结是利用SQL的SELECT能执行的最重要的操作，很好地理解联结及其语法是学习SQL的极为重要的部分。
 
-   在能够有效地使用联结前，必须了解关系表以及关系数据库设计的一些基础知识。下面的介绍并不能涵盖这一主题的所有内容，但作为入门已经够了。
+在能够有效地使用联结前，必须了解关系表以及关系数据库设计的一些基础知识。下面的介绍并不能涵盖这一主题的所有内容，但作为入门已经够了。
 
-   1. 关系表
+1. 关系表
 
-      理解关系表，最好是来看个例子。
+理解关系表，最好是来看个例子。
 
-      有一个包含产品目录的数据库表，其中每类物品占一行。对于每一种物品，要存储的信息包括产品描述、价格，以及生产该产品的供应商。
+有一个包含产品目录的数据库表，其中每类物品占一行。对于每一种物品，要存储的信息包括产品描述、价格，以及生产该产品的供应商。
 
-      现在有同一供应商生产的多种物品，那么在何处存储供应商名、地址、
+现在有同一供应商生产的多种物品，那么在何处存储供应商名、地址、
 
 **
 
@@ -3298,29 +3298,29 @@ Products表只存储产品信息，除了存储供应商ID（Vendors表的主键
 
 1. 为什么使用联结
 
-   如前所述，将数据分解为多个表能更有效地存储，更方便地处理，并且可伸缩性更好。但这些好处是有代价的。
+如前所述，将数据分解为多个表能更有效地存储，更方便地处理，并且可伸缩性更好。但这些好处是有代价的。
 
-   如果数据存储在多个表中，怎样用一条SELECT语句就检索出数据呢？
+如果数据存储在多个表中，怎样用一条SELECT语句就检索出数据呢？
 
-   答案是使用联结。简单说，联结是一种机制，用来在一条SELECT语句中关联表，因此称为联结。使用特殊的语法，可以联结多个表返回一组输出，联结在运行时关联表中正确的行。
+答案是使用联结。简单说，联结是一种机制，用来在一条SELECT语句中关联表，因此称为联结。使用特殊的语法，可以联结多个表返回一组输出，联结在运行时关联表中正确的行。
 
-   **说明：使用交互式DBMS工具**
+**说明：使用交互式DBMS工具**
 
-   重要的是，要理解联结不是物理实体。换句话说，它在实际的数据库表中并不存在。DBMS会根据需要建立联结，它在查询执行期间一直存在。
+重要的是，要理解联结不是物理实体。换句话说，它在实际的数据库表中并不存在。DBMS会根据需要建立联结，它在查询执行期间一直存在。
 
-   许多DBMS提供图形界面，用来交互式地定义表关系。这些工具极其有助于维护引用完整性。在使用关系表时，仅在关系列中插入合法数据是非常重要的。回到这里的例子，如果Products表中存储了无效的供应商ID，则相应的产品不可访问，因为它们没有关联到某个供应商。为避免这种情况发生，可指示数据库只允许在Products表的供应商ID列中出现合法值（即出现在Vendors表中的供应商）。引用完整性表示DBMS强制实施数据完整性规则。这些规则一般由提供了界面的DBMS管理。
+许多DBMS提供图形界面，用来交互式地定义表关系。这些工具极其有助于维护引用完整性。在使用关系表时，仅在关系列中插入合法数据是非常重要的。回到这里的例子，如果Products表中存储了无效的供应商ID，则相应的产品不可访问，因为它们没有关联到某个供应商。为避免这种情况发生，可指示数据库只允许在Products表的供应商ID列中出现合法值（即出现在Vendors表中的供应商）。引用完整性表示DBMS强制实施数据完整性规则。这些规则一般由提供了界面的DBMS管理。
 
 1. 创建联结
 
-   创建联结非常简单，指定要联结的所有表以及关联它们的方式即可。请看下面的例子：
+创建联结非常简单，指定要联结的所有表以及关联它们的方式即可。请看下面的例子：
 
-   **输入**▼
+**输入**▼
 
-   SELECT vend\_name, prod\_name, prod\_price
+SELECT vend\_name, prod\_name, prod\_price
 
-   FROM Vendors, Products
+FROM Vendors, Products
 
-   WHERE Vendors.vend\_id = Products.vend\_id;
+WHERE Vendors.vend\_id = Products.vend\_id;
 
 **输出**▼
 
@@ -3349,17 +3349,17 @@ Products表只存储产品信息，除了存储供应商ID（Vendors表的主键
 
 1. WHERE子句的重要性
 
-   使用WHERE子句建立联结关系似乎有点奇怪，但实际上是有个很充分的理由的。要记住，在一条SELECT语句中联结几个表时，相应的关系是在运行中构造的。在数据库表的定义中没有指示DBMS如何对表进行联结的内容。你必须自己做这件事情。在联结两个表时，实际要做的是将第一个表中的每一行与第二个表中的每一行配对。WHERE子句作为过滤条件，只包含那些匹配给定条件（这里是联结条件）的行。没有WHERE 子句，第一个表中的每一行将与第二个表中的每一行配对，而不管它们逻辑上是否能配在一起。
+使用WHERE子句建立联结关系似乎有点奇怪，但实际上是有个很充分的理由的。要记住，在一条SELECT语句中联结几个表时，相应的关系是在运行中构造的。在数据库表的定义中没有指示DBMS如何对表进行联结的内容。你必须自己做这件事情。在联结两个表时，实际要做的是将第一个表中的每一行与第二个表中的每一行配对。WHERE子句作为过滤条件，只包含那些匹配给定条件（这里是联结条件）的行。没有WHERE 子句，第一个表中的每一行将与第二个表中的每一行配对，而不管它们逻辑上是否能配在一起。
 
-   **笛卡儿积（cartesian product）**
+**笛卡儿积（cartesian product）**
 
-   由没有联结条件的表关系返回的结果为笛卡儿积。检索出的行的数目将是第一个表中的行数乘以第二个表中的行数。
+由没有联结条件的表关系返回的结果为笛卡儿积。检索出的行的数目将是第一个表中的行数乘以第二个表中的行数。
 
-   理解这一点*，*请看下面的SELECT语句及其输出：
+理解这一点*，*请看下面的SELECT语句及其输出：
 
-   **输入**▼
+**输入**▼
 
-   SELECT vend\_name, prod\_name, prod\_price FROM Vendors, Products;
+SELECT vend\_name, prod\_name, prod\_price FROM Vendors, Products;
 
 **输出**▼
 
@@ -3437,85 +3437,85 @@ Products表只存储产品信息，除了存储供应商ID（Vendors表的主键
 
 1. 内联结
 
-   目前为止使用的联结称为等值联结(equijoin),它基于两个表之间的相等测试。这种联结也称为内联结(inner join)。其实，可以对这种联结使用稍微不同的语法，明确指定联结的类型。下面的SELECT语句返回与前面例子完全相同的数据：
+目前为止使用的联结称为等值联结(equijoin),它基于两个表之间的相等测试。这种联结也称为内联结(inner join)。其实，可以对这种联结使用稍微不同的语法，明确指定联结的类型。下面的SELECT语句返回与前面例子完全相同的数据：
 
-   **输入**▼
+**输入**▼
 
-   SELECT vend\_name, prod\_name, prod\_price FROM Vendors
+SELECT vend\_name, prod\_name, prod\_price FROM Vendors
 
-   INNER JOIN Products ON Vendors.vend\_id = Products.vend\_id;
+INNER JOIN Products ON Vendors.vend\_id = Products.vend\_id;
 
-   **分析**▼
+**分析**▼
 
-   此语句中的SELECT与前面的SELECT语句相同，但FROM子句不同。这里，两个表之间的关系是以INNER JOIN指定的部分FROM子句。在使用这种语法时，联结条件用特定的ON子句而不是WHERE子句给出。传递给ON的实际条件与传递给WHERE的相同。
+此语句中的SELECT与前面的SELECT语句相同，但FROM子句不同。这里，两个表之间的关系是以INNER JOIN指定的部分FROM子句。在使用这种语法时，联结条件用特定的ON子句而不是WHERE子句给出。传递给ON的实际条件与传递给WHERE的相同。
 
-   至于选用哪种语法，请参阅具体的DBMS文档。
+至于选用哪种语法，请参阅具体的DBMS文档。
 
-   **说明：“正确的”语法**
+**说明：“正确的”语法**
 
-   ANSI SQL规范首选INNER JOIN语法，之前使用的是简单的等值语法。其实，SQL语言纯正论者是用鄙视的眼光看待简单语法的。这就是说，DBMS的确支持简单格式和标准格式，我建议你要理解这两种格式，具体使用就看你用哪个更顺手了。
+ANSI SQL规范首选INNER JOIN语法，之前使用的是简单的等值语法。其实，SQL语言纯正论者是用鄙视的眼光看待简单语法的。这就是说，DBMS的确支持简单格式和标准格式，我建议你要理解这两种格式，具体使用就看你用哪个更顺手了。
 
 1. 联结多个表
 
-   SQL不限制一条SELECT语句中可以联结的表的数目。创建联结的基本规则也相同。首先列出所有表,然后定义表之间的关系。例如：
+SQL不限制一条SELECT语句中可以联结的表的数目。创建联结的基本规则也相同。首先列出所有表,然后定义表之间的关系。例如：
 
-   **输入**▼
+**输入**▼
 
-   SELECT prod\_name, vend\_name, prod\_price, quantity FROM OrderItems, Products, Vendors
+SELECT prod\_name, vend\_name, prod\_price, quantity FROM OrderItems, Products, Vendors
 
-   WHERE Products.vend\_id = Vendors.vend\_id
+WHERE Products.vend\_id = Vendors.vend\_id
 
-   AND OrderItems.prod\_id = Products.prod\_id
+AND OrderItems.prod\_id = Products.prod\_id
 
-   AND order\_num = 20007;
+AND order\_num = 20007;
 
-   |**输出**▼||||
-   | :- | :- | :- | :- |
-   |prod\_name|vend\_name|prod\_price|quantity|
-   |18 inch teddy bear|Bears R Us|11\.9900|50|
-   |Fish bean bag toy|Doll House Inc.|3\.4900|100|
-   |Bird bean bag toy|Doll House Inc.|3\.4900|100|
-   |Rabbit bean bag toy|Doll House Inc.|3\.4900|100|
-   |Raggedy Ann|Doll House Inc.|4\.9900|50|
-   |**分析**▼||||
-   这个例子显示订单20007中的物品。订单物品存储在Orderitems表中。 每个产品按其产品ID存储，它引用Products表中的产品。这些产品通过供应商ID联结到Vendors表中相应的供应商，供应商ID存储在每个产品的记录中。这里的FROM子句列出三个表，WHERE子句定义这两个联结条件，而第三个联结条件用来过滤出订单20007中的物品。
+|**输出**▼||||
+| :- | :- | :- | :- |
+|prod\_name|vend\_name|prod\_price|quantity|
+|18 inch teddy bear|Bears R Us|11\.9900|50|
+|Fish bean bag toy|Doll House Inc.|3\.4900|100|
+|Bird bean bag toy|Doll House Inc.|3\.4900|100|
+|Rabbit bean bag toy|Doll House Inc.|3\.4900|100|
+|Raggedy Ann|Doll House Inc.|4\.9900|50|
+|**分析**▼||||
+这个例子显示订单20007中的物品。订单物品存储在Orderitems表中。 每个产品按其产品ID存储，它引用Products表中的产品。这些产品通过供应商ID联结到Vendors表中相应的供应商，供应商ID存储在每个产品的记录中。这里的FROM子句列出三个表，WHERE子句定义这两个联结条件，而第三个联结条件用来过滤出订单20007中的物品。
 
-   **注意：性能考虑**
+**注意：性能考虑**
 
-   DBMS在运行时关联指定的每个表，以处理联结。这种处理可能非常耗费资源，因此应该注意，不要联结不必要的表。联结的表越多，性能下降越厉害。
+DBMS在运行时关联指定的每个表，以处理联结。这种处理可能非常耗费资源，因此应该注意，不要联结不必要的表。联结的表越多，性能下降越厉害。
 
-   **注意：联结中表的最大数目**
+**注意：联结中表的最大数目**
 
-   虽然SQL本身不限制每个联结约束中表的数目，但实际上许多DBMS 都有限制。请参阅具体的DBMS文档以了解其限制。
+虽然SQL本身不限制每个联结约束中表的数目，但实际上许多DBMS 都有限制。请参阅具体的DBMS文档以了解其限制。
 
-   现在回顾一下第11课中的例子，如下的SELECT语句返回订购产品RGAN01
+现在回顾一下第11课中的例子，如下的SELECT语句返回订购产品RGAN01
 
-   的顾客列表：
+的顾客列表：
 
-   **输入**▼
+**输入**▼
 
-   |<p>SELECT cust\_name, cust\_contact</p><p>FROM Customers</p><p>WHERE cust\_id IN (SELECT cust\_id</p><p>FROM Orders</p><p>WHERE order\_num IN (SELECT order\_num</p><p>FROM OrderItems</p>||
-   | :- | :- |
-   ||WHERE prod\_id = 'RGAN01'));|
-   |<p>如第11课所述，子查询并不总是执行复杂SELECT操作的最有效方法，</p><p>下面是使用联结的相同查询：</p><p>**输入**▼</p>||
-   |<p>SELECT cust\_name, cust\_contact</p><p>FROM Customers, Orders, OrderItems</p><p>WHERE Customers.cust\_id = Orders.cust\_id</p><p>AND OrderItems.order\_num = Orders.order\_num AND prod\_id = 'RGAN01';</p>||
-   |**输出**▼||
-   |cust\_name|cust\_contact|
-   |<p>Fun4All</p><p>The Toy Store</p><p>**分析**▼</p>|<p>	</p><p>Denise L. Stephens Kim Howard</p>|
+|<p>SELECT cust\_name, cust\_contact</p><p>FROM Customers</p><p>WHERE cust\_id IN (SELECT cust\_id</p><p>FROM Orders</p><p>WHERE order\_num IN (SELECT order\_num</p><p>FROM OrderItems</p>||
+| :- | :- |
+||WHERE prod\_id = 'RGAN01'));|
+|<p>如第11课所述，子查询并不总是执行复杂SELECT操作的最有效方法，</p><p>下面是使用联结的相同查询：</p><p>**输入**▼</p>||
+|<p>SELECT cust\_name, cust\_contact</p><p>FROM Customers, Orders, OrderItems</p><p>WHERE Customers.cust\_id = Orders.cust\_id</p><p>AND OrderItems.order\_num = Orders.order\_num AND prod\_id = 'RGAN01';</p>||
+|**输出**▼||
+|cust\_name|cust\_contact|
+|<p>Fun4All</p><p>The Toy Store</p><p>**分析**▼</p>|<p>	</p><p>Denise L. Stephens Kim Howard</p>|
 
-   如第11课所述，这个查询中的返回数据需要使用3个表。但在这里，我们没有在嵌套子查询中使用它们，而是使用了两个联结来连接表。这里有三个WHERE子句条件。前两个关联联结中的表，后一个过滤产品RGAN01的数据。
+如第11课所述，这个查询中的返回数据需要使用3个表。但在这里，我们没有在嵌套子查询中使用它们，而是使用了两个联结来连接表。这里有三个WHERE子句条件。前两个关联联结中的表，后一个过滤产品RGAN01的数据。
 
-   **提示：多做实验**
+**提示：多做实验**
 
-   可以看到，执行任一给定的SQL操作一般不止一种方法。很少有绝对正确或绝对错误的方法。性能可能会受操作类型、所使用的DBMS、 表中数据量、是否存在索引或键等条件的影响。因此，有必要试验不同的选择机制，找出最适合具体情况的方法。
+可以看到，执行任一给定的SQL操作一般不止一种方法。很少有绝对正确或绝对错误的方法。性能可能会受操作类型、所使用的DBMS、 表中数据量、是否存在索引或键等条件的影响。因此，有必要试验不同的选择机制，找出最适合具体情况的方法。
 
-   **说明：联结的列名**
+**说明：联结的列名**
 
-   上述所有例子里，联结的几个列的名字都是一样的(例如Customers 和Orders表里的列都叫cust\_id)。列名相同并不是必需的，而且你经常会遇到命名规范不同的数据库。我这样建表只是为了简单起见。
+上述所有例子里，联结的几个列的名字都是一样的(例如Customers 和Orders表里的列都叫cust\_id)。列名相同并不是必需的，而且你经常会遇到命名规范不同的数据库。我这样建表只是为了简单起见。
 
 1. 小结
 
-   联结是SQL中一个最重要、最强大的特性，有效地使用联结需要对关系数据库设计有基本的了解。本课在介绍联结时，讲述了一些关系数据库设计的基本知识，包括等值联结(也称为内联结)这种最常用的联结。 下一课将介绍如何创建其他类型的联结。
+联结是SQL中一个最重要、最强大的特性，有效地使用联结需要对关系数据库设计有基本的了解。本课在介绍联结时，讲述了一些关系数据库设计的基本知识，包括等值联结(也称为内联结)这种最常用的联结。 下一课将介绍如何创建其他类型的联结。
 
 1. 挑战题
 1. .编写SQL语句，返回Customers表中的顾客名称(cust\_name)和 Orders表中的相关订单号(order\_num)，并按顾客名称再按订单号对结果进行排序。实际上是尝试两次，一次使用简单的等联结语法， 一次使用 INNER JOIN。
@@ -3530,32 +3530,32 @@ Products表只存储产品信息，除了存储供应商ID（Vendors表的主键
 1. .很有趣，我们再试一次。重新创建为第11课挑战题3编写的SQL语句，这次使用ANSI的INNER JOIN语法。在之前编写的代码中使用了两个嵌套的子查询。要重新创建它，需要两个INNER JOIN语句， 每个语句的格式类似于本课讲到的INNER JOIN示例，而且不要忘记 WHERE子句可以通过prod\_id进行过滤。
 1. . 再让事情变得更加有趣些，我们将混合使用联结、聚合函数和分组。 准备好了吗？回到第10课，当时的挑战是要求查找值等于或大于1000 的所有订单号。这些结果很有用，但更有用的是订单数量至少达到这个数的顾客名称。因此，编写SQL语句，使用联结从Customers 表返回顾客名称(cust\_name)，并从OrderItems表返回所有订单的总价。
 
-   提示：要联结这些表，还需要包括Orders表(因为Customers表与OrderItems表不直接相关，Customers表与Orders表相关，而 Orders 表与 OrderItems 表相关)。不要忘记 GROUP BY 和 HAVING， 并按顾客名称对结果进行排序。你可以使用简单的等联结或ANSI的 INNER JOIN语法。或者，如果你很勇敢，请尝试使用两种方式编写。
+提示：要联结这些表，还需要包括Orders表(因为Customers表与OrderItems表不直接相关，Customers表与Orders表相关，而 Orders 表与 OrderItems 表相关)。不要忘记 GROUP BY 和 HAVING， 并按顾客名称对结果进行排序。你可以使用简单的等联结或ANSI的 INNER JOIN语法。或者，如果你很勇敢，请尝试使用两种方式编写。
 第13课创建高级联结
 
 本课讲解另外一些联结(包括它们的含义和使用方法)，介绍如何使用表别名，如何对被联结的表使用聚集函数。
 
 1. 使用表别名
 
-   第7课介绍了如何使用别名引用被检索的表列。给列起别名的语法如下：
+第7课介绍了如何使用别名引用被检索的表列。给列起别名的语法如下：
 
-   **输入**▼
+**输入**▼
 
-   SELECT RTRIM(vend\_name) + ' (' + RTRIM(vend\_country) + ')'
+SELECT RTRIM(vend\_name) + ' (' + RTRIM(vend\_country) + ')'
 
-   AS vend\_title
+AS vend\_title
 
-   FROM Vendors
+FROM Vendors
 
-   ORDER BY vend\_name;
+ORDER BY vend\_name;
 
-   SQL除了可以对列名和计算字段使用别名，还允许给表名起别名。这样做有两个主要理由：
+SQL除了可以对列名和计算字段使用别名，还允许给表名起别名。这样做有两个主要理由：
 
-   口缩短SQL语句；
+口缩短SQL语句；
 
-   口允许在一条SELECT语句中多次使用相同的表。
+口允许在一条SELECT语句中多次使用相同的表。
 
-   请看下面的SELECT语句。它与前一课例子中所用的语句基本相同，但改成了使用别名：
+请看下面的SELECT语句。它与前一课例子中所用的语句基本相同，但改成了使用别名：
 
 **
 
@@ -3584,21 +3584,21 @@ Oracle不支持AS关键字。要在Oracle中使用别名，可以不用AS,简单
 
 1. 使用不同类型的联结
 
-   迄今为止，我们使用的只是内联结或等值联结的简单联结。现在来看三种其他联结：自联结(sef-join)、自然联结(natural join)和外联结 (outer join)。
+迄今为止，我们使用的只是内联结或等值联结的简单联结。现在来看三种其他联结：自联结(sef-join)、自然联结(natural join)和外联结 (outer join)。
 
-   1. 自联结
+1. 自联结
 
-      如前所述，使用表别名的一个主要原因是能在一条SELECT语句中不止一次引用相同的表。下面举一个例子。
+如前所述，使用表别名的一个主要原因是能在一条SELECT语句中不止一次引用相同的表。下面举一个例子。
 
-      假如要给与Jim Jones同一公司的所有顾客发送一封信件。这个查询要求首先找出Jim Jones工作的公司，然后找出在该公司工作的顾客。下面是解决此问题的一种方法：
+假如要给与Jim Jones同一公司的所有顾客发送一封信件。这个查询要求首先找出Jim Jones工作的公司，然后找出在该公司工作的顾客。下面是解决此问题的一种方法：
 
-      **输入**▼
+**输入**▼
 
-      SELECT cust\_id, cust\_name, cust\_contact
+SELECT cust\_id, cust\_name, cust\_contact
 
-      FROM Customers
+FROM Customers
 
-      WHERE cust\_name = (SELECT cust\_name
+WHERE cust\_name = (SELECT cust\_name
 
 FROM Customers
 
@@ -3648,15 +3648,15 @@ AND c2.cust\_contact = 'Jim Jones';
 
 1. 自然联结
 
-   无论何时对表进行联结，应该至少有一列不止出现在一个表中（被联结的列）。标准的联结（前一课中介绍的内联结）返回所有数据，相同的列甚至多次出现。自然联结排除多次出现，使每一列只返回一次。
+无论何时对表进行联结，应该至少有一列不止出现在一个表中（被联结的列）。标准的联结（前一课中介绍的内联结）返回所有数据，相同的列甚至多次出现。自然联结排除多次出现，使每一列只返回一次。
 
-   怎样完成这项工作呢？答案是，系统不完成这项工作，由你自己完成它。 自然联结要求你只能选择那些唯一的列，一般通过对一个表使用通配符 （SELECT \*），而对其他表的列使用明确的子集来完成。下面举一个例子：
+怎样完成这项工作呢？答案是，系统不完成这项工作，由你自己完成它。 自然联结要求你只能选择那些唯一的列，一般通过对一个表使用通配符 （SELECT \*），而对其他表的列使用明确的子集来完成。下面举一个例子：
 
-   **输入**▼
+**输入**▼
 
-   SELECT C.\*, O.order\_num, O.order\_date,
+SELECT C.\*, O.order\_num, O.order\_date,
 
-   OI.prod\_id, OI.quantity, OI.item\_price
+OI.prod\_id, OI.quantity, OI.item\_price
 
 FROM Customers AS C, Orders AS O, OrderItems AS OI
 
@@ -3678,43 +3678,41 @@ Oracle用户应该记住去掉AS。
 
 1. 外联结
 
-   许多联结将一个表中的行与另一个表中的行相关联，但有时候需要包含没有关联行的那些行。例如，可能需要使用联结完成以下工作：
+许多联结将一个表中的行与另一个表中的行相关联，但有时候需要包含没有关联行的那些行。例如，可能需要使用联结完成以下工作：
 
-   口对每个顾客下的订单进行计数，包括那些至今尚未下订单的顾客； 口列出所有产品以及订购数量，包括没有人订购的产品；
+口对每个顾客下的订单进行计数，包括那些至今尚未下订单的顾客； 口列出所有产品以及订购数量，包括没有人订购的产品；
 
-   口计算平均销售规模，包括那些至今尚未下订单的顾客。
+口计算平均销售规模，包括那些至今尚未下订单的顾客。
 
-   在上述例子中，联结包含了那些在相关表中没有关联行的行。这种联结称为外联结。
+在上述例子中，联结包含了那些在相关表中没有关联行的行。这种联结称为外联结。
 
-   **注意：语法差别**
+**注意：语法差别**
 
-   需要注意，用来创建外联结的语法在不同的SQL实现中可能稍有不同。下面段落中描述的各种语法形式覆盖了大多数实现，在继续学习之前请参阅你使用的DBMS文档，以确定其语法。
+需要注意，用来创建外联结的语法在不同的SQL实现中可能稍有不同。下面段落中描述的各种语法形式覆盖了大多数实现，在继续学习之前请参阅你使用的DBMS文档，以确定其语法。
 
-   下面的SELECT语句给出了一个简单的内联结。它检索所有顾客及其订单:
+下面的SELECT语句给出了一个简单的内联结。它检索所有顾客及其订单:
 
-   **输入**▼
+**输入**▼
 
-   SELECT Customers.cust\_id, Orders.order\_num
+SELECT Customers.cust\_id, Orders.order\_num
 
-   FROM Customers
+FROM Customers
 
-   INNER JOIN Orders ON Customers.cust\_id = Orders.cust\_id;
+INNER JOIN Orders ON Customers.cust\_id = Orders.cust\_id;
 
-   外联结语法类似。要检索包括没有订单顾客在内的所有顾客，可如下进行：
+外联结语法类似。要检索包括没有订单顾客在内的所有顾客，可如下进行：
 
-   **输入**▼
+**输入**▼
 
-   SELECT Customers.cust\_id, Orders.order\_num
+SELECT Customers.cust\_id, Orders.order\_num
 
-   FROM Customers
+FROM Customers
 
-   LEFT OUTER JOIN Orders ON Customers.cust\_id = Orders.cust\_id;
+LEFT OUTER JOIN Orders ON Customers.cust\_id = Orders.cust\_id;
 
-   **输出**▼
+**输出**▼
 
-   cust\_id	order\_num
-
-
+cust\_id	order\_num
 
 
 
@@ -3722,27 +3720,29 @@ Oracle用户应该记住去掉AS。
 
 
 
-   
 
-   1000000002	NULL
 
-   1000000003	20006
 
-   1000000004	20007
 
-   1000000005	20008
+1000000002	NULL
 
-   **分析**▼ 类似上一课提到的内联结，这条SELECT语句使用了关键字OUTER JOIN 来指定联结类型（而不是在WHERE子句中指定）。但是，与内联结关联两个表中的行不同的是，外联结还包括没有关联行的行。在使用OUTER JOIN语法时，必须使用RIGHT或LEFT关键字指定包括其所有行的表 （RIGHT指出的是OUTER JOIN右边的表，而LEFT指出的是OUTER JOIN 左边的表）。上面的例子使用LEFT OUTER JOIN从FROM子句左边的表 （Customers表）中选择所有行。为了从右边的表中选择所有行，需要使用RIGHT OUTER JOIN，如下例所示：
+1000000003	20006
 
-   **输入**▼
+1000000004	20007
 
-   SELECT Customers.cust\_id, Orders.order\_num
+1000000005	20008
 
-   FROM Customers
+**分析**▼ 类似上一课提到的内联结，这条SELECT语句使用了关键字OUTER JOIN 来指定联结类型（而不是在WHERE子句中指定）。但是，与内联结关联两个表中的行不同的是，外联结还包括没有关联行的行。在使用OUTER JOIN语法时，必须使用RIGHT或LEFT关键字指定包括其所有行的表 （RIGHT指出的是OUTER JOIN右边的表，而LEFT指出的是OUTER JOIN 左边的表）。上面的例子使用LEFT OUTER JOIN从FROM子句左边的表 （Customers表）中选择所有行。为了从右边的表中选择所有行，需要使用RIGHT OUTER JOIN，如下例所示：
 
-   RIGHT OUTER JOIN Orders ON Customers.cust\_id = Orders.cust\_id;
+**输入**▼
 
-   **注意：SQLite外联结**
+SELECT Customers.cust\_id, Orders.order\_num
+
+FROM Customers
+
+RIGHT OUTER JOIN Orders ON Customers.cust\_id = Orders.cust\_id;
+
+**注意：SQLite外联结**
 
 SQLite 支持 LEFT OUTER JOIN,但不支持 RIGHT OUTER JOIN。幸好， 如果你确实需要在SQLite中使用RIGHT OUTER JOIN,有一种更简单的办法，这将在下面的提示中介绍。
 
@@ -3769,65 +3769,65 @@ MariaDB、MySQL 和 SQLite 不支持 FULL OUTER JOIN 语法。
 
 1. 使用带聚集函数的联结
 
-   如第9课所述，聚集函数用来汇总数据。虽然至今为止我们举的聚集函数的例子都只是从一个表中汇总数据，但这些函数也可以与联结一起使用。
+如第9课所述，聚集函数用来汇总数据。虽然至今为止我们举的聚集函数的例子都只是从一个表中汇总数据，但这些函数也可以与联结一起使用。
 
-   我们来看个例子，要检索所有顾客及每个顾客所下的订单数，下面的代码使用COUNT()函数完成此工作：
+我们来看个例子，要检索所有顾客及每个顾客所下的订单数，下面的代码使用COUNT()函数完成此工作：
 
-   **输入**▼
+**输入**▼
 
-   SELECT Customers.cust\_id,
+SELECT Customers.cust\_id,
 
-   COUNT(Orders.order\_num) AS num\_ord
+COUNT(Orders.order\_num) AS num\_ord
 
-   FROM Customers
+FROM Customers
 
-   INNER JOIN Orders ON Customers.cust\_id = Orders.cust\_id GROUP BY Customers.cust\_id;
+INNER JOIN Orders ON Customers.cust\_id = Orders.cust\_id GROUP BY Customers.cust\_id;
 
-   |**输出**▼||
-   | :- | :- |
-   |cust\_id|num\_ord|
-   |1000000001|2|
-   |1000000003|1|
-   |1000000004|1|
-   |1000000005|1|
+|**输出**▼||
+| :- | :- |
+|cust\_id|num\_ord|
+|1000000001|2|
+|1000000003|1|
+|1000000004|1|
+|1000000005|1|
 
-   **分析**▼
+**分析**▼
 
-   这条SELECT语句使用INNER JOIN将Customers和Orders表互相关联。 GROUPBY子句按顾客分组数据，因此，函数调用COUNT(Orders.order\_num) 对每个顾客的订单计数，将它作为num\_ord返回。
+这条SELECT语句使用INNER JOIN将Customers和Orders表互相关联。 GROUPBY子句按顾客分组数据，因此，函数调用COUNT(Orders.order\_num) 对每个顾客的订单计数，将它作为num\_ord返回。
 
-   聚集函数也可以方便地与其他联结一起使用。请看下面的例子：
+聚集函数也可以方便地与其他联结一起使用。请看下面的例子：
 
-   **输入**▼
+**输入**▼
 
-   SELECT Customers.cust\_id,
+SELECT Customers.cust\_id,
 
-   COUNT(Orders.order\_num) AS num\_ord
+COUNT(Orders.order\_num) AS num\_ord
 
-   FROM Customers
+FROM Customers
 
-   LEFT OUTER JOIN Orders ON Customers.cust\_id = Orders.cust\_id GROUP BY Customers.cust\_id;
+LEFT OUTER JOIN Orders ON Customers.cust\_id = Orders.cust\_id GROUP BY Customers.cust\_id;
 
-   **输出**▼
+**输出**▼
 
-   |cust\_id|num\_ord|
-   | :- | :- |
-   |1000000001|2|
-   |1000000002|0|
-   |1000000003|1|
-   |1000000004|1|
-   |1000000005|1|
+|cust\_id|num\_ord|
+| :- | :- |
+|1000000001|2|
+|1000000002|0|
+|1000000003|1|
+|1000000004|1|
+|1000000005|1|
 
-   **分析**▼
+**分析**▼
 
-   这个例子使用左外部联结来包含所有顾客，甚至包含那些没有任何订单的顾客。结果中也包含了顾客1000000002，他有0个订单，这和使用
+这个例子使用左外部联结来包含所有顾客，甚至包含那些没有任何订单的顾客。结果中也包含了顾客1000000002，他有0个订单，这和使用
 
-   INNER JOIN 时不同。
+INNER JOIN 时不同。
 
 1. 使用联结和联结条件
 
-   在总结讨论联结的这两课前，有必要汇总一下联结及其使用的要点。
+在总结讨论联结的这两课前，有必要汇总一下联结及其使用的要点。
 
-   口注意所使用的联结类型。一般我们使用内联结，但使用外联结也有效。
+口注意所使用的联结类型。一般我们使用内联结，但使用外联结也有效。
 
 口关于确切的联结语法，应该查看具体的文档，看相应的DBMS支持何种语法（大多数DBMS使用这两课中描述的某种语法）。
 
@@ -3839,7 +3839,7 @@ MariaDB、MySQL 和 SQLite 不支持 FULL OUTER JOIN 语法。
 
 1. 小结
 
-   本课是上一课的延续，首先讲授了如何以及为什么使用别名，然后讨论不同的联结类型以及每类联结所使用的语法。我们还介绍了如何与联结一起使用聚集函数，以及在使用联结时应该注意的问题。
+本课是上一课的延续，首先讲授了如何以及为什么使用别名，然后讨论不同的联结类型以及每类联结所使用的语法。我们还介绍了如何与联结一起使用聚集函数，以及在使用联结时应该注意的问题。
 
 1. 挑战题
 1. .使用INNER JOIN编写SQL语句，以检索每个顾客的名称（Customers 表中的cust\_name）和所有的订单号（Orders表中的order\_num）。
@@ -3855,15 +3855,15 @@ MariaDB、MySQL 和 SQLite 不支持 FULL OUTER JOIN 语法。
 
 1. 组合查询
 
-   多数SQL查询只包含从一个或多个表中返回数据的单条SELECT语句。 但是，SQL也允许执行多个查询（多条SELECT语句），并将结果作为一个查询结果集返回。这些组合查询通常称为并（union）或复合查询 （compound query）。
+多数SQL查询只包含从一个或多个表中返回数据的单条SELECT语句。 但是，SQL也允许执行多个查询（多条SELECT语句），并将结果作为一个查询结果集返回。这些组合查询通常称为并（union）或复合查询 （compound query）。
 
-   主要有两种情况需要使用组合查询：
+主要有两种情况需要使用组合查询：
 
-   口在一个查询中从不同的表返回结构数据；
+口在一个查询中从不同的表返回结构数据；
 
-   口对一个表执行多个查询，按一个查询返回数据。
+口对一个表执行多个查询，按一个查询返回数据。
 
-   **提示：组合查询和多个WHERE条件**
+**提示：组合查询和多个WHERE条件**
 
 多数情况下，组合相同表的两个查询所完成的工作与具有多个WHERE 子句条件的一个查询所完成的工作相同。换句话说，任何具有多个 WHERE子句的SELECT语句都可以作为一个组合查询，在下面可以看到这一点。
 
@@ -3872,51 +3872,51 @@ MariaDB、MySQL 和 SQLite 不支持 FULL OUTER JOIN 语法。
 
 1. 创建组合查询
 
-   可用UNION操作符来组合数条SQL查询。利用UNION,可给出多条 SELECT语句，将它们的结果组合成一个结果集。
+可用UNION操作符来组合数条SQL查询。利用UNION,可给出多条 SELECT语句，将它们的结果组合成一个结果集。
 
-   1. 使用 UNION
+1. 使用 UNION
 
-      使用UNION很简单，所要做的只是给出每条SELECT语句，在各条语句之间放上关键字UNION。
+使用UNION很简单，所要做的只是给出每条SELECT语句，在各条语句之间放上关键字UNION。
 
-      举个例子，假如需要Illinois, Indiana和Michigan等美国几个州的所有顾客的报表，还想包括不管位于哪个州的所有的Fun4All。当然可以利用 WHERE子句来完成此工作，不过这次我们使用UNION。
+举个例子，假如需要Illinois, Indiana和Michigan等美国几个州的所有顾客的报表，还想包括不管位于哪个州的所有的Fun4All。当然可以利用 WHERE子句来完成此工作，不过这次我们使用UNION。
 
-      如上所述，创建UNION涉及编写多条SELECT语句。首先来看单条语句:
+如上所述，创建UNION涉及编写多条SELECT语句。首先来看单条语句:
 
-      **输入**▼
+**输入**▼
 
-      |SELECT cust\_name|, cust\_contact,|cust\_email|||
-      | :- | :- | :- | :- | :- |
-      |FROM Customers|||||
-      |WHERE cust\_state|IN ('IL','IN',|'MI');|||
-      |**输出**▼|||||
-      |cust\_name|cust\_contact|cust\_email|||
-      |Village Toys|John Smith|<sales@villagetoys.com>|||
-      |Fun4All|Jim Jones|<jjones@fun4all.com>|||
-      |The Toy Store|Kim Howard|NULL|||
-      |**输入**▼|||||
-      |SELECT cust\_name|, cust\_contact,|cust\_email|||
-      |FROM Customers|||||
-      |WHERE cust\_name|= 'Fun4All';||||
-      |**输出**▼|||||
-      |cust\_name|cust\_contact|cust\_email|||
-      |Fun4All|<p>	</p><p>Jim Jones</p>|<p>	</p><p><jjones@fun4all.com></p>|||
-      |Fun4All|Denise L. Stephens|<dstephens@fun4all.com>|||
+|SELECT cust\_name|, cust\_contact,|cust\_email|||
+| :- | :- | :- | :- | :- |
+|FROM Customers|||||
+|WHERE cust\_state|IN ('IL','IN',|'MI');|||
+|**输出**▼|||||
+|cust\_name|cust\_contact|cust\_email|||
+|Village Toys|John Smith|<sales@villagetoys.com>|||
+|Fun4All|Jim Jones|<jjones@fun4all.com>|||
+|The Toy Store|Kim Howard|NULL|||
+|**输入**▼|||||
+|SELECT cust\_name|, cust\_contact,|cust\_email|||
+|FROM Customers|||||
+|WHERE cust\_name|= 'Fun4All';||||
+|**输出**▼|||||
+|cust\_name|cust\_contact|cust\_email|||
+|Fun4All|<p>	</p><p>Jim Jones</p>|<p>	</p><p><jjones@fun4all.com></p>|||
+|Fun4All|Denise L. Stephens|<dstephens@fun4all.com>|||
 
-      **分析**▼
+**分析**▼
 
-      第一条SELECT把Illinois、Indiana、Michigan等州的缩写传递给IN子句， 检索出这些州的所有行。第二条SELECT利用简单的相等测试找出所有 Fun4All。你会发现有一条记录出现在两次结果里，因为它满足两次的条件。
+第一条SELECT把Illinois、Indiana、Michigan等州的缩写传递给IN子句， 检索出这些州的所有行。第二条SELECT利用简单的相等测试找出所有 Fun4All。你会发现有一条记录出现在两次结果里，因为它满足两次的条件。
 
-      组合这两条语句，可以如下进行：
+组合这两条语句，可以如下进行：
 
-      **输入**▼
+**输入**▼
 
-      SELECT cust\_name, cust\_contact, cust\_email FROM Customers
+SELECT cust\_name, cust\_contact, cust\_email FROM Customers
 
-      WHERE cust\_state IN ('IL','IN','MI') UNION
+WHERE cust\_state IN ('IL','IN','MI') UNION
 
-      SELECT cust\_name, cust\_contact, cust\_email FROM Customers
+SELECT cust\_name, cust\_contact, cust\_email FROM Customers
 
-      WHERE cust\_name = 'Fun4All';
+WHERE cust\_name = 'Fun4All';
 
 **输出**▼
 
@@ -3962,7 +3962,7 @@ WHERE cust\_name = 'Fun4All';
 
 1. UNION 规则
 
-   可以看到，UNION非常容易使用，但在进行组合时需要注意几条规则。
+可以看到，UNION非常容易使用，但在进行组合时需要注意几条规则。
 
 口 UNION必须由两条或两条以上的SELECT语句组成，语句之间用关键字 UNION分隔（因此，如果组合四条SELECT语句，将要使用三个UNION 关键字）。
 
@@ -3982,92 +3982,92 @@ WHERE cust\_name = 'Fun4All';
 
 1. 包含或取消重复的行
 
-   回到14.2.1节，我们看看所用的SELECT语句。注意到在分别执行语句时，第一条SELECT语句返回3行，第二条SELECT语句返回2行。而在用UNION组合两条SELECT语句后，只返回4行而不是5行。
+回到14.2.1节，我们看看所用的SELECT语句。注意到在分别执行语句时，第一条SELECT语句返回3行，第二条SELECT语句返回2行。而在用UNION组合两条SELECT语句后，只返回4行而不是5行。
 
-   UNION从查询结果集中自动去除了重复的行；换句话说，它的行为与一条SELECT语句中使用多个WHERE子句条件一样。因为Indiana州有一个 Fun4All单位，所以两条SELECT语句都返回该行。使用UNION时，重复的行会被自动取消。
+UNION从查询结果集中自动去除了重复的行；换句话说，它的行为与一条SELECT语句中使用多个WHERE子句条件一样。因为Indiana州有一个 Fun4All单位，所以两条SELECT语句都返回该行。使用UNION时，重复的行会被自动取消。
 
-   这是UNION的默认行为，如果愿意也可以改变它。事实上，如果想返回所有的匹配行，可使用UNION ALL而不是UNION。
+这是UNION的默认行为，如果愿意也可以改变它。事实上，如果想返回所有的匹配行，可使用UNION ALL而不是UNION。
 
-   请看下面的例子：
+请看下面的例子：
 
-   **输入**▼
+**输入**▼
 
-   SELECT cust\_name, cust\_contact, cust\_email
+SELECT cust\_name, cust\_contact, cust\_email
 
-   FROM Customers
+FROM Customers
 
-   WHERE cust\_state IN ('IL','IN','MI')
+WHERE cust\_state IN ('IL','IN','MI')
 
-   UNION ALL
+UNION ALL
 
-   SELECT cust\_name, cust\_contact, cust\_email FROM Customers
+SELECT cust\_name, cust\_contact, cust\_email FROM Customers
 
-   WHERE cust\_name = 'Fun4All';
+WHERE cust\_name = 'Fun4All';
 
-   |**输出**▼|||
-   | :- | :- | :- |
-   |cust\_name|cust\_contact|cust\_email|
-   |Village Toys|John Smith|<sales@villagetoys.com>|
-   |Fun4All|Jim Jones|<jjones@fun4all.com>|
-   |The Toy Store|Kim Howard|NULL|
-   |Fun4All|Jim Jones|<jjones@fun4all.com>|
-   |Fun4All|Denise L. Stephens|<dstephens@fun4all.com>|
+|**输出**▼|||
+| :- | :- | :- |
+|cust\_name|cust\_contact|cust\_email|
+|Village Toys|John Smith|<sales@villagetoys.com>|
+|Fun4All|Jim Jones|<jjones@fun4all.com>|
+|The Toy Store|Kim Howard|NULL|
+|Fun4All|Jim Jones|<jjones@fun4all.com>|
+|Fun4All|Denise L. Stephens|<dstephens@fun4all.com>|
 
-   **分析**▼
+**分析**▼
 
-   使用UNION ALL, DBMS不取消重复的行。因此，这里返回5行，其中有一行出现两次。
+使用UNION ALL, DBMS不取消重复的行。因此，这里返回5行，其中有一行出现两次。
 
-   **提示：UNION 与 WHERE**
+**提示：UNION 与 WHERE**
 
-   这一课一开始我们说过，UNION几乎总是完成与多个WHERE条件相同的工作。UNION ALL为UNION的一种形式，它完成WHERE子句完成不了的工作。如果确实需要每个条件的匹配行全部出现(包括重复行), 就必须使用UNION ALL，而不是WHERE。
+这一课一开始我们说过，UNION几乎总是完成与多个WHERE条件相同的工作。UNION ALL为UNION的一种形式，它完成WHERE子句完成不了的工作。如果确实需要每个条件的匹配行全部出现(包括重复行), 就必须使用UNION ALL，而不是WHERE。
 
 1. 对组合查询结果排序
 
-   SELECT语句的输出用ORDER BY子句排序。在用UNION组合查询时，只能使用一条ORDER BY子句，它必须位于最后一条SELECT语句之后。对于结果集,不存在用一种方式排序一部分,而又用另一种方式排序另一部分的情况，因此不允许使用多条ORDER BY子句。
+SELECT语句的输出用ORDER BY子句排序。在用UNION组合查询时，只能使用一条ORDER BY子句，它必须位于最后一条SELECT语句之后。对于结果集,不存在用一种方式排序一部分,而又用另一种方式排序另一部分的情况，因此不允许使用多条ORDER BY子句。
 
-   下面的例子对前面UNION返回的结果进行排序：
+下面的例子对前面UNION返回的结果进行排序：
 
-   **输入**▼
+**输入**▼
 
-   SELECT cust\_name, cust\_contact, cust\_email
+SELECT cust\_name, cust\_contact, cust\_email
 
-   FROM Customers
+FROM Customers
 
-   WHERE cust\_state IN ('IL','IN','MI')
+WHERE cust\_state IN ('IL','IN','MI')
 
-   UNION
+UNION
 
-   SELECT cust\_name, cust\_contact, cust\_email
+SELECT cust\_name, cust\_contact, cust\_email
 
-   FROM Customers
+FROM Customers
 
-   WHERE cust\_name = 'Fun4All'
+WHERE cust\_name = 'Fun4All'
 
-   ORDER BY cust\_name, cust\_contact;
+ORDER BY cust\_name, cust\_contact;
 
-   |**输出**▼|||
-   | :- | :- | :- |
-   |cust\_name|cust\_contact|cust\_email|
-   |Fun4All|Denise L. Stephens|<dstephens@fun4all.com>|
-   |Fun4All|Jim Jones|<jjones@fun4all.com>|
-   |The Toy Store|Kim Howard|NULL|
-   |Village Toys|John Smith|<sales@villagetoys.com>|
+|**输出**▼|||
+| :- | :- | :- |
+|cust\_name|cust\_contact|cust\_email|
+|Fun4All|Denise L. Stephens|<dstephens@fun4all.com>|
+|Fun4All|Jim Jones|<jjones@fun4all.com>|
+|The Toy Store|Kim Howard|NULL|
+|Village Toys|John Smith|<sales@villagetoys.com>|
 
-   **分析**▼
+**分析**▼
 
-   这条UNION在最后一条SELECT语句后使用了 ORDER BY子句。虽然ORDER BY子句似乎只是最后一条SELECT语句的组成部分，但实际上DBMS将用它来排序所有SELECT语句返回的所有结果。
+这条UNION在最后一条SELECT语句后使用了 ORDER BY子句。虽然ORDER BY子句似乎只是最后一条SELECT语句的组成部分，但实际上DBMS将用它来排序所有SELECT语句返回的所有结果。
 
-   **说明：其他类型的UNION**
+**说明：其他类型的UNION**
 
-   某些DBMS还支持另外两种UNION： EXCEPT （有时称为MINUS）可用来检索只在第一个表中存在而在第二个表中不存在的行；而INTERSECT 可用来检索两个表中都存在的行。实际上，这些UNION很少使用，因为相同的结果可利用联结得到。
+某些DBMS还支持另外两种UNION： EXCEPT （有时称为MINUS）可用来检索只在第一个表中存在而在第二个表中不存在的行；而INTERSECT 可用来检索两个表中都存在的行。实际上，这些UNION很少使用，因为相同的结果可利用联结得到。
 
-   **提示：操作多个表**
+**提示：操作多个表**
 
-   为了简单，本课中的例子都是使用UNION来组合针对同一表的多个查询。实际上，UNION在需要组合多个表的数据时也很有用，即使是有不匹配列名的表，在这种情况下，可以将UNION与别名组合，检索一个结果集。
+为了简单，本课中的例子都是使用UNION来组合针对同一表的多个查询。实际上，UNION在需要组合多个表的数据时也很有用，即使是有不匹配列名的表，在这种情况下，可以将UNION与别名组合，检索一个结果集。
 
 1. 小结
 
-   这一课讲授如何用UNION操作符来组合SELECT语句。利用UNION，可以把多条查询的结果作为一条组合查询返回，不管结果中有无重复。使用UNION 可极大地简化复杂的WHERE子句，简化从多个表中检索数据的工作。
+这一课讲授如何用UNION操作符来组合SELECT语句。利用UNION，可以把多条查询的结果作为一条组合查询返回，不管结果中有无重复。使用UNION 可极大地简化复杂的WHERE子句，简化从多个表中检索数据的工作。
 
 **
 
@@ -4098,19 +4098,19 @@ WHERE cust\_state = 'IL'ORDER BY cust\_name;
 
 1. 数据插入
 
-   毫无疑问，SELECT是最常用的SQL语句了，这就是前14课都在讲它的原因。但是*，*还有其他3个常用的SQL语句需要学习。第一个就是INSERT （下一课介绍另外两个）。
+毫无疑问，SELECT是最常用的SQL语句了，这就是前14课都在讲它的原因。但是*，*还有其他3个常用的SQL语句需要学习。第一个就是INSERT （下一课介绍另外两个）。
 
-   顾名思义，INSERT用来将行插入（或添加）到数据库表。插入有几种方式：
+顾名思义，INSERT用来将行插入（或添加）到数据库表。插入有几种方式：
 
-   口插入完整的行；
+口插入完整的行；
 
-   口插入行的一部分；
+口插入行的一部分；
 
-   口插入某些查询的结果。
+口插入某些查询的结果。
 
-   下面逐一介绍这些内容。
+下面逐一介绍这些内容。
 
-   **提示：插入及系统安全**
+**提示：插入及系统安全**
 
 使用INSERT语句可能需要客户端/服务器DBMS中的特定安全权限。 在你试图使用INSERT前，应该保证自己有足够的安全权限。
 
@@ -4119,45 +4119,45 @@ WHERE cust\_state = 'IL'ORDER BY cust\_name;
 
 1. 插入完整的行
 
-   把数据插入表中的最简单方法是使用基本的INSERT语法，它要求指定表名和插入到新行中的值。下面举一个例子：
+把数据插入表中的最简单方法是使用基本的INSERT语法，它要求指定表名和插入到新行中的值。下面举一个例子：
 
-   **输入**▼
+**输入**▼
 
-   INSERT INTO Customers
+INSERT INTO Customers
 
-   VALUES(1000000006,
+VALUES(1000000006,
 
-   'Toy Land',
+'Toy Land',
 
-   '123 Any Street',
+'123 Any Street',
 
-   'New York',
+'New York',
 
-   'NY',
+'NY',
 
-   '11111',
+'11111',
 
-   'USA',
+'USA',
 
-   NULL,
+NULL,
 
-   NULL);
+NULL);
 
-   **分析**▼
+**分析**▼
 
-   这个例子将一个新顾客插入到Customers表中。存储到表中每一列的数据在VALUES子句中给出，必须给每一列提供一个值。如果某列没有值， 如上面的cust\_contact和cust\_email列I，则应该使用NULL值(假定表允许对该列指定空值)。各列必须以它们在表定义中出现的次序填充。
+这个例子将一个新顾客插入到Customers表中。存储到表中每一列的数据在VALUES子句中给出，必须给每一列提供一个值。如果某列没有值， 如上面的cust\_contact和cust\_email列I，则应该使用NULL值(假定表允许对该列指定空值)。各列必须以它们在表定义中出现的次序填充。
 
-   **提示：INTO关键字**
+**提示：INTO关键字**
 
-   在某些SQL实现中，跟在INSERT之后的INTO关键字是可选的。但是，即使不一定需要，最好还是提供这个关键字，这样做将保证SQL 代码在DBMS之间可移植。
+在某些SQL实现中，跟在INSERT之后的INTO关键字是可选的。但是，即使不一定需要，最好还是提供这个关键字，这样做将保证SQL 代码在DBMS之间可移植。
 
-   虽然这种语法很简单，但并不安全，应该尽量避免使用。上面的SQL语句高度依赖于表中列的定义次序，还依赖于其容易获得的次序信息。即使可以得到这种次序信息，也不能保证各列在下一次表结构变动后保持完全相同的次序。因此，编写依赖于特定列次序的SQL语句是很不安全的，这样做迟早会出问题。
+虽然这种语法很简单，但并不安全，应该尽量避免使用。上面的SQL语句高度依赖于表中列的定义次序，还依赖于其容易获得的次序信息。即使可以得到这种次序信息，也不能保证各列在下一次表结构变动后保持完全相同的次序。因此，编写依赖于特定列次序的SQL语句是很不安全的，这样做迟早会出问题。
 
-   编写INSERT语句的更安全(不过更烦琐)的方法如下：
+编写INSERT语句的更安全(不过更烦琐)的方法如下：
 
-   **输入**▼
+**输入**▼
 
-   INSERT INTO Customers(cust\_id,
+INSERT INTO Customers(cust\_id,
 
 cust\_name, cust\_address, cust\_city, cust\_state, cust\_zip,
 
@@ -4209,11 +4209,11 @@ NULL, NULL, 'Toy Land', '123 Any Street', 'New York', 'NY', '11111');
 
 1. 插入部分行
 
-   正如所述，使用INSERT的推荐方法是明确给出表的列名。使用这种语法，还可以省略列，这表示可以只给某些列提供值，给其他列不提供值。
+正如所述，使用INSERT的推荐方法是明确给出表的列名。使用这种语法，还可以省略列，这表示可以只给某些列提供值，给其他列不提供值。
 
-   请看下面的例子：
+请看下面的例子：
 
-   **输入**▼
+**输入**▼
 
 INSERT INTO Customers(cust\_id, cust\_name, cust\_address, cust\_city, cust\_state, cust\_zip, cust\_country)
 
@@ -4249,11 +4249,11 @@ VALUES(1000000006,
 
 1. 插入检索出的数据
 
-   INSERT 一般用来给表插入具有指定列值的行。INSERT还存在另一种形式，可以利用它将SELECT语句的结果插入表中，这就是所谓的INSERT SELECT。顾名思义，它是由一条INSERT语句和一条SELECT语句组成的。
+INSERT 一般用来给表插入具有指定列值的行。INSERT还存在另一种形式，可以利用它将SELECT语句的结果插入表中，这就是所谓的INSERT SELECT。顾名思义，它是由一条INSERT语句和一条SELECT语句组成的。
 
-   假如想把另一表中的顾客列合并到Customers表中，不需要每次读取一行再将它用INSERT插入，可以如下进行：
+假如想把另一表中的顾客列合并到Customers表中，不需要每次读取一行再将它用INSERT插入，可以如下进行：
 
-   **输入**▼
+**输入**▼
 
 INSERT INTO Customers(cust\_id, cust\_contact, cust\_email, cust\_name, cust\_address, cust\_city, cust\_state, cust\_zip, cust\_country)
 
@@ -4290,49 +4290,49 @@ INSERT SELECT是个例外，它可以用一条INSERT插入多行，不管SELECT 
 
 1. 从一个表复制到另一个表
 
-   有一种数据插入不使用INSERT语句。要将一个表的内容复制到一个全新的表（运行中创建的表），可以使用 CREATE SELECT 语句（或者在 SQL Server 里也可用 SELECT INTO 语句）。
+有一种数据插入不使用INSERT语句。要将一个表的内容复制到一个全新的表（运行中创建的表），可以使用 CREATE SELECT 语句（或者在 SQL Server 里也可用 SELECT INTO 语句）。
 
-   **说明：DB2不支持**
+**说明：DB2不支持**
 
-   DB2不支持这里描述的CREATE SELECT。
+DB2不支持这里描述的CREATE SELECT。
 
-   与INSERT SELECT将数据添加到一个已经存在的表不同，CREATE SELECT将数据复制到一个新表（有的DBMS可以覆盖已经存在的表， 这依赖于所使用的具体DBMS）。
+与INSERT SELECT将数据添加到一个已经存在的表不同，CREATE SELECT将数据复制到一个新表（有的DBMS可以覆盖已经存在的表， 这依赖于所使用的具体DBMS）。
 
-   下面的例子说明如何使用CREATE SELECT：
+下面的例子说明如何使用CREATE SELECT：
 
-   **输入**▼
+**输入**▼
 
-   CREATE TABLE CustCopy AS SELECT \* FROM Customers;
+CREATE TABLE CustCopy AS SELECT \* FROM Customers;
 
-   若是使用SQL Server，可以这么写：
+若是使用SQL Server，可以这么写：
 
-   **输入**▼
+**输入**▼
 
-   SELECT \* INTO CustCopy FROM Customers;
+SELECT \* INTO CustCopy FROM Customers;
 
-   **分析**▼
+**分析**▼
 
-   这条SELECT语句创建一个名为CustCopy的新表，并把Customers表的整个内容复制到新表中。因为这里使用的是 SELECT \*，所以将在 CustCopy表中创建（并填充）与Customers表的每一列相同的列。要想只复制部分的列，可以明确给出列名，而不是使用\*通配符。
+这条SELECT语句创建一个名为CustCopy的新表，并把Customers表的整个内容复制到新表中。因为这里使用的是 SELECT \*，所以将在 CustCopy表中创建（并填充）与Customers表的每一列相同的列。要想只复制部分的列，可以明确给出列名，而不是使用\*通配符。
 
-   在使用SELECT INTO时，需要知道一些事情：
+在使用SELECT INTO时，需要知道一些事情：
 
-   口任何SELECT选项和子句都可以使用，包括WHERE和GROUP BY；
+口任何SELECT选项和子句都可以使用，包括WHERE和GROUP BY；
 
-   口可利用联结从多个表插入数据；
+口可利用联结从多个表插入数据；
 
-   口不管从多少个表中检索数据，数据都只能插入到一个表中。
+口不管从多少个表中检索数据，数据都只能插入到一个表中。
 
-   **提示：进行表的复制**
+**提示：进行表的复制**
 
-   SELECT INTO是试验新SQL语句前进行表复制的很好工具。先进行复制，可在复制的数据上测试SQL代码，而不会影响实际的数据。
+SELECT INTO是试验新SQL语句前进行表复制的很好工具。先进行复制，可在复制的数据上测试SQL代码，而不会影响实际的数据。
 
-   **说明：更多例子**
+**说明：更多例子**
 
-   如果想看INSERT用法的更多例子，请参阅附录A中给出的样例表填充脚本。
+如果想看INSERT用法的更多例子，请参阅附录A中给出的样例表填充脚本。
 
 1. 小结
 
-   这一课介绍如何将行插入到数据库表中。我们学习了使用INSERT的几种方法，为什么要明确使用列名，如何用INSERT SELECT从其他表中导人行，如何用SELECT INTO将行导出到一个新表。下一课将讲述如何使用UPDATE和DELETE进一步操作表数据。
+这一课介绍如何将行插入到数据库表中。我们学习了使用INSERT的几种方法，为什么要明确使用列名，如何用INSERT SELECT从其他表中导人行，如何用SELECT INTO将行导出到一个新表。下一课将讲述如何使用UPDATE和DELETE进一步操作表数据。
 
 **
 
@@ -4346,25 +4346,25 @@ INSERT SELECT是个例外，它可以用一条INSERT插入多行，不管SELECT 
 
 1. 更新数据
 
-   更新（修改）表中的数据，可以使用UPDATE语句。有两种使用UPDATE 的方式：
+更新（修改）表中的数据，可以使用UPDATE语句。有两种使用UPDATE 的方式：
 
-   口更新表中的特定行；
+口更新表中的特定行；
 
-   口更新表中的所有行。
+口更新表中的所有行。
 
-   下面分别介绍。
+下面分别介绍。
 
-   **注意：不要省略WHERE子句**
+**注意：不要省略WHERE子句**
 
-   在使用UPDATE时一定要细心。因为稍不注意，就会更新表中的所有
+在使用UPDATE时一定要细心。因为稍不注意，就会更新表中的所有
 
-   行。使用这条语句前，请完整地阅读本节。
+行。使用这条语句前，请完整地阅读本节。
 
-   **提示：UPDATE与安全**
+**提示：UPDATE与安全**
 
-   在客户端/服务器的DBMS中，使用UPDATE语句可能需要特殊的安全权限。在你使用UPDATE前，应该保证自己有足够的安全权限。
+在客户端/服务器的DBMS中，使用UPDATE语句可能需要特殊的安全权限。在你使用UPDATE前，应该保证自己有足够的安全权限。
 
-   使用UPDATE语句非常容易，甚至可以说太容易了。基本的UPDATE语句由三部分组成，分别是：
+使用UPDATE语句非常容易，甚至可以说太容易了。基本的UPDATE语句由三部分组成，分别是：
 
 **
 
@@ -4429,57 +4429,57 @@ WHERE cust\_id = 1000000005;
 
 1. 删除数据
 
-   从一个表中删除（去掉）数据，使用DELETE语句。有两种使用DELETE 的方式：
+从一个表中删除（去掉）数据，使用DELETE语句。有两种使用DELETE 的方式：
 
-   口从表中删除特定的行；
+口从表中删除特定的行；
 
-   口从表中删除所有行。
+口从表中删除所有行。
 
-   下面分别介绍。
+下面分别介绍。
 
-   **注意：不要省略WHERE子句**
+**注意：不要省略WHERE子句**
 
-   在使用DELETE时一定要细心。因为稍不注意，就会错误地删除表中所有行。在使用这条语句前，请完整地阅读本节。
+在使用DELETE时一定要细心。因为稍不注意，就会错误地删除表中所有行。在使用这条语句前，请完整地阅读本节。
 
-   **提示：DELETE与安全**
+**提示：DELETE与安全**
 
-   在客户端/服务器的DBMS中，使用DELETE语句可能需要特殊的安全权限。在你使用DELETE前，应该保证自己有足够的安全权限。
+在客户端/服务器的DBMS中，使用DELETE语句可能需要特殊的安全权限。在你使用DELETE前，应该保证自己有足够的安全权限。
 
-   前面说过，UPDATE非常容易使用，而DELETE更容易使用。
+前面说过，UPDATE非常容易使用，而DELETE更容易使用。
 
-   下面的语句从Customers表中删除一行：
+下面的语句从Customers表中删除一行：
 
-   **输入**▼
+**输入**▼
 
-   DELETE FROM Customers
+DELETE FROM Customers
 
-   WHERE cust\_id = 1000000006;
+WHERE cust\_id = 1000000006;
 
-   这条语句很容易理解。DELETE FROM要求指定从中删除数据的表名， WHERE子句过滤要删除的行。在这个例子中，只删除顾客1000000006。
+这条语句很容易理解。DELETE FROM要求指定从中删除数据的表名， WHERE子句过滤要删除的行。在这个例子中，只删除顾客1000000006。
 
-   如果省略WHERE子句，它将删除表中每个顾客。
+如果省略WHERE子句，它将删除表中每个顾客。
 
-   **提示：友好的外键**
+**提示：友好的外键**
 
-   第12课介绍了联结，简单联结两个表只需要这两个表中的公用字段。 也可以让DBMS通过使用外键来严格实施关系（这些定义在附录A 中）。存在外键时，DBMS使用它们实施引用完整性。例如要向 Products表中插入一个新产品，DBMS不允许通过未知的供应商id 插入它，因为vend\_id列是作为外键连接到Vendors表的。那么， 这与DELETE有什么关系呢？使用外键确保引用完整性的一个好处是， DBMS通常可以防止删除某个关系需要用到的行。例如，要从 Products表中删除一个产品，而这个产品用在Orderitems的已有订单中，那么DELETE语句将抛出错误并中止。这是总要定义外键的另一个理由。
+第12课介绍了联结，简单联结两个表只需要这两个表中的公用字段。 也可以让DBMS通过使用外键来严格实施关系（这些定义在附录A 中）。存在外键时，DBMS使用它们实施引用完整性。例如要向 Products表中插入一个新产品，DBMS不允许通过未知的供应商id 插入它，因为vend\_id列是作为外键连接到Vendors表的。那么， 这与DELETE有什么关系呢？使用外键确保引用完整性的一个好处是， DBMS通常可以防止删除某个关系需要用到的行。例如，要从 Products表中删除一个产品，而这个产品用在Orderitems的已有订单中，那么DELETE语句将抛出错误并中止。这是总要定义外键的另一个理由。
 
-   **提示：FROM关键字**
+**提示：FROM关键字**
 
-   在某些SQL实现中，跟在DELETE后的关键字FROM是可选的。但是即使不需要，也最好提供这个关键字。这样做将保证SQL代码在DBMS 之间可移植。
+在某些SQL实现中，跟在DELETE后的关键字FROM是可选的。但是即使不需要，也最好提供这个关键字。这样做将保证SQL代码在DBMS 之间可移植。
 
-   DELETE不需要列名或通配符。DELETE删除整行而不是删除列。要删除指定的列，请使用UPDATE语句。
+DELETE不需要列名或通配符。DELETE删除整行而不是删除列。要删除指定的列，请使用UPDATE语句。
 
-   **说明：删除表的内容而不是表**
+**说明：删除表的内容而不是表**
 
-   DELETE语句从表中删除行，甚至是删除表中所有行。但是，DELETE 不删除表本身。
+DELETE语句从表中删除行，甚至是删除表中所有行。但是，DELETE 不删除表本身。
 
-   **提示：更快的删除**
+**提示：更快的删除**
 
-   如果想从表中删除所有行，不要使用DELETE。可使用TRUNCATE TABLE 语句，它完成相同的工作，而速度更快（因为不记录数据的变动）。
+如果想从表中删除所有行，不要使用DELETE。可使用TRUNCATE TABLE 语句，它完成相同的工作，而速度更快（因为不记录数据的变动）。
 
 1. 更新和删除的指导原则
 
-   前两节使用的UPDATE和DELETE语句都有WHERE子句，这样做的理由很充分。如果省略了 WHERE子句，则UPDATE或DELETE将被应用到表中所有的行。换句话说，如果执行UPDATE而不带WHERE子句，则表中 
+前两节使用的UPDATE和DELETE语句都有WHERE子句，这样做的理由很充分。如果省略了 WHERE子句，则UPDATE或DELETE将被应用到表中所有的行。换句话说，如果执行UPDATE而不带WHERE子句，则表中 
 
 
 
@@ -4502,7 +4502,7 @@ WHERE cust\_id = 1000000005;
 
 1. 小结
 
-   这一课讲述了如何使用UPDATE和DELETE语句处理表中的数据。我们学习了这些语句的语法，知道了它们可能存在的危险，了解了为什么WHERE 子句对UPDATE和DELETE语句很重要，还学习了为保证数据安全而应该遵循的一些指导原则。
+这一课讲述了如何使用UPDATE和DELETE语句处理表中的数据。我们学习了这些语句的语法，知道了它们可能存在的危险，了解了为什么WHERE 子句对UPDATE和DELETE语句很重要，还学习了为保证数据安全而应该遵循的一些指导原则。
 
 1. 挑战题
 1. .美国各州的缩写应始终用大写。编写SQL语句来更新所有美国地址，包括供应商状态（Vendors表中的vend\_state）和顾客状态（Customers 表中的cust\_state），使它们均为大写。
@@ -4515,21 +4515,21 @@ WHERE cust\_id = 1000000005;
 
 1. 创建表
 
-   SQL不仅用于表数据操纵，而且还用来执行数据库和表的所有操作，包括表本身的创建和处理。
+SQL不仅用于表数据操纵，而且还用来执行数据库和表的所有操作，包括表本身的创建和处理。
 
-   一般有两种创建表的方法：
+一般有两种创建表的方法：
 
-   口多数DBMS都具有交互式创建和管理数据库表的工具；
+口多数DBMS都具有交互式创建和管理数据库表的工具；
 
-   口表也可以直接用SQL语句操纵。
+口表也可以直接用SQL语句操纵。
 
-   用程序创建表，可以使用SQL的CREATE TABLE语句。需要注意的是，使用交互式工具时实际上就是使用SQL语句。这些语句不是用户编写的，界面工具会自动生成并执行相应的SQL语句（更改已有的表时也是这样）。
+用程序创建表，可以使用SQL的CREATE TABLE语句。需要注意的是，使用交互式工具时实际上就是使用SQL语句。这些语句不是用户编写的，界面工具会自动生成并执行相应的SQL语句（更改已有的表时也是这样）。
 
-   **注意：语法差别**
+**注意：语法差别**
 
-   在不同的SQL实现中，CREATE TABLE语句的语法可能有所不同。对于具体的DBMS支持何种语法，请参阅相应的文档。
+在不同的SQL实现中，CREATE TABLE语句的语法可能有所不同。对于具体的DBMS支持何种语法，请参阅相应的文档。
 
-   这一课不会介绍创建表时可以使用的所有选项，那超出了本课的范围， 我只给出一些基本选项。详细的信息说明，请参阅具体的DBMS文档。
+这一课不会介绍创建表时可以使用的所有选项，那超出了本课的范围， 我只给出一些基本选项。详细的信息说明，请参阅具体的DBMS文档。
 
 **
 
@@ -4540,108 +4540,108 @@ WHERE cust\_id = 1000000005;
 
 1. 表创建基础
 
-   利用CREATE TABLE创建表，必须给出下列信息：
+利用CREATE TABLE创建表，必须给出下列信息：
 
-   口新表的名字，在关键字CREATE TABLE之后给出；
+口新表的名字，在关键字CREATE TABLE之后给出；
 
-   口表列的名字和定义，用逗号分隔；
+口表列的名字和定义，用逗号分隔；
 
-   口有的DBMS还要求指定表的位置。
+口有的DBMS还要求指定表的位置。
 
-   下面的SQL语句创建本书中所用的Products表：
+下面的SQL语句创建本书中所用的Products表：
 
-   **输入**▼
+**输入**▼
 
-   CREATE TABLE Products
+CREATE TABLE Products
 
-   （
+（
 
-   |prod\_id|CHAR(10)|NOT NULL,|
-   | :- | :- | :- |
-   |vend\_id|CHAR(10)|NOT NULL,|
-   |prod\_name|CHAR(254)|NOT NULL,|
-   |prod\_price|DECIMAL(8,2)|NOT NULL,|
-   |prod\_desc|VARCHAR(1000)|NULL|
+|prod\_id|CHAR(10)|NOT NULL,|
+| :- | :- | :- |
+|vend\_id|CHAR(10)|NOT NULL,|
+|prod\_name|CHAR(254)|NOT NULL,|
+|prod\_price|DECIMAL(8,2)|NOT NULL,|
+|prod\_desc|VARCHAR(1000)|NULL|
 
-   );
+);
 
-   **分析**▼
+**分析**▼
 
-   从上面的例子可以看到，表名紧跟CREATE TABLE关键字。实际的表定义（所有列）括在圆括号之中，各列之间用逗号分隔。这个表由5列组成。每列的定义以列名（它在表中必须是唯一的）开始，后跟列的数据类型（关于数据类型的解释，请参阅第1课。此外，附录C列出了常见的数据类型及兼容性）。整条语句以圆括号后的分号结束。
+从上面的例子可以看到，表名紧跟CREATE TABLE关键字。实际的表定义（所有列）括在圆括号之中，各列之间用逗号分隔。这个表由5列组成。每列的定义以列名（它在表中必须是唯一的）开始，后跟列的数据类型（关于数据类型的解释，请参阅第1课。此外，附录C列出了常见的数据类型及兼容性）。整条语句以圆括号后的分号结束。
 
-   前面提到，不同DBMS的CREATE TABLE的语法有所不同，这个简单脚本也说明了这一点。这条语句在绝大多数DBMS中有效，但对于DB2, 必须从最后一列中去掉NULL。这就是对于不同的DBMS，要编写不同的表创建脚本的原因（参见附录A）。
+前面提到，不同DBMS的CREATE TABLE的语法有所不同，这个简单脚本也说明了这一点。这条语句在绝大多数DBMS中有效，但对于DB2, 必须从最后一列中去掉NULL。这就是对于不同的DBMS，要编写不同的表创建脚本的原因（参见附录A）。
 
-   **提示：语句格式化**
+**提示：语句格式化**
 
-   回想一下在SQL语句中忽略的空格。语句可以在一个长行上输入，也可以分成许多行，它们没有差别。这样，你就可以用最适合自己的方式安排语句的格式。前面的CREATE TABLE语句就是SQL语句格式化的一个好例子，代码安排在多个行上，列定义进行了恰当的缩进，更易阅读和编辑。以何种格式安排SQL语句并没有规定，但我强烈推荐采用某种缩进格式。
+回想一下在SQL语句中忽略的空格。语句可以在一个长行上输入，也可以分成许多行，它们没有差别。这样，你就可以用最适合自己的方式安排语句的格式。前面的CREATE TABLE语句就是SQL语句格式化的一个好例子，代码安排在多个行上，列定义进行了恰当的缩进，更易阅读和编辑。以何种格式安排SQL语句并没有规定，但我强烈推荐采用某种缩进格式。
 
-   **提示：替换现有的表**
+**提示：替换现有的表**
 
-   在创建新的表时，指定的表名必须不存在，否则会出错。防止意外覆盖已有的表，SQL要求首先手工删除该表（请参阅后面的内容），然后再重建它，而不是简单地用创建表语句覆盖它。
+在创建新的表时，指定的表名必须不存在，否则会出错。防止意外覆盖已有的表，SQL要求首先手工删除该表（请参阅后面的内容），然后再重建它，而不是简单地用创建表语句覆盖它。
 
 1. 使用 NULL 值
 
-   第4课提到，NULL值就是没有值或缺值。允许NULL值的列也允许在插人行时不给出该列的值。不允许NULL值的列不接受没有列值的行，换句话说，在插入或更新行时，该列必须有值。
+第4课提到，NULL值就是没有值或缺值。允许NULL值的列也允许在插人行时不给出该列的值。不允许NULL值的列不接受没有列值的行，换句话说，在插入或更新行时，该列必须有值。
 
-   每个表列要么是NULL歹列，要么是NOT NULL列，这种状态在创建时由表的定义规定。请看下面的例子：
+每个表列要么是NULL歹列，要么是NOT NULL列，这种状态在创建时由表的定义规定。请看下面的例子：
 
-   |**输入**▼|||||
-   | :- | :- | :- | :- | :- |
-   |CREATE TABLE Orders|||||
-   |(|order\_num|INTEGER|NOT|NULL,|
-   ||order\_date|DATETIME|NOT|NULL,|
-   |);|cust\_id|CHAR(10)|NOT|NULL|
+|**输入**▼|||||
+| :- | :- | :- | :- | :- |
+|CREATE TABLE Orders|||||
+|(|order\_num|INTEGER|NOT|NULL,|
+||order\_date|DATETIME|NOT|NULL,|
+|);|cust\_id|CHAR(10)|NOT|NULL|
 
-   **分析**▼
+**分析**▼
 
-   这条语句创建本书中所用的Orders表。Orders包含三列：订单号、订单日期和顾客ID。这三列都需要，因此每一列的定义都含有关键字NOT NULL。这就会阻止插入没有值的列。如果插入没有值的列，将返回错误， 且插入失败。
+这条语句创建本书中所用的Orders表。Orders包含三列：订单号、订单日期和顾客ID。这三列都需要，因此每一列的定义都含有关键字NOT NULL。这就会阻止插入没有值的列。如果插入没有值的列，将返回错误， 且插入失败。
 
-   下一个例子将创建混合了 NULL和NOT NULL列的表：
+下一个例子将创建混合了 NULL和NOT NULL列的表：
 
-   |**输入**▼|||||
-   | :- | :- | :- | :- | :- |
-   |CREATE TABLE Vendors|||||
-   |(|vend\_id|CHAR(10)|NOT|NULL,|
-   ||vend\_name|CHAR(50)|NOT|NULL,|
-   ||vend\_address|CHAR(50)|,||
-   ||vend\_city|CHAR(50)|,||
-   ||vend\_state|CHAR(5)|,||
-   ||vend\_zip|CHAR(10)|,||
-   ||vend\_country|CHAR(50)|||
-   |);|||||
+|**输入**▼|||||
+| :- | :- | :- | :- | :- |
+|CREATE TABLE Vendors|||||
+|(|vend\_id|CHAR(10)|NOT|NULL,|
+||vend\_name|CHAR(50)|NOT|NULL,|
+||vend\_address|CHAR(50)|,||
+||vend\_city|CHAR(50)|,||
+||vend\_state|CHAR(5)|,||
+||vend\_zip|CHAR(10)|,||
+||vend\_country|CHAR(50)|||
+|);|||||
 
-   **分析**▼
+**分析**▼
 
-   这条语句创建本书中使用的Vendors表。供应商ID和供应商名字列是必需的，因此指定为NOT NULL。其余五列全都允许NULL值，所以不指定NOT NULL。NULL为默认设置，如果不指定NOT NULL，就认为指定的是NULL。
+这条语句创建本书中使用的Vendors表。供应商ID和供应商名字列是必需的，因此指定为NOT NULL。其余五列全都允许NULL值，所以不指定NOT NULL。NULL为默认设置，如果不指定NOT NULL，就认为指定的是NULL。
 
-   **注意：指定NULL**
+**注意：指定NULL**
 
-   在不指定NOT NULL时，多数DBMS认为指定的是NULL,但不是所有的DBMS都这样。某些DBMS要求指定关键字NULL,如果不指定将出错。关于完整的语法信息，请参阅具体的DBMS文档。
+在不指定NOT NULL时，多数DBMS认为指定的是NULL,但不是所有的DBMS都这样。某些DBMS要求指定关键字NULL,如果不指定将出错。关于完整的语法信息，请参阅具体的DBMS文档。
 
-   **提示：主键和NULL值**
+**提示：主键和NULL值**
 
-   第1课介绍过，主键是其值唯一标识表中每一行的列。只有不允许NULL 值的列可作为主键，允许NULL值的列不能作为唯一标识。
+第1课介绍过，主键是其值唯一标识表中每一行的列。只有不允许NULL 值的列可作为主键，允许NULL值的列不能作为唯一标识。
 
-   **注意：理解NULL**
+**注意：理解NULL**
 
-   不要把NULL值与空字符串相混淆。NULL值是没有值，不是空字符串。 如果指定''（两个单引号，其间没有字符），这在NOT NULL列中是允许的。空字符串是一个有效的值，它不是无值。NULL值用关键字NULL 而不是空字符串指定。
+不要把NULL值与空字符串相混淆。NULL值是没有值，不是空字符串。 如果指定''（两个单引号，其间没有字符），这在NOT NULL列中是允许的。空字符串是一个有效的值，它不是无值。NULL值用关键字NULL 而不是空字符串指定。
 
 1. 指定默认值
 
-   SQL允许指定默认值，在插入行时如果不给出值，DBMS将自动采用默认值。默认值在CREATE TABLE语句的列定义中用关键字DEFAULT指定。
+SQL允许指定默认值，在插入行时如果不给出值，DBMS将自动采用默认值。默认值在CREATE TABLE语句的列定义中用关键字DEFAULT指定。
 
-   请看下面的例子：
+请看下面的例子：
 
-   **输入**▼
+**输入**▼
 
-   |CREATE TABLE OrderItems||||
-   | :- | :- | :- | :- |
-   |(||||
-   |order\_num|INTEGER|NOT NULL,||
-   |order\_item|INTEGER|NOT NULL,||
-   |prod\_id|CHAR(10)|NOT NULL,||
-   |quantity|INTEGER|NOT NULL|DEFAULT 1,|
-   |item\_price|DECIMAL(8,2)|NOT NULL||
+|CREATE TABLE OrderItems||||
+| :- | :- | :- | :- |
+|(||||
+|order\_num|INTEGER|NOT NULL,||
+|order\_item|INTEGER|NOT NULL,||
+|prod\_id|CHAR(10)|NOT NULL,||
+|quantity|INTEGER|NOT NULL|DEFAULT 1,|
+|item\_price|DECIMAL(8,2)|NOT NULL||
 );
 
 **分析**▼
@@ -4666,7 +4666,7 @@ WHERE cust\_id = 1000000005;
 
 1. 更新表
 
-   更新表定义，可以使用ALTER TABLE语句。虽然所有的DBMS都支持 ALTER TABLE，但它们所允许更新的内容差别很大。以下是使用ALTER
+更新表定义，可以使用ALTER TABLE语句。虽然所有的DBMS都支持 ALTER TABLE，但它们所允许更新的内容差别很大。以下是使用ALTER
 
 **
 
@@ -4722,43 +4722,43 @@ ALTER TABLE Vendors DROP COLUMN vend\_phone;
 3) 用旧表原来的名字重命名新表；
 3) 根据需要，重新创建触发器、存储过程、索引和外键。
 
-   **说明：ALTER TABLE 和 SQLite**
+**说明：ALTER TABLE 和 SQLite**
 
-   SQLite对使用ALTER TABLE执行的操作有所限制。最重要的一个限制是，它不支持使用ALTER TABLE定义主键和外键，这些必须在最初创建表时指定。
+SQLite对使用ALTER TABLE执行的操作有所限制。最重要的一个限制是，它不支持使用ALTER TABLE定义主键和外键，这些必须在最初创建表时指定。
 
-   **注意：小心使用ALTER TABLE**
+**注意：小心使用ALTER TABLE**
 
-   使用ALTER TABLE要极为小心，应该在进行改动前做完整的备份(表结构和数据的备份)。数据库表的更改不能撤销，如果增加了不需要的列，也许无法删除它们。类似地，如果删除了不应该删除的列，可能会丢失该列中的所有数据。
+使用ALTER TABLE要极为小心，应该在进行改动前做完整的备份(表结构和数据的备份)。数据库表的更改不能撤销，如果增加了不需要的列，也许无法删除它们。类似地，如果删除了不应该删除的列，可能会丢失该列中的所有数据。
 
-   3. 删除表
+3. 删除表
 
-      删除表（删除整个表而不是其内容）非常简单，使用DROP TABLE语句即可：
+删除表（删除整个表而不是其内容）非常简单，使用DROP TABLE语句即可：
 
-      **输入**▼
+**输入**▼
 
-      DROP TABLE CustCopy;
+DROP TABLE CustCopy;
 
-      **分析**▼
+**分析**▼
 
-      这条语句删除CustCopy表（第15课中创建的）。删除表没有确认步骤， 也不能撤销，执行这条语句将永久删除该表。
+这条语句删除CustCopy表（第15课中创建的）。删除表没有确认步骤， 也不能撤销，执行这条语句将永久删除该表。
 
-      **提示：使用关系规则防止意外删除**
+**提示：使用关系规则防止意外删除**
 
-      许多DBMS允许强制实施有关规则，防止删除与其他表相关联的表。在实施这些规则时，如果对某个表发布一条DROP TABLE语句，且该表是某个关系的组成部分，则DBMS将阻止这条语句执行，直到该关系被删除为止。如果允许，应该启用这些选项，它能防止意外删除有用的表。
+许多DBMS允许强制实施有关规则，防止删除与其他表相关联的表。在实施这些规则时，如果对某个表发布一条DROP TABLE语句，且该表是某个关系的组成部分，则DBMS将阻止这条语句执行，直到该关系被删除为止。如果允许，应该启用这些选项，它能防止意外删除有用的表。
 
-   3. 重命名表
+3. 重命名表
 
-      每个DBMS对表重命名的支持有所不同。对于这个操作，不存在严格的标准。DB2、MariaDB、MySQL、Oracle 和 PostgreSQL 用户使用 RENAME 语句，SQL Server用户使用sp\_rename存储过程，SQLite用户使用ALTER TABLE语句。
+每个DBMS对表重命名的支持有所不同。对于这个操作，不存在严格的标准。DB2、MariaDB、MySQL、Oracle 和 PostgreSQL 用户使用 RENAME 语句，SQL Server用户使用sp\_rename存储过程，SQLite用户使用ALTER TABLE语句。
 
-      所有重命名操作的基本语法都要求指定旧表名和新表名。不过，存在 DBMS实现差异。关于具体的语法，请参阅相应的DBMS文档。
+所有重命名操作的基本语法都要求指定旧表名和新表名。不过，存在 DBMS实现差异。关于具体的语法，请参阅相应的DBMS文档。
 
-   3. 小结
+3. 小结
 
-      这一课介绍了几条新的SQL语句。CREATE TABLE用来创建新表，ALTER TABLE用来更改表列（或其他诸如约束或索引等对象），而DROP TABLE 用来完整地删除一个表。这些语句必须小心使用，并且应该在备份后使用。由于这些语句的语法在不同的DBMS中有所不同，所以更详细的信息请参阅相应的DBMS文档。
+这一课介绍了几条新的SQL语句。CREATE TABLE用来创建新表，ALTER TABLE用来更改表列（或其他诸如约束或索引等对象），而DROP TABLE 用来完整地删除一个表。这些语句必须小心使用，并且应该在备份后使用。由于这些语句的语法在不同的DBMS中有所不同，所以更详细的信息请参阅相应的DBMS文档。
 
-   3. 挑战题
-1. .在Vendors表中添加一个网站列（vend\_web）。你需要一个足以容纳 URL的大文本字段。
-1. .使用UPDATE语句更新Vendor记录，以便加入网站（你可以编造任何地址）。
+3. 挑战题
+4. .在Vendors表中添加一个网站列（vend\_web）。你需要一个足以容纳 URL的大文本字段。
+5. .使用UPDATE语句更新Vendor记录，以便加入网站（你可以编造任何地址）。
 
 
 第18课使用视图
@@ -4767,27 +4767,27 @@ ALTER TABLE Vendors DROP COLUMN vend\_phone;
 
 1. 视图
 
-   视图是虚拟的表。与包含数据的表不一样，视图只包含使用时动态检索数据的查询。
+视图是虚拟的表。与包含数据的表不一样，视图只包含使用时动态检索数据的查询。
 
-   **说明：SQLite的视图**
+**说明：SQLite的视图**
 
-   SQLite仅支持只读视图，所以视图可以创建，可以读，但其内容不能更改。
+SQLite仅支持只读视图，所以视图可以创建，可以读，但其内容不能更改。
 
-   理解视图的最好方法是看例子。第12课用下面的SELECT语句从三个表中检索数据：
+理解视图的最好方法是看例子。第12课用下面的SELECT语句从三个表中检索数据：
 
-   **输入**▼
+**输入**▼
 
-   SELECT cust\_name, cust\_contact
+SELECT cust\_name, cust\_contact
 
-   FROM Customers, Orders, OrderItems
+FROM Customers, Orders, OrderItems
 
-   WHERE Customers.cust\_id = Orders.cust\_id
+WHERE Customers.cust\_id = Orders.cust\_id
 
-   AND OrderItems.order\_num = Orders.order\_num
+AND OrderItems.order\_num = Orders.order\_num
 
-   AND prod\_id = 'RGAN01';
+AND prod\_id = 'RGAN01';
 
-   此查询用来检索订购了某种产品的顾客。任何需要这个数据的人都必须 
+此查询用来检索订购了某种产品的顾客。任何需要这个数据的人都必须 
 
 **
 
@@ -4812,9 +4812,9 @@ WHERE prod\_id = 'RGAN01';
 
 1. 为什么使用视图
 
-   我们已经看到了视图应用的一个例子。下面是视图的一些常见应用。
+我们已经看到了视图应用的一个例子。下面是视图的一些常见应用。
 
-   口重用SQL语句。
+口重用SQL语句。
 
 口简化复杂的SQL操作。在编写查询后，可以方便地重用它而不必知道其基本查询细节。
 
@@ -4832,9 +4832,9 @@ WHERE prod\_id = 'RGAN01';
 
 1. 视图的规则和限制
 
-   创建视图前，应该知道它的一些限制。不过，这些限制随不同的DBMS 而不同，因此在创建视图时应该查看具体的DBMS文档。
+创建视图前，应该知道它的一些限制。不过，这些限制随不同的DBMS 而不同，因此在创建视图时应该查看具体的DBMS文档。
 
-   下面是关于视图创建和使用的一些最常见的规则和限制。
+下面是关于视图创建和使用的一些最常见的规则和限制。
 
 口与表一样，视图必须唯一命名（不能给视图取与别的视图或表相同的名字）。
 
@@ -4860,72 +4860,72 @@ WHERE prod\_id = 'RGAN01';
 
 1. 创建视图
 
-   理解了什么是视图以及管理它们的规则和约束后，我们来创建视图。
+理解了什么是视图以及管理它们的规则和约束后，我们来创建视图。
 
-   视图用 CREATE VIEW 语句来创建。与 CREATE TABLE 一样，CREATE VIEW 只能用于创建不存在的视图。
+视图用 CREATE VIEW 语句来创建。与 CREATE TABLE 一样，CREATE VIEW 只能用于创建不存在的视图。
 
-   **说明：视图重命名**
+**说明：视图重命名**
 
-   删除视图，可以使用DROP语句，其语法为DROP VIEW viewname;。
+删除视图，可以使用DROP语句，其语法为DROP VIEW viewname;。
 
-   覆盖（或更新）视图，必须先删除它，然后再重新创建。
+覆盖（或更新）视图，必须先删除它，然后再重新创建。
 
 **
 
 
 1. 利用视图简化复杂的联结
 
-   一个最常见的视图应用是隐藏复杂的SQL,这通常涉及联结。请看下面的例子：
+一个最常见的视图应用是隐藏复杂的SQL,这通常涉及联结。请看下面的例子：
 
-   **输入**▼
+**输入**▼
 
-   CREATE VIEW ProductCustomers AS
+CREATE VIEW ProductCustomers AS
 
-   SELECT cust\_name, cust\_contact, prod\_id
+SELECT cust\_name, cust\_contact, prod\_id
 
-   FROM Customers, Orders, OrderItems
+FROM Customers, Orders, OrderItems
 
-   WHERE Customers.cust\_id = Orders.cust\_id
+WHERE Customers.cust\_id = Orders.cust\_id
 
-   AND OrderItems.order\_num = Orders.order\_num;
+AND OrderItems.order\_num = Orders.order\_num;
 
-   **分析**▼
+**分析**▼
 
-   这条语句创建一个名为Productcustomers的视图，它联结三个表，返回已订购了任意产品的所有顾客的列表。如果执行 SELECT \* FROM Productcustomers，将列出订购了任意产品的顾客。
+这条语句创建一个名为Productcustomers的视图，它联结三个表，返回已订购了任意产品的所有顾客的列表。如果执行 SELECT \* FROM Productcustomers，将列出订购了任意产品的顾客。
 
-   检索订购了产品RGAN01的顾客，可如下进行：
+检索订购了产品RGAN01的顾客，可如下进行：
 
-   **输入**▼
+**输入**▼
 
-   SELEcT cust\_name, cust\_contact
+SELEcT cust\_name, cust\_contact
 
-   FROM Productcustomers
+FROM Productcustomers
 
-   WHERE prod\_id = 'RGAN01';
+WHERE prod\_id = 'RGAN01';
 
-   **输出**▼
+**输出**▼
 
-   cust\_name	cust\_contact
+cust\_name	cust\_contact
 
-   `	 	 `Fun4All	Denise L. Stephens
+`	 	 `Fun4All	Denise L. Stephens
 
-   The Toy Store	Kim Howard
+The Toy Store	Kim Howard
 
-   **分析**▼
+**分析**▼
 
-   这条语句通过WHERE子句从视图中检索特定数据。当DBMS处理此查询时，它将指定的WHERE子句添加到视图查询中已有的WHERE子句中，以便正确过滤数据。
+这条语句通过WHERE子句从视图中检索特定数据。当DBMS处理此查询时，它将指定的WHERE子句添加到视图查询中已有的WHERE子句中，以便正确过滤数据。
 
-   可以看出，视图极大地简化了复杂SQL语句的使用。利用视图，可一次性编写基础的SQL，然后根据需要多次使用。
+可以看出，视图极大地简化了复杂SQL语句的使用。利用视图，可一次性编写基础的SQL，然后根据需要多次使用。
 
-   **提示：创建可重用的视图**
+**提示：创建可重用的视图**
 
-   创建不绑定特定数据的视图是一种好办法。例如，上面创建的视图返回订购所有产品而不仅仅是RGAN01的顾客(这个视图先创建)。扩展视图的范围不仅使得它能被重用，而且可能更有用。这样做不需要创建和维护多个类似视图。
+创建不绑定特定数据的视图是一种好办法。例如，上面创建的视图返回订购所有产品而不仅仅是RGAN01的顾客(这个视图先创建)。扩展视图的范围不仅使得它能被重用，而且可能更有用。这样做不需要创建和维护多个类似视图。
 
 1. 用视图重新格式化检索出的数据
 
-   如前所述，视图的另一常见用途是重新格式化检索出的数据。下面的 SELECT语句(来自第7课)在单个组合计算列中返回供应商名和位置：
+如前所述，视图的另一常见用途是重新格式化检索出的数据。下面的 SELECT语句(来自第7课)在单个组合计算列中返回供应商名和位置：
 
-   **输入**▼
+**输入**▼
 
 SELECT RTRIM(vend\_name) + ' (' + RTRIM(vend\_country) + ')' AS vend\_title
 
@@ -5019,44 +5019,44 @@ Jouets et ours (France)
 
 1. 用视图过滤不想要的数据
 
-   视图对于应用普通的WHERE子句也很有用。例如，可以定义Customer- EMailList视图，过滤没有电子邮件地址的顾客。为此，可使用下面的语句：
+视图对于应用普通的WHERE子句也很有用。例如，可以定义Customer- EMailList视图，过滤没有电子邮件地址的顾客。为此，可使用下面的语句：
 
-   **输入**▼
+**输入**▼
 
-   CREATE VIEW CustomerEMailList AS
+CREATE VIEW CustomerEMailList AS
 
-   SELECT cust\_id, cust\_name, cust\_email FROM Customers
+SELECT cust\_id, cust\_name, cust\_email FROM Customers
 
-   WHERE cust\_email IS NOT NULL;
+WHERE cust\_email IS NOT NULL;
 
-   **分析**▼
+**分析**▼
 
-   显然，在将电子邮件发送到邮件列表时，需要排除没有电子邮件地址的用户。这里的WHERE子句过滤了 cust\_email列中具有NULL值的那些行，使它们不被检索出来。
+显然，在将电子邮件发送到邮件列表时，需要排除没有电子邮件地址的用户。这里的WHERE子句过滤了 cust\_email列中具有NULL值的那些行，使它们不被检索出来。
 
-   现在，可以像使用其他表一样使用视图CustomerEMailList。
+现在，可以像使用其他表一样使用视图CustomerEMailList。
 
-   **输入**▼
+**输入**▼
 
-   SELECT \*
+SELECT \*
 
-   FROM CustomerEMailList;
+FROM CustomerEMailList;
 
-   |**输出**▼|||
-   | :- | :- | :- |
-   |cust\_id|cust\_name|cust\_email|
-   |1000000001|Village Toys|<sales@villagetoys.com>|
-   |1000000003|Fun4All|<jjones@fun4all.com>|
-   |1000000004|Fun4All|<dstephens@fun4all.com>|
+|**输出**▼|||
+| :- | :- | :- |
+|cust\_id|cust\_name|cust\_email|
+|1000000001|Village Toys|<sales@villagetoys.com>|
+|1000000003|Fun4All|<jjones@fun4all.com>|
+|1000000004|Fun4All|<dstephens@fun4all.com>|
 
-   **说明：WHERE子句与WHERE子句**
+**说明：WHERE子句与WHERE子句**
 
-   从视图检索数据时如果使用了一条WHERE子句，则两组子句（一组在视图中，另一组是传递给视图的）将自动组合。
+从视图检索数据时如果使用了一条WHERE子句，则两组子句（一组在视图中，另一组是传递给视图的）将自动组合。
 
 1. 使用视图与计算字段
 
-   在简化计算字段的使用上，视图也特别有用。下面是第7课中介绍的一条SELECT语句，它检索某个订单中的物品，计算每种物品的总价格：
+在简化计算字段的使用上，视图也特别有用。下面是第7课中介绍的一条SELECT语句，它检索某个订单中的物品，计算每种物品的总价格：
 
-   **输入**▼
+**输入**▼
 
 SELECT prod\_id, quantity, item\_price, quantity\*item\_price AS expanded\_price
 
@@ -5115,7 +5115,7 @@ WHERE order\_num = 20008;
 
 1. 小结
 
-   视图为虚拟的表。它们包含的不是数据而是根据需要检索数据的查询。 视图提供了一种封装SELECT语句的层次，可用来简化数据处理，重新格式化或保护基础数据。
+视图为虚拟的表。它们包含的不是数据而是根据需要检索数据的查询。 视图提供了一种封装SELECT语句的层次，可用来简化数据处理，重新格式化或保护基础数据。
 
 1. 挑战题
 1. .创建一个名为CustomersWithOrders的视图，其中包含Customers 表中的所有列，但仅仅是那些已下订单的列。提示：可以在 Orders 表上使用JOIN来仅仅过滤所需的顾客，然后使用SELECT来确保拥有正确的数据。
@@ -5130,9 +5130,9 @@ ORDER BY order\_num;
 
 1. 存储过程
 
-   迄今为止，我们使用的大多数SQL语句都是针对一个或多个表的单条语句。并非所有操作都这么简单，经常会有一些复杂的操作需要多条语句才能完成，例如以下的情形。
+迄今为止，我们使用的大多数SQL语句都是针对一个或多个表的单条语句。并非所有操作都这么简单，经常会有一些复杂的操作需要多条语句才能完成，例如以下的情形。
 
-   口为了处理订单，必须核对以保证库存中有相应的物品。
+口为了处理订单，必须核对以保证库存中有相应的物品。
 
 口如果物品有库存，需要预定，不再出售给别的人，并且减少物品数据以反映正确的库存量。
 
@@ -5159,7 +5159,7 @@ SQLite不支持存储过程。
 
 1. 为什么要使用存储过程
 
-   我们知道了什么是存储过程，那么为什么要使用它们呢？理由很多，下面列出一些主要的。
+我们知道了什么是存储过程，那么为什么要使用它们呢？理由很多，下面列出一些主要的。
 
 口通过把处理封装在一个易用的单元中，可以简化复杂的操作（如前面例子所述）。
 
@@ -5189,11 +5189,11 @@ SQLite不支持存储过程。
 
 1. 执行存储过程
 
-   存储过程的执行远比编写要频繁得多，因此我们先介绍存储过程的执行。 执行存储过程的SQL语句很简单，即EXECUTE。EXECUTE接受存储过程名和需要传递给它的任何参数。请看下面的例子（你无法运行这个例子， 因为AddNewProduct这个存储过程还不存在）：
+存储过程的执行远比编写要频繁得多，因此我们先介绍存储过程的执行。 执行存储过程的SQL语句很简单，即EXECUTE。EXECUTE接受存储过程名和需要传递给它的任何参数。请看下面的例子（你无法运行这个例子， 因为AddNewProduct这个存储过程还不存在）：
 
-   **输入**▼
+**输入**▼
 
-   EXECUTE AddNewProduct（'JTS01',
+EXECUTE AddNewProduct（'JTS01',
 
 'Stuffed Eiffel Tower',
 
@@ -5229,11 +5229,11 @@ jthe text La Tour Ei ffel in red white and blue'）;
 
 1. 创建存储过程
 
-   正如所述，存储过程的编写很重要。为了获得感性认识，我们来看一个简单的存储过程例子，它对邮件发送清单中具有邮件地址的顾客进行计数。
+正如所述，存储过程的编写很重要。为了获得感性认识，我们来看一个简单的存储过程例子，它对邮件发送清单中具有邮件地址的顾客进行计数。
 
-   下面是该过程的Oracle版本：
+下面是该过程的Oracle版本：
 
-   **输入**▼
+**输入**▼
 
 CREATE PROCEDURE MailingListCount ( ListCount OUT INTEGER
 
@@ -5424,15 +5424,15 @@ AS
 1. 检查数据库中是否存在相应的顾客，如果不存在，添加他;
 1. 提交顾客信息;
 
-   ⑶检索顾客的ID；
+⑶检索顾客的ID；
 
-   (4)在Orders表中添加一行；
+(4)在Orders表中添加一行；
 
-   (5)如果向Orders表添加行时出现故障，回退；
+(5)如果向Orders表添加行时出现故障，回退；
 
-   (6)检索Orders表中赋予的新订单ID;
+(6)检索Orders表中赋予的新订单ID;
 
-   ⑺对于订购的每项物品，添加新行到Orderitems表；
+⑺对于订购的每项物品，添加新行到Orderitems表；
 
 (8)如果向Orderitems添加行时出现故障，回退所有添加的Orderitems 行和Orders行。
 
@@ -5498,97 +5498,97 @@ BEGIN
 
 1. 使用 ROLLBACK
 
-   SQL的ROLLBACK命令用来回退（撤销）SQL语句，请看下面的语句：
+SQL的ROLLBACK命令用来回退（撤销）SQL语句，请看下面的语句：
 
-   **输入**▼
+**输入**▼
 
-   DELETE FROM Orders;
+DELETE FROM Orders;
 
-   ROLLBACK;
+ROLLBACK;
 
-   **分析**▼
+**分析**▼
 
-   在此例子中，执行DELETE操作，然后用ROLLBACK语句撤销。虽然这不是最有用的例子，但它的确能够说明，在事务处理块中，DELETE操作（与 INSERT和UPDATE操作一样）并不是最终的结果。
+在此例子中，执行DELETE操作，然后用ROLLBACK语句撤销。虽然这不是最有用的例子，但它的确能够说明，在事务处理块中，DELETE操作（与 INSERT和UPDATE操作一样）并不是最终的结果。
 
 1. 使用 COMMIT
 
-   一般的SQL语句都是针对数据库表直接执行和编写的。这就是所谓的隐式提交（implicit commit），即提交（写或保存）操作是自动进行的。
+一般的SQL语句都是针对数据库表直接执行和编写的。这就是所谓的隐式提交（implicit commit），即提交（写或保存）操作是自动进行的。
 
-   在事务处理块中，提交不会隐式进行。不过，不同DBMS的做法有所不同。有的DBMS按隐式提交处理事务端，有的则不这样。
+在事务处理块中，提交不会隐式进行。不过，不同DBMS的做法有所不同。有的DBMS按隐式提交处理事务端，有的则不这样。
 
-   进行明确的提交，使用COMMIT语句。下面是一个SQL Server的例子：
+进行明确的提交，使用COMMIT语句。下面是一个SQL Server的例子：
 
-   **输入**▼
+**输入**▼
 
-   BEGIN TRANSACTION
+BEGIN TRANSACTION
 
-   DELETE OrderItems WHERE order\_num = 12345
+DELETE OrderItems WHERE order\_num = 12345
 
-   DELETE Orders WHERE order\_num = 12345 COMMIT TRANSACTION
+DELETE Orders WHERE order\_num = 12345 COMMIT TRANSACTION
 
-   **分析**▼
+**分析**▼
 
-   在这个SQL Server例子中，从系统中完全删除订单12345。因为涉及更新两个数据库表Orders和Orderitems，所以使用事务处理块来保证订单不被部分删除。最后的COMMIT语句仅在不出错时写出更改。如果第一条DELETE起作用，但第二条失败，则DELETE不会提交。
+在这个SQL Server例子中，从系统中完全删除订单12345。因为涉及更新两个数据库表Orders和Orderitems，所以使用事务处理块来保证订单不被部分删除。最后的COMMIT语句仅在不出错时写出更改。如果第一条DELETE起作用，但第二条失败，则DELETE不会提交。
 
-   为在Oracle中完成相同的工作，可如下进行：
+为在Oracle中完成相同的工作，可如下进行：
 
-   **输入**▼
+**输入**▼
 
-   SET TRANSACTION
+SET TRANSACTION
 
-   DELETE OrderItems WHERE order\_num = 12345;
+DELETE OrderItems WHERE order\_num = 12345;
 
-   DELETE Orders WHERE order\_num = 12345;
+DELETE Orders WHERE order\_num = 12345;
 
-   COMMIT;
+COMMIT;
 
 1. 使用保留点
 
-   使用简单的ROLLBACK和COMMIT语句，就可以写入或撤销整个事务。但是，只对简单的事务才能这样做，复杂的事务可能需要部分提交或回退。
+使用简单的ROLLBACK和COMMIT语句，就可以写入或撤销整个事务。但是，只对简单的事务才能这样做，复杂的事务可能需要部分提交或回退。
 
-   例如前面描述的添加订单的过程就是一个事务。如果发生错误，只需要返回到添加Orders行之前即可。不需要回退到Customers表（如果存在的话）。
+例如前面描述的添加订单的过程就是一个事务。如果发生错误，只需要返回到添加Orders行之前即可。不需要回退到Customers表（如果存在的话）。
 
-   要支持回退部分事务，必须在事务处理块中的合适位置放置占位符。这样，如果需要回退，可以回退到某个占位符。
+要支持回退部分事务，必须在事务处理块中的合适位置放置占位符。这样，如果需要回退，可以回退到某个占位符。
 
-   在SQL中，这些占位符称为保留点。在MariaDB、MySQL和Oracle中创建占位符，可使用SAVEPOINT语句。
+在SQL中，这些占位符称为保留点。在MariaDB、MySQL和Oracle中创建占位符，可使用SAVEPOINT语句。
 
-   **输入**▼
+**输入**▼
 
-   SAVEPOINT delete1;
+SAVEPOINT delete1;
 
-   在SQL Server中，如下进行：
+在SQL Server中，如下进行：
 
-   **输入**▼
+**输入**▼
 
-   SAVE TRANSACTION delete1;
+SAVE TRANSACTION delete1;
 
-   每个保留点都要取能够标识它的唯一名字，以便在回退时，DBMS知道回退到何处。要回退到本例给出的保留点，在SQL Server中可如下进行。
+每个保留点都要取能够标识它的唯一名字，以便在回退时，DBMS知道回退到何处。要回退到本例给出的保留点，在SQL Server中可如下进行。
 
-   **输入**▼
+**输入**▼
 
-   ROLLBACK TRANSACTION delete1;
+ROLLBACK TRANSACTION delete1;
 
-   在MariaDB、MySQL和Oracle中，如下进行：
+在MariaDB、MySQL和Oracle中，如下进行：
 
-   **输入**▼
+**输入**▼
 
-   ROLLBACK TO delete1;
+ROLLBACK TO delete1;
 
-   下面是一个完整的SQL Server例子：
+下面是一个完整的SQL Server例子：
 
-   **输入**▼
+**输入**▼
 
-   BEGIN TRANSACTION
+BEGIN TRANSACTION
 
-   INSERT INTO Customers(cust\_id, cust\_name)
+INSERT INTO Customers(cust\_id, cust\_name)
 
-   VALUES(1000000010, 'Toys Emporium');
+VALUES(1000000010, 'Toys Emporium');
 
-   SAVE TRANSACTION StartOrder;
+SAVE TRANSACTION StartOrder;
 
-   INSERT INTO Orders(order\_num, order\_date, cust\_id)
+INSERT INTO Orders(order\_num, order\_date, cust\_id)
 
-   VALUES(20100,'2001/12/1',1000000010);
+VALUES(20100,'2001/12/1',1000000010);
 
 **
 
@@ -5628,17 +5628,17 @@ COMMIT TRANSACTION
 
 1. 游标
 
-   SQL检索操作返回一组称为结果集的行，这组返回的行都是与SQL语句相匹配的行（零行到多行）。简单地使用SELECT语句，没有办法得到第一行、下一行或前10行。但这是关系DBMS功能的组成部分。
+SQL检索操作返回一组称为结果集的行，这组返回的行都是与SQL语句相匹配的行（零行到多行）。简单地使用SELECT语句，没有办法得到第一行、下一行或前10行。但这是关系DBMS功能的组成部分。
 
-   **结果集（result set）**
+**结果集（result set）**
 
-   SQL查询所检索出的结果。
+SQL查询所检索出的结果。
 
-   有时，需要在检索出来的行中前进或后退一行或多行，这就是游标的用途所在。游标（cursor）是一个存储在DBMS服务器上的数据库查询， 它不是一条SELECT语句，而是被该语句检索出来的结果集。在存储了游标之后，应用程序可以根据需要滚动或浏览其中的数据。
+有时，需要在检索出来的行中前进或后退一行或多行，这就是游标的用途所在。游标（cursor）是一个存储在DBMS服务器上的数据库查询， 它不是一条SELECT语句，而是被该语句检索出来的结果集。在存储了游标之后，应用程序可以根据需要滚动或浏览其中的数据。
 
-   **说明：SQLite支持**
+**说明：SQLite支持**
 
-   SQLite支持的游标称为步骤（step）,本课讲述的基本概念适用于 SQLite的步骤，但语法可能完全不同。
+SQLite支持的游标称为步骤（step）,本课讲述的基本概念适用于 SQLite的步骤，但语法可能完全不同。
 
 **
 
@@ -5659,7 +5659,7 @@ COMMIT TRANSACTION
 
 1. 使用游标
 
-   使用游标涉及几个明确的步骤。
+使用游标涉及几个明确的步骤。
 
 口在使用游标前，必须声明（定义）它。这个过程实际上没有检索数据， 它只是定义要使用的SELECT语句和游标选项。
 
@@ -5673,73 +5673,73 @@ COMMIT TRANSACTION
 
 1. 创建游标
 
-   使用DECLARE语句创建游标，这条语句在不同的DBMS中有所不同。 DECLARE命名游标，并定义相应的SELECT语句，根据需要带WHERE和其他子句。为了说明，我们创建一个游标来检索没有电子邮件地址的所有顾客，作为应用程序的组成部分，帮助操作人员找出空缺的电子邮件地址。
+使用DECLARE语句创建游标，这条语句在不同的DBMS中有所不同。 DECLARE命名游标，并定义相应的SELECT语句，根据需要带WHERE和其他子句。为了说明，我们创建一个游标来检索没有电子邮件地址的所有顾客，作为应用程序的组成部分，帮助操作人员找出空缺的电子邮件地址。
 
-   下面是创建此游标的DB2、MariaDB、MySQL和SQL Server版本。
+下面是创建此游标的DB2、MariaDB、MySQL和SQL Server版本。
 
-   **输入**▼
+**输入**▼
 
-   DECLARE CustCursor CURSOR FOR
+DECLARE CustCursor CURSOR FOR
 
-   SELECT \* FROM Customers WHERE cust\_email IS NULL;
+SELECT \* FROM Customers WHERE cust\_email IS NULL;
 
-   下面是Oracle和PostgreSQL版本：
+下面是Oracle和PostgreSQL版本：
 
-   **输入**▼
+**输入**▼
 
-   DECLARE CURSOR CustCursor IS
+DECLARE CURSOR CustCursor IS
 
-   SELECT \* FROM Customers
+SELECT \* FROM Customers
 
-   WHERE cust\_email IS NULL;
+WHERE cust\_email IS NULL;
 
-   **分析**▼
+**分析**▼
 
-   在上面两个版本中，DECLARE语句用来定义和命名游标，这里为 CustCursor。SELECT语句定义一个包含没有电子邮件地址（NULL值） 的所有顾客的游标。
+在上面两个版本中，DECLARE语句用来定义和命名游标，这里为 CustCursor。SELECT语句定义一个包含没有电子邮件地址（NULL值） 的所有顾客的游标。
 
-   定义游标之后，就可以打开它了。
+定义游标之后，就可以打开它了。
 
 1. 使用游标
 
-   使用OPEN CURSOR语句打开游标，这条语句很简单，在大多数DBMS 中的语法相同：
+使用OPEN CURSOR语句打开游标，这条语句很简单，在大多数DBMS 中的语法相同：
 
-   **输入**▼
+**输入**▼
 
-   OPEN CURSOR CustCursor
+OPEN CURSOR CustCursor
 
-   **分析**▼
+**分析**▼
 
-   在处理OPEN CURSOR语句时，执行查询，存储检索出的数据以供浏览和滚动。
+在处理OPEN CURSOR语句时，执行查询，存储检索出的数据以供浏览和滚动。
 
-   现在可以用FETCH语句访问游标数据了。FETCH指出要检索哪些行，从何处检索它们以及将它们放于何处（如变量名）。第一个例子使用Oracle 语法从游标中检索一行（第一行）：
+现在可以用FETCH语句访问游标数据了。FETCH指出要检索哪些行，从何处检索它们以及将它们放于何处（如变量名）。第一个例子使用Oracle 语法从游标中检索一行（第一行）：
 
-   **输入**^
+**输入**^
 
-   DECLARE TYPE CustCursor IS REF CURSOR
+DECLARE TYPE CustCursor IS REF CURSOR
 
-   RETURN Customers%ROWTYPE;
+RETURN Customers%ROWTYPE;
 
-   DECLARE CustRecord Customers%ROWTYPE
+DECLARE CustRecord Customers%ROWTYPE
 
-   BEGIN
+BEGIN
 
-   OPEN CustCursor;
+OPEN CustCursor;
 
-   FETCH CustCursor INTO CustRecord;
+FETCH CustCursor INTO CustRecord;
 
-   CLOSE CustCursor;
+CLOSE CustCursor;
 
-   END;
+END;
 
-   **分析**▼
+**分析**▼
 
-   在这个例子中，FETCH用来检索当前行（自动从第一行开始），放到声明的变量CustRecord中。对于检索出来的数据不做任何处理。
+在这个例子中，FETCH用来检索当前行（自动从第一行开始），放到声明的变量CustRecord中。对于检索出来的数据不做任何处理。
 
-   下一个例子（也使用Oracle语法）中，从第一行到最后一行，对检索出
+下一个例子（也使用Oracle语法）中，从第一行到最后一行，对检索出
 
-   来的数据进行循环：
+来的数据进行循环：
 
-   **输入**▼
+**输入**▼
 
 DECLARE TYPE CustCursor IS REF CURSOR RETURN Customers%ROWTYPE;
 
@@ -5795,27 +5795,27 @@ CLOSE CustCursor
 
 1. 关闭游标
 
-   如前面几个例子所述，游标在使用完毕时需要关闭。此外，SQL Server 等DBMS要求明确释放游标所占用的资源。下面是DB2、Oracle和 PostgreSQL 的语法。
+如前面几个例子所述，游标在使用完毕时需要关闭。此外，SQL Server 等DBMS要求明确释放游标所占用的资源。下面是DB2、Oracle和 PostgreSQL 的语法。
 
-   **输入**▼
+**输入**▼
 
-   CLOSE CustCursor
+CLOSE CustCursor
 
-   下面是 Microsoft SQL Server 的版本。
+下面是 Microsoft SQL Server 的版本。
 
-   **输入**▼
+**输入**▼
 
-   CLOSE CustCursor
+CLOSE CustCursor
 
-   DEALLOCATE CURSOR CustCursor
+DEALLOCATE CURSOR CustCursor
 
-   **分析**▼
+**分析**▼
 
-   CLOSE语句用来关闭游标。一旦游标关闭，如果不再次打开，将不能使用。第二次使用它时不需要再声明，只需用OPEN打开它即可。
+CLOSE语句用来关闭游标。一旦游标关闭，如果不再次打开，将不能使用。第二次使用它时不需要再声明，只需用OPEN打开它即可。
 
 1. 小结
 
-   我们在本课讲授了什么是游标，为什么使用游标。你使用的DBMS可能会提供某种形式的游标，以及这里没有提及的功能。更详细的内容请参阅具体的DBMS文档。
+我们在本课讲授了什么是游标，为什么使用游标。你使用的DBMS可能会提供某种形式的游标，以及这里没有提及的功能。更详细的内容请参阅具体的DBMS文档。
 
 
 第22课高级SQL特性
@@ -5824,13 +5824,13 @@ CLOSE CustCursor
 
 1. 约束
 
-   SQL已经改进过多个版本，成为非常完善和强大的语言。许多强有力的特性给用户提供了高级的数据处理技术，如约束。
+SQL已经改进过多个版本，成为非常完善和强大的语言。许多强有力的特性给用户提供了高级的数据处理技术，如约束。
 
-   关联表和引用完整性已经在前面讨论过几次。正如所述，关系数据库存储分解为多个表的数据，每个表存储相应的数据。利用键来建立从一个表到另一个表的引用[由此产生了术语引用完整性(referential integrity)]<sub>o</sub>
+关联表和引用完整性已经在前面讨论过几次。正如所述，关系数据库存储分解为多个表的数据，每个表存储相应的数据。利用键来建立从一个表到另一个表的引用[由此产生了术语引用完整性(referential integrity)]<sub>o</sub>
 
-   正确地进行关系数据库设计，需要一种方法保证只在表中插入合法数据。 例如，如果Orders表存储订单信息，Orderitems表存储订单详细内容， 应该保证Orderitems中引用的任何订单ID都存在于Orders中。类似地，在Orders表中引用的任意顾客必须存在于Customers表中。
+正确地进行关系数据库设计，需要一种方法保证只在表中插入合法数据。 例如，如果Orders表存储订单信息，Orderitems表存储订单详细内容， 应该保证Orderitems中引用的任何订单ID都存在于Orders中。类似地，在Orders表中引用的任意顾客必须存在于Customers表中。
 
-   虽然可以在插入新行时进行检查(在另一个表上执行SELECT,以保证所有值合法并存在)，但最好不要这样做，原因如下。
+虽然可以在插入新行时进行检查(在另一个表上执行SELECT,以保证所有值合法并存在)，但最好不要这样做，原因如下。
 
 口如果在客户端层面上实施数据库完整性规则，则每个客户端都要被迫实施这些规则，一定会有一些客户端不实施这些规则。
 
@@ -5853,13 +5853,13 @@ DBMS通过在数据库表上施加约束来实施引用完整性。大多数约�
 
 1. 主键
 
-   我们在第1课简单提过主键。主键是一种特殊的约束，用来保证一列（或一组列）中的值是唯一的，而且永不改动。换句话说，表中的一列（或多个列）的值唯一标识表中的每一行。这方便了直接或交互地处理表中的行。没有主键，要安全地UPDATE或DELETE特定行而不影响其他行会非常困难。
+我们在第1课简单提过主键。主键是一种特殊的约束，用来保证一列（或一组列）中的值是唯一的，而且永不改动。换句话说，表中的一列（或多个列）的值唯一标识表中的每一行。这方便了直接或交互地处理表中的行。没有主键，要安全地UPDATE或DELETE特定行而不影响其他行会非常困难。
 
-   表中任意列只要满足以下条件，都可以用于主键。
+表中任意列只要满足以下条件，都可以用于主键。
 
-   口任意两行的主键值都不相同。
+口任意两行的主键值都不相同。
 
-   口每行都具有一个主键值（即列中不允许NULL值。
+口每行都具有一个主键值（即列中不允许NULL值。
 
 口包含主键值的列从不修改或更新。（大多数DBMS不允许这么做，但如果你使用的DBMS允许这样做，好吧，千万别！）
 
@@ -5902,119 +5902,119 @@ SQLite不允许使用ALTER TABLE定义键，要求在初始的CREATE TABLE 语�
 
 1. 外键
 
-   外键是表中的一列，其值必须列在另一表的主键中。外键是保证引用完整性的极其重要部分。我们举个例子来理解外键。
+外键是表中的一列，其值必须列在另一表的主键中。外键是保证引用完整性的极其重要部分。我们举个例子来理解外键。
 
-   Orders表将录入到系统的每个订单作为一行包含其中。顾客信息存储在 Customers表中。Orders表中的订单通过顾客ID与Customers表中的特定行相关联。顾客ID为Customers表的主键，每个顾客都有唯一的 ID。订单号为Orders表的主键，每个订单都有唯一的订单号。
+Orders表将录入到系统的每个订单作为一行包含其中。顾客信息存储在 Customers表中。Orders表中的订单通过顾客ID与Customers表中的特定行相关联。顾客ID为Customers表的主键，每个顾客都有唯一的 ID。订单号为Orders表的主键，每个订单都有唯一的订单号。
 
-   Orders表中顾客ID列的值不一定是唯一的。如果某个顾客有多个订单， 则有多个行具有相同的顾客ID （虽然每个订单都有不同的订单号）。同时，Orders表中顾客ID列的合法值为Customers表中顾客的ID。
+Orders表中顾客ID列的值不一定是唯一的。如果某个顾客有多个订单， 则有多个行具有相同的顾客ID （虽然每个订单都有不同的订单号）。同时，Orders表中顾客ID列的合法值为Customers表中顾客的ID。
 
-   这就是外键的作用。在这个例子中，在Orders的顾客ID列上定义了一个外键，因此该列只能接受Customers表的主键值。
+这就是外键的作用。在这个例子中，在Orders的顾客ID列上定义了一个外键，因此该列只能接受Customers表的主键值。
 
-   下面是定义这个外键的方法。
+下面是定义这个外键的方法。
 
-   **输入**▼
+**输入**▼
 
-   CREATE TABLE Orders （
+CREATE TABLE Orders （
 
-   |order\_num|INTEGER|NOT NULL PRIMARY KEY,|
-   | :- | :- | :- |
-   |order\_date|DATETIME|NOT NULL,|
-   |cust\_id|CHAR(10)|NOT NULL REFERENCES Customers(cust\_id)|
+|order\_num|INTEGER|NOT NULL PRIMARY KEY,|
+| :- | :- | :- |
+|order\_date|DATETIME|NOT NULL,|
+|cust\_id|CHAR(10)|NOT NULL REFERENCES Customers(cust\_id)|
 
-   );
+);
 
-   **分析**▼
+**分析**▼
 
-   其中的表定义使用了 REFERENCES关键字，它表示cust\_id中的任何值都必须是Customers表的cust\_id中的值。
+其中的表定义使用了 REFERENCES关键字，它表示cust\_id中的任何值都必须是Customers表的cust\_id中的值。
 
-   相同的工作也可以在ALTER TABLE语句中用CONSTRAINT语法来完成:
+相同的工作也可以在ALTER TABLE语句中用CONSTRAINT语法来完成:
 
-   **输入**▼
+**输入**▼
 
-   ALTER TABLE Orders ADD CONSTRAINT
+ALTER TABLE Orders ADD CONSTRAINT
 
-   FOREIGN KEY (cust\_id) REFERENCES Customers (cust\_id);
+FOREIGN KEY (cust\_id) REFERENCES Customers (cust\_id);
 
-   **提示：外键有助防止意外删除**
+**提示：外键有助防止意外删除**
 
-   如第16课所述，除帮助保证引用完整性外，外键还有另一个重要作用。 在定义外键后，DBMS不允许删除在另一个表中具有关联行的行。例如，不能删除关联订单的顾客。删除该顾客的唯一方法是首先删除相关的订单（这表示还要删除相关的订单项）。由于需要一系列的删除， 因而利用外键可以防止意外删除数据。
+如第16课所述，除帮助保证引用完整性外，外键还有另一个重要作用。 在定义外键后，DBMS不允许删除在另一个表中具有关联行的行。例如，不能删除关联订单的顾客。删除该顾客的唯一方法是首先删除相关的订单（这表示还要删除相关的订单项）。由于需要一系列的删除， 因而利用外键可以防止意外删除数据。
 
-   有的DBMS支持称为级联删除（cascading delete）的特性。如果启用， 该特性在从一个表中删除行时删除所有相关的数据。例如，如果启用级联删除并且从Customers表中删除某个顾客，则任何关联的订单行也会被自动删除。
+有的DBMS支持称为级联删除（cascading delete）的特性。如果启用， 该特性在从一个表中删除行时删除所有相关的数据。例如，如果启用级联删除并且从Customers表中删除某个顾客，则任何关联的订单行也会被自动删除。
 
 1. 唯一约束
 
-   唯一约束用来保证一列（或一组列）中的数据是唯一的。它们类似于主键，但存在以下重要区别。
+唯一约束用来保证一列（或一组列）中的数据是唯一的。它们类似于主键，但存在以下重要区别。
 
-   口表可包含多个唯一约束，但每个表只允许一个主键。
+口表可包含多个唯一约束，但每个表只允许一个主键。
 
-   口唯一约束列可包含NULL值。
+口唯一约束列可包含NULL值。
 
-   口唯一约束列可修改或更新。
+口唯一约束列可修改或更新。
 
-   口唯一约束列的值可重复使用。
+口唯一约束列的值可重复使用。
 
-   口与主键不一样，唯一约束不能用来定义外键。
+口与主键不一样，唯一约束不能用来定义外键。
 
-   empl oyees表是一个使用约束的例子。每个雇员都有唯一的社会安全号， 但我们并不想用它作主键，因为它太长（而且我们也不想使该信息容易利用）。因此，每个雇员除了其社会安全号外还有唯一的雇员ID （主键）。
+empl oyees表是一个使用约束的例子。每个雇员都有唯一的社会安全号， 但我们并不想用它作主键，因为它太长（而且我们也不想使该信息容易利用）。因此，每个雇员除了其社会安全号外还有唯一的雇员ID （主键）。
 
-   雇员ID是主键，可以确定它是唯一的。你可能还想使DBMS保证每个社会安全号也是唯一的（保证输入错误不会导致使用他人号码）。可以通过在社会安全号列上定义UNIQUE约束做到。
+雇员ID是主键，可以确定它是唯一的。你可能还想使DBMS保证每个社会安全号也是唯一的（保证输入错误不会导致使用他人号码）。可以通过在社会安全号列上定义UNIQUE约束做到。
 
-   唯一约束的语法类似于其他约束的语法。唯一约束既可以用UNIQUE关键字在表定义中定义，也可以用单独的CONSTRAINT定义。
+唯一约束的语法类似于其他约束的语法。唯一约束既可以用UNIQUE关键字在表定义中定义，也可以用单独的CONSTRAINT定义。
 
 1. 检查约束
 
-   检查约束用来保证一列（或一组列）中的数据满足一组指定的条件。检查约束的常见用途有以下几点。
+检查约束用来保证一列（或一组列）中的数据满足一组指定的条件。检查约束的常见用途有以下几点。
 
-   口检查最小或最大值。例如，防止0个物品的订单（即使0是合法的数）。 口指定范围。例如，保证发货日期大于等于今天的日期，但不超过今天起一年后的日期。
+口检查最小或最大值。例如，防止0个物品的订单（即使0是合法的数）。 口指定范围。例如，保证发货日期大于等于今天的日期，但不超过今天起一年后的日期。
 
-   口只允许特定的值。例如，在性别字段中只允许M或F。
+口只允许特定的值。例如，在性别字段中只允许M或F。
 
-   换句话说，第1课介绍的数据类型限制了列中可保存的数据的类型。检查约束在数据类型内又做了进一步的限制，这些限制极其重要，可以确保插入数据库的数据正是你想要的数据。不需要依赖于客户端应用程序或用户来保证正确获取它，DBMS本身将会拒绝任何无效的数据。
+换句话说，第1课介绍的数据类型限制了列中可保存的数据的类型。检查约束在数据类型内又做了进一步的限制，这些限制极其重要，可以确保插入数据库的数据正是你想要的数据。不需要依赖于客户端应用程序或用户来保证正确获取它，DBMS本身将会拒绝任何无效的数据。
 
-   下面的例子对Orderitems表施加了检查约束，它保证所有物品的数量大于0。
+下面的例子对Orderitems表施加了检查约束，它保证所有物品的数量大于0。
 
-   **输入**▼
+**输入**▼
 
-   CREATE TABLE OrderItems (
+CREATE TABLE OrderItems (
 
-   |order\_num|INTEGER|NOT NULL,|
-   | :- | :- | :- |
-   |order\_item|INTEGER|NOT NULL,|
-   |prod\_id|CHAR(10)|NOT NULL,|
-   |quantity|INTEGER|NOT NULL CHECK (quantity > 0),|
-   |item\_price|MONEY|NOT NULL|
+|order\_num|INTEGER|NOT NULL,|
+| :- | :- | :- |
+|order\_item|INTEGER|NOT NULL,|
+|prod\_id|CHAR(10)|NOT NULL,|
+|quantity|INTEGER|NOT NULL CHECK (quantity > 0),|
+|item\_price|MONEY|NOT NULL|
 
-   ）;
+）;
 
-   **分析**▼
+**分析**▼
 
-   利用这个约束，任何插入（或更新）的行都会被检查，保证 quantity 大于0。
+利用这个约束，任何插入（或更新）的行都会被检查，保证 quantity 大于0。
 
-   检查名为gender的列只包含*M*或F,可编写如下的ALTER TABLE语句：
+检查名为gender的列只包含*M*或F,可编写如下的ALTER TABLE语句：
 
-   **输入**▼
+**输入**▼
 
-   ADD CONSTRAINT CHECK （gender LIKE '[MF]'）;
+ADD CONSTRAINT CHECK （gender LIKE '[MF]'）;
 
-   **提示：用户定义数据类型**
+**提示：用户定义数据类型**
 
-   有的DBMS允许用户定义自己的数据类型。它们是定义检查约束（或其他约束）的基本简单数据类型。例如，你可以定义自己的名为gender 的数据类型，它是单字符的文本数据类型，带限制其值为M或F（对于未知值或许还允许NULL）的检查约束。然后，可以将此数据类型用于表的定义。定制数据类型的优点是只需施加约束一次（在数据类型定义中），而每当使用该数据类型时，都会自动应用这些约束。请查阅相应的DBMS文档，看它是否支持自定义数据类型。
+有的DBMS允许用户定义自己的数据类型。它们是定义检查约束（或其他约束）的基本简单数据类型。例如，你可以定义自己的名为gender 的数据类型，它是单字符的文本数据类型，带限制其值为M或F（对于未知值或许还允许NULL）的检查约束。然后，可以将此数据类型用于表的定义。定制数据类型的优点是只需施加约束一次（在数据类型定义中），而每当使用该数据类型时，都会自动应用这些约束。请查阅相应的DBMS文档，看它是否支持自定义数据类型。
 
 1. 索引
 
-   索引用来排序数据以加快搜索和排序操作的速度。想象一本书后的索引 （如本书后的索引），可以帮助你理解数据库的索引。
+索引用来排序数据以加快搜索和排序操作的速度。想象一本书后的索引 （如本书后的索引），可以帮助你理解数据库的索引。
 
-   假如要找出本书中所有的“数据类型”这个词，简单的办法是从第1页开始，浏览每一行。虽然这样做可以完成任务，但显然不是一种好的办法。浏览少数几页文字可能还行，但以这种方式浏览整部书就不可行了。 随着要搜索的页数不断增加，找出所需词汇的时间也会增加。
+假如要找出本书中所有的“数据类型”这个词，简单的办法是从第1页开始，浏览每一行。虽然这样做可以完成任务，但显然不是一种好的办法。浏览少数几页文字可能还行，但以这种方式浏览整部书就不可行了。 随着要搜索的页数不断增加，找出所需词汇的时间也会增加。
 
-   这就是书籍要有索引的原因。索引按字母顺序列出词汇及其在书中的位置。为了搜索“数据类型”一词，可在索引中找出该词，确定它出现在哪些页中。然后再翻到这些页，找出“数据类型”一词。
+这就是书籍要有索引的原因。索引按字母顺序列出词汇及其在书中的位置。为了搜索“数据类型”一词，可在索引中找出该词，确定它出现在哪些页中。然后再翻到这些页，找出“数据类型”一词。
 
-   索引靠什么起作用？很简单，就是恰当的排序。找出书中词汇的困难不在于必须进行多少搜索，而在于书的内容没有按词汇排序。如果书的内容像字典一样排序，则索引没有必要（因此字典就没有索引）。
+索引靠什么起作用？很简单，就是恰当的排序。找出书中词汇的困难不在于必须进行多少搜索，而在于书的内容没有按词汇排序。如果书的内容像字典一样排序，则索引没有必要（因此字典就没有索引）。
 
-   数据库索引的作用也一样。主键数据总是排序的，这是DBMS的工作。 因此，按主键检索特定行总是一种快速有效的操作。
+数据库索引的作用也一样。主键数据总是排序的，这是DBMS的工作。 因此，按主键检索特定行总是一种快速有效的操作。
 
-   但是，搜索其他列中的值通常效率不高。例如，如果想搜索住在某个州的客户，怎么办？因为表数据并未按州排序，DBMS必须读出表中所有行（从第一行开始），看其是否匹配。这就像要从没有索引的书中找出词汇一样。
+但是，搜索其他列中的值通常效率不高。例如，如果想搜索住在某个州的客户，怎么办？因为表数据并未按州排序，DBMS必须读出表中所有行（从第一行开始），看其是否匹配。这就像要从没有索引的书中找出词汇一样。
 
-   解决方法是使用索引。可以在一个或多个列上定义索引，使DBMS保存其内容的一个排过序的列表。在定义了索引后，DBMS以使用书的索引类似的方法使用它。DBMS搜索排过序的索引，找出匹配的位置，然后检索这些行。
+解决方法是使用索引。可以在一个或多个列上定义索引，使DBMS保存其内容的一个排过序的列表。在定义了索引后，DBMS以使用书的索引类似的方法使用它。DBMS搜索排过序的索引，找出匹配的位置，然后检索这些行。
 
 **
 
@@ -6051,21 +6051,21 @@ ON Products （prod\_name）;
 
 1. 触发器
 
-   触发器是特殊的存储过程，它在特定的数据库活动发生时自动执行。触发器可以与特定表上的INSERT、UPDATE和DELETE操作（或组合）相关联。
+触发器是特殊的存储过程，它在特定的数据库活动发生时自动执行。触发器可以与特定表上的INSERT、UPDATE和DELETE操作（或组合）相关联。
 
-   与存储过程不一样（存储过程只是简单的存储SQL语句），触发器与单个的表相关联。与 Orders 表上的 INSERT 操作相关联的触发器只在 Orders表中插入行时执行。类似地，Customers表上的INSERT和 UPDATE操作的触发器只在表上出现这些操作时执行。
+与存储过程不一样（存储过程只是简单的存储SQL语句），触发器与单个的表相关联。与 Orders 表上的 INSERT 操作相关联的触发器只在 Orders表中插入行时执行。类似地，Customers表上的INSERT和 UPDATE操作的触发器只在表上出现这些操作时执行。
 
-   触发器内的代码具有以下数据的访问权：
+触发器内的代码具有以下数据的访问权：
 
-   口 INSERT操作中的所有新数据；
+口 INSERT操作中的所有新数据；
 
-   口 UPDATE操作中的所有新数据和旧数据；
+口 UPDATE操作中的所有新数据和旧数据；
 
-   口 DELETE操作中删除的数据。
+口 DELETE操作中删除的数据。
 
-   根据所使用的DBMS的不同，触发器可在特定操作执行之前或之后执行。
+根据所使用的DBMS的不同，触发器可在特定操作执行之前或之后执行。
 
-   下面是触发器的一些常见用途。
+下面是触发器的一些常见用途。
 
 口保证数据一致。例如，在INSERT或UPDATE操作中将所有州名转换为大写。
 
@@ -6119,30 +6119,30 @@ SET cust\_state = Upper(cust\_state) WHERE Customers.cust\_id = :OLD.cust\_id EN
 
 1. 数据库安全
 
-   对于组织来说，没有什么比它的数据更重要了，因此应该保护这些数据， 使其不被偷盗或任意浏览。当然，数据也必须允许需要访问它的用户访问，因此大多数DBMS都给管理员提供了管理机制，利用管理机制授予或限制对数据的访问。
+对于组织来说，没有什么比它的数据更重要了，因此应该保护这些数据， 使其不被偷盗或任意浏览。当然，数据也必须允许需要访问它的用户访问，因此大多数DBMS都给管理员提供了管理机制，利用管理机制授予或限制对数据的访问。
 
-   任何安全系统的基础都是用户授权和身份确认。这是一种处理，通过这种处理对用户进行确认，保证他是有权用户，允许执行他要执行的操作。 有的DBMS为此结合使用了操作系统的安全措施，而有的维护自己的用户及密码列表，还有一些结合使用外部目录服务服务器。
+任何安全系统的基础都是用户授权和身份确认。这是一种处理，通过这种处理对用户进行确认，保证他是有权用户，允许执行他要执行的操作。 有的DBMS为此结合使用了操作系统的安全措施，而有的维护自己的用户及密码列表，还有一些结合使用外部目录服务服务器。
 
-   一般说来，需要保护的操作有：
+一般说来，需要保护的操作有：
 
-   口对数据库管理功能（创建表、更改或删除已存在的表等）的访问；
+口对数据库管理功能（创建表、更改或删除已存在的表等）的访问；
 
-   口对特定数据库或表的访问；
+口对特定数据库或表的访问；
 
-   口访问的类型（只读、对特定列的访问等）；
+口访问的类型（只读、对特定列的访问等）；
 
-   口仅通过视图或存储过程对表进行访问；
+口仅通过视图或存储过程对表进行访问；
 
-   口创建多层次的安全措施，从而允许多种基于登录的访问和控制； 口限制管理用户账号的能力。
+口创建多层次的安全措施，从而允许多种基于登录的访问和控制； 口限制管理用户账号的能力。
 
-   安全性使用SQL的GRANT和REVOKE语句来管理，不过，大多数DBMS 提供了交互式的管理实用程序，这些实用程序在内部使用 GRANT 和 REVOKE 语句。
+安全性使用SQL的GRANT和REVOKE语句来管理，不过，大多数DBMS 提供了交互式的管理实用程序，这些实用程序在内部使用 GRANT 和 REVOKE 语句。
 
 **
 
 
 1. 小结
 
-   本课讲授如何使用SQL的一些高级特性。约束是实施引用完整性的重要部分，索引可改善数据检索的性能，触发器可以用来执行运行前后的处理，安全选项可用来管理数据访问。不同的DBMS可能会以不同的形式提供这些特性，更详细的信息请参阅具体的DBMS文档。
+本课讲授如何使用SQL的一些高级特性。约束是实施引用完整性的重要部分，索引可改善数据检索的性能，触发器可以用来执行运行前后的处理，安全选项可用来管理数据访问。不同的DBMS可能会以不同的形式提供这些特性，更详细的信息请参阅具体的DBMS文档。
 
 
 附录A样例表脚本
@@ -6178,73 +6178,73 @@ A.1 样例表
 
 1. . Vendors **表**
 
-   Vendors表存储销售产品的供应商。每个供应商在这个表中有一个记录， 供应商ID列（vend\_id）用于进行产品与供应商的匹配。
+Vendors表存储销售产品的供应商。每个供应商在这个表中有一个记录， 供应商ID列（vend\_id）用于进行产品与供应商的匹配。
 
-   |表A-1 Vendors表的列||
-   | :-: | :- |
-   |列|说明|
-   |vend\_id|唯一的供应商ID|
-   |vend\_name|供应商名|
-   |vend\_address|供应商的地址|
-   |vend\_city|供应商所在城市|
-   |vend\_state|供应商所在州|
-   |vend\_zip|供应商地址邮政编码|
-   |vend\_country|供应商所在国家|
+|表A-1 Vendors表的列||
+| :-: | :- |
+|列|说明|
+|vend\_id|唯一的供应商ID|
+|vend\_name|供应商名|
+|vend\_address|供应商的地址|
+|vend\_city|供应商所在城市|
+|vend\_state|供应商所在州|
+|vend\_zip|供应商地址邮政编码|
+|vend\_country|供应商所在国家|
 
-   口所有表都应该有主键。这个表应该用vend\_id作为其主键。
+口所有表都应该有主键。这个表应该用vend\_id作为其主键。
 
 1. .Products **表**
 
-   Products表包含产品目录，每行一个产品。每个产品有唯一的ID（prod\_ id列），并且借助vend\_id （供应商的唯一 ID）与供应商相关联。
+Products表包含产品目录，每行一个产品。每个产品有唯一的ID（prod\_ id列），并且借助vend\_id （供应商的唯一 ID）与供应商相关联。
 
-   表A-2 Products表的列
+表A-2 Products表的列
 
-   |列|说明|
-   | :-: | :- |
-   |prod\_id|唯一的产品ID|
-   |vend\_id|产品供应商ID（关联到Vendors表的vend\_id）|
-   |prod\_name|产品名|
-   |prod\_price|产品价格|
-   |prod\_desc|产品描述|
+|列|说明|
+| :-: | :- |
+|prod\_id|唯一的产品ID|
+|vend\_id|产品供应商ID（关联到Vendors表的vend\_id）|
+|prod\_name|产品名|
+|prod\_price|产品价格|
+|prod\_desc|产品描述|
 
-   口所有表都应该有主键。这个表应该用prod\_id作为其主键。
+口所有表都应该有主键。这个表应该用prod\_id作为其主键。
 
-   口为实施引用完整性，应该在vend\_id上定义一个外键，关联到Vendors
+口为实施引用完整性，应该在vend\_id上定义一个外键，关联到Vendors
 
-   的 vend\_i d 列。
+的 vend\_i d 列。
 
 1. .Customers **表**
 
-   Customers表存储所有顾客信息。每个顾客有唯一的ID（ cust\_id列）。
+Customers表存储所有顾客信息。每个顾客有唯一的ID（ cust\_id列）。
 
-   表A-3 Customers表的列
+表A-3 Customers表的列
 
-   |列|说明|
-   | :-: | :-: |
-   |cust\_id|唯一的顾客ID|
-   |cust\_name|顾客名|
-   |cust\_address|顾客的地址|
-   |cust\_city|顾客所在城市|
-   |cust\_state|顾客所在州|
-   |cust\_zip|顾客地址邮政编码|
-   |cust\_country|顾客所在国家|
-   |cust\_contact|顾客的联系名|
-   |cust\_email|顾客的电子邮件地址|
+|列|说明|
+| :-: | :-: |
+|cust\_id|唯一的顾客ID|
+|cust\_name|顾客名|
+|cust\_address|顾客的地址|
+|cust\_city|顾客所在城市|
+|cust\_state|顾客所在州|
+|cust\_zip|顾客地址邮政编码|
+|cust\_country|顾客所在国家|
+|cust\_contact|顾客的联系名|
+|cust\_email|顾客的电子邮件地址|
 
-   口所有表都应该有主键。这个表应该用cust\_id作为它的主键。
+口所有表都应该有主键。这个表应该用cust\_id作为它的主键。
 
-   4\.Orders **表**
+4\.Orders **表**
 
-   Orders表存储顾客订单（不是订单细节）。每个订单唯一编号（order\_ num列）。Orders表按cust\_id列（关联到Customers表的顾客唯一
+Orders表存储顾客订单（不是订单细节）。每个订单唯一编号（order\_ num列）。Orders表按cust\_id列（关联到Customers表的顾客唯一
 
-   ID）关联到相应的顾客。
+ID）关联到相应的顾客。
 
-   |表A-4 Orders表的列||
-   | :-: | :- |
-   |列|说明|
-   |<p>order\_num</p><p>order\_date</p><p>cust\_id</p>|<p>唯一的订单号</p><p>订单日期</p><p>订单顾客ID（关联到Customers表的cust\_id）</p>|
+|表A-4 Orders表的列||
+| :-: | :- |
+|列|说明|
+|<p>order\_num</p><p>order\_date</p><p>cust\_id</p>|<p>唯一的订单号</p><p>订单日期</p><p>订单顾客ID（关联到Customers表的cust\_id）</p>|
 
-   口所有表都应该有主键。这个表应该用order\_num作为其主键。
+口所有表都应该有主键。这个表应该用order\_num作为其主键。
 
 口为实施引用完整性，应该在cust\_id上定义一个外键，关联到Customers 的 cust\_id 列。
 
@@ -6330,13 +6330,13 @@ SQLite把数据文件存储在单独一个文件里。你可以使用创建和�
 
 1. ALTER TABLE
 
-   ALTER TABLE 用来更新已存在表的结构。为了创建新表，应该使用 CREATE TABLE。详细信息，请参阅第17课。
+ALTER TABLE 用来更新已存在表的结构。为了创建新表，应该使用 CREATE TABLE。详细信息，请参阅第17课。
 
-   **输入**▼
+**输入**▼
 
-   ALTER TABLE tablename
+ALTER TABLE tablename
 
-   （
+（
 
 ADD|DROP column datatype [NULL|NOT NULL] [CONSTRAINTS], ADD|DROP column datatype [NULL|NOT NULL] [CONSTRAINTS],
 
@@ -6347,153 +6347,153 @@ ADD|DROP column datatype [NULL|NOT NULL] [CONSTRAINTS], ADD|DROP column datatype
 
 1. COMMIT
 
-   COMMIT用来将事务写入数据库。详细内容请参阅第20课。
+COMMIT用来将事务写入数据库。详细内容请参阅第20课。
 
-   **输入**▼
+**输入**▼
 
-   COMMIT [TRANSACTION];
+COMMIT [TRANSACTION];
 
 1. CREATE INDEX
 
-   CREATE INDEX 用于在一个或多个列上创建索引。详细内容请参阅第 22课。
+CREATE INDEX 用于在一个或多个列上创建索引。详细内容请参阅第 22课。
 
-   **输入**▼
+**输入**▼
 
-   CREATE INDEX indexname
+CREATE INDEX indexname
 
-   ON tablename (column, ...);
+ON tablename (column, ...);
 
 1. CREATE PROCEDURE
 
-   CREATE PROCEDURE用于创建存储过程。详细内容请参阅第19课。正如所述，Oracle使用的语法稍有不同。
+CREATE PROCEDURE用于创建存储过程。详细内容请参阅第19课。正如所述，Oracle使用的语法稍有不同。
 
-   **输入**▼
+**输入**▼
 
-   CREATE PROCEDURE procedurename [parameters] [options]
+CREATE PROCEDURE procedurename [parameters] [options]
 
-   AS
+AS
 
-   SQL statement;
+SQL statement;
 
 1. CREATE TABLE
 
-   CREATE TABLE 用于创建新数据库表。更新已经存在的表的结构，使用
+CREATE TABLE 用于创建新数据库表。更新已经存在的表的结构，使用
 
-   ALTER TABLE。详细内容请参阅第17课。
+ALTER TABLE。详细内容请参阅第17课。
 
-   **输入**▼
+**输入**▼
 
-   CREATE TABLE tablename (
+CREATE TABLE tablename (
 
-   column	datatype	[NULL|NOT NULL]	[CONSTRAINTS],
+column	datatype	[NULL|NOT NULL]	[CONSTRAINTS],
 
-   column	datatype	[NULL|NOT NULL]	[CONSTRAINTS],
+column	datatype	[NULL|NOT NULL]	[CONSTRAINTS],
 
-   ...
+...
 
-   );
+);
 
 1. CREATE VIEW
 
-   CREATEVIEW用来创建一个或多个表上的新视图。详细内容请参阅第18课。
+CREATEVIEW用来创建一个或多个表上的新视图。详细内容请参阅第18课。
 
-   **输入**^
+**输入**^
 
-   CREATE VIEW viewname AS
+CREATE VIEW viewname AS
 
-   SELECT columns, ...
+SELECT columns, ...
 
-   FROM tables, ...
+FROM tables, ...
 
-   [WHERE ...]
+[WHERE ...]
 
-   [GROUP BY ...]
+[GROUP BY ...]
 
-   [HAVING ...];
+[HAVING ...];
 
 1. DELETE
 
-   DELETE从表中删除一行或多行。详细内容请参阅第16课。
+DELETE从表中删除一行或多行。详细内容请参阅第16课。
 
-   **输入**▼
+**输入**▼
 
-   DELETE FROM tablename [WHERE ...];
+DELETE FROM tablename [WHERE ...];
 
 1. DROP
 
-   DROP永久地删除数据库对象(表、视图、索引等)。详细内容请参阅第17、 18课。
+DROP永久地删除数据库对象(表、视图、索引等)。详细内容请参阅第17、 18课。
 
-   **输入**▼
+**输入**▼
 
-   DROP INDEX|PROCEDURE|TABLE|VIEW indexname|procedurename|tablename| viewname;
+DROP INDEX|PROCEDURE|TABLE|VIEW indexname|procedurename|tablename| viewname;
 
 1. INSERT
 
-   INSERT为表添加一行。详细内容请参阅第15课。
+INSERT为表添加一行。详细内容请参阅第15课。
 
-   **输入**▼
+**输入**▼
 
-   INSERT INTO tablename [(columns, ...)]
+INSERT INTO tablename [(columns, ...)]
 
-   VALUES(values, ...);
+VALUES(values, ...);
 
 1. INSERT SELECT
 
-   INSERT SELECT将SELECT的结果插入到一个表。详细内容请参阅第 15课。
+INSERT SELECT将SELECT的结果插入到一个表。详细内容请参阅第 15课。
 
-   **输入**▼
+**输入**▼
 
-   INSERT INTO tablename [(columns, ...)]
+INSERT INTO tablename [(columns, ...)]
 
-   SELECT columns, ... FROM tablename, ...
+SELECT columns, ... FROM tablename, ...
 
-   [WHERE ...];
+[WHERE ...];
 
 1. ROLLBACK
 
-   ROLLBACK用于撤销一个事务块。详细内容请参阅第20课。
+ROLLBACK用于撤销一个事务块。详细内容请参阅第20课。
 
-   **输入**▼
+**输入**▼
 
-   ROLLBACK [TO savepointname];
+ROLLBACK [TO savepointname];
 
-   或者：
+或者：
 
-   **输入**▼
+**输入**▼
 
-   ROLLBACK TRANSACTION;
+ROLLBACK TRANSACTION;
 
 1. SELECT
 
-   SELECT用于从一个或多个表（视图）中检索数据。更多的基本信息，请参阅第2、3、4课（2~14课都与SELECT有关）。
+SELECT用于从一个或多个表（视图）中检索数据。更多的基本信息，请参阅第2、3、4课（2~14课都与SELECT有关）。
 
-   **输入**▼
+**输入**▼
 
-   SELECT columnname, ...
+SELECT columnname, ...
 
-   FROM tablename, ...
+FROM tablename, ...
 
-   [WHERE ...]
+[WHERE ...]
 
-   [UNION ...]
+[UNION ...]
 
-   [GROUP BY ...]
+[GROUP BY ...]
 
-   [HAVING ...]
+[HAVING ...]
 
-   [ORDER BY ...];
+[ORDER BY ...];
 
 1. UPDATE
 
-   UPDATE更新表中的一行或多行。详细内容请参阅第16课。
+UPDATE更新表中的一行或多行。详细内容请参阅第16课。
 
-   **输入**▼
+**输入**▼
 
-   UPDATE tablename
+UPDATE tablename
 
-   SET columname = value, ...
+SET columname = value, ...
 
-   [WHERE ...];
+[WHERE ...];
 
 
 附录C SQL数据类型

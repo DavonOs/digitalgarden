@@ -53,7 +53,7 @@ CODE 方法的所有步骤都旨在做一件事：帮助你使用数字工具为
 
 [[03 Resource/Book/图书专著/Building a Second Brain/09 The Essential Habits of Digital Organizers\|09 The Essential Habits of Digital Organizers]]
 
-Habits reduce cognitive load and free up mental capacity, so you can allocate your attention to other tasks… It’s only by making the fundamentals of life easier that you can create the mental space needed for free thinking and creativity. —James Clear, author of [[03 Resource/Book/图书专著/Atomic Habits/Atomic Habits\|Atomic Habits]]
+> Habits reduce cognitive load and free up mental capacity, so you can allocate your attention to other tasks… It’s only by making the fundamentals of life easier that you can create the mental space needed for free thinking and creativity. —James Clear, author of [[03 Resource/Book/图书专著/Atomic Habits/Atomic Habits\|Atomic Habits]]
 
 [[03 Resource/Book/图书专著/Building a Second Brain/10 The Path of Self-Expression\|10 The Path of Self-Expression]]
 
@@ -94,7 +94,7 @@ Habits reduce cognitive load and free up mental capacity, so you can allocate yo
 
 5. 找出你最喜欢的十二个问题，从中获得灵感。列出一些你最喜欢的问题，将其保存为便签，并在你需要捕捉什么的想法时随时重温。使用这些开放式问题作为过滤器，决定哪些内容值得保留。
 
-6. 自动抓取电子书精华。设置一个免费的集成，将阅读应用程序（如 “稍后阅读 ”或电子书应用程序）中的重点内容自动发送到你的数字笔记中（请参阅我的Buildingasecondbrain.com/resources）。
+6. 自动抓取电子书精华。设置一个免费的集成，将阅读应用程序（如 “稍后阅读 ”或电子书应用程序）中的重点内容自动发送到你的数字笔记中（参阅我的Buildingasecondbrain.com/resources）。
  
 7. 练习渐进式总结。使用多层高亮显示对一组与你当前工作项目相关的笔记进行总结，看看它如何影响你与这些笔记的交互方式。
 
@@ -118,10 +118,7 @@ Habits reduce cognitive load and free up mental capacity, so you can allocate yo
 
 只是一定要一路记下。
 
-
-
 ## 奖励章节：如何创建有效的标签系统
-
 
 几千年来，哲学家和学者一直痴迷于寻找一种组织人类知识的普遍方式。
 

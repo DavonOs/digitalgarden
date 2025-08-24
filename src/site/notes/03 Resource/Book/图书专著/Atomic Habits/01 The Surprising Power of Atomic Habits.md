@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/30355759/01-The-Surprising-Power-of-Atomic-Habits","permalink":"/books/30355759/01-The-Surprising-Power-of-Atomic-Habits/","metatags":{"description":"无论您的目标是什么，Atomic Habits 都提供了一个经过验证的改进框架 - 每天都在。詹姆斯·克利尔揭示了实用的习惯养成策略，这些策略将教您如何养成好习惯、打破坏习惯并掌握导致显着效果的微小行为。如果您在改变习惯方面遇到困难，那么问题不在于您。问题在于您的系统。坏习惯一次又一次地重复出现，不是因为你不想改变，而是因为你有错误的改变系统。","og:site_name":"DavonOs","og:title":"The Surprising Power of Atomic Habits","og:type":"book","og:url":"https://zuji.eu.org/books/30355759","og:image":"https://m.media-amazon.com/images/I/81ANaVZk5LL._SL1500_.jpg","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"}}
+{"dg-publish":true,"dg-permalink":"books/30355759/The-Surprising-Power-of-Atomic-Habits","permalink":"/books/30355759/The-Surprising-Power-of-Atomic-Habits/","title":"微习惯的惊人力量","metatags":{"description":"无论您的目标是什么，Atomic Habits 都提供了一个经过验证的改进框架 - 每天都在。詹姆斯·克利尔揭示了实用的习惯养成策略，这些策略将教您如何养成好习惯、打破坏习惯并掌握导致显着效果的微小行为。如果您在改变习惯方面遇到困难，那么问题不在于您。问题在于您的系统。坏习惯一次又一次地重复出现，不是因为你不想改变，而是因为你有错误的改变系统。","og:site_name":"DavonOs","og:title":"Atomaic Habits","og:type":"book","og:url":"https://zuji.eu.org/books/30355759/The-Surprising-Power-of-Atomic-Habits","og:image":"https://m.media-amazon.com/images/I/81ANaVZk5LL._SL1500_.jpg","og:image:width":"50","og:image:alt":"bookcover","og:locale":"zh_cn"},"dgShowInlineTitle":true,"created":"2025-08-19 12:42","updated":"2025-08-21 08:18"}
 ---
 
 2003 年的某天，英国自行车运动协会的命运发生了重大变化。该协会是英国职业自行车运动的管理机构，它最近聘请了戴夫·布雷斯福德（Dave Brailsford）担任其新的绩效总监。在他受命之时，英国职业自行车手已经碌碌无为了近百年。自 1908 年之后，英国车手在奥运会上仅获得过一枚金牌。5 他们在自行车运动最大的赛事“环法自行车赛”中的表现更差。6110 年来，没有一个英国自行车运动员在这项赛事中得过奖牌。
@@ -181,17 +181,3 @@
 关注整个体系，而非单一目标，这是本书的核心主题之一。这也是原子这个词更深层的含义之一。到目前为止，你可能已经意识到，微习惯指的是微小的变化，边际收益， $1\%$ 的改进。但是微习惯并非意味着任何无论多么微小的旧习惯，都是更大系统的一部分。正如原子是分子的组成部分一样，人的言行举止的显著特征也是由无数微习惯聚合而成。
 
 习惯就像我们生活中的原子。每个基本单元都对你的整体进步有所贡献。起初，这些细微的惯常举动看起来微不足道，但很快它们就开始相互依存，为更大的胜利注入了动力，其翻倍扩张的程度远远超过了最初投入。他们微小但很强大。这就是“微习惯”一词的含义，也就是说，它是一种有规律的练习或惯常举动，本身微不足道且简单易行，却是不可思议的力量之源；它也是复合增长体系中的一个组成部分。
-
-# 本章小结
-
-习惯是自我提高的复利。从长远来看，每天进步  $1\%$  的效果不容小觑。
-
-习惯是把双刃剑。它们可能对你有利，也可能对你不利，这就是为什么理解细节至关重要。
-
-在你越过临界点之前，细微的变化似乎没起任何作用。这是个日积月累、潜移默化的过程，最终的重大突破迟迟不到，考验着你的耐心。
-
-微习惯是个小习惯，是更大系统的一部分。正如原子是分子的组成部分一样，微习惯也是重大成效的组成部分。
-
-如果你想要更好的结果，那就别再设定目标，转而全力关注你的体系。
-
-不求拔高你的目标，但求落实你的体系。

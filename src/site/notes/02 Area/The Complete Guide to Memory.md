@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"article/The-Complete-Guide-to-Memory","permalink":"/article/The-Complete-Guide-to-Memory/","metatags":{"description":"Everything you need to know about how your memory works, how to forget less and how to retain what you learn with the least effort.","og:site_name":"DavonOs","og:title":"The Complete Guide to Memory","og:type":"article","og:url":"https://zuji.eu.org/article/The-Complete-Guide-to-Memory","og:image":"https://cdn-mineru.openxlab.org.cn/extract/e9deac09-9006-4432-84bd-59cbdc160cce/9182cb8e045d861b7fbeba3de861c1027d9761063ba5834e79494933232af00f.jpg","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"dgShowInlineTitle":true,"created":"2025-06-16 08:51","updated":"2025-08-17 08:50"}
+{"dg-publish":true,"dg-permalink":"article/The-Complete-Guide-to-Memory","permalink":"/article/The-Complete-Guide-to-Memory/","metatags":{"description":"Everything you need to know about how your memory works, how to forget less and how to retain what you learn with the least effort.","og:site_name":"DavonOs","og:title":"The Complete Guide to Memory","og:type":"article","og:url":"https://zuji.eu.org/article/The-Complete-Guide-to-Memory","og:image":"https://cdn-mineru.openxlab.org.cn/extract/e9deac09-9006-4432-84bd-59cbdc160cce/9182cb8e045d861b7fbeba3de861c1027d9761063ba5834e79494933232af00f.jpg","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"dgShowInlineTitle":true,"created":"2025-06-16 08:51","updated":"2025-08-20 17:40"}
 ---
 
 
@@ -12,27 +12,30 @@
 什么是记忆？普遍认为，记忆是多种认知系统，使我们能在一定时间内存储信息，从而从过去的经验中学习并预测未来。
 
 想更好地记住事情，首先要了解记忆是如何工作的。
-
 ![](https://www.scotthyoung.com/blog/wp-content/uploads/2019/01/001.png)
 
-记忆的两种基本类型
+两种基本类型
 
-回顾记忆（retrospective memory）：记住过去发生了什么。
-前瞻记忆（prospective memory）：提醒自己在未来做什么。
+- 回顾记忆（retrospective memory）：记住过去发生了什么。
+- 前瞻记忆（prospective memory）：提醒自己在未来做什么。
 
 回顾记忆的分类
 
-基于存储的信息类型。分为内隐记忆和陈述性记忆。
+基于存储的信息类型
+- 内隐记忆（Implicit memory）
+	本质上是技能记忆——执行任务的能力。如果内隐记忆失效，你将无法刷牙、沐浴、开车或骑自行车。这种记忆体现在我们的能力中，但我们无法总是用语言和概念来描述我们所知道的东西。
+
+- 陈述性记忆（Declarative memory）
+	事实和意义（语义）的记忆，或者是事件（情景）的记忆。没有语义记忆，无法理解同事或朋友所说内容的含义。没有情景记忆，难以描述你的一天。
 
 ![](https://www.scotthyoung.com/blog/wp-content/uploads/2019/01/002.png)
 
-内隐记忆（Implicit memory）本质上是技能记忆——执行任务的能力。如果内隐记忆失效，你将无法刷牙、沐浴、开车或骑自行车。这种记忆体现在我们的能力中，但我们无法总是用语言和概念来描述我们所知道的东西。
+基于持续时间
+- 工作记忆（working memory）
+	在短时间内处理和存储信息。没有工作记忆，与同事交谈、在会议上讨论观点和计划周末都将完全不可能。
 
-陈述性记忆（Declarative memory）要么是事实和意义（语义）的记忆，要么是事件（情景）的记忆。没有语义记忆，你将无法理解同事或朋友所说内容的含义。没有情景记忆，你将难以向他人描述你的一天。
-
-基于持续时间。
-工作记忆（working memory）在短时间内处理和存储信息。没有工作记忆，与同事交谈、在会议上讨论观点和计划周末都将完全不可能。
-长期记忆（long-term memory）作为信息的长期存储。我们几乎所有日常活动都依赖于长期记忆。例如记住回家的路或如何开车。
+- 长期记忆（long-term memory）
+	作为信息的长期存储。我们几乎所有日常活动都依赖于长期记忆。例如记住回家的路或如何开车。
 
 ## 支撑记忆的三个部分
 The Three Parts Underlying All Your Memories
@@ -501,13 +504,13 @@ A 岛是 A 岛相关信息的 “情境线索”，B 岛是 B 岛信息的线索
 
 总而言之，我们建议采取以下方法：
 
-避免采用基于再认的学习策略（复习 / 重新阅读课本章节 / 笔记、划重点、总结）
-通过练习测试 / 练习题进行复习，以在考试中取得最佳成绩
-采用自由回忆的方式（即没有提示、也没有选项可供选择的问题 / 任务）
-只有当你的考试形式也是选择题时（参见 “迁移适宜性加工”），才使用再认类问题（如选择题）进行练习，且此类练习时间仅占总学习时间的 1/4
-仅选择性地重新阅读那些你记不起来的内容
-针对自己的答案获取即时或延迟反馈
-通过练习测试 / 练习题进行复习，以在考试中取得最佳成绩
+- 避免采用基于再认的学习策略（复习 / 重新阅读课本章节 / 笔记、划重点、总结）
+- 通过练习测试 / 练习题进行复习，以在考试中取得最佳成绩
+- 采用自由回忆的方式（即没有提示、也没有选项可供选择的问题 / 任务）
+- 只有当你的考试形式也是选择题时（参见 “迁移适宜性加工”），才使用再认类问题（如选择题）进行练习，且此类练习时间仅占总学习时间的 1/4
+- 仅选择性地重新阅读那些你记不起来的内容
+- 针对自己的答案获取即时或延迟反馈
+- 通过练习测试 / 练习题进行复习，以在考试中取得最佳成绩
 
 ## 提升记忆力的核心方法总结
 

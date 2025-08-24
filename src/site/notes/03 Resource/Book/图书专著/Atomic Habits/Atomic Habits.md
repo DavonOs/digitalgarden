@@ -4,94 +4,255 @@
 
 
 <span><span></span></span><div class="book-info-container" style="display: flex; gap: 25px; align-items: flex-start;padding: 20px; border-radius: 12px;"><span></span><div class="cover-col" style="flex: 0 0 180px; position: relative;"><span></span><img src="https://m.media-amazon.com/images/I/81ANaVZk5LL._SL1500_.jpg" style="width: 100%; border-radius: 6px;box-shadow: 0 8px 15px rgba(0,0,0,0.4);" alt="Atomic Habits"><div style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%);background: #ff9800;color: #fff; padding: 4px 12px;border-radius: 20px; font-size: 0.8em; font-weight: bold;white-space: nowrap; box-shadow: 0 2px 8px rgba(0,0,0,0.5); z-index: 1;text-shadow: 0 1px 1px rgba(0,0,0,0.3);"><span>📖 在读</span></div></div><div class="info-col" style="flex: 1; min-width: 0;"><span></span><div style="margin-bottom: 15px;"><span></span><h1 style="font-size: 1.8rem; font-weight: 800;margin: 0 0 5px 0;color: #e0e0e0;"><span></span><a href="https://book.douban.com/subject/30355759/" target="_blank" style="color: #4da6ff; text-decoration: none;border-bottom: 2px solid #4da6ff;"><span>Atomic Habits</span></a></h1><div style="font-size: 1.1rem;color: #a0a0a0;font-weight: 500;line-height: 1.4;margin-top: 0;"><span>An Easy &amp; Proven Way to Build Good Habits &amp; Break Bad Ones</span></div></div><div style="width: 100%;margin-top: 15px;display: flex;flex-direction: column;gap: 8px;"><span></span><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>✍️ 作者</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>James·Clear</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>📅 出版日期</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;">2018-10-16</div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>🌐 语言</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>en-US (关联版本: <a data-href="原子习惯" href="原子习惯" class="internal-link" target="_blank" rel="noopener nofollow">原子习惯</a>)</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>📄 页数</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>320页</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>🔢 ISBN</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>9780735211292</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>📚 分类</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>B哲学宗教/B84心理学/B842.6</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>⭐ 评分</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>8.8 ★★★★☆</span></div></div></div></div></div>
+
+怎样养成好习惯
+
+|      |                                         |
+| ---- | --------------------------------------- |
+| 第一定律 | 让它显而易见                                  |
+| 1.1  | 填写“习惯记分卡”；记下你当前的习惯并留意它们                 |
+| 1.2  | 应用执行意图：“我将于\[时间]在\[地点]行为]。”             |
+| 1.3  | 应用习惯叠加：“继\[当前习惯]之后，我将会\[新习惯]。”          |
+| 1.4  | 设计你的环境。让好习惯的提示清晰明了                      |
+| 第二定律 | 让它有吸引力                                  |
+| 2.1  | 利用喜好绑定。用你喜好的行为强化你需要的动作                  |
+| 2.2  | 加入把你喜好的行为视为正常行为的文化群体                    |
+| 2.3  | 创设一种激励仪式。在实施低频行动之前先做一件你特别喜好的事           |
+| 第三定律 | 让它简便易行                                  |
+| 3.1  | 减小阻力。减少培养好习惯的步骤                         |
+| 3.2  | 备好环境。创造一种有利于未来行为的环境                     |
+| 3.3  | 把握好决定性时刻。优化可以产生重大影响的小选择                 |
+| 3.4  | 利用两分钟准则。缩短你的习惯所占用的时间，争取只需要两分钟，甚至更少      |
+| 3.5  | 自动化你的习惯。在能够锁定你未来行为的技术和物品上有所投入           |
+| 第四定律 | 让它令人愉悦                                  |
+| 4.1  | 利用增强法。完成一套习惯动作后立即奖励自己                   |
+| 4.2  | 让“无所事事”变得愉快。当避免坏习惯时，设计一种让由此带来的好处显而易见的方式 |
+| 4.3  | 利用习惯追踪法。记录习惯倾向，不要中断                     |
+| 4.4  | 决不连续错过两次。如果你忘了做，一定要尽快补救                 |
+
+
+怎样戒除坏习惯
+
+|        |                          |
+| ------ | ------------------------ |
+| 第一定律反用 | 让它脱离视线                   |
+| 1.5    | 降低出现频率。把坏习惯的提示清除出你所在的环境  |
+| 第二定律反用 | 让它缺乏吸引力                  |
+| 2.4    | 重新梳理你的思路。罗列出戒除坏习惯所带来的益处  |
+| 第三定律反用 | 让它难以施行                   |
+| 3.6    | 增大阻力。增加实行坏习惯的步骤          |
+| 3.7    | 利用承诺机制。锁定未来会有利于你的选择项     |
+| 第四定律反用 | 让它令人厌恶                   |
+| 4.5    | 找一个问责伙伴。请人监督你的行为         |
+| 4.6    | 创立习惯契约。让坏习惯的恶果公开化并令人难以忍受 |
+你可以登入[网址](https://atomichabits.com/cheatsheet)下载这个习惯备忘单的列印版本。
+
 ## 基本原理点滴变化何以意义重大
 
-[[03 Resource/Book/图书专著/Atomic Habits/01 The Surprising Power of Atomic Habits\|01 The Surprising Power of Atomic Habits]]
+[[03 Resource/Book/图书专著/Atomic Habits/01 The Surprising Power of Atomic Habits\|微习惯的惊人力量]]
 
-[[03 Resource/Book/图书专著/Atomic Habits/02 How Your Habits Shape Your Identity (and  Vice Versa)\|02 How Your Habits Shape Your Identity (and  Vice Versa)]]
+> [!summary]+ 本章小结
+> - 习惯是自我提高的复利。从长远来看，每天进步 1% 的效果不容小觑。
+> - 习惯是把双刃剑。它们可能对你有利，也可能对你不利，这就是为什么理解细节至关重要。
+> - 在你越过临界点之前，细微的变化似乎没起任何作用。这是个日积月累、潜移默化的过程，最终的重大突破迟迟不到，考验着你的耐心。
+> - 微习惯是个小习惯，是更大系统的一部分。正如原子是分子的组成部分一样，微习惯也是重大成效的组成部分。
+> - 如果你想要更好的结果，那就别再设定目标，转而全力关注你的体系。
+> - 不求拔高你的目标，但求落实你的体系。
 
-[[03 Resource/Book/图书专著/Atomic Habits/03 How to Build Better Habits in 4 Simple Steps\|03 How to Build Better Habits in 4 Simple Steps]]
+### [[03 Resource/Book/图书专著/Atomic Habits/02 How Your Habits Shape Your Identity (and  Vice Versa)\|你的习惯如何塑造你的身份（反之亦然）]]
 
-## 第一定律让它显而易见
+> [!summary]+ 本章小结
+> - 变化有三个层次：结果变化、过程变化和身份变化。
+> - 改变习惯的最有效方法不是关注你想要达到的目标，而是你想要成为谁。
+> - 你的身份来自你的习惯。每个行动都是你在投票给你想成为的人。
+> - 要想使自己做到最好，你需要持续编辑你的信念，升级和扩充套件你的身份。
+> - 习惯至关重要的真正原因不是因为它们能带给你更好的结果（尽管它们能做到这一点），而是因为它们能改变你对自己抱有的信念。
 
-[[03 Resource/Book/图书专著/Atomic Habits/04 The Man Who Didn’t Look Right\|04 The Man Who Didn’t Look Right]]
+### [[03 Resource/Book/图书专著/Atomic Habits/03 How to Build Better Habits in 4 Simple Steps\|培养良好习惯的四步法]]
 
-[[03 Resource/Book/图书专著/Atomic Habits/05 The Best Way to Start a New Habit\|05 The Best Way to Start a New Habit]]
+> [!summary]+ 本章小结
+> - 习惯是一种行为，因为重复的次数已经足够多，便可以自然而然地出现。
+> - 习惯的最终目的是用尽可能少的精力和努力来解决生活中的问题。
+> - 任何习惯都可以分解成一个反馈回圈，它包括四个步骤：提示、渴求、反应和奖励。
+> - 行为转变的四大定律是一套我们可以用来培养好习惯的简单规则。它们是：
+> 	 1. 让它显而易见；
+> 	 2. 让它有吸引力；
+> 	 3. 让它简便易行；
+> 	 4. 让它令人愉悦。
 
-[[03 Resource/Book/图书专著/Atomic Habits/06 Motivation Is Overrated Environment Often Matters More\|06 Motivation Is Overrated Environment Often Matters More]]
+## 第一定律 让它显而易见
 
-[[03 Resource/Book/图书专著/Atomic Habits/07 The Secret to Self-Control\|07 The Secret to Self-Control]]
-## 第二定律让它有吸引力
+### [[03 Resource/Book/图书专著/Atomic Habits/04 The Man Who Didn’t Look Right\|看着不对劲儿的那个人]]
 
-[[03 Resource/Book/图书专著/Atomic Habits/08 How to Make a Habit Irresistible\|08 How to Make a Habit Irresistible]]
+> [!summary]+ 本章小结
+> - 有了足够的练习，你的大脑会不假思索地拾取预测特定结果的提示。
+> - 一旦习惯成自然，我们就不再关注自己在做什么。
+> - 行为转变的过程总是始于自觉。在你想改变习惯之前，你需要首先了解它。
+> - 通过说出你的行动，指差确认将你的意识程度从下意识的习惯状态提升到警觉的水平。
+> - 习惯记分卡是个简单的练习，你可以用它来深入了解你的行为。
 
-[[03 Resource/Book/图书专著/Atomic Habits/09 The Role of Family and Friends in Shaping Your Habits\|09 The Role of Family and Friends in Shaping Your Habits]]
+### [[03 Resource/Book/图书专著/Atomic Habits/05 The Best Way to Start a New Habit\|培养新习惯的最佳方式]]
 
-[[03 Resource/Book/图书专著/Atomic Habits/10 How to Find and Fix the Causes of Your Bad Habits\|10 How to Find and Fix the Causes of Your Bad Habits]]
+> [!summary]+ 本章小结
+> - 行为转变的第一定律是让它显而易见。
+> - 两个最常见的提示是时间和地点。
+> - 建立执行意图是一种策略，你可以用它将新习惯与特定的时间和地点整合。
+> 	- 执行意图的公式是：我将于【时间】在【地点】【行为】。
+> - 习惯叠加是一种策略，你可以用它来将新习惯与当前习惯整合。
+> 	- 习惯叠加的公式是：继【当前习惯】之后，我将【新习惯】。
 
-## 第三定律让它简便易行
+### [[03 Resource/Book/图书专著/Atomic Habits/06 Motivation Is Overrated Environment Often Matters More\|原动力被高估，环境往往更重要]]
 
-[[03 Resource/Book/图书专著/Atomic Habits/11 Walk Slowly, but Never Backward\|11 Walk Slowly, but Never Backward]]
+> [!summary]+ 本章小结
+> - 随着时间的推移，情境中的微小变化会导致行为的巨大变化。
+> - 每一个习惯都是由提示引发的。我们更容易注意到鲜明的提示。
+> - 让良好习惯的提示在你的环境中显而易见。
+> - 渐渐地，你的习惯不再与单一的触发因素相关联，而是与这种行为周围的整个环境相关联。情境变成了提示。
+> - 在新的环境中培养新的习惯更容易，因为你不会受到与旧习惯相关联的提示的干扰。
 
-[[03 Resource/Book/图书专著/Atomic Habits/12 The Law of Least Effort\|12 The Law of Least Effort]]
+### [[03 Resource/Book/图书专著/Atomic Habits/07 The Secret to Self-Control\|自我控制的秘密]]
 
-[[03 Resource/Book/图书专著/Atomic Habits/13 How to Stop Procrastinating by Using the Two-Minute Rule\|13 How to Stop Procrastinating by Using the Two-Minute Rule]]
+> [!summary]+ 本章小结
+> - 行为转变的第一定律的反面是让它脱离视线。
+> - 习惯一旦养成，就不太可能被忘记。
+> - 自控能力强的人尽量远离充满诱惑的环境。逃避诱惑比抗拒诱惑容易。
+> - 戒除坏习惯最实用的方法之一是减少接触导致坏习惯的提示。
+> - 自我控制只是权宜之计，而非长远良策。
 
-[[03 Resource/Book/图书专著/Atomic Habits/14 How to Make Good Habits Inevitable and Bad Habits Impossible\|14 How to Make Good Habits Inevitable and Bad Habits Impossible]]
+## 第二定律 让它有吸引力
 
-## 第四定律让它令人愉悦
+### [[03 Resource/Book/图书专著/Atomic Habits/08 How to Make a Habit Irresistible\|怎样使习惯不可抗拒]]
 
-[[03 Resource/Book/图书专著/Atomic Habits/15 The Cardinal Rule of Behavior Change\|15 The Cardinal Rule of Behavior Change]]
+> [!summary]+ 本章小结
+> - 行为转变的第二定律是让它具有吸引力。
+> - 机会越有吸引力，养成习惯的可能性就越大。
+> - 习惯是多巴胺驱动的反馈回路。当多巴胺浓度上升时，采取行动的动机也会变得更强烈。
+> - 正是对奖励的期待，而不是奖励本身，促使我们采取行动。预期越高，多巴胺峰值越大。
+> - 喜好系结是让习惯更具吸引力的一种方式。具体做法就是将你喜好的高频动作与你需要做的低频动作搭配在一起。
 
-[[03 Resource/Book/图书专著/Atomic Habits/16 How to Stick with Good Habits Every Day\|16 How to Stick with Good Habits Every Day]]
+### [[03 Resource/Book/图书专著/Atomic Habits/09 The Role of Family and Friends in Shaping Your Habits\|在习惯形成中亲友所起的作用]]
 
-[[03 Resource/Book/图书专著/Atomic Habits/17 How an Accountability Partner Can Change Everything\|17 How an Accountability Partner Can Change Everything]]
+> [!summary]+ 本章小结
+> - 我们生活的文化环境决定着哪些行为对我们有利。
+> - 我们倾向于培养被我们的文化推崇的习惯，因为我们强烈地渴望融入并属于这个部落。
+> - 我们倾向于模仿三个社会群体的习惯：亲近的人（家人和朋友）、所在群体（我们所归属的部落）和有权势的人（有地位和威望的）。
+> - 为了培养更好的习惯，你能做得最有效的事情之一是加入一种文化，在这种文化中，（1）你想要的行为是正常的行为，（2）你已经和这个群体有一些共同之处。
+> - 部落的正常行为往往压倒个人期望的行为。大多数时候，我们宁愿跟众人一起犯错，也不愿特立独行坚持真理。
+> - 如果一个行为能为我们赢得认可、尊重和赞扬，我们就会认为它很有吸引力。
+
+### [[03 Resource/Book/图书专著/Atomic Habits/10 How to Find and Fix the Causes of Your Bad Habits\|如何找到并消除你坏习惯的根源]]
+
+> [!summary]+ 本章小结
+> - 行为转变的第二定律的反用是让它缺乏吸引力。
+> - 每种行为都有表层的渴求和更深层的动机。
+> - 你的习惯是解决古老欲望的现代方法。
+> - 你习惯的原因实际上是他们之前的预测。这种预测会产生一种感觉。
+> - 强调避免坏习惯所换来的好处，让坏习惯不再有吸引力。
+> - 当我们将习惯与积极的感受相关联，习惯就有了吸引力；反之，则没有吸引力。
+> - 在开始培养难度较大的习惯之前，先做些你喜欢的事情来创造一种激励仪式。
+
+## 第三定律 让它简便易行
+
+### [[03 Resource/Book/图书专著/Atomic Habits/11 Walk Slowly but Never Backward\|慢步前行但决不后退]]
+
+> [!summary]+ 本章小结
+> - 行为转变的第三定律是让它简便易行。
+> - 最有效的学习形式是付诸实践，而不是纸上谈兵。
+> - 专注于采取行动，而不只是酝酿行动。
+> - 习惯的形成是一个行为通过重复逐渐变得更加自动化的过程。
+> - 习惯的培养不在于时间长短，而在于重复的次数。
+
+### [[03 Resource/Book/图书专著/Atomic Habits/12 The Law of Least Effort\|最省力法则]]
+
+> [!summary]+ 本章小结
+> - 人类行为遵循最省力法则。我们天然地倾向于付出最少工作量的选择。
+> - 创造一个环境，尽可能让人们便于做正确的事。
+> - 降低与良好行为相关的阻力。阻力小，习惯就容易养成。
+> - 增加与不良行为相关的阻力。阻力大，习惯就难以养成。
+> - 预备好你的环境，使未来的行动更容易。
+
+### [[03 Resource/Book/图书专著/Atomic Habits/13 How to Stop Procrastinating by Using the Two-Minute Rule\|怎样利用两分钟规则停止拖延]]
+
+> [!summary]+ 本章小结
+> - 习惯可以在几秒钟内完成，但会持续影响你在接下来的几分钟或几个小时的行为。
+> - 许多习惯发生在决定性的时刻，每时每刻的选择就像岔路口，你的选择最终会导致卓有成效，或者一事无成的一天。
+> - 两分钟规则规定：“当你开始培养一种新习惯时，它所用时间不应超过两分钟。”
+> - 一种程式的开始阶段越是仪式化，你就越有可能进入做大事所需的注意力高度集中的状态。
+> - 习惯优化前先要实现标准化。你不能改善一个不存在的习惯。
+
+### [[03 Resource/Book/图书专著/Atomic Habits/14 How to Make Good Habits Inevitable and Bad Habits Impossible\|怎样让好习惯不可避免，坏习惯难以养成]]
+
+> [!summary]+ 本章小结
+> - 行为转变第三定律的反面就是让它难以施行。
+> - 承诺机制是你当前做出的一个选择，它锁定了未来更好的行为。
+> - 锁定未来行为的终极途径是自动化你的习惯。
+> - 一次性选择，比如买张好床垫或加入自动储蓄计划，是一种单次行动，可以让你的未来习惯自动化，并随着时间的推移带来越来越多的回报。
+> - 使用技术自动化你的习惯是保证正确行为的最可靠和有效的途径。
+
+## 第四定律 让它令人愉悦
+
+### [[03 Resource/Book/图书专著/Atomic Habits/15 The Cardinal Rule of Behavior Change\|行为转变的基本准则]]
+
+> [!summary]+ 本章小结
+> - 行为转变的第四条定律是让它令人愉悦。
+> - 当体验令人愉悦时，我们更有可能重复一种行为。
+> - 人脑进化为优先考虑即时奖励而不是延迟奖励。
+> - 行为转变的基本准则：重复有即时回报的行为；避免受即时惩罚的动作。
+> - 要保持一个习惯，你需要有即时成就感，即使它体现在细微之处。
+> - 行为转变的前三条定律——让它显而易见，让它有吸引力，让它简便易行——提高了这种行为当即发生的概率。行为转变的第四定律——让它令人愉悦——提高了这种行为得以重复的可能性。
+
+### [[03 Resource/Book/图书专著/Atomic Habits/16 How to Stick with Good Habits Every Day\|怎样天天保持好习惯]]
+
+> [!summary]+ 本章小结
+> - 最令人满意的感觉之一是进步的感觉。
+> - 习惯追踪法是衡量你是否养成了习惯的简单方法，比如在日历上打叉。
+> - 习惯追踪法和其他视觉度量形式可以清晰无误地证明你取得的进步，从而让你对自己培养习惯的程序感到满意。
+> - 不要中断培养习惯的程序，要坚持不懈。
+> - 绝不错过两次。如果你错过了一天，试着尽快恢复固有的做事节奏。
+> - 仅仅因为你能测量一些东西并不意味着它们最重要。
+
+### [[03 Resource/Book/图书专著/Atomic Habits/17 How an Accountability Partner Can Change Everything\|问责伙伴何以能改变一切]]
+
+> [!summary]+ 本章小结
+> - 行为转变第四定律倒过来用就是让它令人厌恶。
+> - 如果不良习惯附加着令人痛苦或不愉快的感受，我们就不太可能重复它。
+> - 问责伙伴可以对无所事事带来即时成本。我们非常在意别人对我们的看法，极不情愿感受别人的鄙视。
+> - 习惯契约可被用来增加任何行为的社会成本，它使得违背承诺的代价公开而痛苦。
+> - 知道别人在看着你，可以成为一种强大的动力。
+
+## 高阶战术 怎样从单纯的好转向真正的伟大
+
+### [[03 Resource/Book/图书专著/Atomic Habits/18 The Truth About Talent (When Genes Matter and When They Don’t)\|揭秘天才（当基因重要和无关紧要时）]]
+
+> [!summary]+ 本章小结
+> 最大限度地提高成功概率的秘诀是选对你参与竞争的领域。
+> 习惯选择正确，进步易如反掌。习惯选择错误，生活就步步维艰。
+> 基因难以改变，这意味着环境有利时，它们让你享有强大的优势；环境不利时，它们带给你明显的劣势。
+> 当你的习惯与天赋相匹配时，你就容易养成并维持那种习惯。选择最适合你的习惯。
+> 选择能发扬你的长处的游戏。如果你找不到，就自创一个。
+> 基因并不能排除艰苦努力的需要。它们只会帮着甄别，告诉我们该努力做什么事。
+
+### [[03 Resource/Book/图书专著/Atomic Habits/19 The Goldilocks Rule：How to Stay Motivated in Life and Work\|金发女孩准则：如何在生活和工作中保持充沛动力]]
+
+> [!summary]+ 本章小结
+> 金发女孩准则指出，人们在处理其能力可及的事务时积极性最高。
+> 成功的最大威胁不是失败，而是倦怠。
+> 随着习惯成为常规，它们变得不那么有趣，也不那么令人满意。我们开始感到无聊。
+> 每个人受到激励时都能努力工作。但当工作不那么令人兴奋时，仍能继续奋进的则是人中佼佼者。
+> 专业人员依照既定计划行事，毫不动摇；业余爱好者则随波逐流，任性而为。
+
+### [[03 Resource/Book/图书专著/Atomic Habits/20 The Downside of Creating Good Habits\|培养好习惯的负面影响]]
+
+> [!summary]+ 本章小结
+> - 习惯的好处是我们可以不假思索地行事，缺点是我们不再关注小错误。
+> - 习惯动作 + 刻意练习 = 精通
+> - 反思和回顾是一个过程，使你能够时刻关注自己的表现。
+> - 我们越是执著于一个身份，就越难超越它。
+
+### [[03 Resource/Book/图书专著/Atomic Habits/Conclusion：The Secret to Results That Last\|结论：获得持久成果的秘诀]]
 
 
-## 高阶战术怎样从单纯的好转向真正的伟大
-
-[[03 Resource/Book/图书专著/Atomic Habits/18 The Truth About Talent (When Genes Matter and When They Don’t)\|18 The Truth About Talent (When Genes Matter and When They Don’t)]]
-
-[[03 Resource/Book/图书专著/Atomic Habits/19 The Goldilocks Rule：How to Stay Motivated in Life and Work\|19 The Goldilocks Rule：How to Stay Motivated in Life and Work]]
-
-[[03 Resource/Book/图书专著/Atomic Habits/20 The Downside of Creating Good Habits\|20 The Downside of Creating Good Habits]]
-
-## 结论获得持久成果的秘诀
-
-古希腊有一则寓言，讲述了被称为"谷堆论"的连锁推理论。它要表明的是一个小动作在重复足够多次后会产生的效果。这个情论的一种表述如下：一枚硬币能让一个人变得富有吗？如果你给一个人一堆十枚硬币，你不会因此就宣称他或她富有。但是如果你加一个呢？再加一个呢？再加另一个呢？如此这般，直到某一刻，你不得不承认，除非一枚硬币能让他或她变得富有，否则没有人会变得富有。246
-
-这种说法同样适用于微习惯。一个小小的改变能改变你的人生吗？你不太可能说是的。但是如果你又做了一个呢？又做了另一个呢？接着又做了另一个呢？在某个时刻，你会不得不承认你的人生被一个小小的变化改变了。习惯转变的"圣杯"不是单个  $1\%$  的改进，而是成千个。它是无数微习惯堆积起来的结果，其中每个微习惯都是构成整个系统的基本单元。
-
-一开始，小改进往往微不足道，因为它面对的整个系统体量太大了，无法撼动。正如一枚硬币不会让你变得富有一样，一个积极的变化，比如冥想一分钟或者每天读一页书，不太可能带来明显的不同。
-
-然而，随着你继续将微小的变化层层叠加，人生的天平开始偏移。每次改进就像在有利于你的天平的一侧新增一粒沙，使它慢慢地偏向你。假如你能坚持下去，最终你会达到产生重大偏转的临界点。突然间，坚持好习惯变得轻而易举。整个系统开始偏重你，不再与你作对。
-
-在这本书中，我们前前后后读到了几十个杰出成功人士的故事。他们当中有奥运金牌得主、获奖艺术家、商业领袖、救死扶伤的医生和明星喜剧演员，他们都借助于小习惯科学，以掌握和提高他们的技艺，并在各自所在的领域取得登峰造极的优异成绩。我们在此提及的每个人、团队和公司处境各有不同，但最终都以同样的方式取得进步：致力于微小、可持续、不懈的改进。
-
-成功不是要达到的目标，也不是要跨越的终点线。它是一个让人得以进步的体系、精益求精的过程。我在第 1 章中说过：“如果你很难改变自己的习惯，问题的根源不是你，而是你的体系。坏习惯回圈往复，不是因为你不想改变，而是因为你用来改变的体系存在问题。”
-
-随着这本书接近尾声，我希望相反的情况是真实的。掌握了行为转变的四大定律，你就拥有了一套工具和策略，可以用来建立更好的系统和养成更好的习惯。有时一个习惯很难记住，你需要让它显而易见。其他时候，你不想开始培养习惯，你需要让它有吸引力。在许多情况下，你可能会发现太难养成习惯，你需要让它简便易行。有时候，你不想坚持下去，你需要让它令人愉悦。
-
-这里的行为毫不费力这里的行为难度不小
-
-显而易见的...... 脱离视线
-
-有吸引力...... 缺乏吸引力
-
-简便易行...... 难以施行
-
-令人愉悦...... 令人厌恶
-
-你想通过让你的好习惯显而易见、吸引人、容易和令人满意，把它们推向左边。与此同时，你想通过让坏习惯看不见、不吸引人、难以接受和不令人满意的方式，把它们集中到正确的一面。
-
-这是一个连续不断的过程，没有终点线，也没有永久的解决方案。每当你想要自我提高时，你都可以围绕行为转变四定律循序渐进地发展，直到你发现下一个瓶颈。让它显而易见。让它有吸引力。让它简便易行。让它令人愉悦。一圈又一圈地回圈发展。不停地寻求用来获得  $1\%$  的进步的新方法。
-
-获得持久成果的秘诀是不断进步，永不停歇。只要你一刻不停，坚持下去，你难以想象自己能取得多么伟大的成就。假如你不停止工作，你的公司业务发展将蒸蒸日上。假如你不停止健身，你将拥有一副强健体魄。假如你不停止学习，你能汇聚起知识的宝库。假如你不停止储蓄，你将积少成多，得到一笔巨款。假如你不停止关爱，你的朋友将会遍天下。小习惯不会简单相加，它们会复合。
-
-这就是微习惯的力量。微小的变化，显著的结果。
-
-
-# 从四大定律中吸取的教训
+## 附录 从四大定律中吸取的教训
 
 在这本书中，我介绍了人类行为的四步模型：提示、渴望、反应和奖励。这个框架不仅教我们如何培养新习惯，还揭示了有关人类行为的一些有趣的见解。
 
@@ -111,7 +272,7 @@
 
 渴望是想有所作为。观察未引发渴望说明你没有认识到需要有任何作为。你的欲望没有泛滥，你不渴望改变现状，你的头脑不会构想出问题让你去解决，你只是在观察着，无动于衷。
 
-有了充足的理由，可以克服任何困难。德国哲学家和诗人弗里德里希·尼采（Friedrich Nietzsche）有一句名言：“有足够理由活着的人几乎可以忍受任何生存方式。”249 这个说法包含了一个关于人类行为的重要事实。如果你的动机和欲望足够强大（也就是说，你为什么要行动），即使困难重重，你也会采取行动。强烈的渴望可以推动伟大的行动——即使阻力巨大。
+有了充足的理由，可以克服任何困难。德国哲学家和诗人弗里德里希·尼采（Friedrich Nietzsche）有一句名言：“有足够理由活着的人几乎可以忍受任何生存方式。”这个说法包含了一个关于人类行为的重要事实。如果你的动机和欲望足够强大（也就是说，你为什么要行动），即使困难重重，你也会采取行动。强烈的渴望可以推动伟大的行动——即使阻力巨大。
 
 好奇心总比头脑灵活好。积极性和好奇心比头脑灵活更重要，因为前者会导致行动。头脑灵活永远不会独自产生结果，因为它不会让你采取行动。促使行为的是欲望，而不是智力。纳瓦尔·拉维康特（Naval Ravikant）说过：“做任何事情的诀窍是首先培养对它的渴望。”
 
@@ -119,9 +280,9 @@
 
 我们的情绪先于理性和逻辑。大脑的主模式是感觉；次模式是思考。我们的第一反应——大脑中快速、下意识的部分——是针对感觉和预期而优化的。我们的次一级反应——大脑中缓慢、有意识的部分——是“思考”的部分。
 
-心理学家将此区分为系统 1（感觉和快速判断）与系统 2（理性分析）。感觉在先（系统 1）；理性只在随后介入（系统 2）。当两者协同一致时，会发挥极佳作用，但当两者不一致时，就会产生不合逻辑、感情用事的后果。250
+心理学家将此区分为系统 1（感觉和快速判断）与系统 2（理性分析）。感觉在先（系统 1）；理性只在随后介入（系统 2）。当两者协同一致时，会发挥极佳作用，但当两者不一致时，就会产生不合逻辑、感情用事的后果。
 
-你的反应倾向于跟随你的情绪。我们的思想和行动植根于我们认为有吸引力的东西，而不一定是符合逻辑的东西。两个人可以注意到相同的一组事实，但会有非常不同的反应，因为他们各自独有的情感过滤器会分别处理这些事实。这就是为什么诉诸情感通常比诉诸理性更有力量 251 的原因之一。如果一个话题让某人感到情绪激动，他们很少会对资料感兴趣。这就是为什么情绪会对明智的决策造成较大威胁。
+你的反应倾向于跟随你的情绪。我们的思想和行动植根于我们认为有吸引力的东西，而不一定是符合逻辑的东西。两个人可以注意到相同的一组事实，但会有非常不同的反应，因为他们各自独有的情感过滤器会分别处理这些事实。这就是为什么诉诸情感通常比诉诸理性更有力量的原因之一。如果一个话题让某人感到情绪激动，他们很少会对资料感兴趣。这就是为什么情绪会对明智的决策造成较大威胁。
 
 换句话说：大多数人认为合理的回应是对他们有利，即满足他们欲望的那一个。从更加中立的情感立场来处理一个情况，可以让你的反应基于资料而不是情感。
 
@@ -137,7 +298,7 @@
 
 例如，如果你期望得到 10 美元但得到了 100 美元，你感觉棒极了。如果你期望得到 100 美元却只得到 10 美元，你会深感失望。你的期望会改变你的满意度。期望值过高，结果令人失望；期望过低，结果让人惊喜。如果是心想事成，不多不少，你会感到满意。
 
-满意  $\equiv$  喜欢  $^+$  想要 252
+满意 = 喜欢 + 想要
 
 这就是古罗马斯多亚学派哲学家塞涅卡（Seneca）的名言“贫穷并不是太少，而是想要更多”253 所蕴含的智慧。假如你想要的远超你能得到的，你永远不会感到满意。你总是把重心放在问题上，而不是解决方案上。
 
@@ -147,7 +308,7 @@
 
 行为前后都有感觉。在行动之前，有一种感觉在激励你行动，那就是渴望。行动之后，有一种感觉教导你在未来重复这个动作，那就是奖励。
 
-提示  $\gimel$  渴望（感觉）  $\gimel$  反应  $\gimel$  回报（感觉）
+提示＞渴望（感觉）＞反应＞回报（感觉）
 
 我们的感受影响我们的行为方式，我们的行为方式影响我们的感受。
 
@@ -155,16 +316,36 @@
 
 希望随着体验的加深而消退，最终被接纳所取代。一个机会初现时，人们对各种可能性充满期待。你的期望（渴望）完全基于许诺。一个机会第二次出现时，你的期望基于现实。你开始理解这一过程是如何展开的，你的希望逐渐被替换为更准确地预测和接受可能的结果。
 
-这也是为什么我们一直想要抓住最新的快速致富或减肥方式的原因之一。新方式带来了希望，因为我们不曾经历过，可以敞开了想象。新策略似乎比旧策略更有吸引力，因为它们可以有无限的希望。正如亚里士多德（Aristotle）所指出的：“青年容易受骗，因为希望之火会迅速燃起。”254 也许这可以修改为：“青年容易受骗，因为他们唯有希望。”因缺乏现实经验，可以放飞期望。一开始，希望是你的全部。
+这也是为什么我们一直想要抓住最新的快速致富或减肥方式的原因之一。新方式带来了希望，因为我们不曾经历过，可以敞开了想象。新策略似乎比旧策略更有吸引力，因为它们可以有无限的希望。正如亚里士多德（Aristotle）所指出的：“青年容易受骗，因为希望之火会迅速燃起。”也许这可以修改为：“青年容易受骗，因为他们唯有希望。”因缺乏现实经验，可以放飞期望。一开始，希望是你的全部。
 
-# 怎样将这些想法应用于商业
+## Atomic Habits 资源
+
+下面列出了有用的下载资源、模板和额外福利，它们将帮助你充分利用书中的理念。
+
+### 主要资源
+
+- [习惯回路](https://s3.amazonaws.com/jamesclear/Atomic+Habits/The+Habit+Loop.pdf)
+- [习惯小贴士](https://s3.amazonaws.com/jamesclear/Atomic+Habits/Habits+Cheat+Sheet.pdf)
+- [媒体：图片和图表](https://s3.amazonaws.com/jamesclear/Atomic+Habits/Media.pdf)
+- [关键问题与答案](https://s3.amazonaws.com/jamesclear/Atomic+Habits/Questions+and+Answers.pdf)
+- [性格测试](https://jamesclear.com/atomic-habits/personality)
+- [讨论问题](https://jamesclear.s3.amazonaws.com/Atomic+Habits/Discussion+Questions.pdf)
+- [脚注](https://jamesclear.com/atomic-habits/endnotes)
+
+### 模板
+
+- [习惯评分卡模板](https://s3.amazonaws.com/jamesclear/Atomic+Habits/The+Habits+Scorecard.pdf)
+- [实施意图模板](https://s3.amazonaws.com/jamesclear/Atomic+Habits/Implementation+Intentions.pdf)
+- [习惯堆叠模板](https://s3.amazonaws.com/jamesclear/Atomic+Habits/Habit+Stack.pdf)
+- [习惯追踪模板](https://s3.amazonaws.com/jamesclear/Atomic+Habits/Habit+Tracker.pdf)
+- [习惯契约模板及示例](https://s3.amazonaws.com/jamesclear/Atomic+Habits/Habit+Contract.pdf)
+
+### 额外章节
+
+- [如何将这些理念应用于商业](https://s3.amazonaws.com/jamesclear/Atomic+Habits/Business+Appendix.pdf)
 
 多年来，我应邀去《财富》世界 500 强和初创企业演讲，期间谈到运用与掌控习惯相关知识的方法，从而提高企业经营效率并制造出更好的产品。我已经将许多最实用的策略汇编成了额外一章。我想你会发现它是对《掌握习惯》中提到的主要思想极为有益的补充。
 
-你可以在以下网址下载本章：atomichabits.com/business
-
-# 怎样将这些想法应用于养育子女
+- [如何将这些理念应用于育儿](https://s3.amazonaws.com/jamesclear/Atomic+Habits/Parenting+Appendix.pdf)
 
 我经常收到读者提出的这样的问题：“我怎么才能让我的孩子这样做？”《掌握习惯》中的观点旨在广泛适用于所有的人类行为（少年儿童也属于人类），这意味着你应该在正文中找到大量有用的策略。尽管如此，为人父母确实面临着独特的挑战。我整理了额外一章，专门讲述如何将这些想法应用于养育子女。
-
-你可以在以下网址下载本章：atomichabits.com/parenting
