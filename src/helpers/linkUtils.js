@@ -1,32 +1,45 @@
-const wikiLinkRegex = /\[\[(.*?\|.*?)\]\]/g;
+// 1. 修正wiki链接正则：匹配所有[[...]]格式（无论是否包含|）
+const wikiLinkRegex = /\[\[(.*?)\]\]/g; 
 const internalLinkRegex = /href="\/(.*?)"/g;
 
 function caselessCompare(a, b) {
   return a.toLowerCase() === b.toLowerCase();
 }
 
+// 新增：移除内容中的代码块（```包裹的部分），避免识别代码里的链接
+function removeCodeBlocks(content) {
+  // 匹配```开头和```结尾的代码块（包括多行）
+  return content.replace(/```[\s\S]*?```/g, '');
+}
+
 function extractLinks(content) {
+  // 先移除代码块，再处理链接
+  const cleanContent = removeCodeBlocks(content);
+  
   return [
-    ...(content.match(wikiLinkRegex) || []).map(
-      (link) =>
-        link
-          .slice(2, -2)
-          .split("|")[0]
-          .replace(/.(md|markdown)\s?$/i, "")
-          .replace("\\", "")
-          .trim()
-          .split("#")[0]
-    ),
-    ...(content.match(internalLinkRegex) || []).map(
-      (link) =>
-        link
-          .slice(6, -1)
-          .split("|")[0]
-          .replace(/.(md|markdown)\s?$/i, "")
-          .replace("\\", "")
-          .trim()
-          .split("#")[0]
-    ),
+    // 处理wiki链接：[[显示文本|实际链接]] 或 [[实际链接]]
+    ...(cleanContent.match(wikiLinkRegex) || []).map(link => {
+      const linkContent = link.slice(2, -2); // 去掉前后的[[和]]
+      const parts = linkContent.split("|");
+      // 取|后面的内容作为链接（如果有），否则取全部
+      const actualLink = parts.length > 1 ? parts[1] : parts[0];
+      
+      return actualLink
+        .replace(/.(md|markdown)\s?$/i, "") // 去掉.md后缀
+        .replace("\\", "")
+        .trim()
+        .split("#")[0]; // 去掉#后的锚点
+    }),
+    // 处理内部链接：href="/实际链接"
+    ...(cleanContent.match(internalLinkRegex) || []).map(link => {
+      return link
+        .slice(6, -1) // 去掉href="/和"
+        .split("|")[0]
+        .replace(/.(md|markdown)\s?$/i, "")
+        .replace("\\", "")
+        .trim()
+        .split("#")[0];
+    }),
   ];
 }
 
@@ -93,7 +106,6 @@ function getGraph(data) {
     links,
   };
 }
-
 exports.wikiLinkRegex = wikiLinkRegex;
 exports.internalLinkRegex = internalLinkRegex;
 exports.extractLinks = extractLinks;
