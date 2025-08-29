@@ -6,7 +6,7 @@ function caselessCompare(a, b) {
 }
 
 function extractLinks(content) {
-  const wihoutCodeBlocks = content
+  const withoutCodeBlocks = content
     .replace(/```[\s\S]*?```/g, "")
     .replace(/<pre[\s\S]*?<\/pre>/g, "");
   return [
