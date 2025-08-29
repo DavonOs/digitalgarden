@@ -6,8 +6,11 @@ function caselessCompare(a, b) {
 }
 
 function extractLinks(content) {
+  const wihoutCodeBlocks = content
+    .replace(/```[\s\S]*?```/g, "")
+    .replace(/<pre[\s\S]*?<\/pre>/g, "");
   return [
-    ...(content.match(wikiLinkRegex) || []).map(
+    ...(withoutCodeBlocks.match(wikiLinkRegex) || []).map(
       (link) =>
         link
           .slice(2, -2)
@@ -17,7 +20,7 @@ function extractLinks(content) {
           .trim()
           .split("#")[0]
     ),
-    ...(content.match(internalLinkRegex) || []).map(
+    ...(withoutCodeBlocks.match(internalLinkRegex) || []).map(
       (link) =>
         link
           .slice(6, -1)
