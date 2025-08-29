@@ -9,8 +9,9 @@
                   {%endif%}
 
                   {%if settings.dgShowToc === true%}
-                        {%set tocHtml= (content and (content|toc)) %}
-                        {%if tocHtml %}
+                        {% set processedContent = content | link %}
+                        {% set tocHtml = (processedContent and (processedContent | toc)) %}
+                        {% if tocHtml %}
                               <div class="toc">
                                     <div class="toc-title-container">
                                           <div class="toc-title">
