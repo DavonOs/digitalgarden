@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"Figma's mission is to make design accessible to everyone. Discover Figma’s products and how they bring people together to create better products.","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-04-08 14:02","updated":"2025-08-13 20:30"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-Learn","permalink":"/design/Figma-Design/Figma-Design-Learn/","metatags":{"description":"Figma's mission is to make design accessible to everyone. Discover Figma’s products and how they bring people together to create better products.","og:site_name":"DavonOs","og:title":"Figma Design Learn","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-Learn","og:image":"https://help.figma.com/hc/theming_assets/01JMYWSNCNTYE97HCPWWCJNSRN","og:image:width":"200","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-04-08 14:02","updated":"2025-08-29 15:52"}
 ---
 
 
@@ -100,7 +100,7 @@
 
 [使用智能选择排列图层](https://help.figma.com/hc/en-us/articles/360040450233-Arrange-layers-with-Smart-selection)
 
-[应用约束以定义图层如何调整大小](https://help.figma.com/hc/en-us/articles/360039957734-Apply-constraints-to-define-how-layers-resize)
+[[02 Area/设计/Figma Design Learn/应用约束以定义图层如何调整大小\|应用约束以定义图层如何调整大小]]
 
 [创建布局指南](https://help.figma.com/hc/en-us/articles/360040450513-Create-layout-guides)
 
@@ -292,7 +292,7 @@
 
 ### 浏览界面
 
-[[02 Area/设计/Figma Design Learn/开发模式指南\|开发模式指南]]
+[[02 Area/设计/Figma Design Learn/Dev 模式指南\|开发模式指南]]
 
 [在开发模式下导航设计](https://help.figma.com/hc/en-us/articles/15023152204951-Navigate-designs-in-Dev-Mode)
 

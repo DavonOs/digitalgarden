@@ -4,16 +4,22 @@
 
 
 <span><span></span></span><div class="book-info-container" style="display: flex; gap: 25px; align-items: flex-start;padding: 20px; border-radius: 12px;"><span></span><div class="cover-col" style="flex: 0 0 180px; position: relative;"><span></span><img src="https://images.manning.com/360/480/resize/book/f/235f14b-90f6-43b8-8abd-62bc945d1624/Grant-2ed-HI.png" style="width: 100%; border-radius: 6px;box-shadow: 0 8px 15px rgba(0,0,0,0.4);" alt="CSS in Depth 2nd"><div style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%);background: #ff9800;color: #fff; padding: 4px 12px;border-radius: 20px; font-size: 0.8em; font-weight: bold;white-space: nowrap; box-shadow: 0 2px 8px rgba(0,0,0,0.5); z-index: 1;text-shadow: 0 1px 1px rgba(0,0,0,0.3);"><span>📖 在读</span></div></div><div class="info-col" style="flex: 1; min-width: 0;"><span></span><div style="margin-bottom: 15px;"><span></span><h1 style="font-size: 1.8rem; font-weight: 800;margin: 0 0 5px 0;color: #e0e0e0;"><span></span><a href="https://book.douban.com/subject/36924049/" target="_blank" style="color: #4da6ff; text-decoration: none;border-bottom: 2px solid #4da6ff;"><span>CSS in Depth 2nd</span></a></h1><div style="font-size: 1.1rem;color: #a0a0a0;font-weight: 500;line-height: 1.4;margin-top: 0;"><span>2nd Edition</span></div></div><div style="width: 100%;margin-top: 15px;display: flex;flex-direction: column;gap: 8px;"><span></span><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>✍️ 作者</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>Keith·J·Grant</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>📅 出版日期</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;">2024-7-01</div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>🌐 语言</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>en-us (关联版本: <a data-href="深入解析CSS" href="深入解析CSS" class="internal-link" target="_blank" rel="noopener nofollow">深入解析CSS</a>)</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>📄 页数</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>521页</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>🔢 ISBN</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>9781633437555</span></div></div><div class="info-row" style="display: flex;align-items: flex-start;"><span></span><div style="width: 30%;color: #a0a0a0;font-weight: 500;font-size: 0.92em;"><span>📚 分类</span></div><div style="flex: 1;font-weight: 500;color: #e0e0e0;"><span>T工业技术/TP自动化技术、计算机技术/TP393.0</span></div></div></div></div></div>
+
+CSS 与软件开发领域的很多东西都不太一样——虽然算不上传统意义上的编程语言，但却要求具备抽象思维；虽然也不是纯粹的设计工具，但却要求具备创造力。CSS 提供了一种看似简单的声明式语法，但是只要写过大型项目 CSS 的人都知道，CSS 可能会变得非常复杂。
+
+在传统编程的学习中遇到问题，通常可以直接搜索出想要的答案（例如：“如何在数组中找出类型为 x 的项？”）；而对于 CSS 而言，将遇到的问题提炼为一个可以回答的提问却并非易事。即便可以提炼，最终答案也往往是“看情况”。最好的解决办法通常取决于具体的应用场景，以及该问题的处理需要精确到什么程度、相应要考虑哪些具体的边界条件等。
+
+了解一些“小技巧”或实用秘籍固然有用，但想真正掌握 CSS 这门语言还须理解这些做法背后的原理。
+
 ## 第一部分 基础回顾
 
 第一部分深入探讨了 CSS 最基本的部分——层叠、相对单位、文档流以及盒模型。前三章介绍的这些基础知识决定了样式与页面元素的对应关系，以及如何确定这些元素的尺寸。全面理解这些内容是阅读本书后续章节及其他 CSS 知识的基础。
 
-### [[03 Resource/Book/图书专著/CSS in Depth 2nd/01 层叠、优先级与继承\|01 层叠、优先级与继承]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/01 层叠、优先级与继承\|01 层叠、优先级与继承]]
 
-### [[03 Resource/Book/图书专著/CSS in Depth 2nd/02 相对单位\|02 相对单位]]
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/02 相对单位\|02 相对单位]]
 
-### [[03 Resource/Book/图书专著/CSS in Depth 2nd/03 文档流与盒模型\|03 文档流与盒模型]]
-
+[[03 Resource/Book/图书专著/CSS in Depth 2nd/03 文档流与盒模型\|03 文档流与盒模型]]
 ## 第二部分精通布局
 
 CSS 提供了多种工具来控制网页布局。本书第二部分（涵盖第四~七章）将介绍其中最重要的几种，包括弹性盒布局、网格布局及定位。这些工具本质上讲并没有优劣之分，只是各自的功能实现略有不同。我将介绍它们各自的工作原理，以便利用这些知识在页面上进行混搭，最终实现理想的效果。之后，您还会学习响应式设计的构建方法，让页面布局能够适应用户的各种屏幕尺寸。

@@ -774,7 +774,7 @@ Every module extends the [InternalModule](https://github.com/SilentVoid13/Templ
 
 如果您需要，可以在新的内部变量/函数中使用这些属性。
 
-### Registering a new internal variable / function注册新的内部变量/函数
+### 注册新的内部变量/函数
 
 以下是注册模块中新的内部变量/函数所需的步骤：
 
@@ -800,7 +800,7 @@ And you are done ! Thanks for contributing to [Templater](https://github.com/Si
 Now, just submit a [pull request](https://github.com/SilentVoid13/Templater/pulls) on Github, I'll try to be as reactive as possible.
 现在，只需在 Github 上提交一个 pull request，我会尽量尽快响应。
 
-## User Functions用户函数
+## 用户函数
 
 您可以在 Templater 中定义自己的函数。
 
@@ -809,27 +809,22 @@ Now, just submit a [pull request](https://github.com/SilentVoid13/Templater/pul
 - [Script User Functions脚本用户函数](https://silentvoid13.github.io/Templater/user-functions/script-user-functions.html)
 - [System Command User Functions系统命令 用户函数](https://silentvoid13.github.io/Templater/user-functions/system-user-functions.html)
 
-### Invoking User Functions调用用户函数
+### 调用用户函数
 
-You can call a user function using the usual function call syntax: `tp.user.<user_function_name>()`, where `<user_function_name>` is the function name you defined.
 您可以使用常规函数调用语法调用用户函数： `tp.user.<user_function_name>()` ，其中 `<user_function_name>` 是您定义的函数名。
 
-For example, if you defined a system command user function named `echo`, a complete command invocation would look like this:
 例如，如果您定义了一个名为 `echo` 的系统命令用户函数，一个完整的命令调用将如下所示：
 
 `<% tp.user.echo() %>`
 
-No mobile support不支持移动设备
+不支持移动设备
 
-Currently user functions are unavailable on Obsidian for mobile.
 目前用户函数在移动端的 Obsidian 上不可用。
 
-### Script User Functions脚本用户函数
+### 脚本用户函数
 
-This type of user functions allows you to call JavaScript functions from JavaScript files and retrieve their output.
 这种用户函数允许你从 JavaScript 文件中调用 JavaScript 函数并获取它们的输出。
 
-To use script user functions, you need to specify a script folder in Templater's settings. This folder needs to be accessible from your vault.
 要使用脚本用户函数，你需要在 Templater 的设置中指定一个脚本文件夹。这个文件夹需要可以从你的保险库访问。
 
 定义一个脚本用户函数
@@ -842,28 +837,26 @@ Templater 将加载 `Scripts` 文件夹中的所有 JavaScript（ `.js` 文�
 
 然后你将能够将你的脚本作为用户函数调用。函数名称对应于脚本文件名。
 
-Scripts should follow the [CommonJS module specification](https://flaviocopes.com/commonjs/), and export a single function.
-脚本应遵循 CommonJS 模块规范，并导出一个单一函数。
+脚本应遵循 [CommonJS 模块规范](https://flaviocopes.com/commonjs/)，并导出一个单一函数。
 
 ``function my_function (msg) { return `Message from my script: ${msg}`; } module.exports = my_function;``
 
 
 在这个例子中，一个完整的命令调用看起来是这样的：`<% tp.user.my_script("Hello World!") %>`，这将输出 `Message from my script: Hello World!` 。
 
-Global namespace全局命名空间
+全局命名空间
 
 在脚本用户函数中，你仍然可以访问全局命名空间变量，如 `app` 或 `moment` 。
 
 然而，你不能访问模板引擎作用域的变量，如 `tp` 或 `tR` 。如果你想要使用它们，你必须将它们作为参数传递给你的函数。
 
-Functions Arguments函数参数
-
+函数参数
 
 你可以根据你如何定义它，传递任意数量的参数给你的函数。
 
 你可以例如将 `tp` 对象传递给你的函数，以便使用 Templater 的所有内部变量/函数： `<% tp.user.<user_function_name>(tp) %>`
 
-## User Script Documentation用户脚本文档
+## 用户脚本文档
 
 你可以选择使用 [TSDoc 标准](https://tsdoc.org/)在方法文件顶部记录脚本的作用。如果提供，这将为你的用户脚本提供类似智能感知的体验，类似于其他 Templater 函数的体验。
 
@@ -877,7 +870,7 @@ Functions Arguments函数参数
 
 系统命令用户函数需要在 Templater 的设置中启用。
 
-Define a System Command User Function定义系统命令用户函数
+定义系统命令用户函数
 
 要定义一个新的系统命令用户函数，你需要定义一个**函数名**，并将其与一个**系统命令**关联。
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-for-beginners","permalink":"/design/Figma-Design/Figma-Design-for-beginners/","metatags":{"description":"Start your Figma Design learning journey with this hands-on course where we design a portfolio website from scratch. We'll cover the basics like shapes, text, and frames, and tap into more advanced features like auto layout, components, and prototyping. By the end, you'll be ready to start bringing your own ideas to life.","og:site_name":"DavonOs","og:title":"Figma 设计入门","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-for-beginners","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-07-03 10:26","updated":"2025-08-18 20:12"}
+{"dg-publish":true,"dg-permalink":"design/Figma-Design/Figma-Design-for-beginners","permalink":"/design/Figma-Design/Figma-Design-for-beginners/","metatags":{"description":"Start your Figma Design learning journey with this hands-on course where we design a portfolio website from scratch. We'll cover the basics like shapes, text, and frames, and tap into more advanced features like auto layout, components, and prototyping. By the end, you'll be ready to start bringing your own ideas to life.","og:site_name":"DavonOs","og:title":"Figma 设计入门","og:type":"article","og:url":"https://zuji.eu.org/design/Figma-Design/Figma-Design-for-beginners","og:image":"https://help.figma.com/hc/theming_assets/01HZFG1N1QJPKABHT3PHQQ0J9J","og:image: width":"200","og:image: alt":"articlecover","og:locale":"zh_cn"},"tags":["Design/UI/Figma"],"dgShowInlineTitle":true,"created":"2025-07-03 10:26","updated":"2025-08-18 21:16"}
 ---
 
 
@@ -19,7 +19,7 @@ Figma Design 用于创建各种数字体验，包括移动应用、网站、插�
 
 > 想用其他语言学习？这门课程使用 YouTube 的自动配音功能，使内容可用多种语言呈现。你可以通过点击 YouTube 视频播放器中的⚙️设置，从列表中选择一种语言来更改视频的语言。访问 YouTube 帮助中心了解更多关于[使用 AI 进行自动配音](https://support.google.com/youtube/answer/15569972?hl=en)的信息。
 
-![social-cut.gif](https://help.figma.com/hc/article_attachments/31752022400151)
+![social-cut.gif](https://tc.z.wiki/autoupload/f/3QAHslMUdc4zcy9b9rSAMgA3HiKppv0PbMMccnupzFOyl5f0KlZfm6UsKj-HyTuv/20250829/S63P/0X0/social-cut_%281%29.gif)
 
 ### 课程要求
 
@@ -45,6 +45,7 @@ Figma 论坛：在 [Figma 论坛](https://forum.figma.com/)上提问、分享想
 
 Advocate sidebar: Learn more about portfolios
 倡导者侧边栏：了解更多关于作品集
+
 倡导者侧边栏
 加入 Figma 倡导者 Kaitie 和 Lauren，他们谈论作品集、它们为何有用，以及他们计划如何开始更新自己的作品集。
 ## 探索 Figma Design

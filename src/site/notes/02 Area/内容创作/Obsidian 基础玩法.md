@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Obsidian","permalink":"/Obsidian/","metatags":{"description":"这里是 Obsidian 从0到1的新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidian-basic","og:image":"https://obsidian.md/images/banner.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"],"dgShowInlineTitle":true,"created":"2023-07-31 18:07","updated":"2025-08-08 10:24"}
+{"dg-publish":true,"dg-permalink":"Obsidian","permalink":"/Obsidian/","metatags":{"description":"这里是 Obsidian 从0到1的新手入门指南","og:site_name":"DavonOs","og:title":"obsidian基础","og:type":"article","og:url":"https://zuji.eu.org/obsidian-basic","og:image":"https://obsidian.md/images/banner.png","og:image:width":"400","og:image:alt":"articlecover","og:locale":"zh_cn"},"tags":["obsidian"],"dgShowInlineTitle":true,"created":"2023-07-31 18:07","updated":"2025-08-29 10:57"}
 ---
 
 **Obsidian** 是一款基于 [[02 Area/内容创作/Markdown 语法手册\|Markdown]] 文件的本地知识管理软件，支持跨平台使用，包括 Windows、Linux、macOS 以及移动操作系统（如 Android 和 iOS）。它具有高度的可扩展性，用户可以通过插件实现数据库查询、任务管理等功能，适合管理大量笔记。对于个人用户，Obsidian 是永久免费的，商业使用则需购买许可。
@@ -21,19 +21,16 @@
 
 ## 认识界面
 
-**一、最左侧称为功能区：**
-
-快速切换：快速搜索笔记，创建切换笔记（常用，建议后期为此功能分配快捷键）
-
+最左侧称为功能区：
+快速切换：快速搜索笔记，创建切换笔记（常用，建议后期为此功能分配快捷键
 关系图谱：以图谱的形式展示所有笔记之间的链接关系
-
 命令面板：让Obsidian快速的去执行一些特定的命令
 
 切换资料库
 帮助：
 设置：常用，内有各种设置，默认快捷键<kbd>Ctrl</kbd> + <kbd>,</kbd>
 
-**二、笔记列表区：**
+笔记列表区：
 
 展示所有的文件夹和笔记
 
@@ -43,13 +40,9 @@
 
 注意事项：库内笔记修改尽量在Obsidian中进行
 
-**三、展示区：**
+展示区：查看、编辑笔记
 
-查看、编辑笔记
-
-**四、面板区：**
-
-功能需要自定义设置
+面板区：功能需要自定义设置
 
 ## 基础设置
 
@@ -84,9 +77,7 @@
 
 标签
 
-内联标签
-
-笔记有一个内联标签  `#learn`  ，而 frontmatter 中没有标签 
+内联标签：笔记有一个内联标签  `#program`  ，而 frontmatter 中没有标签 
 
 ## 双链
 
@@ -111,7 +102,7 @@
 
 查看链接内容
 
-按住<kbd>Ctrl</kbd>鼠标放到链接上，预览链接内容，如果无法预览，打开设置-核心插件-页面预览，即可。
+按住 <kbd>Ctrl</kbd> 鼠标放到链接上，预览链接内容，如果无法预览，打开设置-核心插件-页面预览，即可。
 
 打开链接面板
 
@@ -134,10 +125,10 @@
 
 简单批注
 ```html
-我们<u title="游戏狂">JoJo</u>喜欢的Obsidian
+我们<u title="奇妙冒险">JoJo</u>喜欢的Obsidian
 ```
 
-我们<u title="游戏狂">JoJo</u>喜欢的Obsidian
+我们<u title="奇妙冒险">JoJo</u>喜欢的Obsidian
 
 <mark style="background: transparent; color: yellow">黄色字体</mark>
 
