@@ -464,6 +464,9 @@ pre, code, kbd{
   font-variant-ligatures: normal;          /* 默认开启 */
   font-feature-settings: "calt" 1, "liga" 1, "dlig" 1;
 }
+code {
+  color: #a8b1ff;
+}
 kbd {
   display: inline-flex;
   align-items: center;
@@ -499,13 +502,6 @@ kbd:active {
   transform: translateY(1px);
 }
 
-/* 组合键样式 */
-kbd + kbd:before {
-  content: "+";
-  display: inline-block;
-  margin: 0 0.2em;
-  color: #888;
-}
 :root {
   /* 蓝色系色阶 - 基于#4da6ff调整，符合APCA对比度标准 */
   --heading-1: #74b9ff;  /* APCA 90+，最高对比度 */
