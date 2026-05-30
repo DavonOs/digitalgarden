@@ -173,8 +173,6 @@ Obsidian 快捷键
 
 Ctrl + <kbd>Alt</kbd>+ <kbd>←</kbd> / <kbd>→</kbd>方向键代表前进后退
 
-
-
 ## 搜索和查询
 
 搜索：针对笔记内容的查找，条件单一无需保存结果
@@ -218,6 +216,8 @@ task-done：“”——已完成的任务
 借助 VScode 实现批量替换 Obsidian 库中的字符
 
 可将OB库添加到 VScode 工作区中，点击搜索进行批量查找和替换。
+
+
 ## 插件
 
 社区插件搜索下载&复制到 plugins 文件夹
@@ -231,9 +231,10 @@ task-done：“”——已完成的任务
 推荐插件：
 [[02 Area/内容创作/Obsidian 插件：Dataview\|Dataview]]
 [[02 Area/内容创作/Obsidian 插件：Templater\|Templater]]
+
 [[Obsidian 插件：Task\|Task]]
 [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin/blob/master/docs/zh-cn/README.md)：流程图设计
-[QuickAdd](https://quickadd.obsidian.guide/)
+[[02 Area/内容创作/Obsidian 插件：QuickAdd\|QuickAdd]]
 [Obsidian Spaced Repetition](https://www.stephenmwangi.com/obsidian-spaced-repetition/)
 [Contribution Graph](https://github.com/vran-dev/obsidian-contribution-graph)
 
