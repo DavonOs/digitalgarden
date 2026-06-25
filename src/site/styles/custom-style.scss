@@ -1,199 +1,50 @@
 //HarmonySanc字体加载
-@import url("https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css");
-@import url("https://s1.hdslb.com/bfs/static/jinkela/long/font/medium.css");
+@import url('https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css');
+@import url('https://s1.hdslb.com/bfs/static/jinkela/long/font/medium.css');
 
-
-/* ---------------------------------------------------------
- * Quartz / Digital Garden 字体变量
- * --------------------------------------------------------- */
-
-:root {
-
-  /* Quartz链 */
-
-  --font-family-inter:
-    "HarmonyOS_Regular",
-    "PingFang SC",
-    "Microsoft YaHei",
-    system-ui,
-    sans-serif;
-
-  --font-family-sans:
-    var(--font-family-inter);
-
-  --font-default:
-    var(--font-family-sans);
-
-
-  /* Obsidian链（兼容部分插件组件） */
-
-  --font-text-override:
-    "HarmonyOS_Regular",
-    "PingFang SC",
-    sans-serif;
-
-  --font-interface-override:
-    "HarmonyOS_Regular",
-    "PingFang SC",
-    sans-serif;
-}
-
-
-/* =========================================================
- * 全站正文
- * ========================================================= */
-
+// ========== 方案一：同时覆盖 :root + body 字体变量，覆盖主题body内变量 ==========
+:root,
 body {
-  font-weight: 400;
+  // 替换项目默认 Inter 变量为鸿蒙常规体
+  --font-family-inter: "HarmonyOS_Regular", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+  --font-family-sans: var(--font-family-inter);
+  --font-default: var(--font-family-sans);
+  // 额外覆盖预览容器专用字体变量 --font-text（截图里.markdown-preview-view依赖此变量）
+  --font-text: var(--font-family-inter);
 }
 
-
-/* =========================================================
- * 标题层级
- * ========================================================= */
-
-h1 {
-  font-family: "HarmonyOS_Medium", sans-serif;
-  font-weight: 500;
-  letter-spacing: -0.02em;
-}
-
-h2 {
-  font-family: "HarmonyOS_Medium", sans-serif;
-  font-weight: 500;
-}
-
-h3 {
-  font-family: "HarmonyOS_Medium", sans-serif;
-  font-weight: 500;
-}
-
-h4 {
-  font-family: "HarmonyOS_Medium", sans-serif;
-  font-weight: 500;
-}
-
-h5 {
-  font-family: "HarmonyOS_Medium", sans-serif;
-  font-weight: 500;
-}
-
-h6 {
-  font-family: "HarmonyOS_Medium", sans-serif;
-  font-weight: 500;
-}
-
-
-/* =========================================================
- * 加粗文字
- * ========================================================= */
-
-strong,
-b {
-  font-family: "HarmonyOS_Medium", sans-serif;
-  font-weight: 500;
-}
-
-
-/* =========================================================
- * Callout
- * ========================================================= */
-
-/*
- * 不覆盖字体
- * 只覆盖字重
- *
- * 因为 callout 已经继承 var(--font-default)
- */
-
-.callout-title,
+// ========== 全站标题、粗体文字统一使用 HarmonyOS_Medium 500字重 ==========
+h1, h2, h3, h4, h5, h6,
+strong, b,
 .callout-title-inner {
-  font-family: "HarmonyOS_Medium", sans-serif;
+  font-family: "HarmonyOS_Medium", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
   font-weight: 500;
 }
 
-.callout-content {
-  font-weight: 400;
+// ========== 方案二兜底：单独强制所有callout区域字体，彻底不受变量继承干扰 ==========
+.callout {
+  font-family: var(--font-family-inter);
+  // callout标题粗体
+  &-title {
+    font-family: "HarmonyOS_Medium", system-ui, sans-serif;
+    font-weight: 500;
+  }
+  // callout正文内容（你出问题的核心区域，显式强制声明兜底）
+  &-content {
+    font-family: "HarmonyOS_Regular", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif !important;
+    font-weight: 400;
+  }
 }
 
-
-/* =========================================================
- * Tag
- * ========================================================= */
-
-.tag {
-  font-weight: 500;
+// ========== 额外兼容：markdown渲染容器、代码块、正文容器 ==========
+// 截图中 .markdown-preview-view 依赖 --font-text，变量已在上文覆盖，这里二次兜底
+.markdown-preview-view,
+.content {
+  font-family: var(--font-family-inter);
 }
-
-
-/* =========================================================
- * Table
- * ========================================================= */
-
-th {
-  font-family: "HarmonyOS_Medium", sans-serif;
-  font-weight: 500;
-}
-
-td {
-  font-weight: 400;
-}
-
-
-/* =========================================================
- * Sidebar
- * ========================================================= */
-
-.sidebar {
-  font-weight: 400;
-}
-
-
-/* =========================================================
- * Explorer
- * ========================================================= */
-
-.folder-title,
-.explorer-content {
-  font-weight: 400;
-}
-
-
-/* =========================================================
- * Search
- * ========================================================= */
-
-.search,
-.search-bar,
-.search-button {
-  font-weight: 400;
-}
-
-
-/* =========================================================
- * Mermaid
- * ========================================================= */
-
-.mermaid {
-  font-family: var(--font-default);
-}
-
-
-/* =========================================================
- * Code
- * 保持代码字体独立
- * ========================================================= */
-
-code,
-pre,
-kbd,
-samp {
-
-  font-family:
-    "JetBrains Mono",
-    "Cascadia Code",
-    "Fira Code",
-    monospace;
+// 行内代码/代码块 默认等宽字体覆盖为鸿蒙，可选删除
+code, pre, .inline-code {
+  font-family: var(--font-family-inter);
 }
 body {
     /***
