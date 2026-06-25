@@ -12,49 +12,51 @@
   font-family: "HarmonyOS_Medium";
   font-display: optional;
 }
+@font-face {
+  font-family: "HarmonyOS_Regular";
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS_Medium";
+  font-display: swap;
+}
 
-/* 3. 重写Obsidian/Digital Garden原生最高优先级override变量 */
 :root {
-  /* 正文文字变量：callout、段落、列表、引用、表格全部自动继承，400常规字重 */
-  --font-text-override: "HarmonyOS_Regular", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-
-  /* 界面UI变量：侧边栏、按钮、菜单、弹窗、顶部导航文字 */
-  --font-interface-override: "HarmonyOS_Regular", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-
-  /* Mermaid图表字体跟随正文 */
+  --font-text-override: "HarmonyOS_Regular", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --font-interface-override: "HarmonyOS_Regular", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   --font-mermaid: var(--font-text);
 }
 
-/* 4. 标题/粗体统一使用 HarmonyOS_Medium 500 区分字重 */
+/* 标题、callout标题 500 Medium */
 h1, h2, h3, h4, h5, h6,
 .markdown-heading,
-.callout-title,
+.callout-title-inner,
 strong, b,
 .markdown-bold {
   font-family: "HarmonyOS_Medium", Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 500;
 }
 
-/* 5. Callout全层级兜底兼容（适配老旧主题，确保100%生效）*/
-.callout,
-.callout-content,
-.callout-content p,
-.callout-content ul,
-.callout-content ol,
-.callout-content li,
-.callout-content span,
-.callout-content blockquote {
+/* 精准全覆盖你的callout完整DOM，高优先级选择器 */
+.callout .callout-title,
+.callout .callout-title-inner,
+.callout .callout-content,
+.callout .callout-content p,
+.callout .callout-content ul,
+.callout .callout-content ol,
+.callout .callout-content li,
+.callout .callout-content span {
   font-family: var(--font-text);
   font-weight: 400;
 }
 
-/* 6. 全局正文通用标签兜底（列表、引用、表格、分割线内文字） */
-p, li, ol, ul, blockquote, td, th, figcaption, .markdown-table {
+/* 全局正文兜底 */
+p, li, ol, ul, blockquote, td, th, figcaption {
   font-family: var(--font-text);
   font-weight: 400;
 }
 
-/* 7. 代码块保持等宽字体，不改动 */
+/* 代码块不改动 */
 code, pre, .code-block, .inline-code {
   font-family: var(--font-monospace);
 }
