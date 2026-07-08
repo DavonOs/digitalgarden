@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"books/36624482","permalink":"/books/36624482/","title":"Refactoring UI","metatags":{"description":"Make your ideas look awesome, without relying on a designer. Learn how to design beautiful user interfaces by yourself using specific tactics explained from a developer's point-of-view.","og:site_name":"DavonOs","og:title":"RefactoringUI","og:type":"book","og:url":"https://zuji.eu.org/books/36624482","og:image":"https://refactoringui.com/build/assets/book-CiJLZ6K5.png","og:image: width":"50","og:image: alt":"bookcover"},"dgShowInlineTitle":true,"dg-note-properties":{"title":"Refactoring UI","subTitle":null,"originalTitle":null,"author":["Adam Wathan","Steve Schoger"],"translator":null,"datePublished":2022,"totalPage":null,"myState":"已读","categories":"T工业技术/TP自动化技术、计算机技术","score":null,"scoreStar":null,"series":null,"publisher":null,"cover":"https://refactoringui.com/build/assets/book-CiJLZ6K5.png","url":"https://www.refactoringui.com","ISBN":9781335449894}}
+{"dg-publish":true,"dg-permalink":"books/36624482","permalink":"/books/36624482/","title":"Refactoring UI","metatags":{"description":"Make your ideas look awesome, without relying on a designer. Learn how to design beautiful user interfaces by yourself using specific tactics explained from a developer's point-of-view.","og:site_name":"DavonOs","og:title":"RefactoringUI","og:type":"book","og:url":"https://zuji.eu.org/books/36624482","og:image":"https://refactoringui.com/build/assets/book-CiJLZ6K5.png","og:image: width":"50","og:image: alt":"bookcover"},"dg-note-properties":{"title":"Refactoring UI","subTitle":null,"originalTitle":null,"author":["Adam Wathan","Steve Schoger"],"translator":null,"datePublished":2022,"totalPage":null,"myState":"已读","categories":"T工业技术/TP自动化技术、计算机技术","score":null,"scoreStar":null,"series":null,"publisher":null,"cover":"https://refactoringui.com/build/assets/book-CiJLZ6K5.png","url":"https://www.refactoringui.com","ISBN":9781335449894}}
 ---
 
 
@@ -12,20 +12,20 @@
 
 ### 从功能开始，而非布局
 
-当你设计一个新的 APP 创意时，你先设计什么？如果是顶部的导航栏，你就错了。大部分人一开始就试图“设计新的应用程序”，他们考虑的是外壳。
+当你设计一个新的 APP 创意时，你先设计什么？如果是顶部的导航栏，你就错了。大多数人眼里的 “设计 APP”，其实只是在琢磨 APP 的外壳：
 
-- 它应该有顶部导航还是侧边栏？
-- 导航菜单应该左边还是右边？
-- 页面内容应该放在一个容器中，还是全宽？
-- 徽标应该放在哪里？
+- 该用顶部导航还是侧边栏？
+- 导航菜单放左边还是右边？
+- 页面内容用容器包裹，还是全屏展示？
+- Logo 该放在哪？
 
 ![image.png](https://res.craft.do/user/full/4796078b-de99-3387-d6d4-ecaae32e0564/doc/a06ec280-1788-721a-cde9-9c5e58667716/23b1e600-fd42-46f2-824b-6680b7bdcd37)
 
-问题是，“应用程序”实际上是一系列功能的集合。在你设计出一些功能之前，你甚至都不知道需要哪些信息来决定导航应该如何工作。这也难怪会令人沮丧！
+问题的关键是，APP 实际上是一系列功能的集合。在设计出具体功能之前，根本没有足够的信息，去决定导航该怎么设计 —— 难怪会越做越崩溃！
 
 与其从外壳开始，不如从实际功能开始。
 
-例如，您正在构建一项航班预订服务。您可以从 “搜索航班”这样的功能开始。
+例如，你要做一个机票预订服务，那就先从「搜索航班」这个核心功能做起。
 
 您的界面需要：
 - 出发城市字段
@@ -34,64 +34,36 @@
 - 返回日期字段
 - 执行搜索的按钮
 
-从这里开始。
+就从这些基础元素开始设计。
+
 ![image.png](https://res.craft.do/user/full/4796078b-de99-3387-d6d4-ecaae32e0564/doc/a06ec280-1788-721a-cde9-9c5e58667716/53260a6c-2629-4e04-8c7f-410412e27e94)
 
 说实话，其他那些花里胡哨的布局组件，可能根本用不上 —— 谷歌就是这么做的，照样好用。
 
 ![image.png](https://res.craft.do/user/full/4796078b-de99-3387-d6d4-ecaae32e0564/doc/a06ec280-1788-721a-cde9-9c5e58667716/6a48f540-e8ac-4fde-aaa5-88047c075346)
-
-设计一款新 APP 时，你最先动手做的是什么？如果一上来就做页面顶部的导航栏，那你就错了。
-做新设计时，最容易让人越做越烦躁、陷入卡顿的做法，就是一上来就想着 “把整个 APP 设计出来”。大多数人眼里的 “设计 APP”，其实只是在琢磨 APP 的外壳：
-该用顶部导航栏，还是侧边栏？
-导航选项放左边，还是右边？
-页面内容用容器包裹，还是全屏展示？
-Logo 该放在哪个位置？
-问题的关键是，APP 本质上就是一堆功能的集合。在你设计出具体功能之前，根本没有足够的信息，去决定导航该怎么设计 —— 难怪会越做越崩溃！
-别从外壳入手，先从实际的功能模块开始。
-举个例子，你要做一个机票预订服务，那就先从「搜索航班」这个核心功能做起。
-这个界面只需要这些东西：
-出发城市输入框
-目的地城市输入框
-出发日期选择框
-返回日期选择框
-执行搜索的按钮
-就从这些基础元素开始设计。说实话，其他那些花里胡哨的布局组件，可能根本用不上 —— 谷歌就是这么做的，照样好用。
-细节先放一放
-在设计新功能的最初阶段，千万别纠结字体、阴影、图标这些细枝末节的选择。
-这些东西后期固然重要，但现在完全不用管。
-如果你在浏览器或专业设计工具里做高保真设计时，总忍不住抠细节，Basecamp 的杰森・弗里德有个好用的技巧：拿一支粗头马克笔在纸上画草图。
-用粗马克笔根本没法抠小细节，正好能帮你快速摸索各种布局思路。
-先别上色
-就算你要把方案细化成高保真版本，也别急着加颜色。
-先用灰度设计，逼着自己靠间距、对比度、尺寸来搭建界面的核心结构。
-这么做难度稍高，但最终做出的界面会更清晰、层级更分明，后期再上色点缀就轻而易举了。
-别过度投入
-低保真设计的核心目的就是快，这样才能尽早动手做出真实可用的产品。
-草图和线框都是一次性的，静态模型用户根本用不了。用它们摸索思路，确定方案后就可以丢掉了。
 ### 细节稍后
 
-在设计新功能的最初阶段，重要的是不要纠结于字体、阴影、图标等低级决定。
+在设计新功能的最初阶段，千万别纠结字体、阴影、图标这些细枝末节的选择。
 
-这些东西最终都会很重要，但现在并不重要。
+这些东西后期固然重要，但现在完全不用管。
 
-如果你在浏览器或你最喜欢的设计工具等高保真环境中工作时难以忽略细节，Basecamp 的杰森-弗里德（Jason Fried）喜欢用的一个技巧是用厚厚的夏普笔在纸上进行设计。
+如果你在浏览器或专业设计工具里做高保真设计时，总忍不住抠细节，Basecamp 的杰森·弗里德（Jason Fried）有个好用的技巧：拿一支粗头马克笔在纸上画草图。
 
-用夏普笔无法专注于小细节，因此它是快速探索各种不同布局创意的好方法。
+用粗马克笔无法专注于小细节，正好能帮你快速摸索各种布局思路。
 
 #### 把握色彩
 
-即使你准备以更高的保真度来完善一个想法，也要抵制立即引入色彩的诱惑。
+先别上色，就算你要把方案细化成高保真版本，也别急着加颜色。
 
-通过灰度设计，你不得不使用间距、对比度和大小来完成所有繁重的工作。
+先用灰度设计，逼着自己靠间距、对比度、尺寸来搭建界面的核心结构。
 
-这样做会更有挑战性，但你最终会得到一个层次分明、更清晰的界面，以后再用色彩来强化也会更容易。
+这么做难度稍高，但最终做出的界面会更清晰、层级更分明，后期再上色点缀就轻而易举了。
 
-#### 不要过度投资
+#### 不要过度投入
 
-低保真设计的全部意义在于能够快速行动，这样你就可以尽快开始构建实物。
+低保真设计的核心目的就是快，这样才能尽早动手做出真实可用的产品。
 
-草图和线框图是一次性的--用户无法使用静态模型做任何事情。用它们来探索你的想法，并在你做出决定后将它们抛在脑后。
+草图和线框图是一次性的--用户无法使用静态模型做任何事情。用它们摸索思路，确定方案后就可以丢掉了。
 
 ### 不要设计太多
 
